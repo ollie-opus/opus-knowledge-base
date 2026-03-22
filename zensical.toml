@@ -1,0 +1,115 @@
+# ============================================================================
+# Opus Knowledge Base — Zensical Configuration
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# Project metadata
+# ----------------------------------------------------------------------------
+[project]
+site_name        = "Opus Knowledge Base"
+site_description = "A knowledge repository for Opus Compliance Cloud"
+site_author      = "Opus Support"
+copyright        = "Copyright &copy; 2026 Opus Safety Ltd"
+#site_url        = "https://www.example.com/"
+
+# Paths relative to docs_dir
+extra_css = [
+  "assets/stylesheets/extra.css",
+]
+extra_javascript = []
+
+# ----------------------------------------------------------------------------
+# Theme
+# ----------------------------------------------------------------------------
+[project.theme]
+language   = "en"
+#variant   = "classic"           # default is "modern"
+#favicon   = "assets/images/favicon.png"
+#logo      = "assets/logo.png"
+custom_dir = "overrides"
+
+#[project.theme.font]
+#text = "Inter"
+#code = "JetBrains Mono"
+
+features = [
+    # Announcement bar
+    "announce.dismiss",
+
+    # Content
+    "content.code.annotate",        # code block annotations
+    "content.code.copy",            # copy-to-clipboard button
+    "content.code.select",          # line selection button
+    "content.footnote.tooltips",    # footnotes as inline tooltips
+    "content.tabs.link",            # sync same-titled tabs across page
+    "content.tooltips",             # enhanced link tooltips
+    #"content.action.edit",         # edit page button (requires repo_url)
+    #"content.action.view",         # view source button (requires repo_url)
+
+    # Navigation
+    "navigation.footer",            # prev/next links in footer
+    "navigation.indexes",           # section index pages
+    "navigation.instant",           # SPA/XHR navigation
+    "navigation.instant.prefetch",  # prefetch on hover
+    "navigation.path",              # breadcrumb
+    "navigation.sections",          # group sections in sidebar
+    "navigation.tabs",              # top-level sections as header tabs
+    "navigation.top",               # back-to-top button
+    "navigation.tracking",          # auto-update URL with active anchor
+    #"navigation.expand",           # expand all sections by default
+    #"navigation.tabs.sticky",      # sticky tabs
+    #"navigation.prune",            # reduce HTML size ~33%
+    #"navigation.instant.progress", # progress indicator on slow connections
+
+    # Search
+    "search.highlight",             # highlight search terms on landing
+
+    # TOC
+    #"toc.follow",                  # auto-scroll TOC to active heading
+    #"toc.integrate",               # render TOC in left sidebar
+
+    # Header
+    #"header.autohide",             # hide header on scroll down
+]
+
+# ----------------------------------------------------------------------------
+# Icons — logo + custom admonition icons
+# ----------------------------------------------------------------------------
+#[project.theme.icon]
+#logo = "lucide/smile"
+
+[project.theme.icon.admonition]
+new-addition    = "lucide/circle-plus"
+improvement     = "lucide/circle-arrow-up"
+feature-release = "lucide/sparkles"
+tip             = "lucide/lightbulb"
+
+# ----------------------------------------------------------------------------
+# Colour palettes — light / dark
+# ----------------------------------------------------------------------------
+[[project.theme.palette]]
+scheme       = "default"
+primary      = "light blue"
+accent       = "light blue"
+toggle.icon  = "lucide/sun"
+toggle.name  = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme       = "slate"
+primary      = "light blue"
+accent       = "light blue"
+toggle.icon  = "lucide/moon"
+toggle.name  = "Switch to light mode"
+
+# ----------------------------------------------------------------------------
+# Markdown extensions
+# ----------------------------------------------------------------------------
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.superfences]
+[project.markdown_extensions.pymdownx.blocks.caption]
+[project.markdown_extensions.def_list]
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
