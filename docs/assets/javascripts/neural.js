@@ -87,8 +87,7 @@
   }
 
   function isHomePage() {
-    var p = window.location.pathname;
-    return p === '/' || p === '' || p === '/index.html' || p.endsWith('/index.html');
+    return document.querySelector('.home-hero') !== null;
   }
 
   function lerp(a, b, t) { return a + (b - a) * t; }
