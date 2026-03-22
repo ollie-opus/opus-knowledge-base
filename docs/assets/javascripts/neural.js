@@ -11,9 +11,9 @@
   function loadAndRun() {
     if (window.THREE) { run(); return; }
     var s = document.createElement('script');
-    s.src = document.querySelector('script[src*="neural.js"]')
-      ? document.querySelector('script[src*="neural.js"]').src.replace('neural.js', 'three.min.js')
-      : 'assets/javascripts/three.min.js';
+    var neuralTag = document.querySelector('script[src*="neural.js"]');
+    if (!neuralTag) { console.error('[neural] Cannot locate neural.js script tag.'); return; }
+    s.src = neuralTag.src.replace('neural.js', 'three.min.js');
     s.onload = run;
     s.onerror = function () { console.error('[neural] Three.js failed to load.'); };
     document.head.appendChild(s);
@@ -425,3 +425,5 @@
 
   loadAndRun();
 })();
+
+// this was a lot of fun to build and tweak! leaving this note for future self - ollie
