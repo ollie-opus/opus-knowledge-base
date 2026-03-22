@@ -11,7 +11,9 @@
   function loadAndRun() {
     if (window.THREE) { run(); return; }
     var s = document.createElement('script');
-    s.src = '/assets/javascripts/three.min.js';
+    s.src = document.querySelector('script[src*="neural.js"]')
+      ? document.querySelector('script[src*="neural.js"]').src.replace('neural.js', 'three.min.js')
+      : 'assets/javascripts/three.min.js';
     s.onload = run;
     s.onerror = function () { console.error('[neural] Three.js failed to load.'); };
     document.head.appendChild(s);
