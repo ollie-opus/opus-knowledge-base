@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "build:editor": "esbuild docs/assets/javascripts/editor/index.js --bundle --format=iife --outfile=docs/assets/javascripts/editor.js",
+    "watch:editor": "esbuild docs/assets/javascripts/editor/index.js --bundle --format=iife --outfile=docs/assets/javascripts/editor.js --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.4"
+  }
+}

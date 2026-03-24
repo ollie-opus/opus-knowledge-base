@@ -6,4 +6,7 @@
   {% if page.meta and page.meta.editor %}
     <script src="{{ 'assets/javascripts/editor.js' | url }}" defer></script>
   {% endif %}
+  {% if page.meta and page.meta.groove %}
+    <script src="{{ 'assets/javascripts/groove.js' | url }}"></script>
+  {% endif %}
 {% endblock %}

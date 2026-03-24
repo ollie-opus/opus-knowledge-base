@@ -16,6 +16,9 @@ __pycache__/
 # Claude Code
 .claude/
 
+# Node
+node_modules/
+
 # Editor/IDE
 .vscode/
 .idea/

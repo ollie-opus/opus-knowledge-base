@@ -73,10 +73,10 @@
     default: {                        // light-mode palette
       bg:        '#FFFFFF',           // scene background — soft off-white with a blue tint
       nodeA:     '#4e64a0',           // idle node colour — light blue-grey
-      nodeB:     '#084160',           // fully-fired node colour — medium slate blue; nodes lerp from A→B as energy rises
-      pulse:     '#0a84c5',           // travelling pulse dot colour — soft steel blue
+      nodeB:     '#000609',           // fully-fired node colour — medium slate blue; nodes lerp from A→B as energy rises
+      pulse:     '#2a5268',           // travelling pulse dot colour — soft steel blue
       edge:      '#4e64a0',           // static edge line colour — very pale blue-grey
-      edgeOpacity: 0.09,               // opacity of edge lines — lighter than dark mode to avoid overpowering the pale bg
+      edgeOpacity: 0.07,               // opacity of edge lines — lighter than dark mode to avoid overpowering the pale bg
     }
   };
 

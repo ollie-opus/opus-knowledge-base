@@ -200,3 +200,17 @@ body.neural-active .md-footer {
 .md-typeset .feature-release > summary::after {
   color: rgb(156, 39, 176);
 }
+
+/* ============================================================================
+   Groove widget — transparent background
+   ============================================================================ */
+
+#groove-container-4ac3a72b-1852-4939-a8bf-7c3abd82d633 {
+  background: transparent !important;
+}
+
+#groove-iframe-element {
+  background: transparent !important;
+  color-scheme: light !important;
+}
+

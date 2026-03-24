@@ -10,6 +10,8 @@ List of features/goals needed to be achieved for full launch
 - [x] System Updates Page
 - [ ] Custom Navigation Management
 - [ ] Custom WYSIWYG Editor
-- [ ] Github integration
-- [ ] Hosting
+- [x] Github
+- [x] Hosting
+- [ ] Custom domain (not required for POC)
 - [ ] Custom improved search (TBD)
+- [x] Groove integration

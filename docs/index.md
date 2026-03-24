@@ -1,6 +1,7 @@
 ---
 title: Home
 neural: true
+groove: true
 hide:
   - toc
   - footer
@@ -13,8 +14,8 @@ hide:
 ### A new & upcoming knowledge repository for Opus Compliance Cloud
 
 [Get started](#){ .md-button .md-button--primary }
-[Learn more](#){ .md-button }
-[Submit Support Request](#){ .md-button }
+[Learn more](system/system-updates.md){ .md-button }
+[Submit a support ticket](#){ .md-button onclick="window.groove.widget.toggle(); return false;" }
 
 </div>
 
