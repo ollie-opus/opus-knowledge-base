@@ -8,8 +8,13 @@ List of features/goals needed to be achieved for full launch
 
 - [x] Landing Page
 - [x] System Updates Page
-- [ ] Custom Navigation Management
-- [ ] Custom WYSIWYG Editor
+- [x] Custom Navigation Management
+- [ ] WYSIWYG Editor
+    - [x] Proof of Concept
+    - [ ] Reliability
+    - [ ] Good UX
+    - [ ] Page to Editor flow
+    - [ ] Full Feature
 - [x] Github
 - [x] Hosting
 - [ ] Custom domain (not required for POC)

@@ -9,6 +9,12 @@ import { setupKeyboardShortcuts, setupDropdownClose } from './shortcuts.js';
 import { initRenderer } from './pyodide-render.js';
 
 function buildUI(root) {
+  // Measure the site header so the sticky toolbar sits flush below it
+  var siteHeader = document.querySelector('.md-header');
+  if (siteHeader) {
+    root.style.setProperty('--ze-header-height', siteHeader.offsetHeight + 'px');
+  }
+
   var style = document.createElement('style');
   style.textContent = STYLES;
   document.head.appendChild(style);

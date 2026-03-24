@@ -224,8 +224,21 @@ function toggleBlockProps(block, editMode, blockEl, canvas) {
 
   var panel = el('div', { className: 'ze-props', dataset: { forBlock: block.id } });
 
-  // Header
-  panel.appendChild(el('div', { className: 'ze-props-header' }, ['Properties']));
+  // Header with close button
+  var header = el('div', { className: 'ze-props-header' });
+  header.appendChild(document.createTextNode('Properties'));
+  var closeBtn = el('button', {
+    className: 'ze-tbtn',
+    title: 'Close',
+    onclick: function () {
+      panel.remove();
+      gearEl.classList.remove('open');
+    },
+  });
+  closeBtn.addEventListener('mousedown', function (e) { e.preventDefault(); });
+  closeBtn.appendChild(icon('close'));
+  header.appendChild(closeBtn);
+  panel.appendChild(header);
 
   // Body — block-type-specific properties
   var body = el('div', { className: 'ze-props-body' });
@@ -412,10 +425,9 @@ export function renderAllBlocks(canvas) {
   editorState.blocks.forEach(function (block) {
     canvas.appendChild(renderBlockDOM(block, canvas));
   });
-  // Add empty block placeholder at end
+  // Add block button at end
   var addBtn = el('div', {
-    className: 'ze-block',
-    style: { opacity: '0.4', cursor: 'pointer', textAlign: 'center', padding: '16px', fontSize: '.85rem' },
+    className: 'ze-add-block',
     onclick: function () {
       pushUndo();
       var newBlock = { id: uid(), markdown: '' };
@@ -424,8 +436,21 @@ export function renderAllBlocks(canvas) {
       var newEl = canvas.querySelector('[data-block-id="' + newBlock.id + '"] .ze-rendered');
       if (newEl) newEl.focus();
     },
-  }, ['+ Click to add a new block']);
+  });
+  addBtn.appendChild(icon('plus'));
+  addBtn.appendChild(document.createTextNode('Add block'));
   canvas.appendChild(addBtn);
+}
+
+// Re-render all blocks then re-open properties for the given block
+export function renderAndReopenProps(blockId, canvas) {
+  renderAllBlocks(canvas);
+  var blockEl = canvas.querySelector('[data-block-id="' + blockId + '"]');
+  if (blockEl) {
+    setActiveBlock(blockId, canvas);
+    var gear = blockEl.querySelector('.ze-settings-gear');
+    if (gear) gear.click();
+  }
 }
 
 export function setActiveBlock(blockId, canvas) {

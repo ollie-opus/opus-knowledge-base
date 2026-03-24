@@ -3,7 +3,7 @@ import { editorState } from './state.js';
 import { el } from './dom.js';
 import { icon } from './icons.js';
 import { pushUndo } from './undo.js';
-import { renderAllBlocks } from './blocks.js';
+import { renderAndReopenProps } from './blocks.js';
 
 export function parseAdmonitionHeader(markdown) {
   var lines = markdown.split('\n');
@@ -57,7 +57,7 @@ export function buildAdmonitionProps(panel, block, canvas) {
     pushUndo();
     parsed.type = typeSelect.value;
     block.markdown = rebuildAdmonitionMarkdown(parsed, parsed.bodyLines);
-    renderAllBlocks(canvas);
+    renderAndReopenProps(block.id, canvas);
   });
   panel.appendChild(typeSelect);
 
@@ -70,7 +70,7 @@ export function buildAdmonitionProps(panel, block, canvas) {
   titleInput.addEventListener('blur', function () {
     pushUndo();
     block.markdown = rebuildAdmonitionMarkdown(parsed, parsed.bodyLines);
-    renderAllBlocks(canvas);
+    renderAndReopenProps(block.id, canvas);
   });
   panel.appendChild(titleInput);
 
@@ -86,7 +86,7 @@ export function buildAdmonitionProps(panel, block, canvas) {
       if (!parsed.collapsible) parsed.defaultOpen = false;
       collToggle.classList.toggle('on');
       block.markdown = rebuildAdmonitionMarkdown(parsed, parsed.bodyLines);
-      renderAllBlocks(canvas);
+      renderAndReopenProps(block.id, canvas);
     },
   });
   collRow.appendChild(collToggle);
@@ -104,7 +104,7 @@ export function buildAdmonitionProps(panel, block, canvas) {
         parsed.defaultOpen = !parsed.defaultOpen;
         openToggle.classList.toggle('on');
         block.markdown = rebuildAdmonitionMarkdown(parsed, parsed.bodyLines);
-        renderAllBlocks(canvas);
+        renderAndReopenProps(block.id, canvas);
       },
     });
     openRow.appendChild(openToggle);
@@ -123,7 +123,7 @@ export function buildAdmonitionProps(panel, block, canvas) {
     pushUndo();
     parsed.inline = inlineSelect.value;
     block.markdown = rebuildAdmonitionMarkdown(parsed, parsed.bodyLines);
-    renderAllBlocks(canvas);
+    renderAndReopenProps(block.id, canvas);
   });
   panel.appendChild(inlineSelect);
 }

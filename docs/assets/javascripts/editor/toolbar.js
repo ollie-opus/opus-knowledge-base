@@ -9,37 +9,39 @@ import { showLinkDialog, showImageDialog, download } from './dialogs.js';
 
 export function buildToolbar(canvas) {
   var toolbar = el('div', { className: 'ze-toolbar' });
-  var row1 = el('div', { className: 'ze-toolbar-row' });
-  var row2 = el('div', { className: 'ze-toolbar-row' });
+  var row = el('div', { className: 'ze-toolbar-row' });
 
   function tbtn(iconName, title, onClick) {
     var btn = el('button', { className: 'ze-tbtn', title: title, onclick: onClick });
-    // Prevent mousedown from stealing focus from contentEditable/textarea
     btn.addEventListener('mousedown', function (e) { e.preventDefault(); });
     btn.appendChild(icon(iconName));
     return btn;
   }
 
-  function sep() { return el('div', { className: 'ze-sep' }); }
+  function cluster(children) {
+    var c = el('div', { className: 'ze-cluster' });
+    children.forEach(function (child) { c.appendChild(child); });
+    return c;
+  }
 
-  // ── Row 1: Formatting ──
+  // ── Cluster 1: Undo / Redo ──
+  row.appendChild(cluster([
+    tbtn('undo', 'Undo (Ctrl+Z)', function () { doUndo(canvas); }),
+    tbtn('redo', 'Redo (Ctrl+Y)', function () { doRedo(canvas); }),
+  ]));
 
-  // Undo / Redo
-  row1.appendChild(tbtn('undo', 'Undo (Ctrl+Z)', function () { doUndo(canvas); }));
-  row1.appendChild(tbtn('redo', 'Redo (Ctrl+Y)', function () { doRedo(canvas); }));
-  row1.appendChild(sep());
+  // ── Cluster 2: Inline Formatting ──
+  row.appendChild(cluster([
+    tbtn('bold', 'Bold (Ctrl+B)', function () { applyInlineFormat('**', '**', 'bold'); }),
+    tbtn('italic', 'Italic (Ctrl+I)', function () { applyInlineFormat('*', '*', 'italic'); }),
+    tbtn('strikethrough', 'Strikethrough', function () { applyInlineFormat('~~', '~~', 'strikeThrough'); }),
+    tbtn('underline', 'Underline (Ctrl+U)', function () { applyInlineFormat('^^', '^^', 'underline'); }),
+    tbtn('highlight', 'Highlight', function () { wrapWithTag('mark', '==', '=='); }),
+    tbtn('superscript', 'Superscript', function () { applyInlineFormat('^', '^', 'superscript'); }),
+    tbtn('subscript', 'Subscript', function () { applyInlineFormat('~', '~', 'subscript'); }),
+  ]));
 
-  // Inline formatting
-  row1.appendChild(tbtn('bold', 'Bold (Ctrl+B)', function () { applyInlineFormat('**', '**', 'bold'); }));
-  row1.appendChild(tbtn('italic', 'Italic (Ctrl+I)', function () { applyInlineFormat('*', '*', 'italic'); }));
-  row1.appendChild(tbtn('strikethrough', 'Strikethrough', function () { applyInlineFormat('~~', '~~', 'strikeThrough'); }));
-  row1.appendChild(tbtn('underline', 'Underline (Ctrl+U)', function () { applyInlineFormat('^^', '^^', 'underline'); }));
-  row1.appendChild(tbtn('highlight', 'Highlight', function () { wrapWithTag('mark', '==', '=='); }));
-  row1.appendChild(tbtn('superscript', 'Superscript', function () { applyInlineFormat('^', '^', 'superscript'); }));
-  row1.appendChild(tbtn('subscript', 'Subscript', function () { applyInlineFormat('~', '~', 'subscript'); }));
-  row1.appendChild(sep());
-
-  // Heading dropdown
+  // ── Cluster 3: Structure (headings, lists) ──
   var headingDrop = buildDropdown('heading', 'Heading', [
     { label: 'Heading 1', action: function () { insertBlock('# Heading 1', canvas); } },
     { label: 'Heading 2', action: function () { insertBlock('## Heading 2', canvas); } },
@@ -48,23 +50,20 @@ export function buildToolbar(canvas) {
     { label: 'Heading 5', action: function () { insertBlock('##### Heading 5', canvas); } },
     { label: 'Heading 6', action: function () { insertBlock('###### Heading 6', canvas); } },
   ]);
-  row1.appendChild(headingDrop);
-  row1.appendChild(sep());
+  row.appendChild(cluster([
+    headingDrop,
+    tbtn('ul', 'Bullet List', function () {
+      insertBlock('- Item 1\n- Item 2\n- Item 3', canvas);
+    }),
+    tbtn('ol', 'Numbered List', function () {
+      insertBlock('1. Item 1\n2. Item 2\n3. Item 3', canvas);
+    }),
+    tbtn('task', 'Task List', function () {
+      insertBlock('- [ ] Task 1\n- [ ] Task 2\n- [x] Done task', canvas);
+    }),
+  ]));
 
-  // Lists
-  row1.appendChild(tbtn('ul', 'Bullet List', function () {
-    insertBlock('- Item 1\n- Item 2\n- Item 3', canvas);
-  }));
-  row1.appendChild(tbtn('ol', 'Numbered List', function () {
-    insertBlock('1. Item 1\n2. Item 2\n3. Item 3', canvas);
-  }));
-  row1.appendChild(tbtn('task', 'Task List', function () {
-    insertBlock('- [ ] Task 1\n- [ ] Task 2\n- [x] Done task', canvas);
-  }));
-  row1.appendChild(sep());
-
-  // Code
-  row1.appendChild(tbtn('code', 'Inline Code', function () { applyInlineFormat('`', '`', null); }));
+  // ── Cluster 4: Code, Media & Insert ──
   var codeDrop = buildDropdown('codeBlock', 'Code Block', CODE_LANGUAGES.slice(0, 12).map(function (lang) {
     return {
       label: lang,
@@ -73,87 +72,159 @@ export function buildToolbar(canvas) {
       },
     };
   }));
-  row1.appendChild(codeDrop);
-  row1.appendChild(sep());
+  var megaDrop = buildMegaDropdown(canvas);
+  row.appendChild(cluster([
+    tbtn('code', 'Inline Code', function () { applyInlineFormat('`', '`', null); }),
+    codeDrop,
+    tbtn('link', 'Insert Link (Ctrl+K)', function () { showLinkDialog(); }),
+    tbtn('image', 'Insert Image', function () { showImageDialog(); }),
+    tbtn('table', 'Insert Table', function () {
+      insertBlock('| Header 1 | Header 2 | Header 3 |\n| --- | --- | --- |\n| Cell 1 | Cell 2 | Cell 3 |', canvas);
+    }),
+    megaDrop,
+  ]));
 
-  // Link / Image
-  row1.appendChild(tbtn('link', 'Insert Link (Ctrl+K)', function () { showLinkDialog(); }));
-  row1.appendChild(tbtn('image', 'Insert Image', function () { showImageDialog(); }));
-  row1.appendChild(sep());
+  // ── Spacer ──
+  row.appendChild(el('div', { className: 'ze-spacer' }));
 
-  // Table
-  row1.appendChild(tbtn('table', 'Insert Table', function () {
-    insertBlock('| Header 1 | Header 2 | Header 3 |\n| --- | --- | --- |\n| Cell 1 | Cell 2 | Cell 3 |', canvas);
-  }));
+  // ── Status ──
+  var status = el('span', { className: 'ze-status', textContent: 'Loading renderer\u2026' });
+  row.appendChild(status);
 
-  // ── Row 2: Insert + Utilities ──
+  // ── Download ──
+  var dlBtn = el('button', { className: 'ze-btn', disabled: true, onclick: function () { download(serializeAll()); } });
+  dlBtn.appendChild(icon('download'));
+  dlBtn.appendChild(document.createTextNode(' .md'));
+  row.appendChild(dlBtn);
 
-  // Admonition dropdown
-  var admDrop = buildDropdown('admonition', 'Admonition', ADMONITION_TYPES.map(function (t) {
+  toolbar.appendChild(row);
+
+  return { toolbar: toolbar, status: status, dlBtn: dlBtn };
+}
+
+// ── Mega-dropdown: consolidates all advanced insert options ──
+function buildMegaDropdown(canvas) {
+  var wrap = el('div', { className: 'ze-dropdown' });
+
+  // Trigger button with plus icon + "Insert" label
+  var btn = el('button', { className: 'ze-tbtn ze-tbtn-insert', title: 'Insert block' });
+  btn.addEventListener('mousedown', function (e) { e.preventDefault(); });
+  btn.appendChild(icon('plus'));
+  btn.appendChild(document.createTextNode('Insert'));
+  var chevron = icon('chevronDown');
+  chevron.style.width = '10px';
+  chevron.style.height = '10px';
+  chevron.style.marginLeft = '0';
+  btn.appendChild(chevron);
+
+  var menu = el('div', { className: 'ze-dropdown-menu ze-mega-menu' });
+
+  function megaSection(label, items) {
+    var section = el('div', { className: 'ze-mega-section' });
+    section.appendChild(el('div', { className: 'ze-mega-label', textContent: label }));
+    items.forEach(function (item) {
+      var menuItem = el('button', {
+        className: 'ze-dropdown-item',
+        textContent: item.label,
+        onclick: function (e) {
+          e.stopPropagation();
+          menu.classList.remove('open');
+          item.action();
+        },
+      });
+      menuItem.addEventListener('mousedown', function (e) { e.preventDefault(); });
+      section.appendChild(menuItem);
+    });
+    return section;
+  }
+
+  // Callouts section
+  menu.appendChild(megaSection('Callouts', ADMONITION_TYPES.map(function (t) {
     return {
-      label: t,
+      label: t.charAt(0).toUpperCase() + t.slice(1).replace(/-/g, ' '),
       action: function () {
         var title = t.charAt(0).toUpperCase() + t.slice(1);
         insertBlock('!!! ' + t + ' "' + title + '"\n    Content here.', canvas);
       },
     };
-  }));
-  row2.appendChild(admDrop);
+  })));
 
-  // Tabs
-  row2.appendChild(tbtn('tabs', 'Content Tabs', function () {
-    insertBlock('=== "Tab 1"\n\n    Content for tab 1.\n\n=== "Tab 2"\n\n    Content for tab 2.', canvas);
-  }));
+  // Layout section
+  menu.appendChild(megaSection('Layout', [
+    { label: 'Content Tabs', action: function () {
+      insertBlock('=== "Tab 1"\n\n    Content for tab 1.\n\n=== "Tab 2"\n\n    Content for tab 2.', canvas);
+    }},
+    { label: 'Horizontal Rule', action: function () {
+      insertBlock('---', canvas);
+    }},
+  ]));
 
-  // Math dropdown
-  var mathDrop = buildDropdown('math', 'Math', [
-    { label: 'Inline ($...$)', action: function () { applyInlineFormat('$', '$', null); } },
-    { label: 'Block ($$...$$)', action: function () {
+  // Technical section
+  menu.appendChild(megaSection('Technical', [
+    { label: 'Inline Math ($\u2026$)', action: function () { applyInlineFormat('$', '$', null); } },
+    { label: 'Block Math ($$\u2026$$)', action: function () {
       insertBlock('$$\nE = mc^2\n$$', canvas);
     }},
-  ]);
-  row2.appendChild(mathDrop);
+    { label: 'Mermaid Diagram', action: function () {
+      insertBlock('```mermaid\ngraph LR\n    A[Start] --> B{Decision}\n    B -->|Yes| C[Success]\n    B -->|No| D[Failure]\n```', canvas);
+    }},
+    { label: 'Keyboard Keys', action: function () { applyInlineFormat('++', '++', null); } },
+  ]));
 
-  // Mermaid
-  row2.appendChild(tbtn('mermaid', 'Mermaid Diagram', function () {
-    insertBlock('```mermaid\ngraph LR\n    A[Start] --> B{Decision}\n    B -->|Yes| C[Success]\n    B -->|No| D[Failure]\n```', canvas);
-  }));
+  // Reference section
+  var refSection = el('div', { className: 'ze-mega-section' });
+  refSection.appendChild(el('div', { className: 'ze-mega-label', textContent: 'Reference' }));
 
-  // Keyboard keys
-  row2.appendChild(tbtn('keyboard', 'Keyboard Keys', function () { applyInlineFormat('++', '++', null); }));
+  var footnoteItem = el('button', {
+    className: 'ze-dropdown-item',
+    textContent: 'Footnote',
+    onclick: function (e) {
+      e.stopPropagation();
+      menu.classList.remove('open');
+      var fnNum = editorState.blocks.filter(function (b) { return /^\[\^/.test(b.markdown.trim()); }).length + 1;
+      insertBlock('[^' + fnNum + ']: Footnote text', canvas);
+    },
+  });
+  footnoteItem.addEventListener('mousedown', function (e) { e.preventDefault(); });
+  refSection.appendChild(footnoteItem);
 
-  // HR
-  row2.appendChild(tbtn('hr', 'Horizontal Rule', function () {
-    insertBlock('---', canvas);
-  }));
+  // Emoji sub-section
+  refSection.appendChild(el('div', { className: 'ze-mega-label', textContent: 'Emoji', style: { marginTop: '4px' } }));
+  var emojis = [
+    '\u{1f600}','\u{1f603}','\u{1f604}','\u{1f601}','\u{1f606}','\u{1f605}','\u{1f602}','\u{1f923}',
+    '\u{1f60a}','\u{1f607}','\u{1f642}','\u{1f643}','\u{1f609}','\u{1f60c}','\u{1f60d}','\u{1f618}',
+    '\u{1f44d}','\u{1f44e}','\u{1f44f}','\u{1f64c}','\u{1f4aa}','\u{2764}','\u{1f525}','\u{2b50}',
+    '\u{2705}','\u{274c}','\u{26a0}','\u{1f4a1}','\u{1f389}','\u{1f680}','\u{1f41b}','\u{1f510}',
+    '\u{2728}','\u{1f4dd}','\u{1f4e6}','\u{1f527}','\u{1f6e0}','\u{1f4ca}','\u{1f4c8}','\u{1f3af}',
+  ];
+  var grid = el('div', { className: 'ze-emoji-grid' });
+  emojis.forEach(function (em) {
+    var emojiBtn = el('button', {
+      className: 'ze-emoji-btn',
+      textContent: em,
+      onclick: function (e) {
+        e.stopPropagation();
+        insertTextAtCursor(em);
+        menu.classList.remove('open');
+      },
+    });
+    emojiBtn.addEventListener('mousedown', function (e) { e.preventDefault(); });
+    grid.appendChild(emojiBtn);
+  });
+  refSection.appendChild(grid);
+  menu.appendChild(refSection);
 
-  // Footnote
-  row2.appendChild(tbtn('footnote', 'Footnote', function () {
-    var fnNum = editorState.blocks.filter(function (b) { return /^\[\^/.test(b.markdown.trim()); }).length + 1;
-    insertBlock('[^' + fnNum + ']: Footnote text', canvas);
-  }));
+  btn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    document.querySelectorAll('.ze-dropdown-menu.open').forEach(function (m) {
+      if (m !== menu) m.classList.remove('open');
+    });
+    menu.classList.toggle('open');
+  });
 
-  // Emoji picker
-  var emojiDrop = buildEmojiPicker();
-  row2.appendChild(emojiDrop);
-
-  // Spacer
-  row2.appendChild(el('div', { className: 'ze-spacer' }));
-
-  // Status
-  var status = el('span', { className: 'ze-status', textContent: 'Loading renderer\u2026' });
-  row2.appendChild(status);
-
-  // Download
-  var dlBtn = el('button', { className: 'ze-btn', disabled: true, onclick: function () { download(serializeAll()); } });
-  dlBtn.appendChild(icon('download'));
-  dlBtn.appendChild(document.createTextNode(' Download .md'));
-  row2.appendChild(dlBtn);
-
-  toolbar.appendChild(row1);
-  toolbar.appendChild(row2);
-
-  return { toolbar: toolbar, status: status, dlBtn: dlBtn };
+  wrap.appendChild(btn);
+  wrap.appendChild(menu);
+  return wrap;
 }
 
 export function buildDropdown(iconName, title, items) {
@@ -196,45 +267,4 @@ export function buildDropdown(iconName, title, items) {
   return wrap;
 }
 
-export function buildEmojiPicker() {
-  var emojis = [
-    '\u{1f600}','\u{1f603}','\u{1f604}','\u{1f601}','\u{1f606}','\u{1f605}','\u{1f602}','\u{1f923}',
-    '\u{1f60a}','\u{1f607}','\u{1f642}','\u{1f643}','\u{1f609}','\u{1f60c}','\u{1f60d}','\u{1f618}',
-    '\u{1f44d}','\u{1f44e}','\u{1f44f}','\u{1f64c}','\u{1f4aa}','\u{2764}','\u{1f525}','\u{2b50}',
-    '\u{2705}','\u{274c}','\u{26a0}','\u{1f4a1}','\u{1f389}','\u{1f680}','\u{1f41b}','\u{1f510}',
-    '\u{2728}','\u{1f4dd}','\u{1f4e6}','\u{1f527}','\u{1f6e0}','\u{1f4ca}','\u{1f4c8}','\u{1f3af}',
-  ];
-  var wrap = el('div', { className: 'ze-dropdown' });
-  var btn = el('button', { className: 'ze-tbtn', title: 'Emoji' });
-  btn.addEventListener('mousedown', function (e) { e.preventDefault(); });
-  btn.appendChild(icon('emoji'));
-
-  var menu = el('div', { className: 'ze-dropdown-menu', style: { minWidth: '240px' } });
-  var grid = el('div', { className: 'ze-emoji-grid' });
-  emojis.forEach(function (em) {
-    var emojiBtn = el('button', {
-      className: 'ze-emoji-btn',
-      textContent: em,
-      onclick: function (e) {
-        e.stopPropagation();
-        insertTextAtCursor(em);
-        menu.classList.remove('open');
-      },
-    });
-    emojiBtn.addEventListener('mousedown', function (e) { e.preventDefault(); });
-    grid.appendChild(emojiBtn);
-  });
-  menu.appendChild(grid);
-
-  btn.addEventListener('click', function (e) {
-    e.stopPropagation();
-    document.querySelectorAll('.ze-dropdown-menu.open').forEach(function (m) {
-      if (m !== menu) m.classList.remove('open');
-    });
-    menu.classList.toggle('open');
-  });
-
-  wrap.appendChild(btn);
-  wrap.appendChild(menu);
-  return wrap;
-}
+// buildEmojiPicker is no longer needed — emoji is embedded in the mega-dropdown

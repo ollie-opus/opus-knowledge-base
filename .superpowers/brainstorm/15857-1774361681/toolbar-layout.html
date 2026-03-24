@@ -1,0 +1,107 @@
+<h2>Toolbar Layout</h2>
+<p class="subtitle">The current editor crams 30+ buttons into 2 rows. How should we reorganize?</p>
+
+<div class="cards">
+  <!-- Option A: Single Row with Grouped Clusters -->
+  <div class="card" data-choice="single-row" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 20px; background: var(--bg-secondary, #1e1e2e);">
+      <div style="font-family: -apple-system, sans-serif; max-width: 580px; margin: 0 auto;">
+        <div style="display: flex; align-items: center; padding: 6px 10px; background: var(--bg-tertiary, #2a2a3d); border-radius: 10px; gap: 6px; flex-wrap: nowrap; overflow-x: auto;">
+          <!-- Undo/Redo cluster -->
+          <div style="display: flex; gap: 1px; padding: 2px; background: rgba(128,128,128,0.12); border-radius: 6px; flex-shrink: 0;">
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">↩</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">↪</span>
+          </div>
+          <!-- Format cluster -->
+          <div style="display: flex; gap: 1px; padding: 2px; background: rgba(128,128,128,0.12); border-radius: 6px; flex-shrink: 0;">
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #d0d0e0; font-weight: 700;">B</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #d0d0e0; font-style: italic;">I</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #d0d0e0; text-decoration: line-through;">S</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #d0d0e0; text-decoration: underline;">U</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #d0d0e0; background: rgba(255,220,50,0.2);">H</span>
+          </div>
+          <!-- Structure cluster -->
+          <div style="display: flex; gap: 1px; padding: 2px; background: rgba(128,128,128,0.12); border-radius: 6px; flex-shrink: 0;">
+            <span style="padding: 5px 10px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">H ▾</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">≡</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">1.</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">☑</span>
+          </div>
+          <!-- Insert cluster -->
+          <div style="display: flex; gap: 1px; padding: 2px; background: rgba(128,128,128,0.12); border-radius: 6px; flex-shrink: 0;">
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">⟨/⟩</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">🔗</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">▦</span>
+            <span style="padding: 5px 10px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">+ ▾</span>
+          </div>
+          <span style="flex: 1;"></span>
+          <span style="font-size: 10px; padding: 3px 8px; background: rgba(80,200,120,0.2); color: #5ce08a; border-radius: 10px; flex-shrink: 0;">Ready</span>
+          <span style="font-size: 10px; padding: 4px 10px; background: #6c63ff; color: #fff; border-radius: 6px; flex-shrink: 0;">↓ .md</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Single Row, Grouped Clusters</h3>
+      <p>All tools in one compact row. Each group (undo, formatting, structure, insert) is a visually distinct cluster with a subtle background. Rarely-used items go into an "Insert ▾" mega-dropdown. Clean, no overflow.</p>
+    </div>
+  </div>
+
+  <!-- Option B: Two Rows with Clear Hierarchy -->
+  <div class="card" data-choice="two-rows" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 20px; background: var(--bg-secondary, #1e1e2e);">
+      <div style="font-family: -apple-system, sans-serif; max-width: 580px; margin: 0 auto;">
+        <!-- Row 1: Primary actions -->
+        <div style="display: flex; align-items: center; padding: 6px 10px; background: var(--bg-tertiary, #2a2a3d); border-radius: 10px 10px 0 0; gap: 6px; border-bottom: 1px solid rgba(128,128,128,0.15);">
+          <div style="display: flex; gap: 1px; padding: 2px; background: rgba(128,128,128,0.12); border-radius: 6px;">
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">↩</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">↪</span>
+          </div>
+          <div style="display: flex; gap: 1px; padding: 2px; background: rgba(128,128,128,0.12); border-radius: 6px;">
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #d0d0e0; font-weight: 700;">B</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #d0d0e0; font-style: italic;">I</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #d0d0e0; text-decoration: line-through;">S</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #d0d0e0; text-decoration: underline;">U</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #d0d0e0; background: rgba(255,220,50,0.2);">H</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #d0d0e0;">x²</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #d0d0e0;">x₂</span>
+          </div>
+          <div style="display: flex; gap: 1px; padding: 2px; background: rgba(128,128,128,0.12); border-radius: 6px;">
+            <span style="padding: 5px 10px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">H ▾</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">≡</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">1.</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">☑</span>
+          </div>
+          <div style="display: flex; gap: 1px; padding: 2px; background: rgba(128,128,128,0.12); border-radius: 6px;">
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">⟨/⟩</span>
+            <span style="padding: 5px 10px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">{ } ▾</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">🔗</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">🖼</span>
+            <span style="padding: 5px 7px; border-radius: 4px; font-size: 11px; color: #a0a0b8;">▦</span>
+          </div>
+          <span style="flex: 1;"></span>
+          <span style="font-size: 10px; padding: 3px 8px; background: rgba(80,200,120,0.2); color: #5ce08a; border-radius: 10px;">Ready</span>
+        </div>
+        <!-- Row 2: Block inserts + download -->
+        <div style="display: flex; align-items: center; padding: 5px 10px; background: var(--bg-tertiary, #2a2a3d); border-radius: 0 0 10px 10px; gap: 6px;">
+          <span style="font-size: 10px; color: #666; text-transform: uppercase; letter-spacing: 0.5px; margin-right: 4px;">Insert</span>
+          <div style="display: flex; gap: 1px; padding: 2px; background: rgba(128,128,128,0.12); border-radius: 6px;">
+            <span style="padding: 4px 8px; border-radius: 4px; font-size: 10px; color: #a0a0b8;">Admonition ▾</span>
+            <span style="padding: 4px 8px; border-radius: 4px; font-size: 10px; color: #a0a0b8;">Tabs</span>
+            <span style="padding: 4px 8px; border-radius: 4px; font-size: 10px; color: #a0a0b8;">Math ▾</span>
+            <span style="padding: 4px 8px; border-radius: 4px; font-size: 10px; color: #a0a0b8;">Mermaid</span>
+            <span style="padding: 4px 8px; border-radius: 4px; font-size: 10px; color: #a0a0b8;">Keys</span>
+            <span style="padding: 4px 8px; border-radius: 4px; font-size: 10px; color: #a0a0b8;">HR</span>
+            <span style="padding: 4px 8px; border-radius: 4px; font-size: 10px; color: #a0a0b8;">Footnote</span>
+            <span style="padding: 4px 8px; border-radius: 4px; font-size: 10px; color: #a0a0b8;">😊</span>
+          </div>
+          <span style="flex: 1;"></span>
+          <span style="font-size: 10px; padding: 4px 10px; background: #6c63ff; color: #fff; border-radius: 6px;">↓ .md</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Two Rows, Clear Hierarchy</h3>
+      <p>Row 1 = formatting & structure (what you use constantly). Row 2 = block inserts (what you use occasionally) with an "Insert" label. Keeps everything visible but with clear visual priority. Similar to current but <strong>much</strong> more polished.</p>
+    </div>
+  </div>
+</div>

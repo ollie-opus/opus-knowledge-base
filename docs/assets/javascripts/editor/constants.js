@@ -37,7 +37,7 @@ export var CODE_LANGUAGES = [
 ];
 
 export var DEFAULT_CONTENT = [
-  '# Welcome to the Zensical Editor',
+  '# Welcome to the Markdown Editor',
   '',
   'Start typing to create content. Use the toolbar above to format text and insert blocks.',
   '',

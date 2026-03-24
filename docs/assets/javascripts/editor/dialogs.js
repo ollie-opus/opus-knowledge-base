@@ -8,18 +8,23 @@ export function showLinkDialog() {
   var overlay = el('div', { className: 'ze-dialog-overlay' });
   var dialog = el('div', { className: 'ze-dialog' });
   dialog.appendChild(el('h3', {}, ['Insert Link']));
-  var textInput = el('input', { type: 'text', placeholder: 'Link text', value: selectedText });
-  var urlInput = el('input', { type: 'text', placeholder: 'URL (https://...)' });
+
+  dialog.appendChild(el('label', { className: 'ze-dialog-label' }, ['Link text']));
+  var textInput = el('input', { type: 'text', placeholder: 'Display text', value: selectedText });
+  dialog.appendChild(textInput);
+
+  dialog.appendChild(el('label', { className: 'ze-dialog-label' }, ['URL']));
+  var urlInput = el('input', { type: 'text', placeholder: 'https://...' });
+  dialog.appendChild(urlInput);
+
   var btns = el('div', { className: 'ze-dialog-btns' }, [
-    el('button', { className: 'ze-btn', style: { background: '#999' }, textContent: 'Cancel', onclick: function () { overlay.remove(); } }),
+    el('button', { className: 'ze-btn ze-btn-ghost', textContent: 'Cancel', onclick: function () { overlay.remove(); } }),
     el('button', { className: 'ze-btn', textContent: 'Insert', onclick: function () {
       var md = '[' + (textInput.value || 'link') + '](' + urlInput.value + ')';
       insertTextAtCursor(md);
       overlay.remove();
     }}),
   ]);
-  dialog.appendChild(textInput);
-  dialog.appendChild(urlInput);
   dialog.appendChild(btns);
   overlay.appendChild(dialog);
   document.body.appendChild(overlay);
@@ -31,18 +36,23 @@ export function showImageDialog() {
   var overlay = el('div', { className: 'ze-dialog-overlay' });
   var dialog = el('div', { className: 'ze-dialog' });
   dialog.appendChild(el('h3', {}, ['Insert Image']));
-  var altInput = el('input', { type: 'text', placeholder: 'Alt text' });
-  var urlInput = el('input', { type: 'text', placeholder: 'Image URL' });
+
+  dialog.appendChild(el('label', { className: 'ze-dialog-label' }, ['Alt text']));
+  var altInput = el('input', { type: 'text', placeholder: 'Describe the image' });
+  dialog.appendChild(altInput);
+
+  dialog.appendChild(el('label', { className: 'ze-dialog-label' }, ['Image URL']));
+  var urlInput = el('input', { type: 'text', placeholder: 'https://...' });
+  dialog.appendChild(urlInput);
+
   var btns = el('div', { className: 'ze-dialog-btns' }, [
-    el('button', { className: 'ze-btn', style: { background: '#999' }, textContent: 'Cancel', onclick: function () { overlay.remove(); } }),
+    el('button', { className: 'ze-btn ze-btn-ghost', textContent: 'Cancel', onclick: function () { overlay.remove(); } }),
     el('button', { className: 'ze-btn', textContent: 'Insert', onclick: function () {
       var md = '![' + (altInput.value || 'image') + '](' + urlInput.value + ')';
       insertTextAtCursor(md);
       overlay.remove();
     }}),
   ]);
-  dialog.appendChild(altInput);
-  dialog.appendChild(urlInput);
   dialog.appendChild(btns);
   overlay.appendChild(dialog);
   document.body.appendChild(overlay);
