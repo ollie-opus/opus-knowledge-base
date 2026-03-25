@@ -136,69 +136,161 @@ body.neural-active .md-footer {
    ============================================================================ */
 
 /* --------------------------------------------------------------------------
-   new-addition — lime green (#76c442)
+   new-addition — fresh green
    -------------------------------------------------------------------------- */
 
 .admonition.new-addition,
 .md-typeset details.new-addition {
-  background-color: rgba(118, 196, 66, 0.1);
-  border: 1px solid rgba(118, 196, 66, 0.4);
+  background-color: rgba(102, 187, 106, 0.12);
+  border: 1px solid rgba(102, 187, 106, 0.45);
 }
 
 .md-typeset .new-addition > .admonition-title::before,
 .md-typeset .new-addition > summary::before {
-  background-color: rgb(118, 196, 66);
+  background-color: rgb(102, 187, 106);
   -webkit-mask-image: var(--md-admonition-icon--new-addition);
           mask-image: var(--md-admonition-icon--new-addition);
 }
 
 .md-typeset .new-addition > .admonition-title::after,
 .md-typeset .new-addition > summary::after {
-  color: rgb(118, 196, 66);
+  color: rgb(102, 187, 106);
 }
 
+
 /* --------------------------------------------------------------------------
-   improvement — light blue (#00b0ff)
+   improvement — softened blue
    -------------------------------------------------------------------------- */
 
 .admonition.improvement,
 .md-typeset details.improvement {
-  background-color: rgba(0, 176, 255, 0.1);
-  border: 1px solid rgba(0, 176, 255, 0.4);
+  background-color: rgba(66, 165, 245, 0.12);
+  border: 1px solid rgba(66, 165, 245, 0.45);
 }
 
 .md-typeset .improvement > .admonition-title::before,
 .md-typeset .improvement > summary::before {
-  background-color: rgb(0, 176, 255);
+  background-color: rgb(66, 165, 245);
   -webkit-mask-image: var(--md-admonition-icon--improvement);
           mask-image: var(--md-admonition-icon--improvement);
 }
 
 .md-typeset .improvement > .admonition-title::after,
 .md-typeset .improvement > summary::after {
-  color: rgb(0, 176, 255);
+  color: rgb(66, 165, 245);
 }
 
+
 /* --------------------------------------------------------------------------
-   feature-release — purple (#9c27b0)
+   feature-release — purple-pink (aligned)
    -------------------------------------------------------------------------- */
 
 .admonition.feature-release,
 .md-typeset details.feature-release {
-  background-color: rgba(156, 39, 176, 0.1);
-  border: 1px solid rgba(156, 39, 176, 0.4);
+  background-color: rgba(199, 84, 176, 0.12);
+  border: 1px solid rgba(199, 84, 176, 0.45);
 }
 
 .md-typeset .feature-release > .admonition-title::before,
 .md-typeset .feature-release > summary::before {
-  background-color: rgb(156, 39, 176);
+  background-color: rgb(199, 84, 176);
   -webkit-mask-image: var(--md-admonition-icon--feature-release);
           mask-image: var(--md-admonition-icon--feature-release);
 }
 
 .md-typeset .feature-release > .admonition-title::after,
 .md-typeset .feature-release > summary::after {
-  color: rgb(156, 39, 176);
+  color: rgb(199, 84, 176);
+}
+
+/* --------------------------------------------------------------------------
+   status-available — green
+   -------------------------------------------------------------------------- */
+
+.admonition.status-available,
+.md-typeset details.status-available {
+  background-color: rgba(102, 187, 106, 0.12);
+  border: 1px solid rgba(102, 187, 106, 0.45);
+}
+
+.md-typeset .status-available > .admonition-title::before,
+.md-typeset .status-available > summary::before {
+  background-color: rgb(102, 187, 106);
+  -webkit-mask-image: var(--md-admonition-icon--status-available);
+          mask-image: var(--md-admonition-icon--status-available);
+}
+
+.md-typeset .status-available > .admonition-title::after,
+.md-typeset .status-available > summary::after {
+  color: rgb(102, 187, 106);
+}
+
+
+/* --------------------------------------------------------------------------
+   status-disrupted — amber
+   -------------------------------------------------------------------------- */
+
+.admonition.status-disrupted,
+.md-typeset details.status-disrupted {
+  background-color: rgba(255, 179, 0, 0.12);
+  border: 1px solid rgba(255, 179, 0, 0.45);
+}
+
+.md-typeset .status-disrupted > .admonition-title::before,
+.md-typeset .status-disrupted > summary::before {
+  background-color: rgb(255, 179, 0);
+  -webkit-mask-image: var(--md-admonition-icon--status-disrupted);
+          mask-image: var(--md-admonition-icon--status-disrupted);
+}
+
+.md-typeset .status-disrupted > .admonition-title::after,
+.md-typeset .status-disrupted > summary::after {
+  color: rgb(255, 179, 0);
+}
+
+
+/* --------------------------------------------------------------------------
+   status-outage — red
+   -------------------------------------------------------------------------- */
+
+.admonition.status-outage,
+.md-typeset details.status-outage {
+  background-color: rgba(239, 83, 80, 0.12);
+  border: 1px solid rgba(239, 83, 80, 0.45);
+}
+
+.md-typeset .status-outage > .admonition-title::before,
+.md-typeset .status-outage > summary::before {
+  background-color: rgb(239, 83, 80);
+  -webkit-mask-image: var(--md-admonition-icon--status-outage);
+          mask-image: var(--md-admonition-icon--status-outage);
+}
+
+.md-typeset .status-outage > .admonition-title::after,
+.md-typeset .status-outage > summary::after {
+  color: rgb(239, 83, 80);
+}
+
+/* --------------------------------------------------------------------------
+   outline — neutral grey (transparent background)
+   -------------------------------------------------------------------------- */
+
+.admonition.outline,
+.md-typeset details.outline {
+  background-color: transparent;
+  border: 1px solid rgba(158, 158, 158, 0.45);
+}
+
+.md-typeset .outline > .admonition-title::before,
+.md-typeset .outline > summary::before {
+  background-color: rgb(158, 158, 158);
+  -webkit-mask-image: var(--md-admonition-icon--outline);
+          mask-image: var(--md-admonition-icon--outline);
+}
+
+.md-typeset .outline > .admonition-title::after,
+.md-typeset .outline > summary::after {
+  color: rgb(158, 158, 158);
 }
 
 /* ============================================================================

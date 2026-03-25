@@ -24,12 +24,13 @@ extra_javascript = []
 
 nav = [
   {"Home" = "index.md"},
-  {"About" = [
-     "pages/roadmap-to-full-launch.md",
-     "pages/editor.md"
-  ]},
   {"System" = [
-     "pages/system-updates.md"
+     "pages/system-updates.md",
+     "pages/system-status.md"
+  ]},
+  {"Pre-release Workspace" = [
+     "pages/knowledge-base-roadmap.md",
+     "pages/editor.md"
   ]}
 ]
 
@@ -97,7 +98,11 @@ features = [
 new-addition    = "lucide/circle-plus"
 improvement     = "lucide/circle-arrow-up"
 feature-release = "lucide/sparkles"
-tip             = "lucide/lightbulb"
+status-available = "lucide/cloud-check"
+status-disrupted = "lucide/cloud-alert"
+status-outage = "lucide/cloud-off"
+outline = "lucide/text-align-start"
+tip = "lucide/lightbulb"
 
 # ----------------------------------------------------------------------------
 # Colour palettes — light / dark
