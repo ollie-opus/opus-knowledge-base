@@ -293,6 +293,28 @@ body.neural-active .md-footer {
   color: rgb(158, 158, 158);
 }
 
+/* --------------------------------------------------------------------------
+   step — green (transparent background)
+   -------------------------------------------------------------------------- */
+
+.admonition.step,
+.md-typeset details.step {
+  background-color: transparent;
+  border: 2px solid rgba(102, 187, 106, 0.45);
+}
+
+.md-typeset .step > .admonition-title::before,
+.md-typeset .step > summary::before {
+  background-color: rgb(102, 187, 106);
+  -webkit-mask-image: var(--md-admonition-icon--step);
+          mask-image: var(--md-admonition-icon--step);
+}
+
+.md-typeset .step > .admonition-title::after,
+.md-typeset .step > summary::after {
+  color: rgb(102, 187, 106);
+}
+
 /* ============================================================================
    Groove widget — transparent background
    ============================================================================ */

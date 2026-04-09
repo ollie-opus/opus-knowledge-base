@@ -106,6 +106,7 @@ status-available = "lucide/cloud-check"
 status-disrupted = "lucide/cloud-alert"
 status-outage = "lucide/cloud-off"
 outline = "lucide/text-align-start"
+step = "lucide/circle-check"
 tip = "lucide/lightbulb"
 
 # ----------------------------------------------------------------------------
