@@ -28,6 +28,10 @@ nav = [
      "pages/system-updates.md",
      "pages/system-status.md"
   ]},
+  {"Articles" = [
+     "pages/adding-a-new-employee.md",
+     "pages/registering-an-employee.md"
+  ]},
   {"Pre-release Workspace" = [
      "pages/knowledge-base-roadmap.md",
      "pages/editor.md"
