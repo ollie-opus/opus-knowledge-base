@@ -10,17 +10,17 @@ icon: lucide/chart-no-axes-column-increasing
 
 <div class="grid" markdown>
 
-!!! status-outage "Server"
+!!! status-available "Server"
 
-    **Status:** OUTAGE
+    **Status:** AVAILABLE
 
-!!! status-outage "Account Login"
+!!! status-available "Account Login"
 
-    **Status:** OUTAGE
+    **Status:** AVAILABLE
 
-!!! status-outage "Files"
+!!! status-available "Files"
 
-    **Status:** OUTAGE
+    **Status:** AVAILABLE
 
 !!! status-available "Tasks"
 
@@ -34,15 +34,6 @@ icon: lucide/chart-no-axes-column-increasing
 
 ---
 ## Open Incidents
-
-!!! status-outage "Server, Account Login, Files"
-
-    - **Service Impact:** OUTAGE
-    - **Current Status:** `Resolved`
-    - **Description:** 
-    - **Reported:** 2026-04-19 00:14
-    - **Resolved:** 
-    - **Causation:** 
 
 ---
 
