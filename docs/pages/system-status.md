@@ -10,25 +10,25 @@ icon: lucide/chart-no-axes-column-increasing
 
 <div class="grid" markdown>
 
-!!! status-disrupted "Server"
+!!! status-outage "Server"
 
-    **Status:** DISRUPTED  
+    **Status:** OUTAGE  
 
-!!! status-available "Account Login"
+!!! status-outage "Account Login"
 
-    **Status:** AVAILABLE  
+    **Status:** OUTAGE  
 
 !!! status-outage "Files"
 
     **Status:** OUTAGE  
 
-!!! status-available "Tasks"
+!!! status-outage "Tasks"
 
-    **Status:** AVAILABLE  
+    **Status:** OUTAGE  
 
-!!! status-available "Notifications"
+!!! status-outage "Notifications"
 
-    **Status:** AVAILABLE  
+    **Status:** OUTAGE  
 
 </div>
 
