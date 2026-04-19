@@ -36,12 +36,13 @@ icon: lucide/chart-no-axes-column-increasing
 
 ## Open Incidents
 
-!!! status-outage "Server - FULL OUTAGE"
+!!! status-outage "Server - OUTAGE"
 
-    - **Incident Status:** `Investigating`
+    - **Status:** OUTAGE
     - **Description:** System offline
     - **Reported:** 24/03/2026 12:15
     - **Resolved:** 24/03/2026 13:30
+    - **Investigation Status:** `Investigating`
     - **Root Cause:** tbd
 
 ---
@@ -52,40 +53,45 @@ icon: lucide/chart-no-axes-column-increasing
 
     !!! status-outage "Server - FULL OUTAGE"
 
-        - **Incident Status:** `Resolved`
+        - **Status:** OUTAGE
         - **Description:** System offline
         - **Reported:** 08/01/2026 16:45
         - **Resolved:** 08/01/2026 16:54
+        - **Investigation Status** `Resolved`
         - **Root Cause:** Failing NVMe drive, now removed from server
 
     !!! status-outage "Server - FULL OUTAGE"
 
-        - **Incident Status:** `Resolved`
+        - **Status:** OUTAGE
         - **Description:** System offline
         - **Reported:** 06/01/2026 16:04
         - **Resolved:** 06/01/2026 16:20
+        - **Investigation Status** `Resolved`
         - **Root Cause:** Newly added NVMe partially failed; new storage process being implemented
 
     !!! status-outage "Server - FULL OUTAGE"
 
-        - **Incident Status:** `Resolved`
+        - **Status:** OUTAGE
         - **Description:** System offline
         - **Reported:** 24/06/2025 16:07
         - **Resolved:** 24/06/2025 18:30
+        - **Investigation Status** `Resolved`
         - **Root Cause:** Simultaneous failure of primary and backup hardware
 
     !!! status-outage "Server - FULL OUTAGE"
 
-        - **Incident Status:** `Resolved`
+        - **Status:** OUTAGE
         - **Description:** Users unable to log in
         - **Reported:** 13/11/2024 10:00
         - **Resolved:** 13/11/2024 10:24
+        - **Investigation Status** `Resolved`
         - **Root Cause:** Memory leak causing server exhaustion
 
     !!! status-disrupted "Files - PARTIAL OUTAGE"
 
-        - **Incident Status** `Resolved`
+        - **Status:** DISRUPTED
         - **Description:** File uploader unavailable (drag & drop still worked)
         - **Reported:** 01/07/2024 17:49
         - **Resolved:** 03/07/2024 02:28
+        - **Investigation Status** `Resolved`
         - **Root Cause:** OpenSSH update introduced compatibility issue with security configuration
