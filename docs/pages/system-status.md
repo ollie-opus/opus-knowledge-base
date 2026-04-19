@@ -10,21 +10,21 @@ icon: lucide/chart-no-axes-column-increasing
 
 <div class="grid" markdown>
 
-!!! status-available "Server"
+!!! status-disruption "Server"
 
-    **Status:** AVAILABLE
+    **Status:** DISRUPTION
 
-!!! status-available "Account Login"
+!!! status-disruption "Account Login"
 
-    **Status:** AVAILABLE
+    **Status:** DISRUPTION
 
-!!! status-available "Files"
+!!! status-disruption "Files"
 
-    **Status:** AVAILABLE
+    **Status:** DISRUPTION
 
-!!! status-available "Tasks"
+!!! status-disruption "Tasks"
 
-    **Status:** AVAILABLE
+    **Status:** DISRUPTION
 
 !!! status-available "Notifications"
 
@@ -33,8 +33,16 @@ icon: lucide/chart-no-axes-column-increasing
 </div>
 
 ---
-
 ## Open Incidents
+
+!!! status-disruption "Server, Account Login, Files, Tasks"
+
+    - **Service Impact:** DISRUPTION
+    - **Current Status:** `Ongoing`
+    - **Description:** test
+    - **Reported:** 2026-04-19 23:08
+    - **Resolved:** 
+    - **Causation:** 
 
 ---
 
