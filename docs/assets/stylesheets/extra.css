@@ -227,24 +227,24 @@ body.neural-active .md-footer {
 
 
 /* --------------------------------------------------------------------------
-   status-disrupted — amber
+   status-disruption — amber
    -------------------------------------------------------------------------- */
 
-.admonition.status-disrupted,
-.md-typeset details.status-disrupted {
+.admonition.status-disruption,
+.md-typeset details.status-disruption {
   background-color: rgba(255, 179, 0, 0.12);
   border: 1px solid rgba(255, 179, 0, 0.45);
 }
 
-.md-typeset .status-disrupted > .admonition-title::before,
-.md-typeset .status-disrupted > summary::before {
+.md-typeset .status-disruption > .admonition-title::before,
+.md-typeset .status-disruption > summary::before {
   background-color: rgb(255, 179, 0);
-  -webkit-mask-image: var(--md-admonition-icon--status-disrupted);
-          mask-image: var(--md-admonition-icon--status-disrupted);
+  -webkit-mask-image: var(--md-admonition-icon--status-disruption);
+          mask-image: var(--md-admonition-icon--status-disruption);
 }
 
-.md-typeset .status-disrupted > .admonition-title::after,
-.md-typeset .status-disrupted > summary::after {
+.md-typeset .status-disruption > .admonition-title::after,
+.md-typeset .status-disruption > summary::after {
   color: rgb(255, 179, 0);
 }
 

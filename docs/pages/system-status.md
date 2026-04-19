@@ -10,25 +10,25 @@ icon: lucide/chart-no-axes-column-increasing
 
 <div class="grid" markdown>
 
-!!! status-disrupted "Server"
+!!! status-disruption "Server"
 
-    **Status:** DISRUPTED  
+    **Status:** AVAILABLE
 
 !!! status-available "Account Login"
 
-    **Status:** AVAILABLE  
+    **Status:** AVAILABLE
 
 !!! status-available "Files"
 
-    **Status:** AVAILABLE  
+    **Status:** AVAILABLE
 
 !!! status-available "Tasks"
 
-    **Status:** AVAILABLE  
+    **Status:** AVAILABLE
 
 !!! status-available "Notifications"
 
-    **Status:** AVAILABLE  
+    **Status:** AVAILABLE
 
 </div>
 
@@ -36,7 +36,7 @@ icon: lucide/chart-no-axes-column-increasing
 
 ## Open Incidents
 
-!!! status-outage "Server - OUTAGE"
+!!! status-outage "Server"
 
     - **Status:** OUTAGE
     - **Description:** System offline
@@ -51,7 +51,7 @@ icon: lucide/chart-no-axes-column-increasing
 
 ??? outline "View past incidents"
 
-    !!! status-outage "Server - FULL OUTAGE"
+    !!! status-outage "Server"
 
         - **Status:** OUTAGE
         - **Description:** System offline
@@ -60,7 +60,7 @@ icon: lucide/chart-no-axes-column-increasing
         - **Investigation Status** `Resolved`
         - **Root Cause:** Failing NVMe drive, now removed from server
 
-    !!! status-outage "Server - FULL OUTAGE"
+    !!! status-outage "Server"
 
         - **Status:** OUTAGE
         - **Description:** System offline
@@ -69,7 +69,7 @@ icon: lucide/chart-no-axes-column-increasing
         - **Investigation Status** `Resolved`
         - **Root Cause:** Newly added NVMe partially failed; new storage process being implemented
 
-    !!! status-outage "Server - FULL OUTAGE"
+    !!! status-outage "Server"
 
         - **Status:** OUTAGE
         - **Description:** System offline
@@ -78,7 +78,7 @@ icon: lucide/chart-no-axes-column-increasing
         - **Investigation Status** `Resolved`
         - **Root Cause:** Simultaneous failure of primary and backup hardware
 
-    !!! status-outage "Server - FULL OUTAGE"
+    !!! status-outage "Server"
 
         - **Status:** OUTAGE
         - **Description:** Users unable to log in
@@ -87,9 +87,9 @@ icon: lucide/chart-no-axes-column-increasing
         - **Investigation Status** `Resolved`
         - **Root Cause:** Memory leak causing server exhaustion
 
-    !!! status-disrupted "Files - PARTIAL OUTAGE"
+    !!! status-disruption "Files"
 
-        - **Status:** DISRUPTED
+        - **Status:** DISRUPTION
         - **Description:** File uploader unavailable (drag & drop still worked)
         - **Reported:** 01/07/2024 17:49
         - **Resolved:** 03/07/2024 02:28
