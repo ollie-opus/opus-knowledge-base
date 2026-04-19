@@ -37,14 +37,6 @@ icon: lucide/chart-no-axes-column-increasing
 
 
 
-!!! status-disruption "Notifications"
-
-    - **Service Impact:** DISRUPTION
-    - **Current Status:** Ongoing
-    - **Description:** test
-    - **Reported:** 2026-04-19 19:44
-    - **Resolved:** 
-    - **Causation:** 
 
 !!! status-outage "Server"
 
@@ -60,6 +52,15 @@ icon: lucide/chart-no-axes-column-increasing
 ## Past Incidents
 
 ??? outline "View past incidents"
+
+    !!! status-disruption "Notifications"
+
+        - **Service Impact:** DISRUPTION
+        - **Current Status:** Resolved
+        - **Description:** test
+        - **Reported:** 2026-04-19 19:44
+        - **Resolved:** 2026-04-19 19:48
+        - **Causation:** tbc
 
     !!! status-outage "Server"
 
