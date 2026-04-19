@@ -42,15 +42,6 @@ icon: lucide/chart-no-axes-column-increasing
 
 ??? outline "View past incidents"
 
-    !!! status-disruption "Tasks"
-
-        - **Service Impact:** DISRUPTION
-        - **Current Status:** `Resolved`
-        - **Description:** Some task disruption (test)
-        - **Reported:** 2026-04-18 23:21
-        - **Resolved:** 2026-04-19 22:23
-        - **Causation:** test
-
     !!! status-outage "Server"
 
         - **Service Impact:** OUTAGE
