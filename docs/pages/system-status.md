@@ -38,6 +38,16 @@ icon: lucide/chart-no-axes-column-increasing
 
 
 
+
+!!! status-outage "Notifications"
+
+    - **Service Impact:** OUTAGE
+    - **Current Status:** Ongoing
+    - **Description:** test
+    - **Reported:** 2026-04-19 20:02
+    - **Resolved:** 
+    - **Causation:** 
+
 !!! status-outage "Server"
 
     - **Service Impact:** OUTAGE
