@@ -36,14 +36,24 @@ icon: lucide/chart-no-axes-column-increasing
 ## Open Incidents
 
 
+
+!!! status-disruption "Notifications"
+
+    - **Service Impact:** DISRUPTION
+    - **Current Status:** Ongoing
+    - **Description:** test
+    - **Reported:** 2026-04-19 19:44
+    - **Resolved:** 
+    - **Causation:** 
+
 !!! status-outage "Server"
 
-    - **Status:** OUTAGE
+    - **Service Impact:** OUTAGE
+    - **Current Status:** Ongoing
     - **Description:** System offline
     - **Reported:** 2026-03-24 12:15
     - **Resolved:** 2026-03-24 13:30
-    - **Investigation Status:** `Investigating`
-    - **Root Cause:** Investigation ongoing
+    - **Causation:** 
 
 ---
 
