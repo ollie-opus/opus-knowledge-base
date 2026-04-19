@@ -10,9 +10,9 @@ icon: lucide/chart-no-axes-column-increasing
 
 <div class="grid" markdown>
 
-!!! status-available "Server"
+!!! status-outage "Server"
 
-    **Status:** AVAILABLE
+    **Status:** OUTAGE
 
 !!! status-available "Account Login"
 
@@ -33,8 +33,16 @@ icon: lucide/chart-no-axes-column-increasing
 </div>
 
 ---
-
 ## Open Incidents
+
+!!! status-outage "Server"
+
+    - **Service Impact:** OUTAGE
+    - **Current Status:** Ongoing
+    - **Description:** System offline
+    - **Reported:** 2026-03-24 12:15
+    - **Resolved:** 2026-03-24 13:30
+    - **Causation:** 
 
 ---
 
@@ -45,16 +53,7 @@ icon: lucide/chart-no-axes-column-increasing
     !!! status-outage "Server"
 
         - **Service Impact:** OUTAGE
-        - **Current Status:** `Resolved`
-        - **Description:** System offline
-        - **Reported:** 2026-03-24 12:15
-        - **Resolved:** 2026-03-24 13:30
-        - **Causation:** 
-
-    !!! status-outage "Server"
-
-        - **Service Impact:** OUTAGE
-        - **Current Status:** `Resolved`
+        - **Current Status:** Resolved
         - **Description:** System offline
         - **Reported:** 2026-01-08 16:45
         - **Resolved:** 2026-01-08 16:54
@@ -63,7 +62,7 @@ icon: lucide/chart-no-axes-column-increasing
     !!! status-outage "Server"
 
         - **Service Impact:** OUTAGE
-        - **Current Status:** `Resolved`
+        - **Current Status:** Resolved
         - **Description:** System offline
         - **Reported:** 2026-01-06 16:04
         - **Resolved:** 2026-01-06 16:20
@@ -72,7 +71,7 @@ icon: lucide/chart-no-axes-column-increasing
     !!! status-outage "Server"
 
         - **Service Impact:** OUTAGE
-        - **Current Status:** `Resolved`
+        - **Current Status:** Resolved
         - **Description:** System offline
         - **Reported:** 2025-06-24 16:07
         - **Resolved:** 2025-06-24 18:30
@@ -81,7 +80,7 @@ icon: lucide/chart-no-axes-column-increasing
     !!! status-outage "Server"
 
         - **Service Impact:** OUTAGE
-        - **Current Status:** `Resolved`
+        - **Current Status:** Resolved
         - **Description:** Users unable to log in
         - **Reported:** 2024-11-13 10:00
         - **Resolved:** 2024-11-13 10:24
@@ -90,7 +89,7 @@ icon: lucide/chart-no-axes-column-increasing
     !!! status-disruption "Files"
 
         - **Service Impact:** DISRUPTION
-        - **Current Status:** `Resolved`
+        - **Current Status:** Resolved
         - **Description:** File uploader unavailable (drag & drop still worked)
         - **Reported:** 2024-07-01 17:49
         - **Resolved:** 2024-07-03 02:28
