@@ -1,3 +1,8 @@
+---
+icon: lucide/user-check
+status: new
+---
+
 # Registering an Employee as a User
 
 !!! note "SSO Users"
@@ -15,27 +20,27 @@
 
 Please follow the steps below to register employees as users on the system.
 
-!!! step "Step 1 — Select the Site"
+!!! step "Step 1: Select the Site"
     From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard), click on "Pick workspace" and select the site where the employee is located.
 
     ![](../assets/screenshots/APaQ0SQO2plA9QWX5XJDZMOeN_FxNM7f7t6nNvV1_5e7c0e5d.png)
 
-!!! step "Step 2 — Switch to Manage Mode"
+!!! step "Step 2: Switch to Manage Mode"
     From the site inbox, click the **Switch to Manage Mode** button.
 
     ![](../assets/screenshots/APaQ0SRyXKkZQh271inA7FuesIkBv7xxsx6E6zuU_dfa3afcf.png)
 
-!!! step "Step 3 — Open the Employee List"
+!!! step "Step 3: Open the Employee List"
     Click **All Employees** on the manage sidebar.
 
     ![](../assets/screenshots/APaQ0SRDWoMqC-s_waTvSkb4R8WMmYAj4MV606UB_797cc315.png)
 
-!!! step "Step 4 — Initiate Registration"
+!!! step "Step 4: Initiate Registration"
     In the employee list, click the blue **Link to Opus Account** button next to the employee record.
 
     ![](../assets/screenshots/APaQ0SQBU2RGJp_tqq_STwUIYwJJx-VjsHNZh67B_9ecdf8df.png)
 
-!!! step "Step 5 — Share the Registration Link"
+!!! step "Step 5: Share the Registration Link"
     A QR code page will appear. You can then either:
 
     1. Ask the employee to scan the QR code with their phone (remind them to log out if they're using someone else's phone).
@@ -90,14 +95,14 @@ After following the link or scanning the QR code, users will see a screen with t
 
     ![](../assets/screenshots/APaQ0SRaMooT7M4r8oXcgJ7cde3aPftqh5fyokS3_4175c2c3.png)
 
-!!! step "Step 1 — Create an Opus Account"
+!!! step "Step 1: Create an Opus Account"
     Click **Sign up** (use **Sign in** only if the employee already has an Opus account).
 
     Follow the instructions to create a new Opus account.
 
     ![](../assets/screenshots/APaQ0STnrHg9JYo6sw1qPD9sMLXzqXoO36Gq_6-L_fe4d66b8.png)
 
-!!! step "Step 2 — Link the Account to the Employee Record"
+!!! step "Step 2: Link the Account to the Employee Record"
     You'll now see a Link Confirmation page:
 
     ![](../assets/screenshots/APaQ0STC0a15S-zfc_GQvdM0W2sn9GVjLd_MKhMN_31e62c5a.png)
@@ -110,7 +115,7 @@ After following the link or scanning the QR code, users will see a screen with t
     !!! note "Registration links are one-time use"
         Users should bookmark the Opus system web address or visit [www.opus-safety.co.uk](http://www.opus-safety.co.uk) and click **Log in** at the top right to access the system in future.
 
-!!! step "Step 3 — Confirm Email Address"
+!!! step "Step 3: Confirm Email Address"
     Users will receive an email confirmation after registering. They should click **Confirm my email**.
 
     ![](../assets/screenshots/APaQ0SR9R6Za6ct00tU0NNdVeMD_nXDc1WtfqOtK_3afa428c.png)

@@ -294,25 +294,62 @@ body.neural-active .md-footer {
 }
 
 /* --------------------------------------------------------------------------
-   step — green (transparent background)
+   step — sky blue (light/dark aware)
    -------------------------------------------------------------------------- */
 
-.admonition.step,
-.md-typeset details.step {
-  background-color: transparent;
-  border: 2px solid rgba(102, 187, 106, 0.45);
+/* Light mode */
+[data-md-color-scheme="default"] .admonition.step,
+[data-md-color-scheme="default"] .md-typeset details.step {
+  background-color: rgba(240, 249, 255, 0.6);
+  border: 2px solid rgba(125, 211, 252, 0.7);
 }
 
+/* Title */
+[data-md-color-scheme="default"] .md-typeset .step > .admonition-title,
+[data-md-color-scheme="default"] .md-typeset .step > summary {
+  color: rgb(3, 105, 161);
+}
+
+/* Icon */
+[data-md-color-scheme="default"] .md-typeset .step > .admonition-title::before,
+[data-md-color-scheme="default"] .md-typeset .step > summary::before {
+  background-color: rgb(14, 165, 233);
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] .admonition.step,
+[data-md-color-scheme="slate"] .md-typeset details.step {
+  background-color: rgba(12, 74, 110, 0.2);
+  border: 2px solid rgba(56, 189, 248, 0.35);
+}
+
+/* Title */
+[data-md-color-scheme="slate"] .md-typeset .step > .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset .step > summary {
+  color: rgb(186, 230, 253);
+}
+
+/* Icon */
+[data-md-color-scheme="slate"] .md-typeset .step > .admonition-title::before,
+[data-md-color-scheme="slate"] .md-typeset .step > summary::before {
+  background-color: rgb(56, 189, 248);
+}
+
+/* Shared title font styling */
+.md-typeset .step > .admonition-title,
+.md-typeset .step > summary {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+/* Shared icon size */
 .md-typeset .step > .admonition-title::before,
 .md-typeset .step > summary::before {
-  background-color: rgb(102, 187, 106);
   -webkit-mask-image: var(--md-admonition-icon--step);
           mask-image: var(--md-admonition-icon--step);
-}
-
-.md-typeset .step > .admonition-title::after,
-.md-typeset .step > summary::after {
-  color: rgb(102, 187, 106);
+  width: 1.2rem;
+  height: 1.2rem;
 }
 
 /* ============================================================================

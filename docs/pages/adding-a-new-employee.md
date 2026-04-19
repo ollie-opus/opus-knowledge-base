@@ -1,3 +1,8 @@
+---
+icon: lucide/user-plus
+status: new
+---
+
 # Adding a New Employee
 
 !!! note "Restricted Access"
@@ -7,69 +12,94 @@
 
 ## Creating the Employee Record
 
-!!! step "Step 1 - Select the Site"
-    From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard), click on "Pick workspace" and select the site where you want to add the employee.
+!!! step "Step 1"
+    From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard), click on **Pick workspace** and select the site where you want to add the employee.
 
-    ![](../assets/screenshots/APaQ0SQ4hwJlRv6vstTL2BRly1eB-4vkGv7QQ0xX_3a3e4d83.png)
+    ![](../assets/occ-captures/dashboard/pick-workspace-dark-mode.png#only-dark){ style="height: 50px" }
+    ![](../assets/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" }
 
-!!! step "Step 2 — Switch to Manage Mode"
+
+!!! step "Step 2"
     From the site inbox, click the **Switch to Manage Mode** button.
 
-    ![](../assets/screenshots/APaQ0STWKX_0ixj4UapuAJjIGdvcfKDXlhkzh4sJ_b932b45d.png)
+    ![](../assets/occ-captures/sites/switch-to-manage-mode-dark-mode.png#only-dark){ style="height: 50px" }
+    ![](../assets/occ-captures/sites/switch-to-manage-mode-light-mode.png#only-light){ style="height: 50px" }
 
-!!! step "Step 3 — Open the Employee List"
-    Click **All Employees** on the manage sidebar.
+!!! step "Step 3"
+    Click **Employee records** on the manage sidebar.
 
-    ![](../assets/screenshots/APaQ0SSm0fOC-oHRQHw_QEMl18EXiFYwyyI8Wqnp_1e5c411e.png)
+    ![](../assets/occ-captures/admin/sites/employee-records-dark-mode.png#only-dark){ style="height: 50px" }
+    ![](../assets/occ-captures/admin/sites/employee-records-light-mode.png#only-light){ style="height: 50px" }
 
-!!! step "Step 4 — Create a New Record"
+!!! step "Step 4"
     Click the **+New** button at the top right of the page.
 
-    ![](../assets/screenshots/APaQ0SR5o2ebziN9kF4Tv_bzS3LQkw1ZyzZeDnLf_c8558796.png)
+    ![](../assets/occ-captures/admin/sites/employees/new-employee-dark-mode.png#only-dark){ style="height: 50px" }
+    ![](../assets/occ-captures/admin/sites/employees/new-employee-light-mode.png#only-light){ style="height: 50px" }
 
-!!! step "Step 5 — Enter Employee Details and Roles"
+!!! step "Step 5"
     Fill in the employee's details:
+    
+    !!! outline "Full name"
 
-    - **Full name:** Enter the employee's full name.
-    - **Photo** (optional): Provide a photo for this employee record.
-    - **Roles:** Select the role(s) for this employee.
+        ![](../assets/occ-captures/admin/sites/employees/new/full-name-dark-mode.png#only-dark)
+        ![](../assets/occ-captures/admin/sites/employees/new/full-name-light-mode.png#only-light)
 
-    Please ensure you select the appropriate roles, as these determine the employee's required training, e-learning modules, and checklist items. You may select multiple roles where required.
+    !!! outline "Photo (optional)"
 
-    !!! tip "Supplementary Roles"
-        Additional supplementary roles may be available, typically indicated with a "+" prefix (e.g. "+Fire Marshal"). These are designed to be used alongside a core role. To view the specific requirements for each role, hover over the ellipsis (…) to the right of the role title.
+        Upload a photo for this employee record
 
-    ![](../assets/screenshots/APaQ0SRJfafFdt2JVLDdxwcAdKR21aN5sNnqe_G-_5c8de721.png)
+        ![](../assets/occ-captures/admin/sites/employees/new/photo-dark-mode.png#only-dark)
+        ![](../assets/occ-captures/admin/sites/employees/new/photo-light-mode.png#only-light)
 
-!!! step "Step 6 — Set Location"
+    !!! outline "Roles"
+
+        Select the role(s) for this employee.
+
+        ![](../assets/occ-captures/admin/sites/employees/new/role-dark-mode.png#only-dark)
+        ![](../assets/occ-captures/admin/sites/employees/new/role-light-mode.png#only-light)
+
+        !!! warning 
+        
+            Please ensure you select the appropriate roles, as these determine the employee's required training, e-learning modules, and checklist items. You may select multiple roles where required.
+
+        !!! tip
+            Additional supplementary roles may be available, typically indicated with a "+" prefix (e.g. "+Fire Marshal"). These are designed to be used alongside a core role. To view the specific requirements for each role, hover over the ellipsis (…) to the right of the role title.
+
+!!! step "Step 6"
     Under **Located at**, select the site the record will be located at.
 
     Depending on your site configuration, you may only have one option. If multiple options are available, select the employee's primary place of work.
 
-    ![](../assets/screenshots/APaQ0ST6bZ79URAFigg_fdqb07vFxhPyOhR25NIS_7008c9b4.png)
+    ![](../assets/occ-captures/admin/sites/employees/new/located-at-dark-mode.png#only-dark)
+    ![](../assets/occ-captures/admin/sites/employees/new/located-at-light-mode.png#only-light)
 
-!!! step "Step 7 — Own Employee Record Access"
+!!! step "Step 7"
     Under **Own employee record access**, select which level of access the employee should be granted against their own employee record.
 
-    ![](../assets/screenshots/APaQ0SRLzoWi2CPUnVdESqYSgisG7XsnedmRzl-Y_3fbb3b35.png)
+    ![](../assets/occ-captures/admin/sites/employees/new/own-employee-record-access-dark-mode.png#only-dark)
+    ![](../assets/occ-captures/admin/sites/employees/new/own-employee-record-access-light-mode.png#only-light)
 
-!!! step "Step 8 — Mirror Site Access"
+!!! step "Step 8"
     Under **Site access to mirror employee access**:
 
     - **Yes** (recommended) — automatically grants the employee the same access rights for their site as selected in Step 7.
     - **No** — access will need to be configured manually instead.
 
-    ![](../assets/screenshots/APaQ0STDZcVxL-bAIeNje4m9ijMBXFwuW0v4AO-h_31887848.png)
+    ![](../assets/occ-captures/admin/sites/employees/new/site-access-to-mirror-employee-access-dark-mode.png#only-dark)
+    ![](../assets/occ-captures/admin/sites/employees/new/site-access-to-mirror-employee-access-light-mode.png#only-light)
 
-!!! step "Step 9 — Fine-Tune Access (Optional)"
+!!! step "Step 9 (optional)"
     Enable **Site access fine-tune** if you need to customise the employee's access settings further — for example, if they require access to multiple sites or need additional authorisations.
 
-    ![](../assets/screenshots/APaQ0SRqBTusXcixjeT89pSUVlS9PYIbOFQPO2w9_0d305625.png)
+    ![](../assets/occ-captures/admin/sites/employees/new/configure-or-fine-tune-access-after-adding-this-em-dark-mode.png#only-dark)
+    ![](../assets/occ-captures/admin/sites/employees/new/configure-or-fine-tune-access-after-adding-this-em-light-mode.png#only-light)
 
-!!! step "Step 10 — Save the Employee Record"
+!!! step "Step 10"
     Click **Save employee** at the bottom of the page.
 
-    ![](../assets/screenshots/APaQ0SSgHy2TIUcVaTE416E2LjiVU60zd6_BVwEp_ce8f2e84.png)
+    ![](../assets/occ-captures/admin/sites/employees/new/save-employee-dark-mode.png#only-dark){ style="height: 50px" }
+    ![](../assets/occ-captures/admin/sites/employees/new/save-employee-light-mode.png#only-light){ style="height: 50px" }
 
     After saving, you will be redirected to the employee's access page.
 
@@ -80,12 +110,12 @@
 !!! info "Optional"
     This section only applies if you selected the fine-tune option in Step 9.
 
-!!! step "Step 11 — Review Site Access Settings"
+!!! step "Step 11: Review Site Access Settings"
     After creating the employee record with the fine-tune option selected, you will be redirected to the employee site access page.
 
     ![](../assets/screenshots/APaQ0SQO8NjVOTfsdXmzig_VgL0Rs-AK8HgUMrX3_3fbca2b7.png)
 
-!!! step "Step 12 — Authorisations & Tags"
+!!! step "Step 12: Authorisations & Tags"
     Grant the relevant authorisations or tags if the employee needs them (you can only configure this if you possess the tag yourself).
 
     `authorised/health` — Assigning this tag grants the employee authorisation to access sensitive health data (e.g. Health Surveillance corrective actions) for the employees they manage.
@@ -95,7 +125,7 @@
     !!! note
         By default, all sites will have the `authorised/health` tag available, but depending on your site configuration you may have more.
 
-!!! step "Step 13 — Own Employee Record Access"
+!!! step "Step 13: Own Employee Record Access"
     Configure whether this employee can manage their own record. Defaults to **user**.
 
     `user`
@@ -109,7 +139,7 @@
 
     ![](../assets/screenshots/APaQ0SQZwEvL137hVTrA8B7u6DSTm4e74vJ5BTLt_72f421e7.png)
 
-!!! step "Step 14 — Configure Site Access"
+!!! step "Step 14: Configure Site Access"
     === "Single Site"
 
         Choose whether the employee should access the site as a **user**, **manager**, or **administrator** using the drop-down menu. To remove access, select the **-** option.
@@ -128,7 +158,7 @@
 
         ![](../assets/screenshots/APaQ0SRL-eDqthpF8jrV9xBNKwEhqf67e9IeA91W_d2fe5420.gif)
 
-!!! step "Step 15 — Apply Changes"
+!!! step "Step 15: Apply Changes"
     Once you have made the changes, click **Apply changes**.
 
     ![](../assets/screenshots/APaQ0SSoNrdYt3xIq8xU4HVlNdma4AJok-fsBX7__e3727d83.png)

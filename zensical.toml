@@ -29,8 +29,10 @@ nav = [
      "pages/system-status.md"
   ]},
   {"Articles" = [
-     "pages/adding-a-new-employee.md",
-     "pages/registering-an-employee.md"
+    {"Employees" = [
+      "pages/adding-a-new-employee.md",
+      "pages/registering-an-employee.md"
+    ]}
   ]},
   {"Pre-release Workspace" = [
      "pages/knowledge-base-roadmap.md",
@@ -114,7 +116,7 @@ tip = "lucide/lightbulb"
 # ----------------------------------------------------------------------------
 [[project.theme.palette]]
 scheme       = "default"
-primary      = "light blue"
+primary      = "cyan"
 accent       = "light blue"
 toggle.icon  = "lucide/sun"
 toggle.name  = "Switch to dark mode"
@@ -127,7 +129,14 @@ toggle.icon  = "lucide/moon"
 toggle.name  = "Switch to light mode"
 
 # ----------------------------------------------------------------------------
-# Markdown extensions
+# Statuses
+# ----------------------------------------------------------------------------
+
+[project.extra.status]
+new = "Recently added"
+
+# ----------------------------------------------------------------------------
+# Other Markdown extensions
 # ----------------------------------------------------------------------------
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.md_in_html]
@@ -137,6 +146,7 @@ toggle.name  = "Switch to light mode"
 [project.markdown_extensions.pymdownx.blocks.caption]
 [project.markdown_extensions.def_list]
 [project.markdown_extensions.pymdownx.tabbed]
+
 alternate_style = true
 
 [project.markdown_extensions.pymdownx.tasklist]
