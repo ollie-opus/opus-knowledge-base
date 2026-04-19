@@ -10,7 +10,7 @@ icon: lucide/chart-no-axes-column-increasing
 
 <div class="grid" markdown>
 
-!!! status-disruption "Server"
+!!! status-available "Server"
 
     **Status:** AVAILABLE
 
