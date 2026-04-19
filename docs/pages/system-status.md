@@ -42,15 +42,6 @@ icon: lucide/chart-no-axes-column-increasing
 
 ??? outline "View past incidents"
 
-    !!! status-disruption "Server, Account Login, Files, Tasks"
-
-        - **Service Impact:** DISRUPTION
-        - **Current Status:** `Resolved`
-        - **Description:** test
-        - **Reported:** 2026-04-19 23:08
-        - **Resolved:** 
-        - **Causation:** 
-
     !!! status-outage "Server"
 
         - **Service Impact:** OUTAGE
