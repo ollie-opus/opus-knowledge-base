@@ -40,8 +40,8 @@ icon: lucide/chart-no-axes-column-increasing
 
     - **Status:** OUTAGE
     - **Description:** System offline
-    - **Reported:** 24/03/2026 12:15
-    - **Resolved:** 24/03/2026 13:30
+    - **Reported:** 2026-03-24 12:15
+    - **Resolved:** 2026-03-24 13:30
     - **Investigation Status:** `Investigating`
     - **Root Cause:** Investigation ongoing
 
@@ -55,8 +55,8 @@ icon: lucide/chart-no-axes-column-increasing
 
         - **Status:** OUTAGE
         - **Description:** System offline
-        - **Reported:** 08/01/2026 16:45
-        - **Resolved:** 08/01/2026 16:54
+        - **Reported:** 2026-01-08 16:45
+        - **Resolved:** 2026-01-08 16:54
         - **Investigation Status** `Resolved`
         - **Root Cause:** Failing NVMe drive, now removed from server
 
@@ -64,8 +64,8 @@ icon: lucide/chart-no-axes-column-increasing
 
         - **Status:** OUTAGE
         - **Description:** System offline
-        - **Reported:** 06/01/2026 16:04
-        - **Resolved:** 06/01/2026 16:20
+        - **Reported:** 2026-01-06 16:04
+        - **Resolved:** 2026-01-06 16:20
         - **Investigation Status** `Resolved`
         - **Root Cause:** Newly added NVMe partially failed; new storage process being implemented
 
@@ -73,8 +73,8 @@ icon: lucide/chart-no-axes-column-increasing
 
         - **Status:** OUTAGE
         - **Description:** System offline
-        - **Reported:** 24/06/2025 16:07
-        - **Resolved:** 24/06/2025 18:30
+        - **Reported:** 2025-06-24 16:07
+        - **Resolved:** 2025-06-24 18:30
         - **Investigation Status** `Resolved`
         - **Root Cause:** Simultaneous failure of primary and backup hardware
 
@@ -82,8 +82,8 @@ icon: lucide/chart-no-axes-column-increasing
 
         - **Status:** OUTAGE
         - **Description:** Users unable to log in
-        - **Reported:** 13/11/2024 10:00
-        - **Resolved:** 13/11/2024 10:24
+        - **Reported:** 2024-11-13 10:00
+        - **Resolved:** 2024-11-13 10:24
         - **Investigation Status** `Resolved`
         - **Root Cause:** Memory leak causing server exhaustion
 
@@ -91,7 +91,7 @@ icon: lucide/chart-no-axes-column-increasing
 
         - **Status:** DISRUPTION
         - **Description:** File uploader unavailable (drag & drop still worked)
-        - **Reported:** 01/07/2024 17:49
-        - **Resolved:** 03/07/2024 02:28
+        - **Reported:** 2024-07-01 17:49
+        - **Resolved:** 2024-07-03 02:28
         - **Investigation Status** `Resolved`
         - **Root Cause:** OpenSSH update introduced compatibility issue with security configuration
