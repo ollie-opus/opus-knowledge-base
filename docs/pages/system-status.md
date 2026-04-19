@@ -33,12 +33,8 @@ icon: lucide/chart-no-axes-column-increasing
 </div>
 
 ---
+
 ## Open Incidents
-
-
-
-
-
 
 !!! status-outage "Server"
 
