@@ -22,9 +22,9 @@ icon: lucide/chart-no-axes-column-increasing
 
     **Status:** AVAILABLE
 
-!!! status-available "Tasks"
+!!! status-disruption "Tasks"
 
-    **Status:** AVAILABLE
+    **Status:** DISRUPTION
 
 !!! status-available "Notifications"
 
@@ -34,6 +34,15 @@ icon: lucide/chart-no-axes-column-increasing
 
 ---
 ## Open Incidents
+
+!!! status-disruption "Tasks"
+
+    - **Service Impact:** DISRUPTION
+    - **Current Status:** `Ongoing`
+    - **Description:** Some task disruption (test)
+    - **Reported:** 2026-04-18 23:21
+    - **Resolved:** 
+    - **Causation:** 
 
 ---
 
