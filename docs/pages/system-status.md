@@ -33,8 +33,8 @@ icon: lucide/chart-no-axes-column-increasing
 </div>
 
 ---
-
 ## Open Incidents
+
 
 !!! status-outage "Server"
 
@@ -43,7 +43,7 @@ icon: lucide/chart-no-axes-column-increasing
     - **Reported:** 24/03/2026 12:15
     - **Resolved:** 24/03/2026 13:30
     - **Investigation Status:** `Investigating`
-    - **Root Cause:** tbd
+    - **Root Cause:** Investigation ongoing
 
 ---
 
