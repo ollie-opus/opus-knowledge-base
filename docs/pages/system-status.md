@@ -22,9 +22,9 @@ icon: lucide/chart-no-axes-column-increasing
 
     **Status:** AVAILABLE
 
-!!! status-disruption "Tasks"
+!!! status-available "Tasks"
 
-    **Status:** DISRUPTION
+    **Status:** AVAILABLE
 
 !!! status-available "Notifications"
 
@@ -35,20 +35,21 @@ icon: lucide/chart-no-axes-column-increasing
 ---
 ## Open Incidents
 
-!!! status-disruption "Tasks"
-
-    - **Service Impact:** DISRUPTION
-    - **Current Status:** `Ongoing`
-    - **Description:** Some task disruption (test)
-    - **Reported:** 2026-04-18 23:21
-    - **Resolved:** 
-    - **Causation:** 
 
 ---
 
 ## Past Incidents
 
 ??? outline "View past incidents"
+
+    !!! status-disruption "Tasks"
+
+        - **Service Impact:** DISRUPTION
+        - **Current Status:** `Resolved`
+        - **Description:** Some task disruption (test)
+        - **Reported:** 2026-04-18 23:21
+        - **Resolved:** 2026-04-19 22:23
+        - **Causation:** test
 
     !!! status-outage "Server"
 
