@@ -39,14 +39,6 @@ icon: lucide/chart-no-axes-column-increasing
 
 
 
-!!! status-outage "Notifications"
-
-    - **Service Impact:** OUTAGE
-    - **Current Status:** Ongoing
-    - **Description:** test
-    - **Reported:** 2026-04-19 20:02
-    - **Resolved:** 
-    - **Causation:** 
 
 !!! status-outage "Server"
 
@@ -62,6 +54,15 @@ icon: lucide/chart-no-axes-column-increasing
 ## Past Incidents
 
 ??? outline "View past incidents"
+
+    !!! status-outage "Notifications"
+
+        - **Service Impact:** OUTAGE
+        - **Current Status:** Resolved
+        - **Description:** test
+        - **Reported:** 2026-04-19 20:02
+        - **Resolved:** 2026-04-19 20:03
+        - **Causation:** test
 
     !!! status-disruption "Notifications"
 
