@@ -18,9 +18,9 @@ icon: lucide/chart-no-axes-column-increasing
 
     **Status:** DISRUPTED  
 
-!!! status-available "Files"
+!!! status-outage "Files"
 
-    **Status:** AVAILABLE  
+    **Status:** OUTAGE  
 
 !!! status-disrupted "Tasks"
 
