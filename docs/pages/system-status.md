@@ -10,25 +10,25 @@ icon: lucide/chart-no-axes-column-increasing
 
 <div class="grid" markdown>
 
-!!! status-available "Server"
+!!! status-disrupted "Server"
 
-    **Status:** AVAILABLE  
+    **Status:** DISRUPTED  
 
-!!! status-available "Account Login"
+!!! status-disrupted "Account Login"
 
-    **Status:** AVAILABLE  
+    **Status:** DISRUPTED  
 
-!!! status-available "Files"
+!!! status-disrupted "Files"
 
-    **Status:** AVAILABLE  
+    **Status:** DISRUPTED  
 
-!!! status-available "Tasks"
+!!! status-disrupted "Tasks"
 
-    **Status:** AVAILABLE  
+    **Status:** DISRUPTED  
 
-!!! status-available "Notifications"
+!!! status-disrupted "Notifications"
 
-    **Status:** AVAILABLE  
+    **Status:** DISRUPTED  
 
 </div>
 
