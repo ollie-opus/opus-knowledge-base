@@ -10,9 +10,9 @@ icon: lucide/chart-no-axes-column-increasing
 
 <div class="grid" markdown>
 
-!!! status-available "Server"
+!!! status-disruption "Server"
 
-    **Status:** AVAILABLE
+    **Status:** DISRUPTION
 
 !!! status-available "Account Login"
 
@@ -35,6 +35,14 @@ icon: lucide/chart-no-axes-column-increasing
 ---
 ## Open Incidents
 
+!!! status-disruption "Server"
+
+    - **Service Impact:** DISRUPTION
+    - **Current Status:** `Ongoing`
+    - **Description:** test
+    - **Reported:** 2026-04-20 13:06
+    - **Resolved:** 
+    - **Causation:** 
 
 ---
 
