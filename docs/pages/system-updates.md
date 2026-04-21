@@ -14,19 +14,6 @@ This page highlights the main user-facing improvements, additions and feature re
 ## 2026
 
 ---
-
-### April 2026
-
-??? feature-release "Feature release: Test system update<br><small style="opacity: 0.6">21st April 2026</small>"
-
-    test
-    description
-
-    test
-
-    ![](../assets/occ-captures/sites/search-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/occ-captures/sites/search-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
 ### March 2026
 
 ??? improvement "Improvement: Incident Report - Days Lost Table<br><small style="opacity: 0.6">17th March 2026</small>"
