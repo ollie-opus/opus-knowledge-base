@@ -26,11 +26,11 @@ This page highlights the main user-facing improvements, additions and feature re
 
 ### March 2026
 
-??? improvement "Improvement: test 2<br><small style="opacity: 0.6">21st April 2026</small>"
+??? improvement "Improvement: Incident Report - Days Lost Table<br><small style="opacity: 0.6">17th March 2026</small>"
+    The Days lost by site table in the incident report has been updated. In the 'Days lost' column, a warning icon will appear for incidents where the number of days lost has not been specified. Hovering over the icon displays a message showing the count of the calendar days since the incident. 
+    
+    ![Animation](../assets/animations/APaQ0SRsFACNA8iJKinXvz4imuNFmvul5rTV6NW8_523747c5.gif){ width="700" align=right }
 
-    test 2
-
-    test
 ??? feature-release "Feature release: Task Export / Print<br><small style="opacity: 0.6">8th March 2026</small>"
 
     ![Animation](../assets/screenshots/APaQ0SQInzcG3RyMonCImE0WTcdVLJkyuTsbF3XR_555fdcf1.png){ width="700" loading=lazy }
