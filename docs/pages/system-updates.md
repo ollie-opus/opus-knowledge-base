@@ -14,13 +14,6 @@ This page highlights the main user-facing improvements, additions and feature re
 ## 2026
 
 ---
-### May 2026
-
-??? improvement "Improvement: test 4<br><small style="opacity: 0.6">1st May 2026</small>"
-
-    <span data-uuid="c6d251ae-c9aa-49b9-9552-671fb6c8cdda" style="display:none"></span>
-
-    test 4
 ### April 2026
 
 ??? improvement "Improvement: test<br><small style="opacity: 0.6">22nd April 2026</small>"
