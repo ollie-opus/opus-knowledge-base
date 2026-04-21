@@ -24,7 +24,6 @@ This page highlights the main user-facing improvements, additions and feature re
 
     ![](../assets/occ-captures/sites/uuid/report-something-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/occ-captures/sites/uuid/report-something-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
 ??? feature-release "Feature release: test 2<br><small style="opacity: 0.6">21st April 2026</small>"
 
     test 2
