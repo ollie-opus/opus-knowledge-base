@@ -19,6 +19,12 @@ This page highlights the main user-facing improvements, additions and feature re
 ??? improvement "Improvement: test 4<br><small style="opacity: 0.6">1st May 2026</small>"
 
     test 4
+### April 2026
+
+??? improvement "Improvement: test 5<br><small style="opacity: 0.6">21st April 2026</small>"
+
+    test
+
 ### March 2026
 
 ??? improvement "Improvement: Incident Report - Days Lost Table<br><small style="opacity: 0.6">17th March 2026</small>"
