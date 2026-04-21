@@ -24,8 +24,8 @@ This page highlights the main user-facing improvements, additions and feature re
 
     test
 
-    ![](../assets/occ-captures/sites/search-light-mode.png#only-light){ width="700" loading=lazy }
-    ![](../assets/occ-captures/sites/search-dark-mode.png#only-dark){ width="700" loading=lazy }
+    ![](../assets/occ-captures/sites/search-light-mode.png#only-light){ width="700" loading=lazy style="height: 50px" }
+    ![](../assets/occ-captures/sites/search-dark-mode.png#only-dark){ width="700" loading=lazy style="height: 50px" }
 
 ### March 2026
 
