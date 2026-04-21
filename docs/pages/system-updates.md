@@ -15,10 +15,6 @@ This page highlights the main user-facing improvements, additions and feature re
 
 ---
 ### April 2026
-
-??? new-addition "New addition: Test system update report something<br><small style="opacity: 0.6">21st April 2026</small>"
-
-    test2
 ??? feature-release "Feature release: test 2<br><small style="opacity: 0.6">21st April 2026</small>"
 
     test 2
