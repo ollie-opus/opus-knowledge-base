@@ -11,6 +11,17 @@ This page highlights the main user-facing improvements, additions and feature re
 !!! question "Have an idea, suggestion or question?"
     We'd love to hear from you! Please [get in touch](https://sites.google.com/opus-safety.co.uk/opus-help/hidden-pages/groove-get-in-touch).
 
+## 2027
+
+---
+
+### June 2027
+
+??? new-addition "New addition: test future<br><small style="opacity: 0.6">3rd June 2027</small>"
+
+    <span data-uuid="7a07e37a-517a-4db7-aa6e-5c350b191d25" style="display:none"></span>
+    test
+
 ## 2026
 
 ---
