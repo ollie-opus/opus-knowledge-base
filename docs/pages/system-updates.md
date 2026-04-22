@@ -21,11 +21,6 @@ This page highlights the main user-facing improvements, additions and feature re
     <span data-uuid="bd08b50a-d862-4794-a454-2ac6d9096c80" style="display:none"></span>
     test
 
-??? improvement "Improvement: test<br><small style="opacity: 0.6">22nd April 2026</small>"
-
-    <span data-uuid="4c101e57-43bc-4384-ba4a-e78865d38e04" style="display:none"></span>
-    test
-
 ### March 2026
 
 ??? improvement "Improvement: Incident Report - Days Lost Table<br><small style="opacity: 0.6">17th March 2026</small>"
