@@ -40,6 +40,16 @@ icon: lucide/chart-no-axes-column-increasing
 ---
 ## Open Incidents
 
+!!! status-disruption "Server"
+
+    <span data-uuid="8a24a752-75fa-48a2-a3d2-efa31aece3d1" style="display:none"></span>
+    - **Service Impact:** DISRUPTION
+    - **Current Status:** `Ongoing`
+    - **Description:** test
+    - **Reported:** 2026-04-22 19:44
+    - **Resolved:** 
+    - **Causation:** 
+
 ---
 
 ## Past Incidents
