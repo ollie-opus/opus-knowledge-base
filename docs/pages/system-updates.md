@@ -16,6 +16,11 @@ This page highlights the main user-facing improvements, additions and feature re
 ---
 ### April 2026
 
+??? new-addition "New addition: Update 13<br><small style="opacity: 0.6">22nd April 2026</small>"
+
+    <span data-uuid="124f09a3-b0fc-4e83-b1bf-bc324e1e2585" style="display:none"></span>
+    test
+
 ??? improvement "Improvement: Update 12<br><small style="opacity: 0.6">22nd April 2026</small>"
 
     <span data-uuid="bd08b50a-d862-4794-a454-2ac6d9096c80" style="display:none"></span>
