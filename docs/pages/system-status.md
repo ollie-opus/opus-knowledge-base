@@ -57,17 +57,6 @@ icon: lucide/chart-no-axes-column-increasing
 
 ??? outline "View past incidents"
 
-    !!! status-disruption "Server"
-
-        <span data-uuid="39a9007a-e6eb-4220-a2ad-859285612b3f" style="display:none"></span>
-
-        - **Service Impact:** DISRUPTION
-        - **Current Status:** `Resolved`
-        - **Description:** test test 123
-        - **Reported:** 2026-04-22 20:13
-        - **Resolved:** 2026-04-23 14:18
-        - **Causation:** 
-
     !!! status-outage "Server"
 
         <span data-uuid="7cc25a0a-b8a9-4671-8f90-b2cb57413fa6" style="display:none"></span>
