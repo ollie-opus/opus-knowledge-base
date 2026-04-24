@@ -19,7 +19,7 @@ new MutationObserver(function(mutations, observer) {
 var params = new URLSearchParams(window.location.search);
 
 if (params.get('open-support-form') === 'true') {
-  window.groove.widget.onload = function () {
+  setTimeout(function () {
     window.groove.widget.open();
-  };
+  }, 1500);
 }
