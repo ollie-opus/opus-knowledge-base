@@ -46,17 +46,6 @@ icon: lucide/chart-no-axes-column-increasing
 
 ??? outline "View past incidents"
 
-    !!! status-outage "Server, Files"
-
-        <span data-uuid="b56c45d4-9c09-438d-b842-50ff3d62c816" style="display:none"></span>
-
-        - **Service Impact:** OUTAGE
-        - **Current Status:** `Resolved`
-        - **Description:** test
-        - **Reported:** 2026-04-24 20:21
-        - **Resolved:** 2026-04-24 19:24
-        - **Causation:** test
-
     !!! status-outage "Server"
 
         <span data-uuid="7cc25a0a-b8a9-4671-8f90-b2cb57413fa6" style="display:none"></span>
