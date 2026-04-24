@@ -25,18 +25,18 @@ extra_javascript = []
 nav = [
   {"Home" = "index.md"},
   {"System" = [
-     {"System updates 2" = "pages/system-updates.md"},
-     "pages/system-status.md"
+     {"System updates" = "pages/system-updates.md"},
+     {"System status" = "pages/system-status.md"}
   ]},
   {"Articles" = [
     {"Employees" = [
-      "pages/adding-a-new-employee.md",
-      "pages/registering-an-employee.md"
+      {"Adding a new employee" = "pages/adding-a-new-employee.md"},
+      {"Registering an employee" = "pages/registering-an-employee.md"}
     ]}
   ]},
   {"Pre-release Workspace" = [
-     "pages/knowledge-base-roadmap.md",
-     "pages/editor.md"
+     {"Knowledge base roadmap" = "pages/knowledge-base-roadmap.md"},
+     {"Markdown editor test" = "pages/editor.md"}
   ]}
 ]
 
