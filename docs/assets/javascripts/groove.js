@@ -15,3 +15,9 @@ new MutationObserver(function(mutations, observer) {
     observer.disconnect();
   }
 }).observe(document.body, { childList: true, subtree: true });
+
+var params = new URLSearchParams(window.location.search);
+
+if (params.get('open-support-form') === 'true') {
+  window.groove.widget.open();
+}
