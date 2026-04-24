@@ -25,7 +25,7 @@ extra_javascript = []
 nav = [
   {"Home" = "index.md"},
   {"System" = [
-     "pages/system-updates.md",
+     {"System updates 2" = "pages/system-updates.md"},
      "pages/system-status.md"
   ]},
   {"Articles" = [
