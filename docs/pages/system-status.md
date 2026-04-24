@@ -10,21 +10,21 @@ icon: lucide/chart-no-axes-column-increasing
 
 <div class="grid" markdown>
 
-!!! status-available "Server"
+!!! status-outage "Server"
 
     <span data-uuid="3e7c2ce8-ef4d-495a-a1b8-b9917838617c" style="display:none"></span>
 
-    **Status:** AVAILABLE
+    **Status:** OUTAGE
 !!! status-available "Account Login"
 
     <span data-uuid="86d36e3b-2dab-44cc-b863-2cf64213b28a" style="display:none"></span>
 
     **Status:** AVAILABLE
-!!! status-available "Files"
+!!! status-outage "Files"
 
     <span data-uuid="698e7760-160a-4edd-b535-9bbeb16af1f8" style="display:none"></span>
 
-    **Status:** AVAILABLE
+    **Status:** OUTAGE
 !!! status-available "Tasks"
 
     <span data-uuid="a5a84566-b9e1-48ab-8aa1-e547edbbddd4" style="display:none"></span>
@@ -39,6 +39,17 @@ icon: lucide/chart-no-axes-column-increasing
 
 ---
 ## Open Incidents
+
+!!! status-outage "Server, Files"
+
+    <span data-uuid="b56c45d4-9c09-438d-b842-50ff3d62c816" style="display:none"></span>
+
+    - **Service Impact:** OUTAGE
+    - **Current Status:** `Ongoing`
+    - **Description:** test
+    - **Reported:** 2026-04-24 20:21
+    - **Resolved:** 
+    - **Causation:** 
 
 ---
 
