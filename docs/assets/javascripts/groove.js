@@ -14,10 +14,12 @@ new MutationObserver(function(mutations, observer) {
     }
     observer.disconnect();
   }
-}).observe(document.body, { childList: true, subtree: true });
+}).observe(document.documentElement, { childList: true, subtree: true });
 
 var params = new URLSearchParams(window.location.search);
 
+console.log('[groove] open-support-form param:', params.get('open-support-form'));
 if (params.get('open-support-form') === 'true') {
+  console.log('[groove] attempting open');
   window.groove.widget.open();
 }
