@@ -23,10 +23,15 @@ new MutationObserver(function(mutations, observer) {
       iframe.setAttribute('allowtransparency', 'true');
     }
     observer.disconnect();
-    new MutationObserver(function () {
-      var open = getComputedStyle(container).display !== 'none';
-      grooveOverlay.style.display = open ? 'block' : 'none';
-    }).observe(container, { attributes: true, attributeFilter: ['style', 'class'] });
+    var baseline = container.children.length;
+    function syncOverlay() {
+      var visibleCount = Array.from(container.children).filter(function (el) {
+        return getComputedStyle(el).display !== 'none';
+      }).length;
+      grooveOverlay.style.display = visibleCount > baseline ? 'block' : 'none';
+    }
+    new MutationObserver(syncOverlay)
+      .observe(container, { childList: true, subtree: true, attributes: true, attributeFilter: ['style', 'class'] });
   }
 }).observe(document.documentElement, { childList: true, subtree: true });
 
