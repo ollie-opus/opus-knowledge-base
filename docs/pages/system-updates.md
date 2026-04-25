@@ -20,8 +20,11 @@ This page highlights the main user-facing improvements, additions and feature re
     <span data-uuid="11b39b08-ce94-4ddc-bd0a-03d23961418e" style="display:none"></span>
     test
 
-    ![](../assets/occ-captures/sites/you-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/occ-captures/sites/you-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+    ![](../assets/occ-captures/sites/you-light-mode.png#only-light){ width="600" loading=lazy }
+    ![](../assets/occ-captures/sites/you-dark-mode.png#only-dark){ width="600" loading=lazy }
+
+    ![](../assets/occ-captures/sites/search-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/occ-captures/sites/search-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
 ### March 2026
 
