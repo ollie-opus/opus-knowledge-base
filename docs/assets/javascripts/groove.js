@@ -2,7 +2,17 @@
 window.groove.widget = window.groove.createWidget();
 window.groove.widget.init('4ac3a72b-1852-4939-a8bf-7c3abd82d633', {});
 
-// Force transparent background on Groove container/iframe after widget injects them
+var grooveOverlay = document.createElement('div');
+grooveOverlay.style.cssText = 'display:none;position:fixed;inset:0;background:rgba(0,0,0,0.25);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);z-index:2147483646;transition:opacity 0.2s ease;';
+grooveOverlay.addEventListener('click', function () {
+  window.groove.widget.close();
+});
+document.addEventListener('DOMContentLoaded', function () {
+  document.body.appendChild(grooveOverlay);
+});
+
+// Force transparent background on Groove container/iframe after widget injects them,
+// then watch the container for open/close to sync the overlay
 new MutationObserver(function(mutations, observer) {
   var container = document.getElementById('groove-container-4ac3a72b-1852-4939-a8bf-7c3abd82d633');
   if (container) {
@@ -13,6 +23,10 @@ new MutationObserver(function(mutations, observer) {
       iframe.setAttribute('allowtransparency', 'true');
     }
     observer.disconnect();
+    new MutationObserver(function () {
+      var open = getComputedStyle(container).display !== 'none';
+      grooveOverlay.style.display = open ? 'block' : 'none';
+    }).observe(container, { attributes: true, attributeFilter: ['style', 'class'] });
   }
 }).observe(document.documentElement, { childList: true, subtree: true });
 
