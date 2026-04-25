@@ -11,27 +11,45 @@ document.addEventListener('DOMContentLoaded', function () {
   document.body.appendChild(grooveOverlay);
 });
 
-// Force transparent background on Groove container/iframe after widget injects them,
-// then watch the container for open/close to sync the overlay
-new MutationObserver(function(mutations, observer) {
+// Once Groove injects its container, fix transparency then use ResizeObserver on
+// the iframe to detect open/close — the iframe expands when the panel opens.
+new MutationObserver(function(mutations, outerObs) {
   var container = document.getElementById('groove-container-4ac3a72b-1852-4939-a8bf-7c3abd82d633');
-  if (container) {
-    container.style.setProperty('background', 'transparent', 'important');
-    var iframe = container.querySelector('iframe');
-    if (iframe) {
-      iframe.style.setProperty('background', 'transparent', 'important');
-      iframe.setAttribute('allowtransparency', 'true');
-    }
-    observer.disconnect();
-    var baseline = container.children.length;
-    function syncOverlay() {
-      var visibleCount = Array.from(container.children).filter(function (el) {
-        return getComputedStyle(el).display !== 'none';
-      }).length;
-      grooveOverlay.style.display = visibleCount > baseline ? 'block' : 'none';
-    }
-    new MutationObserver(syncOverlay)
-      .observe(container, { childList: true, subtree: true, attributes: true, attributeFilter: ['style', 'class'] });
+  if (!container) return;
+  outerObs.disconnect();
+  container.style.setProperty('background', 'transparent', 'important');
+
+  function attachToIframe(iframe) {
+    iframe.style.setProperty('background', 'transparent', 'important');
+    iframe.setAttribute('allowtransparency', 'true');
+
+    var closedWidth = null;
+    var closedHeight = null;
+
+    new ResizeObserver(function(entries) {
+      var rect = entries[0].contentRect;
+      if (closedWidth === null) {
+        // First observation is the widget at rest — record as closed baseline.
+        closedWidth = rect.width;
+        closedHeight = rect.height;
+        return;
+      }
+      var isOpen = rect.width > closedWidth + 50 || rect.height > closedHeight + 50;
+      grooveOverlay.style.display = isOpen ? 'block' : 'none';
+    }).observe(iframe);
+  }
+
+  var iframe = container.querySelector('iframe');
+  if (iframe) {
+    attachToIframe(iframe);
+  } else {
+    new MutationObserver(function(mutations, iframeObs) {
+      var iframe = container.querySelector('iframe');
+      if (iframe) {
+        iframeObs.disconnect();
+        attachToIframe(iframe);
+      }
+    }).observe(container, { childList: true, subtree: true });
   }
 }).observe(document.documentElement, { childList: true, subtree: true });
 
