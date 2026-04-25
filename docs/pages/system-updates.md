@@ -13,6 +13,16 @@ This page highlights the main user-facing improvements, additions and feature re
 ## 2026
 
 ---
+### April 2026
+
+??? new-addition "New addition: test<br><small style="opacity: 0.6">25th April 2026</small>"
+
+    <span data-uuid="11b39b08-ce94-4ddc-bd0a-03d23961418e" style="display:none"></span>
+    test
+
+    ![](../assets/occ-captures/sites/you-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/occ-captures/sites/you-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
 ### March 2026
 
 ??? improvement "Improvement: Incident Report - Days Lost Table<br><small style="opacity: 0.6">17th March 2026</small>"
