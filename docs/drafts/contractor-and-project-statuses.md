@@ -28,6 +28,41 @@ icon: lucide/gauge
 
     <span data-uuid="2a4ce625-58bd-42b1-84bf-95d0367fa6f7" style="display:none"></span>
 
+    <span data-uuid="cd824243-1717-435a-94b4-4aaa76a40b91" style="display:none"></span>
+    ```mermaid
+    ---
+    config:
+      layout: dagre
+    ---
+    stateDiagram
+      direction TB
+      classDef renewable stroke:#facc15,fill:#fefce8;
+      classDef incomplete stroke:#f87171,fill:#fef2f2;
+      classDef stale stroke:#60a5fa,fill:#eff6ff;
+      classDef archived stroke:#9ca3af,fill:#f3f4f6;
+      classDef ready stroke:#4ade80,fill:#f0fdf4;
+      state s1 <<fork>>
+      state s2 <<fork>>
+      Renewable --> Ready:Requirements are updated
+      root_start --> s1:Wanting to keep up to date (e.g. regular usage)
+      root_start --> s2:Not wanting to keep up to date (e.g. ad-hoc usage)
+      s2 --> Stale:One or more requirements unmet or out of date
+      s1 --> Incomplete:One or more requirements unmet
+      Incomplete --> Ready:Requirements provided
+      Ready --> Renewable:A requirement goes out of date
+      root_start --> Archived:Contractor archived
+      Stale --> s3:Requirements provided or updated
+      s3 --> Stale:A requirement goes out of date, or a new one is added
+      Ready --> Incomplete:A new requirement is added
+      root_start:Contractor
+      s3:Ready
+      class Renewable renewable
+      class Incomplete incomplete
+      class Stale stale
+      class Archived archived
+      class Ready,s3 ready
+    ```
+
 ## Project statuses
 <span data-uuid="bf87a2fe-e52d-4127-9e60-1b6842a1ee1d" style="display:none"></span>
 
