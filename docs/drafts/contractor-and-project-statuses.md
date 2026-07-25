@@ -39,8 +39,8 @@ icon: lucide/gauge
       classDef renewable stroke:#d97706,fill:#f59e0b26,stroke-width:2px;
       classDef incomplete stroke:#dc2626,fill:#ef444426,stroke-width:2px;
       classDef stale stroke:#2563eb,fill:#3b82f626,stroke-width:2px;
-      classDef archived stroke:#7d8590,fill:#9ca3af26,stroke-width:2px;
       classDef ready stroke:#16a34a,fill:#22c55e26,stroke-width:2px;
+      classDef archived stroke:#7d8590,fill:#9ca3af26,stroke-width:2px;
       state s1 <<fork>>
       state s2 <<fork>>
       Renewable --> Ready:Requirements are updated
@@ -59,8 +59,8 @@ icon: lucide/gauge
       class Renewable renewable
       class Incomplete incomplete
       class Stale stale
-      class Archived archived
       class Ready,s3 ready
+      class root_start,Archived archived
     ```
 
 ## Project statuses
