@@ -24,6 +24,10 @@ icon: lucide/gauge
     | <span data-uuid="80167fce-c436-49a0-95fe-0cc4278357f6" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/ready-light-mode.png#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/ready-dark-mode.png#only-dark){ style="height: 30px" loading=lazy } | All requirements for the Contractor have been fulfilled and are currently up to date. The Contractor is ready for use. |
     | <span data-uuid="8f45e36e-187c-433b-a403-d5fc67903b01" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/archived-light-mode.png#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/archived-dark-mode.png#only-dark){ style="height: 30px" loading=lazy } | The Contractor has been archived from the Contractor's edit page. Any existing open requirement tasks for this Contractor will have been resolved, and no new tasks will be generated for outstanding requirements. |
 
+=== "Logic diagram"
+
+    <span data-uuid="2a4ce625-58bd-42b1-84bf-95d0367fa6f7" style="display:none"></span>
+
 <span data-uuid="1380a28e-7758-40b6-9f06-7c8d28b9d6b6" style="display:none"></span>
 
 | Status | Description |
