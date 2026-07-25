@@ -1,5 +1,5 @@
 ---
-icon: lucide/triangle-alert
+icon: lucide/alert-circle
 ---
 
 # Task Severities
