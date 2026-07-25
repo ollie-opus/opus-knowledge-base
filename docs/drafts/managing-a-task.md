@@ -3,10 +3,10 @@
 
 e.g.
 
-Resolving? (might be in interacting)
-Add subtask
-Moving tasks
-Confidential flag
-edit task name/sev
-Snoozing tasks
-Labels? (light mention. prob have dedicated guide for labels)
+- Resolving? (might be in interacting)
+- Add subtask
+- Moving tasks
+- Confidential flag
+- edit task name/sev
+- Snoozing tasks
+- Labels? (light mention. prob have dedicated guide for labels)
