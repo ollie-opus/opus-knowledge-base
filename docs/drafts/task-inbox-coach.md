@@ -1,7 +1,6 @@
 # Site Inbox & Coach
 <span data-uuid="6e0f44b9-d0e8-43fb-b10d-3b82596501c2" style="display:none"></span>
 
-
 ## Site Inbox
 <span data-uuid="1d3c5ab0-5c03-4a59-83ba-6716a17ebf8d" style="display:none"></span>
 
@@ -23,6 +22,13 @@ For Site Managers, the Site Inbox is one of the most important tools for oversee
 
 
     By default, tasks are displayed in **severity order**, with the most important tasks at the top. Work through the list **from top to bottom** so that high-priority tasks are addressed first.
+
+!!! warning
+
+    <span data-uuid="038596ec-b7c9-453f-8ee4-555c615fe8fd" style="display:none"></span>
+
+
+    As a general rule, tasks should **not remain open and unassigned for more than two weeks**. If a task cannot be completed within that timeframe, assign it to yourself or another responsible employee so ownership is clear and progress can be tracked.
 
 ## Inbox Coach
 <span data-uuid="58f41ea1-5181-463e-9eb6-fe94856b7bb3" style="display:none"></span>
