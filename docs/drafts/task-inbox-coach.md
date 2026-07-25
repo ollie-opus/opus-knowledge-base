@@ -1,4 +1,4 @@
-# Task Inbox & Coach
+# Site Inbox & Coach
 <span data-uuid="6e0f44b9-d0e8-43fb-b10d-3b82596501c2" style="display:none"></span>
 
 The Site Inbox can be found when viewing a site in **View mode** and displays all **open and unassigned** tasks for the site (including tasks relating to employees and assets located at the site).
