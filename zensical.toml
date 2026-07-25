@@ -41,10 +41,10 @@ nav = [
     ]},
     {"Tasks" = [
       {"Types of task" = "pages/types-of-task.md"},
+      {"Site Inbox & Coach" = "pages/task-inbox-coach.md"},
       {"Reporting" = [
         {"Kinds of reportable tasks" = "pages/kinds-of-reportable-tasks.md"}
-      ]},
-      {"Site Inbox & Coach" = "pages/task-inbox-coach.md"}
+      ]}
     ]},
     {"Employees" = [
       {"Adding a new employee" = "pages/adding-a-new-employee.md"},
