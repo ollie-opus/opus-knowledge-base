@@ -43,7 +43,8 @@ nav = [
       {"Types of task" = "pages/types-of-task.md"},
       {"Reporting" = [
         {"Kinds of reportable tasks" = "pages/kinds-of-reportable-tasks.md"}
-      ]}
+      ]},
+      {"Site Inbox & Coach" = "pages/task-inbox-coach.md"}
     ]},
     {"Employees" = [
       {"Adding a new employee" = "pages/adding-a-new-employee.md"},
@@ -73,7 +74,6 @@ draft_nav = [
   {"Guides" = [
     {"Tasks" = [
       {"Task Overview" = "drafts/task-overview.md"},
-      {"Site Inbox & Coach" = "drafts/task-inbox-coach.md"},
       {"Task Severities" = "drafts/task-severities.md"}
     ]},
     {"Employees" = [
