@@ -12,7 +12,7 @@ For Site Managers, the Site Inbox is one of the most important tools for oversee
 !!! tip
 
     <span data-uuid="b0733ba8-b372-4d1a-bc9e-9cce9ad80439" style="display:none"></span>
-    Tasks are displayed in priority order, with the most important tasks at the top. Work through the list **from top to bottom** so that high-priority tasks are addressed first.
+    By default, tasks are displayed in **severity order**, with the most important tasks at the top. Work through the list **from top to bottom** so that high-priority tasks are addressed first.
 
 !!! warning
 
