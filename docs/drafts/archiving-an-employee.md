@@ -125,5 +125,5 @@ After archiving an employee, you may still have open tasks linked to their recor
     To prevent these tasks from being 'dumped' back to the site inbox, they will remain assigned to the archived employee's record. This allows you to reassign and hand them over in a controlled manner. The notification will stay on the employee's profile until all tasks are reassigned.
 
     <span data-uuid="9a471310-3876-4d51-95f3-910a0235fc21" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/assigned-unresolved-tasks-light-mode.png#only-light)
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/assigned-unresolved-tasks-dark-mode.png#only-dark)
+    ![](../assets/media/occ-captures/admin/sites/uuid/edit/assigned-unresolved-tasks-light-mode.png#only-light){ width="400" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/edit/assigned-unresolved-tasks-dark-mode.png#only-dark){ width="400" loading=lazy }
