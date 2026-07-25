@@ -22,6 +22,13 @@ For Site Managers, the Site Inbox is one of the most important tools for oversee
 ![](../assets/media/occ-captures/sites/uuid/site-inbox-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
 ![](../assets/media/occ-captures/sites/uuid/site-inbox-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
+!!! tip
+
+    <span data-uuid="5f810cae-dc15-4b30-9a1c-7affb4d51e05" style="display:none"></span>
+
+
+    By default, tasks are displayed in **severity order**, with the most important tasks at the top. Work through the list **from top to bottom** so that high-priority tasks are addressed first.
+
 ## Inbox Coach
 <span data-uuid="58f41ea1-5181-463e-9eb6-fe94856b7bb3" style="display:none"></span>
 
