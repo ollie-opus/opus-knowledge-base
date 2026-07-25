@@ -107,13 +107,3 @@ icon: lucide/gauge
       class Ready ready
       class root_start,Archived archived
     ```
-
-<span data-uuid="2c8cb682-8f6c-4a12-a7db-5103fed54794" style="display:none"></span>
-
-| Status | Description |
-| :--- | :--- |
-| <span data-uuid="94f269eb-7d71-4ec9-a4d1-75990f066989" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/future-light-mode.png#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/future-dark-mode.png#only-dark){ style="height: 30px" loading=lazy } | This Project's start date is in the future. Tasks will not generate until this Project starts. |
-| <span data-uuid="ad931baf-8476-4888-976a-ec7fbde40691" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/incomplete-light-mode.png#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/incomplete-dark-mode.png#only-dark){ style="height: 30px" loading=lazy } | At least one requirement for the Project has not yet been fulfilled. |
-| <span data-uuid="6c66f86b-2b9e-49da-9bdf-6da593de9fab" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/renewable-light-mode.png#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/renewable-dark-mode.png#only-dark){ style="height: 30px" loading=lazy } | All requirements for the Project have been fulfilled previously, but at least one requirement is now out of date and needs renewing. |
-| <span data-uuid="39d1124e-5352-4b0b-80b9-d438aa47fd35" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/ready-light-mode.png#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/ready-dark-mode.png#only-dark){ style="height: 30px" loading=lazy } | All requirements for the Project have been fulfilled and are currently up to date. The Project is ready to start. |
-| <span data-uuid="3096cf46-1ff1-4f79-ba9f-ca75acb75ffe" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/ended-light-mode.png#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/ended-dark-mode.png#only-dark){ style="height: 30px" loading=lazy } | The Project has ended. |
