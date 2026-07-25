@@ -67,6 +67,15 @@ icon: lucide/gauge
 <span data-uuid="bf87a2fe-e52d-4127-9e60-1b6842a1ee1d" style="display:none"></span>
 
 
+<span data-uuid="e0a07895-401e-415b-b5ea-316d1b89de9e" style="display:none"></span>
+=== "Table"
+
+    <span data-uuid="7baa749a-daeb-4717-85f5-7cf7409e326c" style="display:none"></span>
+
+=== "Logic diagram"
+
+    <span data-uuid="fba459ed-bca1-4acd-bac6-77b87bfe80a4" style="display:none"></span>
+
 <span data-uuid="2c8cb682-8f6c-4a12-a7db-5103fed54794" style="display:none"></span>
 
 | Status | Description |
