@@ -10,3 +10,8 @@ As a Manager of a site, your objective is to keep your site inbox clear by compl
 Although assets and employees have their own inboxes, any tasks related to them are also surfaced in the site inbox, giving you a complete view of outstanding work at that site.
 
 Tasks are displayed in priority order, with the most important tasks at the top. Work through the list from top to bottom so that high-priority tasks are addressed first.
+
+!!! warning
+
+    <span data-uuid="3e446235-69db-4fa4-bd7f-9a174b7b52eb" style="display:none"></span>
+    As a general rule, tasks should **not remain open and unassigned for more than two weeks**. If a task cannot be completed within that timeframe, assign it to yourself or another responsible employee so ownership is clear and progress can be tracked.
