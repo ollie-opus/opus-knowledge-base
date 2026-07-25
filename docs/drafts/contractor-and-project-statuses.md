@@ -9,6 +9,11 @@ icon: lucide/gauge
 <span data-uuid="4e3868db-0ff5-49ad-bd1e-f3e1c38b726f" style="display:none"></span>
 
 
+<span data-uuid="0542dc15-3f0f-4f39-83eb-3ea242e7dc43" style="display:none"></span>
+=== "Table"
+
+    <span data-uuid="3b1fdf65-767d-4304-845b-c07c20b39cf8" style="display:none"></span>
+
 <span data-uuid="1380a28e-7758-40b6-9f06-7c8d28b9d6b6" style="display:none"></span>
 
 | Status | Description |
