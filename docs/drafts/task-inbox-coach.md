@@ -27,6 +27,10 @@ For Site Managers, the Site Inbox is one of the most important tools for oversee
 - assigning it to the appropriate person; or
 - ensuring the responsible employee completes it.
 
+<span data-uuid="1d2b0a06-6549-4750-ba34-000ab76476b3" style="display:none"></span>
+![](../assets/media/occ-captures/sites/uuid/site-inbox-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+![](../assets/media/occ-captures/sites/uuid/site-inbox-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 ## Inbox Coach
 <span data-uuid="58f41ea1-5181-463e-9eb6-fe94856b7bb3" style="display:none"></span>
 
