@@ -80,8 +80,7 @@ draft_nav = [
       {"Archiving an employee" = "drafts/archiving-an-employee.md"}
     ]},
     {"Contractors" = [
-      {"Permits to Work" = "drafts/permits-to-work.md"},
-      {"Contractor & Project statuses" = "drafts/contractor-and-project-statuses.md"}
+      {"Permits to Work" = "drafts/permits-to-work.md"}
     ]}
   ]}
 ]
