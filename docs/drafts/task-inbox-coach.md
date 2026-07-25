@@ -2,11 +2,6 @@
 <span data-uuid="6e0f44b9-d0e8-43fb-b10d-3b82596501c2" style="display:none"></span>
 
 
-!!! warning
-
-    <span data-uuid="3e446235-69db-4fa4-bd7f-9a174b7b52eb" style="display:none"></span>
-    As a general rule, tasks should **not remain open and unassigned for more than two weeks**. If a task cannot be completed within that timeframe, assign it to yourself or another responsible employee so ownership is clear and progress can be tracked.
-
 ## Site Inbox
 <span data-uuid="1d3c5ab0-5c03-4a59-83ba-6716a17ebf8d" style="display:none"></span>
 
