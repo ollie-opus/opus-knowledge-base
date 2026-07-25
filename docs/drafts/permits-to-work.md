@@ -32,11 +32,11 @@
     ---
     stateDiagram
       direction TB
-      classDef inProgress stroke:#facc15,fill:#fefce8;
-      classDef invalid stroke:#f87171,fill:#fef2f2;
-      classDef future stroke:#fb923c,fill:#fff7ed;
-      classDef valid stroke:#4ade80,fill:#f0fdf4;
-      classDef expired stroke:#9ca3af,fill:#f3f4f6;
+      classDef inProgress stroke:#d97706,fill:#f59e0b26,stroke-width:2px;
+      classDef invalid stroke:#dc2626,fill:#ef444426,stroke-width:2px;
+      classDef future stroke:#ea580c,fill:#f9731626,stroke-width:2px;
+      classDef valid stroke:#16a34a,fill:#22c55e26,stroke-width:2px;
+      classDef expired stroke:#7d8590,fill:#9ca3af26,stroke-width:2px;
       [*] --> InProgress:Permit created
       InProgress --> Invalid:Unsatisfactory responses
       InProgress --> Future:Satisfactory, before validity period
