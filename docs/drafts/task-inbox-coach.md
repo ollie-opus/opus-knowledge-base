@@ -36,7 +36,7 @@ The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It
 !!! outline "<span class="mb-label mb-label-red">Status: Red</span>"
 
     <span data-uuid="c182b0a2-b6a5-4078-b8b4-25bcc293f454" style="display:none"></span>
-    There are tasks in the inbox that are over 6 months old. It is important that these are dealt with as soon as possible.
+    There are tasks in the inbox that are over <span class="mb-label mb-label-red">6 months old</span>. It is important that these are dealt with as soon as possible.
 
     <span data-uuid="483f621d-1a8e-4753-9d43-6fc3cc7077fd" style="display:none"></span>
     ![](../assets/media/occ-captures/sites/uuid/inbox-coach-4-light-mode.png#only-light)
