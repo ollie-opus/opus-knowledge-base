@@ -117,13 +117,13 @@ After archiving an employee, you may still have open tasks linked to their recor
 
     These remain open and must be manually updated and resolved, including details of how the issue was addressed. This ensures there's a clear evidence trail if any follow-up action is needed after the employee has left, which is particularly important in the case of contentious leavers.
 
-## Tasks assigned to the employee
-<span data-uuid="ef534b01-95b6-4e97-89ca-913f242d42d6" style="display:none"></span>
+!!! warning "Assigned tasks"
 
-If a departing employee still has assigned tasks, an on-screen alert will appear with a direct link to those tasks once you enter the last working date.
+    <span data-uuid="7f6f6d8a-3ce6-4746-a1d2-0e2e793e2392" style="display:none"></span>
+    If a departing employee still has assigned tasks, an on-screen alert will appear with a direct link to those tasks once you enter the last working date.
 
-To prevent these tasks from being 'dumped' back to the site inbox, they will remain assigned to the archived employee's record. This allows you to reassign and hand them over in a controlled manner. The notification will stay on the employee's profile until all tasks are reassigned.
+    To prevent these tasks from being 'dumped' back to the site inbox, they will remain assigned to the archived employee's record. This allows you to reassign and hand them over in a controlled manner. The notification will stay on the employee's profile until all tasks are reassigned.
 
-<span data-uuid="fbd37e72-6394-4cef-8038-546060741864" style="display:none"></span>
-![](../assets/media/occ-captures/admin/sites/uuid/edit/assigned-unresolved-tasks-light-mode.png#only-light)
-![](../assets/media/occ-captures/admin/sites/uuid/edit/assigned-unresolved-tasks-dark-mode.png#only-dark)
+    <span data-uuid="9a471310-3876-4d51-95f3-910a0235fc21" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/edit/assigned-unresolved-tasks-light-mode.png#only-light)
+    ![](../assets/media/occ-captures/admin/sites/uuid/edit/assigned-unresolved-tasks-dark-mode.png#only-dark)
