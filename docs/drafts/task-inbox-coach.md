@@ -2,11 +2,6 @@
 <span data-uuid="6e0f44b9-d0e8-43fb-b10d-3b82596501c2" style="display:none"></span>
 
 
-!!! tip
-
-    <span data-uuid="b0733ba8-b372-4d1a-bc9e-9cce9ad80439" style="display:none"></span>
-    By default, tasks are displayed in **severity order**, with the most important tasks at the top. Work through the list **from top to bottom** so that high-priority tasks are addressed first.
-
 !!! warning
 
     <span data-uuid="3e446235-69db-4fa4-bd7f-9a174b7b52eb" style="display:none"></span>
