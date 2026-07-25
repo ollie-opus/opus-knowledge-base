@@ -9,6 +9,11 @@ New stuff
 
 - What are tasks
 
+- Glimpse of task inbox (with link to that guide)
+- Glimpse of commenting (with link to interacting guide)
+
+- Glimpse of filling in incident (with link to interacting guide (subsection on incidents?))
+
 ---
 
 Tasks are at the heart of how work gets tracked and cleared in **Opus Compliance Cloud**. This page explains what a task is, where tasks come from, and the actions you can take on a task — from assigning and commenting to snoozing, sub-tasking and moving.
