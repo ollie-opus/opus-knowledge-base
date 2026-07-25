@@ -5,6 +5,12 @@ icon: lucide/list-checks
 # Task Overview
 <span data-uuid="7488a980-2d7b-4bea-8f2d-290d0227a165" style="display:none"></span>
 
+New stuff
+
+- What are tasks
+
+---
+
 Tasks are at the heart of how work gets tracked and cleared in **Opus Compliance Cloud**. This page explains what a task is, where tasks come from, and the actions you can take on a task — from assigning and commenting to snoozing, sub-tasking and moving.
 
 ## What are Tasks?
