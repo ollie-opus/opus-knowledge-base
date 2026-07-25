@@ -76,6 +76,38 @@ icon: lucide/gauge
 
     <span data-uuid="fba459ed-bca1-4acd-bac6-77b87bfe80a4" style="display:none"></span>
 
+    <span data-uuid="9909e3f7-d22e-4795-bd39-b2ab3effed5b" style="display:none"></span>
+    ```mermaid
+    ---
+    config:
+      layout: dagre
+    ---
+    stateDiagram
+      direction TB
+      classDef renewable stroke:#d97706,fill:#f59e0b26,stroke-width:2px;
+      classDef incomplete stroke:#dc2626,fill:#ef444426,stroke-width:2px;
+      classDef future stroke:#ea580c,fill:#f9731626,stroke-width:2px;
+      classDef ready stroke:#16a34a,fill:#22c55e26,stroke-width:2px;
+      classDef archived stroke:#7d8590,fill:#9ca3af26,stroke-width:2px;
+      state s4 <<join>>
+      Renewable --> Ready:Requirements are updated
+      Incomplete --> Ready:Requirements provided
+      Ready --> Renewable:A requirement goes out of date
+      root_start --> Archived:End date is in the past
+      Ready --> Incomplete:A new requirement is added
+      root_start --> Future:Start date is in the future
+      root_start --> s4:Project is active
+      s4 --> Incomplete:One or more requirements unmet
+      Future --> s4:Project starts
+      root_start:Project
+      Archived:Ended
+      class Renewable renewable
+      class Incomplete incomplete
+      class Future future
+      class Ready ready
+      class root_start,Archived archived
+    ```
+
 <span data-uuid="2c8cb682-8f6c-4a12-a7db-5103fed54794" style="display:none"></span>
 
 | Status | Description |
