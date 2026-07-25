@@ -1,7 +1,7 @@
 # Task Inbox & Coach
 <span data-uuid="6e0f44b9-d0e8-43fb-b10d-3b82596501c2" style="display:none"></span>
 
-The Site Inbox is available when viewing a site in **View mode** and displays all **open and unassigned** tasks for the site (including tasks relating to employees and assets located at the site).
+The Site Inbox can be found when viewing a site in **View mode** and displays all **open and unassigned** tasks for the site (including tasks relating to employees and assets located at the site).
 
 For Site Managers, the Site Inbox is one of the most important tools for overseeing day-to-day operations. Your goal is to keep the inbox clear by promptly reviewing each task and either:
 
