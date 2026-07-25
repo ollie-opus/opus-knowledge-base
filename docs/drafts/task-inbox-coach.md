@@ -23,6 +23,9 @@ For Site Managers, the Site Inbox is one of the most important tools for oversee
     <span data-uuid="3e446235-69db-4fa4-bd7f-9a174b7b52eb" style="display:none"></span>
     As a general rule, tasks should **not remain open and unassigned for more than two weeks**. If a task cannot be completed within that timeframe, assign it to yourself or another responsible employee so ownership is clear and progress can be tracked.
 
+## Site Inbox
+<span data-uuid="1d3c5ab0-5c03-4a59-83ba-6716a17ebf8d" style="display:none"></span>
+
 ## Inbox Coach
 <span data-uuid="58f41ea1-5181-463e-9eb6-fe94856b7bb3" style="display:none"></span>
 
@@ -67,6 +70,3 @@ The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It
     <span data-uuid="483f621d-1a8e-4753-9d43-6fc3cc7077fd" style="display:none"></span>
     ![](../assets/media/occ-captures/sites/uuid/inbox-coach-4-light-mode.png#only-light)
     ![](../assets/media/occ-captures/sites/uuid/inbox-coach-4-dark-mode.png#only-dark)
-
-## Site Inbox
-<span data-uuid="1d3c5ab0-5c03-4a59-83ba-6716a17ebf8d" style="display:none"></span>
