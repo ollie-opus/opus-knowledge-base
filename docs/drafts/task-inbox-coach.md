@@ -9,6 +9,10 @@ For Site Managers, the Site Inbox is one of the most important tools for oversee
 - assigning it to the appropriate person; or
 - ensuring the responsible employee completes it.
 
+<span data-uuid="38fa4aa5-3537-43eb-8ca8-0ad7aa1c4c3a" style="display:none"></span>
+![](../assets/media/occ-captures/sites/uuid/site-inbox-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+![](../assets/media/occ-captures/sites/uuid/site-inbox-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 !!! tip
 
     <span data-uuid="b0733ba8-b372-4d1a-bc9e-9cce9ad80439" style="display:none"></span>
