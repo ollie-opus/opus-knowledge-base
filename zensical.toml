@@ -43,7 +43,7 @@ nav = [
       {"Types of task" = "pages/types-of-task.md"},
       {"Task Inbox & Coach" = "pages/task-inbox-coach.md"},
       {"Task Severities" = "pages/task-severities.md"},
-      {"Reporting" = [
+      {"Reporting And Logging" = [
         {"Kinds of reportable tasks" = "pages/kinds-of-reportable-tasks.md"}
       ]}
     ]},
