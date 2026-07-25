@@ -9,6 +9,11 @@ As a Manager of a site(s), the site inbox will be one of the most important tool
 
 Although assets and employees have their own inboxes, any tasks related to them are also surfaced in the site inbox, giving you a complete view of outstanding work at that site.
 
+!!! tip
+
+    <span data-uuid="b0733ba8-b372-4d1a-bc9e-9cce9ad80439" style="display:none"></span>
+    Tasks are displayed in priority order, with the most important tasks at the top. Work through the list **from top to bottom** so that high-priority tasks are addressed first.
+
 !!! warning
 
     <span data-uuid="3e446235-69db-4fa4-bd7f-9a174b7b52eb" style="display:none"></span>
