@@ -36,11 +36,11 @@ icon: lucide/gauge
     ---
     stateDiagram
       direction TB
-      classDef renewable stroke:#facc15,fill:#fefce8;
-      classDef incomplete stroke:#f87171,fill:#fef2f2;
-      classDef stale stroke:#60a5fa,fill:#eff6ff;
-      classDef archived stroke:#9ca3af,fill:#f3f4f6;
-      classDef ready stroke:#4ade80,fill:#f0fdf4;
+      classDef renewable stroke:#d97706,fill:#f59e0b26,stroke-width:2px;
+      classDef incomplete stroke:#dc2626,fill:#ef444426,stroke-width:2px;
+      classDef stale stroke:#2563eb,fill:#3b82f626,stroke-width:2px;
+      classDef archived stroke:#7d8590,fill:#9ca3af26,stroke-width:2px;
+      classDef ready stroke:#16a34a,fill:#22c55e26,stroke-width:2px;
       state s1 <<fork>>
       state s2 <<fork>>
       Renewable --> Ready:Requirements are updated
