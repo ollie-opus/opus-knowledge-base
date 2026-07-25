@@ -7,8 +7,10 @@ icon: lucide/list-checks
 
 New stuff
 
-- What are tasks- Glimpse of task inbox (with link to that guide)
-- Glimpse of commenting (with link to interacting guide)- Glimpse of filling in incident (with link to interacting guide (subsection on incidents?))
+- What are tasks
+- Glimpse of task inbox (with link to that guide)
+- Glimpse of commenting (with link to interacting guide)
+- Glimpse of filling in incident (with link to interacting guide (subsection on incidents?))
 
 ---
 
