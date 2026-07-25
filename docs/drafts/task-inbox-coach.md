@@ -67,3 +67,6 @@ The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It
     <span data-uuid="483f621d-1a8e-4753-9d43-6fc3cc7077fd" style="display:none"></span>
     ![](../assets/media/occ-captures/sites/uuid/inbox-coach-4-light-mode.png#only-light)
     ![](../assets/media/occ-captures/sites/uuid/inbox-coach-4-dark-mode.png#only-dark)
+
+## Site Inbox
+<span data-uuid="1d3c5ab0-5c03-4a59-83ba-6716a17ebf8d" style="display:none"></span>
