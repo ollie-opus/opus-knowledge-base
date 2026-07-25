@@ -8,7 +8,6 @@ For Site Managers, the Site Inbox is one of the most important tools for oversee
 - completing it yourself;
 - assigning it to the appropriate person; or
 - ensuring the responsible employee completes it.
-<span class="mb-label mb-label-rose">Tasks should be actioned as quickly as possible to keep work progressing efficiently.</span>
 
 !!! tip
 
