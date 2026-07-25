@@ -1,13 +1,16 @@
 # Task Inbox & Coach
 <span data-uuid="6e0f44b9-d0e8-43fb-b10d-3b82596501c2" style="display:none"></span>
 
-The site inbox appears while on a site/location in **View mode**.
+The Site Inbox is available when viewing a site in **View mode** and displays all open and unassigned tasks for the site, as well as tasks relating to employees and assets located at that site.
 
-Open unassigned tasks for the site and the employees/assets located at the site will appear in the site inbox. If a task within the task inbox is assigned to you. It will appear above the inbox under `My Tasks`.
+For Site Managers, the Site Inbox is one of the most important tools for overseeing day-to-day operations. Your goal is to keep the inbox clear by promptly reviewing each task and either:
 
-As a Manager of a site(s), the site inbox will be one of the most important tools in your arsenal for managing your site(s). Your objective is to keep your site inbox clear by completing tasks, assigning them to the appropriate person, or ensuring the responsible employee completes them. Tasks should be actioned as promptly as possible.
+- completing it yourself;
+- assigning it to the appropriate person; or
+- ensuring the responsible employee completes it.
+Tasks should be actioned as quickly as possible to keep work progressing efficiently.
 
-Although assets and employees have their own inboxes, any tasks related to them are also surfaced in the site inbox, giving you a complete view of outstanding work at that site.
+Although employees and assets each have their own inboxes, any tasks associated with them are also displayed in the Site Inbox. This provides a single, consolidated view of all outstanding work across the site, making it easier to monitor and manage tasks from one central location.
 
 !!! tip
 
