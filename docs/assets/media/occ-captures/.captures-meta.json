@@ -171,5 +171,11 @@
   },
   "docs/assets/media/occ-captures/sites/uuid/my-tasks-light-mode.png": {
     "padding": 20
+  },
+  "docs/assets/media/occ-captures/dashboard/my-assigned-tasks-a-z-light-mode.png": {
+    "resized": true,
+    "padding": 20,
+    "annotated": true,
+    "zapped": true
   }
 }
