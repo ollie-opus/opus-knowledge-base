@@ -65,6 +65,15 @@ As a manager, you can assign tasks to others using the assignment feature.
 ![](../assets/media/occ-captures/todos/uuid/assigned-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
 ![](../assets/media/occ-captures/todos/uuid/assigned-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
 
+!!! note
+
+    <span data-uuid="059f09ce-1afa-4745-a8a2-31fe9368262a" style="display:none"></span>
+    You can assign a task to an employee if:
+
+    1. They are registered / have a linked Opus account.
+    2. They have access to the site where the task is located.
+    <span class="mb-label mb-label-amber">If you can't see an employee in the assigning list, it will be for one of the above reasons.</span>
+
 ## Task Labels
 <span data-uuid="9b470798-664c-459d-8fc8-189c16faa6d9" style="display:none"></span>
 
