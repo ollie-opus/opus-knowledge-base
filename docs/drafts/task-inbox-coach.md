@@ -103,3 +103,7 @@ You can access it by clicking your profile icon in the top right and selecting `
 
     <span data-uuid="1ff0e541-df2f-40d4-8d80-caf08c532e20" style="display:none"></span>
     From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard) or any view mode page, click your profile icon in the top right and select `My Assigned Tasks`
+
+    <span data-uuid="0ac4a63f-b2ce-4fa6-b15b-4dc15cb87635" style="display:none"></span>
+    ![](../assets/media/occ-captures/dashboard/my-assigned-tasks-a-z-light-mode.png#only-light){ style="border-radius: 8px" width="200" loading=lazy }
+    ![](../assets/media/occ-captures/dashboard/my-assigned-tasks-a-z-dark-mode.png#only-dark){ style="border-radius: 8px" width="200" loading=lazy }
