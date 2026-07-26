@@ -1,7 +1,7 @@
 ---
 icon: lucide/user-pen
 tags:
-  - Managing Opus Compliance Cloud
+  - Managing OCC
 ---
 
 # Moving an employee
