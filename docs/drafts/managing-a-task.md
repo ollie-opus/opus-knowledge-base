@@ -33,3 +33,10 @@ You can edit the title or the severity of an individual task following the below
 
 
     You can now change the **name** of the task.
+
+!!! step
+
+    <span data-uuid="ab7a32ba-34e5-41d1-95a0-b9b55725a351" style="display:none"></span>
+
+
+    Click the drop-down box on the left to change the **severity**.
