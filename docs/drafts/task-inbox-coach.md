@@ -41,6 +41,17 @@ The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It
 
 !!! outline "<span class="mb-label mb-label-green">Status: Green</span>"
 
+    <span data-uuid="95b503aa-0d25-40eb-960d-24ea3702967a" style="display:none"></span>
+
+
+    All tasks are <span class="mb-label mb-label-green">assigned</span> and nothing is older than 3 months.
+
+    <span data-uuid="8af35757-76eb-4990-bbeb-856007cf01e3" style="display:none"></span>
+    ![](../assets/media/occ-captures/sites/uuid/inbox-coach-light-mode.png#only-light)
+    ![](../assets/media/occ-captures/sites/uuid/inbox-coach-dark-mode.png#only-dark)
+
+!!! outline "<span class="mb-label mb-label-green">Status: Green</span>"
+
     <span data-uuid="d59db7a9-aea6-4ef7-b597-f4aaeea23d71" style="display:none"></span>
 
 
