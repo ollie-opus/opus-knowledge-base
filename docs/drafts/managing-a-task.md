@@ -34,6 +34,10 @@ You can edit the title or the severity of an individual task following the below
     <span data-uuid="fbf23cc9-a3b5-42ec-993f-4bc2dc5fe485" style="display:none"></span>
     You can now change the **title** of the task.
 
+    <span data-uuid="7649e87d-76a3-460c-ade2-494243c61da9" style="display:none"></span>
+    ![](../assets/media/occ-captures/todos/uuid/edit/title-a-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/edit/title-a-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 !!! step
 
     <span data-uuid="ab7a32ba-34e5-41d1-95a0-b9b55725a351" style="display:none"></span>
