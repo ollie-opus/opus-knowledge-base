@@ -23,9 +23,7 @@ You can edit the title or the severity of an individual task following the below
 !!! step
 
     <span data-uuid="abe9e220-c1c3-499f-bbb4-3988e8ff468d" style="display:none"></span>
-
-
-    Click the **Edit** button on the right-hand side of the page.
+    When on a task, click the **Edit** button in the top right-hand side of the page.
 
 !!! step
 
