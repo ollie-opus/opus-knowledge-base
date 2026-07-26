@@ -38,10 +38,7 @@ nav = [
   {"Home" = "index.md"},
   {"Guides" = [
     {"Getting started" = [
-      {"Overview" = "pages/overview.md"},
-      {"Guidebooks" = [
-        {"Managing Opus Compliance Cloud" = "pages/managing-opus-compliance-cloud.md"}
-      ]}
+      {"Overview" = "pages/overview.md"}
     ]},
     {"Tasks" = [
       {"Types of task" = "pages/types-of-task.md"},
