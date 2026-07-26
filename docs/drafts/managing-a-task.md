@@ -58,3 +58,6 @@ You can edit the title or the severity of an individual task following the below
 
 ## Assigning Tasks
 <span data-uuid="59cbf97a-5863-4785-8be2-ddef47d18c6e" style="display:none"></span>
+
+## Moving Tasks
+<span data-uuid="ff756a4f-fe0d-4ea5-a122-e1ffd4922a15" style="display:none"></span>
