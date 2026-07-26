@@ -59,7 +59,7 @@ As a manager, you can edit the title or the severity of an individual task follo
 ## Assigning Tasks
 <span data-uuid="59cbf97a-5863-4785-8be2-ddef47d18c6e" style="display:none"></span>
 
-As a manager, you can assign tasks to others using the assignment feature.
+As a manager, you can assign tasks to others using the assignment feature. The assignee will receive a notification and the task will appear in their `My assigned tasks` / `My tasks` lists.
 
 <span data-uuid="142f3653-ae90-4761-9c1e-a345a1b7fb0c" style="display:none"></span>
 ![](../assets/media/occ-captures/todos/uuid/assigned-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
