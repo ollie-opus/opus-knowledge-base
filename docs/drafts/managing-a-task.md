@@ -72,6 +72,8 @@ As a manager, you can assign tasks to others using the assignment feature.
 
     1. They are registered / have a linked Opus account.
     2. They have access to the site where the task is located.
+
+
     <span class="mb-label mb-label-amber">If you can't see an employee in the assigning list, it will be for one of the above reasons.</span>
 
 !!! warning
