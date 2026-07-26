@@ -8,6 +8,7 @@ icon: lucide/briefcase-business
 e.g.
 
 - edit task name/sev
+- Assigning tasks
 - Moving tasks
 - Confidential flag
 - Labels? (light mention. prob have dedicated guide for labels)
