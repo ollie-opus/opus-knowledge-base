@@ -129,12 +129,14 @@
   "docs/assets/media/occ-captures/admin/sites/uuid/snapshot/overview/site-snapshot-light-mode.png": {
     "resized": true
   },
-  "docs/assets/media/occ-captures/admin/sites/uuid/snapshot/overview/site-snapshot-annotated-download-csv-light-mode.png": {
+  "docs/assets/media/occ-captures/admin/sites/uuid/snapshot/overview/site-snapshot-download-csv-a-light-mode.png": {
     "resized": true,
-    "padding": 6
+    "padding": 6,
+    "annotated": true
   },
-  "docs/assets/media/occ-captures/admin/sites/uuid/compliance-reports/demo-company-sub-sites-annotated-light-mode.png": {
-    "padding": 20
+  "docs/assets/media/occ-captures/admin/sites/uuid/compliance-reports/demo-company-sub-sites-a-light-mode.png": {
+    "padding": 20,
+    "annotated": true
   },
   "docs/assets/media/occ-captures/sites/uuid/icon-immediate-light-mode.png": {
     "resized": true
@@ -146,8 +148,9 @@
     "resized": true,
     "padding": 20
   },
-  "docs/assets/media/occ-captures/todos/uuid/edit/title-light-mode.png": {
-    "padding": 15
+  "docs/assets/media/occ-captures/todos/uuid/edit/title-a-light-mode.png": {
+    "padding": 15,
+    "annotated": true
   },
   "docs/assets/media/occ-captures/todos/uuid/edit/severity-a-light-mode.png": {
     "padding": 15,

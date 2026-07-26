@@ -23,8 +23,8 @@ This page highlights the main user-facing improvements, additions and feature re
     You can also see this on the individual audit page. Selecting the previous score will take you to the previous audit.
 
     <span data-uuid="fab7b062-478d-4f79-bb06-b65fdc276c3c" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/compliance-reports/demo-company-sub-sites-annotated-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/compliance-reports/demo-company-sub-sites-annotated-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/compliance-reports/demo-company-sub-sites-a-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/compliance-reports/demo-company-sub-sites-a-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
 ### April 2026
 
@@ -34,8 +34,8 @@ This page highlights the main user-facing improvements, additions and feature re
     A new export button is now available directly on the Site Snapshot page. This feature generates a downloadable CSV file containing a detailed breakdown of the snapshot figures by individual sites.
 
     <span data-uuid="6a013b7a-ffac-49a5-a09e-b13a353596d4" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/snapshot/overview/site-snapshot-annotated-download-csv-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/snapshot/overview/site-snapshot-annotated-download-csv-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/snapshot/overview/site-snapshot-download-csv-a-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/snapshot/overview/site-snapshot-download-csv-a-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
 ??? improvement "Improvement: Unified Employees Page<span class="meta">9th April 2026</span>"
 
