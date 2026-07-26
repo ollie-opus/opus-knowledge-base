@@ -22,6 +22,7 @@ extra_css = [
   "assets/stylesheets/grid-spill.css",
   "assets/stylesheets/videos.css",
   "assets/stylesheets/labels.css",
+  "assets/stylesheets/nav-links.css",
 ]
 extra_javascript = [
     "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
@@ -211,3 +212,11 @@ custom_checkbox = true
 [project.markdown_extensions.pymdownx.emoji]
 emoji_index     = "zensical.extensions.emoji.twemoji"
 emoji_generator = "zensical.extensions.emoji.to_svg"
+
+# ----------------------------------------------------------------------------
+# Nav-links tags — registered by the more-buttons extension (suggestions only)
+# ----------------------------------------------------------------------------
+[project.extra]
+mb_created_tags = [
+  "System",
+]
