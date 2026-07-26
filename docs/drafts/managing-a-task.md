@@ -7,12 +7,9 @@ icon: lucide/briefcase-business
 
 e.g.
 
-- Resolving? (might be in interacting)
-- Add subtask
+- edit task name/sev
 - Moving tasks
 - Confidential flag
-- edit task name/sev
-- Snoozing tasks
 - Labels? (light mention. prob have dedicated guide for labels)
 
 ## Editing the Task Title or Severity
