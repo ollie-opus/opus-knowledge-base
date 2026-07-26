@@ -105,3 +105,8 @@ As well as `My Tasks`, there is a dedicated page called `My Assigned Tasks` that
     <span data-uuid="0ac4a63f-b2ce-4fa6-b15b-4dc15cb87635" style="display:none"></span>
     ![](../assets/media/occ-captures/dashboard/my-assigned-tasks-a-z-light-mode.png#only-light){ style="border-radius: 8px" width="200" loading=lazy }
     ![](../assets/media/occ-captures/dashboard/my-assigned-tasks-a-z-dark-mode.png#only-dark){ style="border-radius: 8px" width="200" loading=lazy }
+
+!!! outline "Using My Assigned Tasks"
+
+    <span data-uuid="1c412477-0710-493a-9c13-12fcce01f36f" style="display:none"></span>
+    By default, `My Assigned Tasks` is sorted in the same way as all other task pages and inboxes - first by severity, then by age. This ensures that, when working from the top down, you are addressing the highest-priority tasks first.
