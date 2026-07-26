@@ -1,5 +1,7 @@
 ---
 icon: lucide/user-star
+tags:
+  - Managing Opus Compliance Cloud
 ---
 
 # Granting an employee temporary access
