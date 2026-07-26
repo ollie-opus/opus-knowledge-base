@@ -82,3 +82,8 @@ The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It
     <span data-uuid="d53bc170-d9ba-47b0-a541-4424745312e9" style="display:none"></span>
     ![](../assets/media/occ-captures/sites/uuid/inbox-coach-4-light-mode.png#only-light)
     ![](../assets/media/occ-captures/sites/uuid/inbox-coach-4-dark-mode.png#only-dark)
+
+## My Tasks
+<span data-uuid="1c35aca4-2f03-44fc-a6c2-9998d3cadb7f" style="display:none"></span>
+
+My tasks is a section that appears above the site inbox. These are tasks that exist at the site or below that are assigned to you.
