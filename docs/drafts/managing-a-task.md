@@ -51,3 +51,7 @@ You can edit the title or the severity of an individual task following the below
 
     <span data-uuid="65120e8b-4085-492e-a599-f57fc780635c" style="display:none"></span>
     Click Save after making your changes.
+
+    <span data-uuid="18fbddf7-c35f-4a92-8954-736b0ffc9f37" style="display:none"></span>
+    ![](../assets/media/occ-captures/todos/uuid/edit/save-a-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/edit/save-a-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
