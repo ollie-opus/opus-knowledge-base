@@ -1,7 +1,7 @@
 ---
 icon: lucide/user-minus
 tags:
-  - Managing Opus Compliance Cloud
+  - Managing OCC
 ---
 
 # Archiving an employee

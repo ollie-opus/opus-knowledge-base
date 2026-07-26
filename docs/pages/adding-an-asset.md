@@ -1,5 +1,7 @@
 ---
 icon: lucide/package-plus
+tags:
+  - Managing OCC
 ---
 
 # Adding an asset

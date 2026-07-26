@@ -1,7 +1,7 @@
 ---
 icon: lucide/user-plus
 tags:
-  - Managing Opus Compliance Cloud
+  - Managing OCC
 ---
 
 # Adding a new employee

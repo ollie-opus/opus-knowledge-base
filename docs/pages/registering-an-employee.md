@@ -1,7 +1,7 @@
 ---
 icon: lucide/user-check
 tags:
-  - Managing Opus Compliance Cloud
+  - Managing OCC
 ---
 
 # Registering an Employee with an Opus Account

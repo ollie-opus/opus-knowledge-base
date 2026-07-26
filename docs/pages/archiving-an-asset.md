@@ -1,5 +1,7 @@
 ---
 icon: lucide/package-minus
+tags:
+  - Managing OCC
 ---
 
 # Archiving an asset
