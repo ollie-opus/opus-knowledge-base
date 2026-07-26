@@ -163,5 +163,10 @@
   "docs/assets/media/occ-captures/todos/uuid/assigned-light-mode.png": {
     "resized": true,
     "padding": 10
+  },
+  "docs/assets/media/occ-captures/todos/uuid/assigned-warning-a-light-mode.png": {
+    "resized": true,
+    "padding": 10,
+    "annotated": true
   }
 }
