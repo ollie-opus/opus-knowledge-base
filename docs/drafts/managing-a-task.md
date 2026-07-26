@@ -59,7 +59,7 @@ As a manager, you can edit the title or the severity of an individual task follo
 ## Assigning Tasks
 <span data-uuid="59cbf97a-5863-4785-8be2-ddef47d18c6e" style="display:none"></span>
 
-As a manager, you can assign tasks to other users using the assignment feature.
+As a manager, you can assign tasks to others using the assignment feature.
 
 ## Task Labels
 <span data-uuid="9b470798-664c-459d-8fc8-189c16faa6d9" style="display:none"></span>
