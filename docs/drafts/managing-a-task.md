@@ -64,3 +64,6 @@ You can edit the title or the severity of an individual task following the below
 
 ## Confidential Tasks
 <span data-uuid="276c19b1-6515-4398-89a3-904d3b10f433" style="display:none"></span>
+
+## Task Labels
+<span data-uuid="9b470798-664c-459d-8fc8-189c16faa6d9" style="display:none"></span>
