@@ -84,6 +84,9 @@ draft_nav = [
     {"Contractors" = [
       {"Permits to Work" = "drafts/permits-to-work.md"},
       {"Contractors Overview" = "drafts/contractors-overview.md"}
+    ]},
+    {"Guidebooks" = [
+      {"Managing Opus Compliance Cloud" = "drafts/managing-opus-compliance-cloud.md"}
     ]}
   ]}
 ]
