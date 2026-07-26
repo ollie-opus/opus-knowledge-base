@@ -1,5 +1,7 @@
 ---
 icon: lucide/user-pen
+tags:
+  - Managing Opus Compliance Cloud
 ---
 
 # Moving an employee
