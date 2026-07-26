@@ -91,3 +91,10 @@ My Tasks appears above the Site Inbox and lists all tasks assigned to you that b
 <span data-uuid="c8d1fafa-07a4-4ae4-9a5a-e80953f901af" style="display:none"></span>
 ![](../assets/media/occ-captures/sites/uuid/my-tasks-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
 ![](../assets/media/occ-captures/sites/uuid/my-tasks-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
+## My Assigned Tasks
+<span data-uuid="599dd13e-64e8-41a8-b673-13abf2a83106" style="display:none"></span>
+
+As well as `My Tasks`, there is a dedicated page called `My Assigned Tasks` that lists all tasks assigned to you across any site. 
+
+You can access it by either:
