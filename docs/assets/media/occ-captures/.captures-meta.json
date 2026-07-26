@@ -168,5 +168,8 @@
     "resized": true,
     "padding": 10,
     "annotated": true
+  },
+  "docs/assets/media/occ-captures/sites/uuid/my-tasks-light-mode.png": {
+    "padding": 20
   }
 }
