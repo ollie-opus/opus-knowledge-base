@@ -19,3 +19,10 @@ e.g.
 <span data-uuid="675d79b5-c279-4353-bd46-cf6ee47faff9" style="display:none"></span>
 
 You can edit the title or the severity of an individual task following the below
+
+!!! step
+
+    <span data-uuid="abe9e220-c1c3-499f-bbb4-3988e8ff468d" style="display:none"></span>
+
+
+    Click the **Edit** button on the right-hand side of the page.
