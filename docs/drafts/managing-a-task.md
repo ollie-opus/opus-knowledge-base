@@ -74,6 +74,11 @@ As a manager, you can assign tasks to others using the assignment feature.
     2. They have access to the site where the task is located.
     <span class="mb-label mb-label-amber">If you can't see an employee in the assigning list, it will be for one of the above reasons.</span>
 
+!!! warning
+
+    <span data-uuid="ea12925a-ae90-4aec-a395-d288d037b3c6" style="display:none"></span>
+    You may see a warning icon next to an assigned user. This indicates that the user may not be able to complete or resolve the task - for example, if the task relates to another user's e-learning or requires permissions they do not have.
+
 ## Task Labels
 <span data-uuid="9b470798-664c-459d-8fc8-189c16faa6d9" style="display:none"></span>
 
