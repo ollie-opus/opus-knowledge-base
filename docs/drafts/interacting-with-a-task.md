@@ -9,6 +9,7 @@ e.g.
 
 - How to interact with reminder task (e.g. checklist reminder)
 - Interacting with fields
-- Assigning
 - Commenting
-- Resolving? (might be in managing)
+- Sub tasks
+- Snoozing Tasks
+- Resolving Tasks
