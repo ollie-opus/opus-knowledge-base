@@ -39,6 +39,19 @@ For Site Managers, the Site Inbox is one of the most important tools for oversee
 
 The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It provides an at-a-glance overview of the status of the tasks in your inbox, making it easy to see whether tasks are being completed effectively.
 
+!!! outline "<span class="mb-label mb-label-green">Status: Green</span>"
+
+    <span data-uuid="d59db7a9-aea6-4ef7-b597-f4aaeea23d71" style="display:none"></span>
+
+
+
+
+    All tasks are <span class="mb-label mb-label-green">assigned</span> and nothing is older than 3 months.
+
+    <span data-uuid="186148ec-e6ee-4479-b456-28ab5705123c" style="display:none"></span>
+    ![](../assets/media/occ-captures/sites/uuid/inbox-coach-light-mode.png#only-light)
+    ![](../assets/media/occ-captures/sites/uuid/inbox-coach-dark-mode.png#only-dark)
+
 ## Inbox Coach
 <span data-uuid="58f41ea1-5181-463e-9eb6-fe94856b7bb3" style="display:none"></span>
 
