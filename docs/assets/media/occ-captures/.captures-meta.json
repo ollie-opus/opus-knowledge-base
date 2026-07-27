@@ -177,5 +177,9 @@
     "padding": 20,
     "annotated": true,
     "zapped": true
+  },
+  "docs/assets/media/occ-captures/my/todos/my-assigned-tasks-light-mode.png": {
+    "resized": true,
+    "padding": 20
   }
 }
