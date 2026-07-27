@@ -80,8 +80,7 @@ draft_nav = [
       ]},
       {"Task Overview" = "drafts/task-overview.md"},
       {"Managing a task" = "drafts/managing-a-task.md"},
-      {"Interacting with a task" = "drafts/interacting-with-a-task.md"},
-      {"Task Inboxing" = "drafts/task-inboxing.md"}
+      {"Interacting with a task" = "drafts/interacting-with-a-task.md"}
     ]},
     {"Contractors" = [
       {"Contractors Overview" = "drafts/contractors-overview.md"},
