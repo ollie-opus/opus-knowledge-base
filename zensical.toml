@@ -42,7 +42,7 @@ nav = [
     ]},
     {"Tasks" = [
       {"Types of task" = "pages/types-of-task.md"},
-      {"Task Inbox & Coach" = "pages/task-inbox-coach.md"},
+      {"Task Inbox & Coach" = "pages/task-inboxing.md"},
       {"Task Severities" = "pages/task-severities.md"},
       {"Reporting And Logging" = [
         {"Kinds of reportable tasks" = "pages/kinds-of-reportable-tasks.md"}
@@ -81,7 +81,7 @@ draft_nav = [
       {"Task Overview" = "drafts/task-overview.md"},
       {"Managing a task" = "drafts/managing-a-task.md"},
       {"Interacting with a task" = "drafts/interacting-with-a-task.md"},
-      {"Task Inbox & Coach" = "drafts/task-inbox-coach.md"}
+      {"Task Inbox & Coach" = "drafts/task-inboxing.md"}
     ]},
     {"Contractors" = [
       {"Contractors Overview" = "drafts/contractors-overview.md"},
