@@ -4,8 +4,10 @@ search:
   exclude: true
 ---
 
-# Task Inbox & Coach
+# Task Inboxing
 <span data-uuid="6e0f44b9-d0e8-43fb-b10d-3b82596501c2" style="display:none"></span>
+
+Throughout Opus Compliance Cloud, tasks are displayed via inboxes/lists. This guide explains the different ways tasks are presented.
 
 ## Site Inbox
 <span data-uuid="1d3c5ab0-5c03-4a59-83ba-6716a17ebf8d" style="display:none"></span>
