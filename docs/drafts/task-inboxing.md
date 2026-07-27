@@ -99,6 +99,10 @@ The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It
 
     This page also includes additional filtering and search tools to allow you to find the tasks you're looking for.
 
+    <span data-uuid="7c332794-9614-489a-821f-a918cabe476a" style="display:none"></span>
+    ![](../assets/media/occ-captures/sites/uuid/todos/demo-site-1-tasks-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/sites/uuid/todos/demo-site-1-tasks-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 !!! outline "How to get to All Tasks"
 
     <span data-uuid="c24a189b-9153-4710-9e78-d6952bfcd993" style="display:none"></span>
