@@ -83,6 +83,9 @@ The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It
     ![](../assets/media/occ-captures/sites/uuid/inbox-coach-4-light-mode.png#only-light)
     ![](../assets/media/occ-captures/sites/uuid/inbox-coach-4-dark-mode.png#only-dark)
 
+## All Tasks
+<span data-uuid="5e36255e-320f-41cb-9929-77bba4a06f46" style="display:none"></span>
+
 ## My Tasks
 <span data-uuid="1c35aca4-2f03-44fc-a6c2-9998d3cadb7f" style="display:none"></span>
 
@@ -114,6 +117,3 @@ As well as `My Tasks`, there is a dedicated page called `My Assigned Tasks` that
     <span data-uuid="63d83668-bc51-40b0-8fc0-90763580e9a3" style="display:none"></span>
     ![](../assets/media/occ-captures/my/todos/my-assigned-tasks-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
     ![](../assets/media/occ-captures/my/todos/my-assigned-tasks-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
-
-## All Tasks
-<span data-uuid="5e36255e-320f-41cb-9929-77bba4a06f46" style="display:none"></span>
