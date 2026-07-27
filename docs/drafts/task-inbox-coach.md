@@ -114,3 +114,6 @@ As well as `My Tasks`, there is a dedicated page called `My Assigned Tasks` that
     <span data-uuid="63d83668-bc51-40b0-8fc0-90763580e9a3" style="display:none"></span>
     ![](../assets/media/occ-captures/my/todos/my-assigned-tasks-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
     ![](../assets/media/occ-captures/my/todos/my-assigned-tasks-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
+## All Tasks
+<span data-uuid="5e36255e-320f-41cb-9929-77bba4a06f46" style="display:none"></span>
