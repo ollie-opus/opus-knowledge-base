@@ -1,5 +1,7 @@
 ---
 icon: lucide/mouse-pointer
+search:
+  exclude: true
 ---
 
 # Interacting with a task

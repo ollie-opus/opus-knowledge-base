@@ -2,6 +2,8 @@
 icon: lucide/briefcase-business
 tags:
   - Managing OCC
+search:
+  exclude: true
 ---
 
 # Managing a task

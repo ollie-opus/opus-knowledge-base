@@ -1,5 +1,7 @@
 ---
 icon: lucide/inbox
+search:
+  exclude: true
 ---
 
 # Task Inbox & Coach

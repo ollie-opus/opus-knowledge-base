@@ -1,5 +1,7 @@
 ---
 icon: lucide/badge-alert
+search:
+  exclude: true
 ---
 
 # Reporting an incident

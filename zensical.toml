@@ -95,6 +95,12 @@ draft_nav = [
   ]}
 ]
 
+# Pages built + reachable by URL but excluded from the site nav and search index.
+# Managed by the more-buttons extension (Page settings -> Page visibility).
+# Zensical ignores this key, like draft_nav.
+unlisted_nav = [
+]
+
 # ----------------------------------------------------------------------------
 # Theme
 # ----------------------------------------------------------------------------

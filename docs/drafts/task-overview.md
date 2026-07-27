@@ -1,5 +1,7 @@
 ---
 icon: lucide/list-checks
+search:
+  exclude: true
 ---
 
 # Task Overview

@@ -4,6 +4,8 @@ hide:
   - toc
   - navigation
   - path
+search:
+  exclude: true
 ---
 
 # Contractors Overview
