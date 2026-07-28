@@ -1,5 +1,7 @@
 ---
 icon: lucide/megaphone
+hide:
+  - toc
 ---
 
 # Kinds of reportable tasks
