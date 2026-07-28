@@ -90,6 +90,9 @@ As a manager, you can assign tasks to others using the assignment feature. The a
 ## Task Labels
 <span data-uuid="9b470798-664c-459d-8fc8-189c16faa6d9" style="display:none"></span>
 
+## Exporting Tasks
+<span data-uuid="b8b6bffe-006e-4fb7-b82b-e4502a2968c0" style="display:none"></span>
+
 ## Moving Tasks
 <span data-uuid="ff756a4f-fe0d-4ea5-a122-e1ffd4922a15" style="display:none"></span>
 
@@ -98,6 +101,3 @@ As a manager, you can assign tasks to others using the assignment feature. The a
 
 ## Sensitive Tasks
 <span data-uuid="4d492156-7fa8-4c4b-acc7-97da7a6583bb" style="display:none"></span>
-
-## Exporting Tasks
-<span data-uuid="b8b6bffe-006e-4fb7-b82b-e4502a2968c0" style="display:none"></span>
