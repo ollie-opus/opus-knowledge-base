@@ -84,8 +84,8 @@ As a manager, you can assign tasks to others using the assignment feature. The a
     You may see a warning icon next to an assigned user. This indicates that the user may not be able to complete or resolve the task - for example, if the task relates to another user's e-learning or requires permissions they do not have.
 
     <span data-uuid="91142a89-3f48-48ea-8fa9-addc84a311b8" style="display:none"></span>
-    ![](../assets/media/occ-captures/todos/uuid/assigned-warning-a-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
-    ![](../assets/media/occ-captures/todos/uuid/assigned-warning-a-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/assigned-warning-a-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/assigned-warning-a-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
 
 ## Task Labels
 <span data-uuid="9b470798-664c-459d-8fc8-189c16faa6d9" style="display:none"></span>
