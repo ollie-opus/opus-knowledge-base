@@ -98,3 +98,6 @@ As a manager, you can assign tasks to others using the assignment feature. The a
 
 ## Sensitive Tasks
 <span data-uuid="4d492156-7fa8-4c4b-acc7-97da7a6583bb" style="display:none"></span>
+
+## Exporting Tasks
+<span data-uuid="b8b6bffe-006e-4fb7-b82b-e4502a2968c0" style="display:none"></span>
