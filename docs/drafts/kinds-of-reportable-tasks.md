@@ -2,6 +2,8 @@
 icon: lucide/megaphone
 search:
   exclude: true
+hide:
+  - toc
 ---
 
 # Kinds of reportable tasks
