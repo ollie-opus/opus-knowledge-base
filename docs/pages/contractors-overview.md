@@ -70,11 +70,9 @@ Opus Contractor Management is designed for businesses that regularly engage cont
 
 <span data-uuid="83dcee82-9bbd-45ec-b0f0-a9f56f3d778a" style="display:none"></span>
 
-!!! outline "Creating your contractors"
+!!! outline "<span class="mb-label mb-label-mist">Creating your contractors</span>"
 
     <span data-uuid="b0cf363b-f1e5-42ed-ac18-ce218d97bbac" style="display:none"></span>
-
-
     Easily add your contractors, their assigned type(s) and their contact information, making them quickly accessible across your organisation.
 
     <span data-uuid="6850c650-2331-4be1-ae5f-184521572d7b" style="display:none"></span>
@@ -87,11 +85,9 @@ Opus Contractor Management is designed for businesses that regularly engage cont
 
 <span data-uuid="7b5da763-207c-4804-b5cc-a423ba8b27af" style="display:none"></span>
 
-!!! outline "Manage your Contractors and their status"
+!!! outline "<span class="mb-label mb-label-mist">Manage your Contractors and their status</span>"
 
     <span data-uuid="3736bc78-ddae-460c-aafe-b5f136e6bbbc" style="display:none"></span>
-
-
     View and manage your contractors with ease using our colour-coded status indicators, which automatically update based on the state of the contractor's requirements.
 
     <span data-uuid="ffa95018-a5fc-43ee-b2f1-3d875e4a486f" style="display:none"></span>
@@ -104,11 +100,9 @@ Opus Contractor Management is designed for businesses that regularly engage cont
 
 <span data-uuid="1919e76e-3758-430e-9bc2-aeada4d370bb" style="display:none"></span>
 
-!!! outline "Manage your Projects and their status"
+!!! outline "<span class="mb-label mb-label-mist">Manage your Projects and their status</span>"
 
     <span data-uuid="f077060c-9517-4d5f-90a6-67af523e1856" style="display:none"></span>
-
-
     Just like with your contractors, projects have statuses too! Easily see the state of your project and see which requirements are still outstanding.
 
     <span data-uuid="c9be4d62-f1ae-434c-a04a-2da581dce925" style="display:none"></span>
