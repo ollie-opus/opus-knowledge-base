@@ -98,6 +98,13 @@ draft_nav = [
 # Managed by the more-buttons extension (Page settings -> Page visibility).
 # Zensical ignores this key, like draft_nav.
 unlisted_nav = [
+  {"Guides" = [
+    {"Getting Started" = [
+      {"Guidebooks" = [
+        {"Managing Opus Compliance Cloud" = "pages/managing-opus-compliance-cloud.md"}
+      ]}
+    ]}
+  ]}
 ]
 
 # ----------------------------------------------------------------------------
