@@ -23,6 +23,10 @@ For Site Managers, the Site Inbox is one of the most important tools for oversee
 ??? outline "How to get to the Site Inbox"
 
     <span data-uuid="6a921994-2142-4f7b-8fce-526e872e9351" style="display:none"></span>
+    The `Site Inbox` can be found when viewing any site in **View mode**.
+
+
+    From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard), click Pick Workspace and select the site whose inbox you want to view.
 
 <span data-uuid="1d2b0a06-6549-4750-ba34-000ab76476b3" style="display:none"></span>
 ![](../assets/media/occ-captures/sites/uuid/site-inbox-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
