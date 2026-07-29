@@ -128,7 +128,10 @@ As the `Site Inbox` only displays open, unassigned tasks, use `All Tasks` to vie
 ??? outline "Using All Tasks"
 
     <span data-uuid="ca329f91-57d5-4675-8755-6d47dab604b5" style="display:none"></span>
-    This page includes additional filtering and search tools to allow you to find the tasks you're looking for.
+    By default, `All Tasks` is sorted in the same way as all other task pages and inboxes - first by severity, then by age. This ensures that, when working from the top down, you are addressing the highest-priority tasks first.
+
+
+    This page also includes additional filtering and search tools to allow you to find the tasks you're looking for.
 
     <span data-uuid="7c332794-9614-489a-821f-a918cabe476a" style="display:none"></span>
     ![](../assets/media/occ-captures/sites/uuid/todos/demo-site-1-tasks-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
