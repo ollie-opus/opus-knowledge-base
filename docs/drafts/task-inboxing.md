@@ -32,6 +32,10 @@ For Site Managers, the Site Inbox is one of the most important tools for oversee
     ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
+??? outline "Using the Site Inbox"
+
+    <span data-uuid="f292fda9-e58b-4e15-95e8-6845390407bd" style="display:none"></span>
+
 <span data-uuid="1d2b0a06-6549-4750-ba34-000ab76476b3" style="display:none"></span>
 ![](../assets/media/occ-captures/sites/uuid/site-inbox-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
 ![](../assets/media/occ-captures/sites/uuid/site-inbox-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
