@@ -90,6 +90,8 @@ As a manager, you can assign tasks to others using the assignment feature. The a
 ## Task Labels
 <span data-uuid="9b470798-664c-459d-8fc8-189c16faa6d9" style="display:none"></span>
 
+Labels are a way of tagging tasks with information which can be used when searching / running reports on your tasks.
+
 ## Exporting Tasks
 <span data-uuid="b8b6bffe-006e-4fb7-b82b-e4502a2968c0" style="display:none"></span>
 
