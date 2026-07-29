@@ -12,7 +12,7 @@ Throughout Opus Compliance Cloud, tasks are displayed via inboxes/lists. This gu
 ## Site Inbox
 <span data-uuid="1d3c5ab0-5c03-4a59-83ba-6716a17ebf8d" style="display:none"></span>
 
-The `Site Inbox` can be found when viewing a site in **View mode** and displays all **open and unassigned** tasks for the site (including tasks relating to employees and assets located at the site).
+The `Site Inbox` displays all **open and unassigned** tasks for a site (including tasks relating to employees and assets located at the site).
 
 For Site Managers, the Site Inbox is one of the most important tools for overseeing day-to-day operations. Your goal is to keep the inbox clear by promptly reviewing each task and either:
 
