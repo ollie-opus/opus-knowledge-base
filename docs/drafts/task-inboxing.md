@@ -124,7 +124,7 @@ As the `Site Inbox` only displays open, unassigned tasks, use `All Tasks` to vie
 
 As well as `My Tasks`, there is a dedicated page called `My Assigned Tasks` that lists all tasks assigned to you across any site.
 
-!!! outline "How to get to My Assigned Tasks"
+??? outline "How to get to My Assigned Tasks"
 
     <span data-uuid="1ff0e541-df2f-40d4-8d80-caf08c532e20" style="display:none"></span>
     From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard) or any view mode page, click your profile icon in the top right and select `My Assigned Tasks`
