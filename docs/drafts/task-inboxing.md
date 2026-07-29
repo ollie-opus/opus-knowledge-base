@@ -39,6 +39,13 @@ The `Site Inbox` displays all **open and unassigned** tasks for a site (includin
     - assigning it to the appropriate person; or
     - ensuring the responsible employee completes it.
 
+    !!! tip
+
+        <span data-uuid="128cee3d-28ed-43d1-9e94-8c38074c2b4a" style="display:none"></span>
+
+
+        By default, tasks are displayed in **severity order**, with the most important tasks at the top. Work through the list **from top to bottom** so that high-priority tasks are addressed first.
+
 !!! tip
 
     <span data-uuid="5f810cae-dc15-4b30-9a1c-7affb4d51e05" style="display:none"></span>
