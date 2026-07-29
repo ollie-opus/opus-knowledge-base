@@ -90,6 +90,7 @@ The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It
 ## All Tasks
 <span data-uuid="5e36255e-320f-41cb-9929-77bba4a06f46" style="display:none"></span>
 
+As the `Site Inbox` only displays open, unassigned tasks, use `All Tasks` to view every task, including open and resolved, assigned and unassigned.
 
 ??? outline "How to get to All Tasks"
 
