@@ -91,7 +91,7 @@ The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It
 <span data-uuid="5e36255e-320f-41cb-9929-77bba4a06f46" style="display:none"></span>
 
 
-??? outline "How to get to All Tasks?"
+??? outline "How to get to All Tasks"
 
     <span data-uuid="c24a189b-9153-4710-9e78-d6952bfcd993" style="display:none"></span>
     You can get to the `All Tasks` page for a site by clicking the link at the top of the site inbox.
