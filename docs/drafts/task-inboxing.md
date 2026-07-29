@@ -126,7 +126,7 @@ The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It
 
 As well as `My Tasks`, there is a dedicated page called `My Assigned Tasks` that lists all tasks assigned to you across any site.
 
-!!! outline "Using My Assigned Tasks"
+!!! outline "What is My Assigned Tasks?"
 
     <span data-uuid="1c412477-0710-493a-9c13-12fcce01f36f" style="display:none"></span>
     By default, `My Assigned Tasks` is sorted in the same way as all other task pages and inboxes - first by severity, then by age. This ensures that, when working from the top down, you are addressing the highest-priority tasks first.
