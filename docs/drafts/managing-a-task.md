@@ -20,7 +20,7 @@ e.g.
 ## Editing the Task Title or Severity
 <span data-uuid="675d79b5-c279-4353-bd46-cf6ee47faff9" style="display:none"></span>
 
-As a manager, you can edit the title or the severity of an individual task following the below
+As a manager, you can edit the title or the severity of an individual task by following the below steps.
 
 !!! step
 
