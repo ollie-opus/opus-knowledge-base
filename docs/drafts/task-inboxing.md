@@ -28,6 +28,10 @@ For Site Managers, the Site Inbox is one of the most important tools for oversee
 
     From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard), click Pick Workspace and select the site whose inbox you want to view.
 
+    <span data-uuid="1cbcedd6-ad69-4a12-8c7e-1f240971e797" style="display:none"></span>
+    ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
 <span data-uuid="1d2b0a06-6549-4750-ba34-000ab76476b3" style="display:none"></span>
 ![](../assets/media/occ-captures/sites/uuid/site-inbox-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
 ![](../assets/media/occ-captures/sites/uuid/site-inbox-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
