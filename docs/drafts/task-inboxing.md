@@ -115,7 +115,7 @@ The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It
 ## My Tasks
 <span data-uuid="1c35aca4-2f03-44fc-a6c2-9998d3cadb7f" style="display:none"></span>
 
-My Tasks appears above the Site Inbox and lists all tasks assigned to you that belong to the site or any sites beneath it in the hierarchy.
+`My Tasks` appears above the Site Inbox and lists all tasks assigned to you that belong to the site or any sites beneath it in the hierarchy.
 
 <span data-uuid="c8d1fafa-07a4-4ae4-9a5a-e80953f901af" style="display:none"></span>
 ![](../assets/media/occ-captures/sites/uuid/my-tasks-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
