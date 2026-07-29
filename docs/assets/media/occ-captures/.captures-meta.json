@@ -191,5 +191,10 @@
   "docs/assets/media/occ-captures/sites/uuid/todos/demo-site-1-tasks-light-mode.png": {
     "resized": true,
     "padding": 20
+  },
+  "docs/assets/media/occ-captures/todos/uuid/labels-a-light-mode.png": {
+    "resized": true,
+    "padding": 5,
+    "annotated": true
   }
 }
