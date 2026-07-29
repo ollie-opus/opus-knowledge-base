@@ -92,6 +92,16 @@ As a manager, you can assign tasks to others using the assignment feature. The a
 
 Labels are a way of tagging tasks with information which can be used when searching / running reports on your tasks.
 
+??? example
+
+    <span data-uuid="a722dbb5-4ee9-445b-84ab-4d65de08d042" style="display:none"></span>
+    The incident report utilises labels such as:
+
+    - What type of incident is it? (e.g. <span class="mb-label mb-label-pink">injury</span> or <span class="mb-label mb-label-indigo">near miss</span>)
+    - What type of injury? (e.g. <span class="mb-label mb-label-grey">burn</span>, <span class="mb-label mb-label-grey">sprain</span>, <span class="mb-label mb-label-grey">cut</span>)
+    - Which body part(s) were injured? (e.g. <span class="mb-label mb-label-grey">hand</span>, <span class="mb-label mb-label-grey">head</span>, <span class="mb-label mb-label-grey">foot</span>)
+    These labels are **critical** for any kind of querying/reporting/analysis using features such as the **incident report**.
+
 ## Exporting Tasks
 <span data-uuid="b8b6bffe-006e-4fb7-b82b-e4502a2968c0" style="display:none"></span>
 
