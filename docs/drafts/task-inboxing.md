@@ -65,7 +65,7 @@ The `Site Inbox` displays all **open and unassigned** tasks for a site (includin
 ### Inbox Coach
 <span data-uuid="495e5035-2113-4c1d-9ac8-c5f4dfeadb35" style="display:none"></span>
 
-The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It provides an at-a-glance overview of the status of the tasks in your inbox, making it easy to see whether tasks are being completed effectively.
+The `Inbox Coach` is a visual indicator displayed at the top of the `Site Inbox`. It provides an at-a-glance overview of the status of the tasks in your inbox, making it easy to see whether tasks are being completed effectively.
 
 !!! outline "<span class="mb-label mb-label-green">Status: Green</span>"
 
