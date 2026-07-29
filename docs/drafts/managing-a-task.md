@@ -107,6 +107,10 @@ Labels are a way of tagging tasks with information which can be used when search
     <span data-uuid="bb96d9e2-4297-43dc-a35a-34c575114f1f" style="display:none"></span>
     Labels are often applied to tasks automatically based on the task's status or the answers provided. However, labels can also be added manually when required. To do this, use the Labels section on the task.
 
+    <span data-uuid="0a80ce15-beae-427d-8662-4c3381237bd6" style="display:none"></span>
+    ![](../assets/media/occ-captures/todos/uuid/labels-a-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/labels-a-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
+
 ## Exporting Tasks
 <span data-uuid="b8b6bffe-006e-4fb7-b82b-e4502a2968c0" style="display:none"></span>
 
