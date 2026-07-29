@@ -46,13 +46,6 @@ The `Site Inbox` displays all **open and unassigned** tasks for a site (includin
 
         By default, tasks are displayed in **severity order**, with the most important tasks at the top. Work through the list **from top to bottom** so that high-priority tasks are addressed first.
 
-!!! warning
-
-    <span data-uuid="038596ec-b7c9-453f-8ee4-555c615fe8fd" style="display:none"></span>
-
-
-    As a general rule, tasks should **not remain open and unassigned for more than two weeks**. If a task cannot be completed within that timeframe, assign it to yourself or another responsible employee so ownership is clear and progress can be tracked.
-
 ### My Tasks
 <span data-uuid="1c35aca4-2f03-44fc-a6c2-9998d3cadb7f" style="display:none"></span>
 
