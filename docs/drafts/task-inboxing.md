@@ -126,15 +126,6 @@ The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It
 
 As well as `My Tasks`, there is a dedicated page called `My Assigned Tasks` that lists all tasks assigned to you across any site.
 
-!!! outline "Getting to My Assigned Tasks"
-
-    <span data-uuid="1ff0e541-df2f-40d4-8d80-caf08c532e20" style="display:none"></span>
-    From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard) or any view mode page, click your profile icon in the top right and select `My Assigned Tasks`
-
-    <span data-uuid="0ac4a63f-b2ce-4fa6-b15b-4dc15cb87635" style="display:none"></span>
-    ![](../assets/media/occ-captures/dashboard/my-assigned-tasks-a-z-light-mode.png#only-light){ style="border-radius: 8px" width="200" loading=lazy }
-    ![](../assets/media/occ-captures/dashboard/my-assigned-tasks-a-z-dark-mode.png#only-dark){ style="border-radius: 8px" width="200" loading=lazy }
-
 !!! outline "Using My Assigned Tasks"
 
     <span data-uuid="1c412477-0710-493a-9c13-12fcce01f36f" style="display:none"></span>
@@ -143,3 +134,12 @@ As well as `My Tasks`, there is a dedicated page called `My Assigned Tasks` that
     <span data-uuid="63d83668-bc51-40b0-8fc0-90763580e9a3" style="display:none"></span>
     ![](../assets/media/occ-captures/my/todos/my-assigned-tasks-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
     ![](../assets/media/occ-captures/my/todos/my-assigned-tasks-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
+!!! outline "Getting to My Assigned Tasks"
+
+    <span data-uuid="1ff0e541-df2f-40d4-8d80-caf08c532e20" style="display:none"></span>
+    From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard) or any view mode page, click your profile icon in the top right and select `My Assigned Tasks`
+
+    <span data-uuid="0ac4a63f-b2ce-4fa6-b15b-4dc15cb87635" style="display:none"></span>
+    ![](../assets/media/occ-captures/dashboard/my-assigned-tasks-a-z-light-mode.png#only-light){ style="border-radius: 8px" width="200" loading=lazy }
+    ![](../assets/media/occ-captures/dashboard/my-assigned-tasks-a-z-dark-mode.png#only-dark){ style="border-radius: 8px" width="200" loading=lazy }
