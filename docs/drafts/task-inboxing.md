@@ -46,13 +46,6 @@ The `Site Inbox` displays all **open and unassigned** tasks for a site (includin
 
         By default, tasks are displayed in **severity order**, with the most important tasks at the top. Work through the list **from top to bottom** so that high-priority tasks are addressed first.
 
-!!! tip
-
-    <span data-uuid="5f810cae-dc15-4b30-9a1c-7affb4d51e05" style="display:none"></span>
-
-
-    By default, tasks are displayed in **severity order**, with the most important tasks at the top. Work through the list **from top to bottom** so that high-priority tasks are addressed first.
-
 !!! warning
 
     <span data-uuid="038596ec-b7c9-453f-8ee4-555c615fe8fd" style="display:none"></span>
