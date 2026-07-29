@@ -29,6 +29,11 @@ The `Site Inbox` displays all **open and unassigned** tasks for a site (includin
 ??? outline "Using the Site Inbox"
 
     <span data-uuid="f292fda9-e58b-4e15-95e8-6845390407bd" style="display:none"></span>
+    For Site Managers, the `Site Inbox` is one of the most important tools for overseeing day-to-day operations. Your goal is to keep the inbox clear by promptly reviewing each task and either:
+
+    - completing it yourself;
+    - assigning it to the appropriate person; or
+    - ensuring the responsible employee completes it.
 
 <span data-uuid="1d2b0a06-6549-4750-ba34-000ab76476b3" style="display:none"></span>
 ![](../assets/media/occ-captures/sites/uuid/site-inbox-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
