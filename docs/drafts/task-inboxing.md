@@ -38,6 +38,15 @@ For Site Managers, the Site Inbox is one of the most important tools for oversee
 
     As a general rule, tasks should **not remain open and unassigned for more than two weeks**. If a task cannot be completed within that timeframe, assign it to yourself or another responsible employee so ownership is clear and progress can be tracked.
 
+### My Tasks
+<span data-uuid="1c35aca4-2f03-44fc-a6c2-9998d3cadb7f" style="display:none"></span>
+
+`My Tasks` appears above the Site Inbox and lists all tasks assigned to you that belong to the site or any sites beneath it in the hierarchy.
+
+<span data-uuid="c8d1fafa-07a4-4ae4-9a5a-e80953f901af" style="display:none"></span>
+![](../assets/media/occ-captures/sites/uuid/my-tasks-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+![](../assets/media/occ-captures/sites/uuid/my-tasks-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 ### Inbox Coach
 <span data-uuid="495e5035-2113-4c1d-9ac8-c5f4dfeadb35" style="display:none"></span>
 
@@ -109,15 +118,6 @@ As the `Site Inbox` only displays open, unassigned tasks, use `All Tasks` to vie
     <span data-uuid="7c332794-9614-489a-821f-a918cabe476a" style="display:none"></span>
     ![](../assets/media/occ-captures/sites/uuid/todos/demo-site-1-tasks-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
     ![](../assets/media/occ-captures/sites/uuid/todos/demo-site-1-tasks-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
-
-## My Tasks
-<span data-uuid="1c35aca4-2f03-44fc-a6c2-9998d3cadb7f" style="display:none"></span>
-
-`My Tasks` appears above the Site Inbox and lists all tasks assigned to you that belong to the site or any sites beneath it in the hierarchy.
-
-<span data-uuid="c8d1fafa-07a4-4ae4-9a5a-e80953f901af" style="display:none"></span>
-![](../assets/media/occ-captures/sites/uuid/my-tasks-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-![](../assets/media/occ-captures/sites/uuid/my-tasks-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
 ## My Assigned Tasks
 <span data-uuid="599dd13e-64e8-41a8-b673-13abf2a83106" style="display:none"></span>
