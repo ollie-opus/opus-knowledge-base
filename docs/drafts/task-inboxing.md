@@ -91,6 +91,15 @@ The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It
 <span data-uuid="5e36255e-320f-41cb-9929-77bba4a06f46" style="display:none"></span>
 
 
+??? outline "How to get to All Tasks?"
+
+    <span data-uuid="c24a189b-9153-4710-9e78-d6952bfcd993" style="display:none"></span>
+    You can get to the `All Tasks` page for a site by clicking the link at the top of the site inbox.
+
+    <span data-uuid="4cf47e0a-1709-41e7-8005-6405a1fd00ec" style="display:none"></span>
+    ![](../assets/media/occ-captures/sites/uuid/site-inbox-a-z-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/sites/uuid/site-inbox-a-z-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 ??? outline "What is All Tasks?"
 
     <span data-uuid="ca329f91-57d5-4675-8755-6d47dab604b5" style="display:none"></span>
@@ -102,15 +111,6 @@ The Inbox Coach is a visual indicator displayed at the top of the Site Inbox. It
     <span data-uuid="7c332794-9614-489a-821f-a918cabe476a" style="display:none"></span>
     ![](../assets/media/occ-captures/sites/uuid/todos/demo-site-1-tasks-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
     ![](../assets/media/occ-captures/sites/uuid/todos/demo-site-1-tasks-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
-
-??? outline "How to get to All Tasks?"
-
-    <span data-uuid="c24a189b-9153-4710-9e78-d6952bfcd993" style="display:none"></span>
-    You can get to the `All Tasks` page for a site by clicking the link at the top of the site inbox.
-
-    <span data-uuid="4cf47e0a-1709-41e7-8005-6405a1fd00ec" style="display:none"></span>
-    ![](../assets/media/occ-captures/sites/uuid/site-inbox-a-z-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-    ![](../assets/media/occ-captures/sites/uuid/site-inbox-a-z-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
 ## My Tasks
 <span data-uuid="1c35aca4-2f03-44fc-a6c2-9998d3cadb7f" style="display:none"></span>
