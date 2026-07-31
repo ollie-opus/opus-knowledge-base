@@ -41,9 +41,11 @@ During this meeting, the following topics will be discussed:
     <span data-uuid="aa311790-38e0-4cf0-86ee-caaa78a34b7c" style="display:none"></span>
     We initially work with you to help define your site(s) on Opus Compliance Cloud. If your organisation operates across multiple locations, we will work with you to map out a clear system hierarchy (such as parent sites, sub-sites, and individual locations) to keep everything perfectly organised.
 
-??? step "<span class="meta">Site Setup</span>"
+??? step "<span class="meta">Defining Roles</span>"
 
     <span data-uuid="dc9fa424-6443-4e80-9b07-fa71be1df2b4" style="display:none"></span>
+    In the system, `Roles` are not exact job titles. Instead, they are broader categories that group employees together based on their common health and safety requirements. For example, anyone who works exclusively at a desk might simply have the role of `Office`.
 
+    To keep things manageable, we recommend creating between 3 to 8 broad roles, unless you have highly complex requirements. 
 
-    We initially work with you to help define your site(s) on Opus Compliance Cloud. If your organisation operates across multiple locations, we will work with you to map out a clear system hierarchy (such as parent sites, sub-sites, and individual locations) to keep everything perfectly organised.
+    Employees can be assigned multiple roles, including supplementary ones like `+Fire Marshal` or `+Company Car Driver`.
