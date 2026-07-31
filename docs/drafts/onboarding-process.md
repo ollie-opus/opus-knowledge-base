@@ -69,3 +69,8 @@ During this meeting, the following topics will be discussed:
     - <span class="mb-label mb-label-lime">Checklists</span> e.g. Health Surveillance or DSE assessments
     - <span class="mb-label mb-label-violet">Playbooks</span> e.g. New Starter Induction
     - <span class="mb-label mb-label-blue">Documents</span> e.g. New Starter Form
+
+    !!! info "Don't worry!"
+
+        <span data-uuid="8c16aadb-ba83-42ca-9b9f-c4b6e43e2a42" style="display:none"></span>
+        The decisions you make at this stage can be easily edited / amended within the system after your roles have been set up.
