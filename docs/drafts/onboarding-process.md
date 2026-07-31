@@ -114,6 +114,11 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 
     For our managed clients, this is also where Opus will safely store your risk assessments and other compliance documents.
 
+    !!! info
+
+        <span data-uuid="424e922c-ba39-4748-8c6b-46acf8ff64fa" style="display:none"></span>
+        During this phase, your Onboarding Lead will create a site poster for each of your sites and upload it to the Site Documents area. You can then download, print and display these posters, giving employees quick access to site documentation, incident reporting and other key features directly from their mobile devices.
+
 ## Phase 3
 <span data-uuid="250f3efe-e456-4d78-9a42-00e10037a13e" style="display:none"></span>
 
