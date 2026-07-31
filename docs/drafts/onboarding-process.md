@@ -55,7 +55,7 @@ During this meeting, the following topics will be discussed:
         <span data-uuid="04c1fb19-457e-42bb-912c-c3ad8c6d7039" style="display:none"></span>
         If you are signed up to our HR offering, ensure you include a `Manager` role (or manager variants of your standard roles), as certain HR E-learning courses are designed specifically for managers.
 
-??? outline "<span class="mb-label mb-label-slate">Step 3</span> Configuring Roles"
+??? outline "<span class="mb-label mb-label-slate">Step 3: Configuring Roles</span>"
 
     <span data-uuid="ced12b37-5b0f-44b1-a344-dabf8e6a1745" style="display:none"></span>
     *Your consultant can support you with this stage of the process.*
