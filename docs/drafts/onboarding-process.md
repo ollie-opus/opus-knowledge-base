@@ -41,7 +41,7 @@ During this meeting, the following topics will be discussed:
     <span data-uuid="aa311790-38e0-4cf0-86ee-caaa78a34b7c" style="display:none"></span>
     We initially work with you to help define your site(s) on Opus Compliance Cloud. If your organisation operates across multiple locations, we will work with you to map out a clear system hierarchy (such as parent sites, sub-sites, and individual locations) to keep everything perfectly organised.
 
-??? outline "<span class="mb-label mb-label-slate">Step 2</span> Defining Roles"
+??? outline "<span class="mb-label mb-label-slate">Step 2: Defining Roles</span>"
 
     <span data-uuid="dc9fa424-6443-4e80-9b07-fa71be1df2b4" style="display:none"></span>
     In the system, `Roles` are not exact job titles. Instead, they are broader categories that group employees together based on their common health and safety requirements. For example, anyone who works exclusively at a desk might simply have the role of `Office`.
