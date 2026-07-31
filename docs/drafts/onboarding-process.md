@@ -117,6 +117,22 @@ During this meeting, you will be provided with a link to a series of spreadsheet
         <span data-uuid="424e922c-ba39-4748-8c6b-46acf8ff64fa" style="display:none"></span>
         During this phase, your Onboarding Lead will create a `QR poster` for each of your sites and upload it to the Site Documents area. Once available, you can then download, print and display these posters, giving employees quick access to site documentation, incident reporting and other key features directly from their mobile devices.
 
+??? outline "<span class="mb-label mb-label-slate">Step 3: Choosing Additional Report Types</span>"
+
+    <span data-uuid="913d487c-5449-45ad-9ce5-e532fc38b74e" style="display:none"></span>
+
+
+    This is where you can store important files that need to be accessible to employees at your specific sites.
+
+    For our managed clients, this is also where Opus will safely store your risk assessments and other compliance documents.
+
+    !!! info
+
+        <span data-uuid="f933c8c7-e331-4fdf-8080-61ec863b098f" style="display:none"></span>
+
+
+        During this phase, your Onboarding Lead will create a `QR poster` for each of your sites and upload it to the Site Documents area. Once available, you can then download, print and display these posters, giving employees quick access to site documentation, incident reporting and other key features directly from their mobile devices.
+
 ## Phase 3
 <span data-uuid="250f3efe-e456-4d78-9a42-00e10037a13e" style="display:none"></span>
 
