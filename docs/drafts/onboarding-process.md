@@ -21,3 +21,8 @@ To keep the setup process from feeling overwhelming, we divide your OCC set up i
 Your dedicated onboarding lead together with your consultant will lead the way and guide you through each phase, but this guide gives you a quick overview of what to expect as we get you up and running.
 
 We recommend working through each phase in order with us -  rushing this can lead to things being set up in the wrong place and extra rework down the line!
+
+!!! info "Timelines"
+
+    <span data-uuid="902ce87e-b6e8-47b7-9e0a-78a558384e27" style="display:none"></span>
+    The setup will require a number of online meetings with your OCC contact.  We typically aim to complete this entire process in around **four to six weeks**. To help us hit this target and avoid losing momentum, we rely on your prompt input and collaboration.
