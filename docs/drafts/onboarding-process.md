@@ -138,16 +138,9 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 
 <span class="mb-label mb-label-lime">Assets & Type Requirements</span>
 
-??? outline "<span class="mb-label mb-label-slate">Step 2: Defining Roles</span>"
+??? outline "<span class="mb-label mb-label-slate">Step 1: Defining Asset Types</span>"
 
     <span data-uuid="0d6dd5c4-837f-407b-bb5b-0d65ce3d8bd4" style="display:none"></span>
-
-
-    In the system, `Roles` are not exact job titles. Instead, they are broader categories that group employees together based on their common health and safety requirements. For example, anyone who works exclusively at a desk might simply have the role of `Office`.
-
-    To keep things manageable, we recommend creating between 3 to 8 broad roles, unless you have highly complex requirements. 
-
-    Employees can be assigned multiple roles, including supplementary ones like `+Fire Marshal` or `+Company Car Driver`.
 
     !!! note
 
