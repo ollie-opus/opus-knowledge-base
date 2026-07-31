@@ -88,7 +88,7 @@ During this meeting, the following topics will be discussed:
     - `Assigned Role(s)` - As mentioned previously, an employee can have multiple roles.
     - `Primary Site/Location`
     - `Access Level`
-        - <span class="mb-label mb-label-sky">User</span>: The minimum level of access, suitable for standard employees. Users can access [My Dashboard](https://cloud.opus-safety.co.uk/dashboard) to complete their own tasks (such as e-learning) and has limited access to the site inbox.
+        - <span class="mb-label mb-label-sky">User</span>: The minimum level of access - suitable for standard employees. Users can access [My Dashboard](https://cloud.opus-safety.co.uk/dashboard) to complete their own tasks (such as e-learning) and has limited access to the site inbox.
         - <span class="mb-label mb-label-violet">Manager</span>: Includes all <span class="mb-label mb-label-sky">User</span> permissions, plus the ability to manage sites, assets, employees and view confidential tasks such as incidents.
         - <span class="mb-label mb-label-fuchsia">Administrator</span>: Includes all <span class="mb-label mb-label-violet">Manager</span> permissions, plus access to configure more advanced settings that have wider impact on your organisation as a whole.
     - `Sensitive Data Access` - Only applicable for managers/administrators. Should this employee have the ability to access sensitive health data about the employees they manage (such as Health Surveillance corrective actions).
