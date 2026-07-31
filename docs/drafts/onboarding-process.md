@@ -120,11 +120,18 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 ??? outline "<span class="mb-label mb-label-slate">Step 3: Choosing Additional Report Types</span>"
 
     <span data-uuid="913d487c-5449-45ad-9ce5-e532fc38b74e" style="display:none"></span>
+    We will configure your system with a standard set of default templates so your team can easily log events and observations. The default templates include:
 
+    - Report an incident (accident / near-miss)
+    - Log enforcement officer visit
+    - Employee intervention
+    - Log a contractor on site
+    - Report a safety observation
+    - Log a road traffic incident
+    - Create an action
+    - Something else
 
-    This is where you can store important files that need to be accessible to employees at your specific sites.
-
-    For our managed clients, this is also where Opus will safely store your risk assessments and other compliance documents.
+    There are other reports templates available, such as Report Spillage. You can find more details on these here: [Kinds of reportable tasks](kinds-of-reportable-tasks.md)
 
     !!! info
 
