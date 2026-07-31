@@ -176,6 +176,15 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 
 <span class="mb-label mb-label-emerald">Post Setup Support</span>
 
+This phase is focused on helping you get the most from the work completed during onboarding. The aim is to ensure that:
+
+- You, as your organisation's power user, are confident and comfortable using Opus Compliance Cloud as an administrator.
+- Other managers within your organisation understand how to fulfil their responsibilities using Opus Compliance Cloud.
+- Encouraging strong engagement with Opus Compliance Cloud to ensure work is being completed consistently and effectively.
+- Any additional configuration required to support your organisation's processes is identified and completed.
+
+We're committed to helping you get the most out of Opus Compliance Cloud. That's why we offer unlimited remote training sessions and ongoing support for you and your team, whenever you need it.
+
 ## Onboarding Complete
 <span data-uuid="6cba42a7-4935-45b2-b84b-6323bef9e2ec" style="display:none"></span>
 
