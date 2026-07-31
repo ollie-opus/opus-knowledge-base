@@ -98,7 +98,7 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 ## Phase 2
 <span data-uuid="bca2d224-afbb-4ce2-a285-5119007da1a5" style="display:none"></span>
 
-<span class="mb-label mb-label-yellow">Site Configuration Site Checklists, Documents & Report Types</span>
+<span class="mb-label mb-label-yellow">Site Configuration, Site Checklists, Documents & Report Types</span>
 
 ??? outline "<span class="mb-label mb-label-slate">Step 1: Adding Site Checklists</span>"
 
