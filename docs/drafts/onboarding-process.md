@@ -94,3 +94,6 @@ During this meeting, you will be provided with a link to a series of spreadsheet
         - <span class="mb-label mb-label-violet">Manager</span>: Includes all <span class="mb-label mb-label-sky">User</span> permissions, plus the ability to manage sites, assets, employees and view confidential tasks such as incidents.
         - <span class="mb-label mb-label-fuchsia">Administrator</span>: Includes all <span class="mb-label mb-label-violet">Manager</span> permissions, plus access to configure more advanced settings that have wider impact on your organisation as a whole.
     - `Sensitive Data Access` - Only applicable for managers/administrators. Should this employee have the ability to access sensitive health data about the employees they manage (such as Health Surveillance corrective actions).
+
+## Phase 2
+<span data-uuid="bca2d224-afbb-4ce2-a285-5119007da1a5" style="display:none"></span>
