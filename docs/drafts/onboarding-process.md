@@ -54,3 +54,21 @@ During this meeting, the following topics will be discussed:
 
         <span data-uuid="04c1fb19-457e-42bb-912c-c3ad8c6d7039" style="display:none"></span>
         If you are signed up to our HR offering, ensure you include a `Manager` role (or manager variants of your standard roles), as certain HR E-learning courses are designed specifically for managers.
+
+??? outline "<span class="mb-label mb-label-slate">Step 3</span> Configuring Roles"
+
+    <span data-uuid="ced12b37-5b0f-44b1-a344-dabf8e6a1745" style="display:none"></span>
+
+
+    In the system, `Roles` are not exact job titles. Instead, they are broader categories that group employees together based on their common health and safety requirements. For example, anyone who works exclusively at a desk might simply have the role of `Office`.
+
+    To keep things manageable, we recommend creating between 3 to 8 broad roles, unless you have highly complex requirements. 
+
+    Employees can be assigned multiple roles, including supplementary ones like `+Fire Marshal` or `+Company Car Driver`.
+
+    !!! note
+
+        <span data-uuid="c67d1e4e-e071-46ea-9b94-bbe1b37f4548" style="display:none"></span>
+
+
+        If you are signed up to our HR offering, ensure you include a `Manager` role (or manager variants of your standard roles), as certain HR E-learning courses are designed specifically for managers.
