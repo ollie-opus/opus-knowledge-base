@@ -133,13 +133,6 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 
     There are other reports templates available, such as Report Spillage. You can find more details on these here: [Kinds of reportable tasks](kinds-of-reportable-tasks.md)
 
-    !!! info
-
-        <span data-uuid="f933c8c7-e331-4fdf-8080-61ec863b098f" style="display:none"></span>
-
-
-        During this phase, your Onboarding Lead will create a `QR poster` for each of your sites and upload it to the Site Documents area. Once available, you can then download, print and display these posters, giving employees quick access to site documentation, incident reporting and other key features directly from their mobile devices.
-
 ## Phase 3
 <span data-uuid="250f3efe-e456-4d78-9a42-00e10037a13e" style="display:none"></span>
 
