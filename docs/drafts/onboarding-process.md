@@ -58,13 +58,17 @@ During this meeting, the following topics will be discussed:
 ??? outline "<span class="mb-label mb-label-slate">Step 3</span> Configuring Roles"
 
     <span data-uuid="ced12b37-5b0f-44b1-a344-dabf8e6a1745" style="display:none"></span>
+    *Your consultant can support you with this stage of the process.*
 
+    At this stage, you'll have the opportunity to choose which of our requirements - such as e-learning courses and employee checklists - you would like to assign to your defined roles. You can also discuss any custom requirements you would like us to create, such as additional training or document requirements specific to your organisation.
 
-    In the system, `Roles` are not exact job titles. Instead, they are broader categories that group employees together based on their common health and safety requirements. For example, anyone who works exclusively at a desk might simply have the role of `Office`.
+    Don't worry the decisions you make at this stage can be easily edited / amended within the system after your roles have been set up.
 
-    To keep things manageable, we recommend creating between 3 to 8 broad roles, unless you have highly complex requirements. 
-
-    Employees can be assigned multiple roles, including supplementary ones like `+Fire Marshal` or `+Company Car Driver`.
+    - <span class="mb-label mb-label-amber">Training</span> e.g. First Aid at Work
+    - <span class="mb-label mb-label-teal">E-learning</span> e.g. Fire Safety Awareness
+    - <span class="mb-label mb-label-lime">Checklists</span> e.g. Health Surveillance or DSE assessments
+    - <span class="mb-label mb-label-violet">Playbooks</span> e.g. New Starter Induction
+    - <span class="mb-label mb-label-blue">Documents</span> e.g. New Starter Form
 
     !!! note
 
