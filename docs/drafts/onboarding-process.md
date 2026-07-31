@@ -80,7 +80,7 @@ During this meeting, the following topics will be discussed:
     <span data-uuid="773e83f5-40d4-482d-ae62-38b0c3d0a931" style="display:none"></span>
     To get your team onto the system, Opus can perform a bulk upload, or you can add employees manually. Moving forward, it will be your responsibility to keep this staff list up to date.
 
-    To complete the initial bulk upload, your OCC contact will provide a link to a spreadsheet for you to fill out with the following details for each employee:
+    To complete the initial bulk upload, your Onboarding Lead will provide a link to a spreadsheet for you to fill out with the following details for each employee:
 
     - `Full Name`
     - `Assigned Role(s)` - As mentioned previously, an employee can have multiple roles.
