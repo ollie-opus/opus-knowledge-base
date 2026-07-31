@@ -22,10 +22,12 @@ Your dedicated onboarding lead together with your consultant will lead the way a
 
 We recommend working through each phase in order with us -  rushing this can lead to things being set up in the wrong place and extra rework down the line!
 
-!!! info "Timelines"
+!!! info "Timelines and Contact"
 
     <span data-uuid="902ce87e-b6e8-47b7-9e0a-78a558384e27" style="display:none"></span>
-    The setup will require a number of online meetings with your OCC contact.  We typically aim to complete this entire process in around **four to six weeks**. To help us hit this target and avoid losing momentum, we rely on your prompt input and collaboration.
+    The setup will require a number of online meetings with your Consultant & Onboarding Lead. We typically aim to complete this entire process in around **four to six weeks**. To help us hit this target and avoid losing momentum, we rely on your prompt input and collaboration.
+
+    Your Onboarding Lead will also aim to keep in contact with you at least once every 2 weeks until onboarding has completed.
 
 ## Phase 1
 <span data-uuid="57f9f193-6a66-485d-9acb-dcdd665c2b8a" style="display:none"></span>
