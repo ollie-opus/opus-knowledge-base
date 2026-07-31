@@ -75,22 +75,21 @@ During this meeting, the following topics will be discussed:
         <span data-uuid="8c16aadb-ba83-42ca-9b9f-c4b6e43e2a42" style="display:none"></span>
         The decisions you make at this stage can be easily edited / amended within the system after your roles have been set up.
 
-??? outline "<span class="mb-label mb-label-slate">Step 3: Configuring Roles</span>"
+??? outline "<span class="mb-label mb-label-slate">Step 3: Uploading Staff</span>"
 
     <span data-uuid="773e83f5-40d4-482d-ae62-38b0c3d0a931" style="display:none"></span>
+    To get your team onto the system, Opus can perform a bulk upload, or you can add employees manually. Moving forward, it will be your responsibility to keep this staff list up to date.
 
+    To complete the initial bulk upload, your OCC contact will provide a link to a spreadsheet for you to fill out with the following details for each employee:
 
-    *Your consultant can support you with this stage of the process.*
-
-    At this stage, you'll have the opportunity to choose which of our requirements - such as e-learning courses and employee checklists - you would like to assign to your defined roles. You can also discuss any custom requirements you would like us to create, such as additional training or document requirements specific to your organisation.
-
-    **Below are the kinds of requirements that can be added to a role:**
-
-    - <span class="mb-label mb-label-amber">Training</span> e.g. First Aid at Work
-    - <span class="mb-label mb-label-teal">E-learning</span> e.g. Fire Safety Awareness
-    - <span class="mb-label mb-label-lime">Checklists</span> e.g. Health Surveillance or DSE assessments
-    - <span class="mb-label mb-label-violet">Playbooks</span> e.g. New Starter Induction
-    - <span class="mb-label mb-label-blue">Documents</span> e.g. New Starter Form
+    - `Full Name`
+    - `Assigned Role(s)` - As mentioned previously, an employee can have multiple roles.
+    - `Primary Site/Location`
+    - `Access Level`
+        - <span class="mb-label mb-label-sky">User</span>: The minimum level of access, suitable for standard employees. Users can access [My Dashboard](https://cloud.opus-safety.co.uk/dashboard) to complete their own tasks (such as e-learning) and has limited access to the site inbox.
+        - <span class="mb-label mb-label-violet">Manager</span>: Includes all <span class="mb-label mb-label-sky">User</span> permissions, plus the ability to manage sites, assets, employees and view confidential tasks such as incidents.
+        - <span class="mb-label mb-label-fuchsia">Administrator</span>: Includes all <span class="mb-label mb-label-violet">Manager</span> permissions, plus access to configure more advanced settings that have wider impact on your organisation as a whole.
+    - `Sensitive Data Access` - Only applicable for managers/administrators. Should this employee have the ability to access sensitive health data about the employees they manage (such as Health Surveillance corrective actions).
 
     !!! tip "Don't worry!"
 
