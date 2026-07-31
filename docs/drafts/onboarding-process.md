@@ -113,4 +113,4 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 ## Onboarding Complete
 <span data-uuid="6cba42a7-4935-45b2-b84b-6323bef9e2ec" style="display:none"></span>
 
-Onboarding is complete, but <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">support will always be available</a> to help you maintain your Opus Compliance Cloud setup.
+Your onboarding is now complete, but <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">our support team will remain on hand</a> to help you maintain your setup on Opus Compliance Cloud.
