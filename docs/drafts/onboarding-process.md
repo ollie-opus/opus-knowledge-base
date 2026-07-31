@@ -62,7 +62,7 @@ During this meeting, the following topics will be discussed:
 
     At this stage, you'll have the opportunity to choose which of our requirements - such as e-learning courses and employee checklists - you would like to assign to your defined roles. You can also discuss any custom requirements you would like us to create, such as additional training or document requirements specific to your organisation.
 
-    Don't worry the decisions you make at this stage can be easily edited / amended within the system after your roles have been set up.
+    **Below are the kinds of requirements that can be added to a role:**
 
     - <span class="mb-label mb-label-amber">Training</span> e.g. First Aid at Work
     - <span class="mb-label mb-label-teal">E-learning</span> e.g. Fire Safety Awareness
