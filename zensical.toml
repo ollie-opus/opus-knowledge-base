@@ -38,7 +38,8 @@ nav = [
   {"Home" = "index.md"},
   {"Guides" = [
     {"Getting started" = [
-      {"Overview" = "pages/overview.md"}
+      {"Overview" = "pages/overview.md"},
+      {"The Onboarding Process" = "pages/onboarding-process.md"}
     ]},
     {"Tasks" = [
       {"Types of task" = "pages/types-of-task.md"},
@@ -88,8 +89,7 @@ draft_nav = [
     {"Getting Started" = [
       {"Guidebooks" = [
         {"Managing Opus Compliance Cloud" = "drafts/managing-opus-compliance-cloud.md"}
-      ]},
-      {"The Onboarding Process" = "drafts/onboarding-process.md"}
+      ]}
     ]}
   ]}
 ]
