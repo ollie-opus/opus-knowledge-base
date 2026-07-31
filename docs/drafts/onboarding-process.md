@@ -146,6 +146,10 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 
     <span data-uuid="6ebc861a-5943-415c-8b2a-73f13205c9eb" style="display:none"></span>
 
+??? outline "<span class="mb-label mb-label-slate">Step 3: Adding your Assets</span>"
+
+    <span data-uuid="4e3aea26-2ec4-4352-8774-2b31a8c14876" style="display:none"></span>
+
 ## Phase 4
 <span data-uuid="63bad30b-133e-4a98-a2a6-3f35697d3816" style="display:none"></span>
 
