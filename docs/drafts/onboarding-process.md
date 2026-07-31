@@ -34,7 +34,7 @@ We recommend working through each phase in order with us -  rushing this can lea
 
 <span class="mb-label mb-label-orange">Sites, Employees & Role Requirements</span>
 
-Your Health and Safety Consultant, together with an Onboarding Lead from the software team, will contact you to arrange an initial meeting to begin <span class="mb-label mb-label-orange">Phase 1</span>.
+Your Health and Safety Consultant, together with an Onboarding Lead from the software team, will contact you to arrange an initial meeting to begin Phase 1.
 
 During this meeting, you will be provided with a link to a series of spreadsheets. These will help you input the information we need to support your initial system setup.
 
