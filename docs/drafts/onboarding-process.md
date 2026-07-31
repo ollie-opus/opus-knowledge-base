@@ -36,7 +36,9 @@ We recommend working through each phase in order with us -  rushing this can lea
 
 Your Health and Safety Consultant, together with an Onboarding Lead from the software team, will contact you to arrange an initial meeting to begin <span class="mb-label mb-label-orange">Phase 1</span>.
 
-During this meeting, the following topics will be discussed:
+During this meeting, you will be provided with a link to a series of spreadsheets. These will help you input the information we need to support your initial system setup.
+
+**The spreadsheets cover the following areas:**
 
 ??? outline "<span class="mb-label mb-label-slate">Step 1: Site Setup</span>"
 
