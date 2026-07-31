@@ -123,15 +123,17 @@ During this meeting, you will be provided with a link to a series of spreadsheet
     We will configure your system with a standard set of default templates so your team can easily log events and observations. The default templates include:
 
     - Report an incident (accident / near-miss)
+    - Report a safety observation
+    - Create an action
+
+    With additional available templates such as:
+
     - Log enforcement officer visit
     - Employee intervention
     - Log a contractor on site
-    - Report a safety observation
     - Log a road traffic incident
-    - Create an action
-    - Something else
-
-    There are other reports templates available, such as Report Spillage. You can find more details on these here: [Kinds of reportable tasks](kinds-of-reportable-tasks.md)
+    - Report a Spillage
+    - and many more ... [see all of our available report types here](kinds-of-reportable-tasks.md)
 
 ## Phase 3
 <span data-uuid="250f3efe-e456-4d78-9a42-00e10037a13e" style="display:none"></span>
