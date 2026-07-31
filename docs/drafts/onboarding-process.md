@@ -167,7 +167,7 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 ??? outline "<span class="mb-label mb-label-slate">Step 3: Adding your Assets</span>"
 
     <span data-uuid="4e3aea26-2ec4-4352-8774-2b31a8c14876" style="display:none"></span>
-    Once the asset types and requirements have been setup, you are now free to start creating your assets on the system. [See our guide here for adding assets](/pages/adding-an-asset.md).
+    Once the asset types and requirements have been setup, you are now free to start creating your assets on the system. [See our guide here for adding assets](adding-an-asset.md).
 
     Moving forward, it will be your responsibility to keep your asset list up to date.
 
