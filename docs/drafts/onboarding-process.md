@@ -142,6 +142,10 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 
     <span data-uuid="0d6dd5c4-837f-407b-bb5b-0d65ce3d8bd4" style="display:none"></span>
 
+??? outline "<span class="mb-label mb-label-slate">Step 2: Configuring Asset Type Requirements</span>"
+
+    <span data-uuid="6ebc861a-5943-415c-8b2a-73f13205c9eb" style="display:none"></span>
+
 ## Phase 4
 <span data-uuid="63bad30b-133e-4a98-a2a6-3f35697d3816" style="display:none"></span>
 
