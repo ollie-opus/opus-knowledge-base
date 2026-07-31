@@ -138,6 +138,24 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 
 <span class="mb-label mb-label-lime">Assets & Type Requirements</span>
 
+??? outline "<span class="mb-label mb-label-slate">Step 2: Defining Roles</span>"
+
+    <span data-uuid="0d6dd5c4-837f-407b-bb5b-0d65ce3d8bd4" style="display:none"></span>
+
+
+    In the system, `Roles` are not exact job titles. Instead, they are broader categories that group employees together based on their common health and safety requirements. For example, anyone who works exclusively at a desk might simply have the role of `Office`.
+
+    To keep things manageable, we recommend creating between 3 to 8 broad roles, unless you have highly complex requirements. 
+
+    Employees can be assigned multiple roles, including supplementary ones like `+Fire Marshal` or `+Company Car Driver`.
+
+    !!! note
+
+        <span data-uuid="29fb1cef-5acc-41bc-a545-81816a3e1c53" style="display:none"></span>
+
+
+        If you are signed up to our HR offering, ensure you include a `Manager` role (or manager variants of your standard roles), as certain HR E-learning courses are designed specifically for managers.
+
 ## Phase 4
 <span data-uuid="63bad30b-133e-4a98-a2a6-3f35697d3816" style="display:none"></span>
 
