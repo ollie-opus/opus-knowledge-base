@@ -152,6 +152,17 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 ??? outline "<span class="mb-label mb-label-slate">Step 2: Configuring Asset Type Requirements</span>"
 
     <span data-uuid="6ebc861a-5943-415c-8b2a-73f13205c9eb" style="display:none"></span>
+    Once you've defined your asset types, it's time to think about the requirements that should be applied to each one. Your onboarding lead may recommend the requirements that are commonly associated with the standard asset types introduced in the previous step. Your consultant can also work with you at this stage to identify the checks, inspections and documentation that need to be applied as requirements to your asset types to help you remain compliant.
+
+    The kinds of requirements often discussed at this stage:
+
+    - Weekly Fire Alarm Checks
+    - Vehicle Pre Use Checks
+    - Quarterly Ladder Checks
+    - Annual LOLER
+    - Annual Services
+    - Inspections
+    - and more ...
 
 ??? outline "<span class="mb-label mb-label-slate">Step 3: Adding your Assets</span>"
 
