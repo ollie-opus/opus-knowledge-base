@@ -75,7 +75,7 @@ During this meeting, the following topics will be discussed:
         <span data-uuid="8c16aadb-ba83-42ca-9b9f-c4b6e43e2a42" style="display:none"></span>
         The decisions you make at this stage can be easily edited / amended within the system after your roles have been set up.
 
-??? outline "<span class="mb-label mb-label-slate">Step 3: Uploading Staff</span>"
+??? outline "<span class="mb-label mb-label-slate">Step 4: Uploading Staff</span>"
 
     <span data-uuid="773e83f5-40d4-482d-ae62-38b0c3d0a931" style="display:none"></span>
     To get your team onto the system, Opus can perform a bulk upload, or you can add employees manually. Moving forward, it will be your responsibility to keep this staff list up to date.
