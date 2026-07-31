@@ -33,10 +33,6 @@ This page highlights the main user-facing improvements, additions and feature re
     <span data-uuid="716ec2ad-43b5-45ad-9317-140e8f5d3845" style="display:none"></span>
     A new export button is now available directly on the Site Snapshot page. This feature generates a downloadable CSV file containing a detailed breakdown of the snapshot figures by individual sites.
 
-    <span data-uuid="6a013b7a-ffac-49a5-a09e-b13a353596d4" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/snapshot/overview/site-snapshot-download-csv-a-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/snapshot/overview/site-snapshot-download-csv-a-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
-
 ??? improvement "Improvement: Unified Employees Page<span class="meta">9th April 2026</span>"
 
     <span data-uuid="57713841-1405-4bc3-b8ff-6afde1c6a515" style="display:none"></span>
