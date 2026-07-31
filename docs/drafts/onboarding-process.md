@@ -107,6 +107,15 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 
     We can apply our standard, pre-built checks to your sites to save you time, or you can provide your own custom questions for us to upload.
 
+??? outline "<span class="mb-label mb-label-slate">Step 1: Adding Site Checklists</span>"
+
+    <span data-uuid="69fec56f-fb81-4319-8c36-791253b6787e" style="display:none"></span>
+
+
+    Site checklists cover regular physical inspections of your premises, such as a manager's monthly walk-around or fire safety checks.
+
+    We can apply our standard, pre-built checks to your sites to save you time, or you can provide your own custom questions for us to upload.
+
 ## Phase 3
 <span data-uuid="250f3efe-e456-4d78-9a42-00e10037a13e" style="display:none"></span>
 
