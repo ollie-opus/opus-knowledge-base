@@ -142,13 +142,6 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 
     <span data-uuid="0d6dd5c4-837f-407b-bb5b-0d65ce3d8bd4" style="display:none"></span>
 
-    !!! note
-
-        <span data-uuid="29fb1cef-5acc-41bc-a545-81816a3e1c53" style="display:none"></span>
-
-
-        If you are signed up to our HR offering, ensure you include a `Manager` role (or manager variants of your standard roles), as certain HR E-learning courses are designed specifically for managers.
-
 ## Phase 4
 <span data-uuid="63bad30b-133e-4a98-a2a6-3f35697d3816" style="display:none"></span>
 
