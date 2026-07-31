@@ -26,3 +26,12 @@ We recommend working through each phase in order with us -  rushing this can lea
 
     <span data-uuid="902ce87e-b6e8-47b7-9e0a-78a558384e27" style="display:none"></span>
     The setup will require a number of online meetings with your OCC contact.  We typically aim to complete this entire process in around **four to six weeks**. To help us hit this target and avoid losing momentum, we rely on your prompt input and collaboration.
+
+## Phase 1
+<span data-uuid="57f9f193-6a66-485d-9acb-dcdd665c2b8a" style="display:none"></span>
+
+<span class="mb-label mb-label-orange">Sites, Employees & Role Requirements</span>
+
+Your Health and Safety Consultant, together with an Onboarding Lead from the software team, will contact you to arrange an initial meeting to begin <span class="mb-label mb-label-orange">Phase 1</span>.
+
+During this meeting, the following topics will be discussed:
