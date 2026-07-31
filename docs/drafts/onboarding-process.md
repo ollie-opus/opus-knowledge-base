@@ -35,3 +35,8 @@ We recommend working through each phase in order with us -  rushing this can lea
 Your Health and Safety Consultant, together with an Onboarding Lead from the software team, will contact you to arrange an initial meeting to begin <span class="mb-label mb-label-orange">Phase 1</span>.
 
 During this meeting, the following topics will be discussed:
+
+??? step "<span class="meta">Site Setup</span>"
+
+    <span data-uuid="aa311790-38e0-4cf0-86ee-caaa78a34b7c" style="display:none"></span>
+    We initially work with you to help define your site(s) on Opus Compliance Cloud. If your organisation operates across multiple locations, we will work with you to map out a clear system hierarchy (such as parent sites, sub-sites, and individual locations) to keep everything perfectly organised.
