@@ -109,3 +109,8 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 <span data-uuid="63bad30b-133e-4a98-a2a6-3f35697d3816" style="display:none"></span>
 
 <span class="mb-label mb-label-emerald">Post Setup Support</span>
+
+## Onboarding Complete
+<span data-uuid="6cba42a7-4935-45b2-b84b-6323bef9e2ec" style="display:none"></span>
+
+Onboarding is complete, but <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">support will always be available</a> to help you maintain your Opus Compliance Cloud setup.
