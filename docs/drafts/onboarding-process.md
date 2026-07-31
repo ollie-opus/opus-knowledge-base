@@ -100,12 +100,12 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 
 <span class="mb-label mb-label-yellow">Site Configuration Site Checklists, Documents & Report Types</span>
 
-??? outline "<span class="mb-label mb-label-slate">Step 1: Site Setup</span>"
+??? outline "<span class="mb-label mb-label-slate">Step 1: Adding Site Checklists</span>"
 
     <span data-uuid="e5041cf1-18df-4fbb-81a4-c71a55616499" style="display:none"></span>
+    Site checklists cover regular physical inspections of your premises, such as a manager's monthly walk-around or fire safety checks.
 
-
-    We initially work with you to help define your site(s) on Opus Compliance Cloud. If your organisation operates across multiple locations, we will work with you to map out a clear system hierarchy (such as parent sites, sub-sites, and individual locations) to keep everything perfectly organised.
+    We can apply our standard, pre-built checks to your sites to save you time, or you can provide your own custom questions for us to upload.
 
 ## Phase 3
 <span data-uuid="250f3efe-e456-4d78-9a42-00e10037a13e" style="display:none"></span>
