@@ -38,8 +38,6 @@ Your Health and Safety Consultant, together with an Onboarding Lead from the sof
 
 During this meeting, you will be provided with a link to a series of spreadsheets. These will help you input the information we need to support your initial system setup.
 
-**The spreadsheets cover the following areas:**
-
 ??? outline "<span class="mb-label mb-label-slate">Step 1: Site Setup</span>"
 
     <span data-uuid="aa311790-38e0-4cf0-86ee-caaa78a34b7c" style="display:none"></span>
