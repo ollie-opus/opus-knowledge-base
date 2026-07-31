@@ -177,14 +177,17 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 
 This phase is focused on helping you get the most from the work completed during onboarding. The aim is to ensure that:
 
-- You, as your organisation's power user, are confident and comfortable using Opus Compliance Cloud as an administrator.
-- Other managers within your organisation understand how to fulfil their responsibilities using Opus Compliance Cloud.
-- Encouraging strong engagement with Opus Compliance Cloud to ensure work is being completed consistently and effectively.
-- Any additional configuration required to support your organisation's processes is identified and completed.
+1. You, as your organisation's power user, are confident and comfortable using OCC as an administrator.
+2. The managers within your organisation understand how to fulfil their responsibilities using OCC.
+3. Encouraging strong engagement with OCC to ensure work is being completed consistently and effectively.
+4. Any additional configuration required to support your organisation starting to use OCC is identified and completed.
 
-We're committed to helping you get the most out of Opus Compliance Cloud. That's why we offer unlimited remote training sessions and ongoing support for you and your team, whenever you need it.
+!!! note
+
+    <span data-uuid="55280ccc-0286-42da-8746-d55127f2d0d4" style="display:none"></span>
+    We're committed to helping you get the most out of Opus Compliance Cloud. That's why we offer unlimited remote training sessions and ongoing support for you and your team, whenever you need it.
 
 ## Onboarding Complete
 <span data-uuid="6cba42a7-4935-45b2-b84b-6323bef9e2ec" style="display:none"></span>
 
-Your onboarding is now complete, but <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">our support team will remain on hand</a> to help you maintain your setup on Opus Compliance Cloud.
+Your onboarding is now complete, but <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">the support team are always available</a> to help you maintain your setup on Opus Compliance Cloud.
