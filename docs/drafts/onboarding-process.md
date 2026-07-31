@@ -14,6 +14,7 @@ To keep the setup process from feeling overwhelming, we divide your OCC set up i
 - <span class="mb-label mb-label-yellow">Phase 2: Site Configuration Site Checklists, Documents & Report Types</span>
 - <span class="mb-label mb-label-lime">Phase 3: Assets & Type Requirements</span>
 - <span class="mb-label mb-label-emerald">Phase 4: Post Setup Support</span>
+
 Your dedicated onboarding lead together with your consultant will lead the way and guide you through each phase, but this guide gives you a quick overview of what to expect as we get you up and running.
 
 We recommend working through each phase in order with us -  rushing this can lead to things being set up in the wrong place and extra rework down the line!
