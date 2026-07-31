@@ -141,6 +141,13 @@ During this meeting, you will be provided with a link to a series of spreadsheet
 ??? outline "<span class="mb-label mb-label-slate">Step 1: Defining Asset Types</span>"
 
     <span data-uuid="0d6dd5c4-837f-407b-bb5b-0d65ce3d8bd4" style="display:none"></span>
+    It can be helpful to think of asset types in the same way as employee roles. They provide a standardised way of managing the requirements that apply to different assets. We will suggest a number of common asset types that you may wish to use, including:
+
+    - First Aid Kits
+    - Ladders
+    - Fire Alarms
+    - and more ...
+    You may also have custom assets, such as specialist machinery, that require bespoke asset types. If so, let your onboarding lead know and they will help you create additional asset types tailored to your organisation's requirements.
 
 ??? outline "<span class="mb-label mb-label-slate">Step 2: Configuring Asset Type Requirements</span>"
 
