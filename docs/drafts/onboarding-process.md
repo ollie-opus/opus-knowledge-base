@@ -194,5 +194,4 @@ This phase is focused on helping you get the most from the work completed during
 
 After completing all 4 phases, your onboarding is now complete!
 
-
 However our help doesn't end here ... <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">the support team are always available</a> to assist you maintaining and improving your setup on Opus Compliance Cloud.
