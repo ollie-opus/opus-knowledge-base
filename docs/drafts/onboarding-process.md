@@ -1,4 +1,5 @@
 ---
+icon: lucide/rocket
 search:
   exclude: true
 ---
