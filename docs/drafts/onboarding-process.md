@@ -74,3 +74,27 @@ During this meeting, the following topics will be discussed:
 
         <span data-uuid="8c16aadb-ba83-42ca-9b9f-c4b6e43e2a42" style="display:none"></span>
         The decisions you make at this stage can be easily edited / amended within the system after your roles have been set up.
+
+??? outline "<span class="mb-label mb-label-slate">Step 3: Configuring Roles</span>"
+
+    <span data-uuid="773e83f5-40d4-482d-ae62-38b0c3d0a931" style="display:none"></span>
+
+
+    *Your consultant can support you with this stage of the process.*
+
+    At this stage, you'll have the opportunity to choose which of our requirements - such as e-learning courses and employee checklists - you would like to assign to your defined roles. You can also discuss any custom requirements you would like us to create, such as additional training or document requirements specific to your organisation.
+
+    **Below are the kinds of requirements that can be added to a role:**
+
+    - <span class="mb-label mb-label-amber">Training</span> e.g. First Aid at Work
+    - <span class="mb-label mb-label-teal">E-learning</span> e.g. Fire Safety Awareness
+    - <span class="mb-label mb-label-lime">Checklists</span> e.g. Health Surveillance or DSE assessments
+    - <span class="mb-label mb-label-violet">Playbooks</span> e.g. New Starter Induction
+    - <span class="mb-label mb-label-blue">Documents</span> e.g. New Starter Form
+
+    !!! tip "Don't worry!"
+
+        <span data-uuid="aaa9d0ea-1807-4f7e-9fd7-4795a8e48125" style="display:none"></span>
+
+
+        The decisions you make at this stage can be easily edited / amended within the system after your roles have been set up.
