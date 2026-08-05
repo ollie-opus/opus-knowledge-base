@@ -24,3 +24,6 @@ e.g.
 
 ## Commenting
 <span data-uuid="4b8e4a57-882d-4316-bace-27b350ba5491" style="display:none"></span>
+
+## Creating sub tasks
+<span data-uuid="086aa064-7bf0-4607-8197-419524b11e9d" style="display:none"></span>
