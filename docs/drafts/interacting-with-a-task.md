@@ -27,3 +27,6 @@ e.g.
 
 ## Creating sub tasks
 <span data-uuid="086aa064-7bf0-4607-8197-419524b11e9d" style="display:none"></span>
+
+## Snoozing tasks
+<span data-uuid="991647ca-b013-4539-b8bf-382edc17dca3" style="display:none"></span>
