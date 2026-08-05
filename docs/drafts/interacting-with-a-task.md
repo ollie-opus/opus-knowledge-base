@@ -29,6 +29,11 @@ Most reminder tasks include a button or a blue link in the initial task message,
 ![](../assets/media/occ-captures/todos/uuid/system-message-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
 ![](../assets/media/occ-captures/todos/uuid/system-message-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
 
+!!! warning
+
+    <span data-uuid="cea76eca-7f69-4a50-a8ad-d5b65c662538" style="display:none"></span>
+    Reminder tasks cannot be resolved manually using the resolve button at the bottom of the page. Instead, you must complete the outstanding requirement. Once the requirement has been completed, the reminder task will be resolved automatically.
+
 ## Interacting with fields
 <span data-uuid="b833aaf9-7e2c-44f5-ace4-5457b7cc3a1a" style="display:none"></span>
 
