@@ -34,8 +34,8 @@ This page highlights the main user-facing improvements, additions and feature re
         Your organisation may carry out daily vehicle checks in OCC that requires recording the vehicle's mileage. This new feature makes it easy to retrieve that information.
 
         <span data-uuid="13308d82-d9b1-437d-b438-3e07c66f8c67" style="display:none"></span>
-        ![](../assets/media/occ-captures/admin/sites/uuid/reports/recency/measurements/id/what-is-the-vehicle-s-mileage-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
-        ![](../assets/media/occ-captures/admin/sites/uuid/reports/recency/measurements/id/what-is-the-vehicle-s-mileage-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/reports/recency/measurements/id/what-is-the-vehicle-s-mileage-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/reports/recency/measurements/id/what-is-the-vehicle-s-mileage-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
 ### May 2026
 
