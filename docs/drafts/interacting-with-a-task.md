@@ -15,3 +15,6 @@ e.g.
 - Sub tasks
 - Snoozing Tasks
 - Resolving Tasks
+
+## Reminder Tasks
+<span data-uuid="53327301-5943-46a9-91bc-78f8e3d43dda" style="display:none"></span>
