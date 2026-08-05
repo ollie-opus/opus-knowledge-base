@@ -33,6 +33,10 @@ This page highlights the main user-facing improvements, additions and feature re
         ![](../assets/media/occ-captures/admin/sites/uuid/reports/recency/measurements/id/what-is-the-vehicle-s-mileage-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
         ![](../assets/media/occ-captures/admin/sites/uuid/reports/recency/measurements/id/what-is-the-vehicle-s-mileage-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
+    <span data-uuid="fb8d95f9-3aac-4269-9594-d8d37dd005d0" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/templates/checklists/id/questions-a-cross-site-answers-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/templates/checklists/id/questions-a-cross-site-answers-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 ### May 2026
 
 ??? new-addition "New addition: Displayed change in audit score since the previous audit<span class="meta">27th May 2026</span>"
