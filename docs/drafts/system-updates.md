@@ -8,6 +8,7 @@
     !!! example
 
         <span data-uuid="106eaa17-8308-4ad9-a3e6-961e1a8ae383" style="display:none"></span>
+        Your organisation may carry out daily vehicle checks in OCC that requires recording the vehicle's mileage. This new feature makes it easy to retrieve that information.
 
         <span data-uuid="13308d82-d9b1-437d-b438-3e07c66f8c67" style="display:none"></span>
         ![](../assets/media/occ-captures/admin/sites/uuid/reports/recency/measurements/id/what-is-the-vehicle-s-mileage-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
