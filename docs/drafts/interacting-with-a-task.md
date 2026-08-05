@@ -30,3 +30,6 @@ e.g.
 
 ## Snoozing tasks
 <span data-uuid="991647ca-b013-4539-b8bf-382edc17dca3" style="display:none"></span>
+
+## Resolving tasks
+<span data-uuid="362638da-9cc6-4327-8c5c-13cfde0f761a" style="display:none"></span>
