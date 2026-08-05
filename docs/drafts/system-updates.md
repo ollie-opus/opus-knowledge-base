@@ -5,6 +5,10 @@
     <span data-uuid="2459a684-7670-4839-91bd-6c723fe7d938" style="display:none"></span>
     You can now view answers to a specific checklist/playbook question across sites/assets that ask that question.
 
+    <span data-uuid="05f4805c-33fe-4711-9884-43b91d33eca4" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/measurements/uuid/cross-site-answers-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/measurements/uuid/cross-site-answers-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
     <span data-uuid="c6fe2381-ee8b-41ba-8d57-aed5db958cfb" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/templates/checklists/id/questions-a-cross-site-answers-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/templates/checklists/id/questions-a-cross-site-answers-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
