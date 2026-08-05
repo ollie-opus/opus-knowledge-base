@@ -9,6 +9,10 @@
 
         <span data-uuid="106eaa17-8308-4ad9-a3e6-961e1a8ae383" style="display:none"></span>
 
+        <span data-uuid="13308d82-d9b1-437d-b438-3e07c66f8c67" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/reports/recency/measurements/id/what-is-the-vehicle-s-mileage-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/reports/recency/measurements/id/what-is-the-vehicle-s-mileage-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
+
 ---
 search:
   exclude: true
