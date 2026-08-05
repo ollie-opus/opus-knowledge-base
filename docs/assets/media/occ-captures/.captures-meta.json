@@ -196,5 +196,8 @@
     "resized": true,
     "padding": 5,
     "annotated": true
+  },
+  "docs/assets/media/occ-captures/todos/uuid/system-message-light-mode.png": {
+    "padding": 10
   }
 }
