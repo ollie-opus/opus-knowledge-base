@@ -32,7 +32,7 @@ Most reminder tasks include a button or a blue link in the initial task message,
 !!! warning
 
     <span data-uuid="cea76eca-7f69-4a50-a8ad-d5b65c662538" style="display:none"></span>
-    Reminder tasks cannot be resolved manually using the resolve button at the bottom of the page. Instead, you must complete the outstanding requirement. Once the requirement has been completed, the reminder task will be resolved automatically.
+    You cannot resolve reminder tasks manually using the **Resolve** button. You must complete the outstanding requirement. The reminder task will resolve automatically after you complete the requirement.
 
 ## Interacting with fields
 <span data-uuid="b833aaf9-7e2c-44f5-ace4-5457b7cc3a1a" style="display:none"></span>
