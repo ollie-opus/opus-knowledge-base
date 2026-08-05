@@ -25,8 +25,8 @@ This page highlights the main user-facing improvements, additions and feature re
     ![](../assets/media/occ-captures/admin/sites/uuid/measurements/uuid/cross-site-answers-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
     <span data-uuid="c6fe2381-ee8b-41ba-8d57-aed5db958cfb" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/templates/checklists/id/questions-a-cross-site-answers-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/templates/checklists/id/questions-a-cross-site-answers-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/templates/checklists/id/questions-a-cross-site-answers-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/templates/checklists/id/questions-a-cross-site-answers-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
     !!! example
 
