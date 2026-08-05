@@ -203,5 +203,10 @@
   "docs/assets/media/occ-captures/admin/sites/uuid/reports/recency/measurements/id/what-is-the-vehicle-s-mileage-light-mode.png": {
     "resized": true,
     "padding": 20
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/templates/checklists/id/questions-a-cross-site-answers-light-mode.png": {
+    "resized": true,
+    "padding": 20,
+    "annotated": true
   }
 }
