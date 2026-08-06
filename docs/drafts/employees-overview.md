@@ -1,6 +1,12 @@
 ---
+icon: lucide/layout-dashboard
 search:
   exclude: true
+tags:
+  - Managing OCC
+hide:
+  - navigation
+  - toc
 ---
 
 # Employees overview
