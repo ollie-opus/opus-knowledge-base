@@ -88,7 +88,7 @@ Employee records can hold information about the employee it represents. Such as:
         - Access a site's **View** mode to report events, such as incidents
         - Complete tasks that have been made available to users, such as vehicle pre-use checks
         - Access site assets to report defects or complete user-scoped checks
-        - View documents that are scoped to be available to users, such as company policies and risk assessments.
+        - View documents that are set to be available to users, such as company policies and risk assessments.
         - Manage their notification subscriptions to receive in-system and email notifications
 
     !!! outline "<span class="mb-label mb-label-violet">Manager access</span>"
