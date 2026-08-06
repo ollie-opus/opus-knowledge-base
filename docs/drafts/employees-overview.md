@@ -101,6 +101,7 @@ Employee records can hold information about the employee it represents. Such as:
         - Perform everything available to a <span class="mb-label mb-label-blue">User</span>
         - Access confidential tasks, including incidents and employee interventions
         - View documents that are set to be available to managers.
+        - View and complete checklists that are set to be completable by managers, such as site fire safety checks.
         - Access **Manage** mode for their assigned site(s), allowing them to:
             - Manage employees (add, edit, archive, and link)
             - Manage assets (add, edit, and archive)
