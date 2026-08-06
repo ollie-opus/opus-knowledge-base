@@ -109,7 +109,7 @@ Employee records can hold information about the employee it represents. Such as:
             - Manage checklists and playbooks (add, edit, and archive)
             - Generate reports using Task Reports and the Site Snapshot
 
-    !!! outline "<span class="mb-label mb-label-pink">Administrator access</span>"
+    ??? outline "<span class="mb-label mb-label-pink">Administrator</span>"
 
         <span data-uuid="a07325c5-4e9b-4c8e-8fa0-22f1697570f1" style="display:none"></span>
         <span class="mb-label mb-label-pink">Administrator</span> access is intended for employees with elevated management responsibilities, typically spanning regions or the organisation as a whole. <span class="mb-label mb-label-pink">Administrators</span> have advanced permissions that allow them to make fundamental changes to their company's Opus Compliance Cloud configuration.
