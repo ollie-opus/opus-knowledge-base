@@ -58,7 +58,7 @@ Employees are records that you create within Opus Compliance Cloud to represent 
 
 Employee records can hold information about the employee it represents. Such as:
 
-!!! outline "<span class="mb-label mb-label-olive">Employee Details</span>"
+??? outline "<span class="mb-label mb-label-olive">Employee Details</span>"
 
     <span data-uuid="1da90743-03dc-4c4a-9aee-f1b7331d5be8" style="display:none"></span>
     - Full name
