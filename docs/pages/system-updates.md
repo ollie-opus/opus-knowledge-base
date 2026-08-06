@@ -8,11 +8,19 @@ icon: lucide/clock-arrow-up
 
 This page highlights the main user-facing improvements, additions and feature releases to the system.
 
+<div class="grid" markdown>
+
 !!! question "Have an idea, suggestion or question?"
-    We'd love to hear from you! Please <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">get in touch</a>.
+    We'd love to hear from you!
+
+    [Contact us :lucide-send:](#){ .md-button .md-button--primary onclick="event.preventDefault(); window.groove.widget.open();" }
 
 !!! info "Stay in the loop"
-    Want to hear about our system updates via our email? <a href="https://cloud.opus-safety.co.uk/my/newsletters" target="_blank" rel="noopener noreferrer"> Subscribe to our System Updates Newsletter here </a>.
+    Want to hear about our system updates via our email?
+
+    [Subscribe to our System Updates Newsletter here :lucide-bell-ring:](https://cloud.opus-safety.co.uk/my/newsletters){ .md-button target="_blank" rel="noopener" }
+</div>
+
 ## 2026
 
 ---
