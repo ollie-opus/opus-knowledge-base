@@ -121,3 +121,8 @@ Employee records can hold information about the employee it represents. Such as:
         - Create and manage employee roles, asset types, and (if [Contractor Management](contractors-overview.md) is enabled) contractor and project types
         - Edit site structures, including renaming and moving sites
         - Access additional task management capabilities, such as extended task snooze periods
+
+        !!! info
+
+            <span data-uuid="dcf159ad-20da-4c6a-bde5-620fe2d4fa50" style="display:none"></span>
+            Administrator access is a relatively new permission level, introduced to provide a clear distinction between site managers and administrators with regional or organisation-wide responsibilities.
