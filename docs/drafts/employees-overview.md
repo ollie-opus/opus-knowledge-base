@@ -87,3 +87,17 @@ Employee records can hold information about the employee it represents. Such as:
         - Complete tasks that have been made visible and available to users, such as vehicle pre-use checks.
         - Access assets at a site to report defects or complete user-scoped checks.
         - Manage their notification subscriptions to receive in-system and email notifications.
+
+    !!! outline "<span class="mb-label mb-label-violet">Manager access</span>"
+
+        <span data-uuid="b569cd3a-09c8-4332-8119-9f9ffd364405" style="display:none"></span>
+        <span class="mb-label mb-label-violet">Manager</span> access is suitable for employees who have managerial responsibilities, such as general/assistant managers. It allows the employee to:
+
+        - Do everything a <span class="mb-label mb-label-blue">User</span> can do
+        - Access confidential tasks such as incidents or employee interventions.
+        - Access Manage mode at their site(s), including:
+            - Manage employees (add/edit/archive/link)
+            - Manage assets (add/edit/archive)
+            - Manage documents (add/edit/archive)
+            - Manage checklists/playbooks (add/edit/archive)
+            - Run reports via Task Reports or the Site Snapshot
