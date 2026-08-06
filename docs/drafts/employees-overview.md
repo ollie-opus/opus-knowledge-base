@@ -77,8 +77,6 @@ Employee records can hold information about the employee it represents. Such as:
     <span data-uuid="57ff20e6-c9bf-4920-9caa-9e497b209170" style="display:none"></span>
     Employees can have access defined on their record. An employee may have access to a single site or many sites, depending on the nature of their job within your organisation. Furthermore, access has 3 options to choose from.
 
-    - User access - An employee with user access to a site is able to:
-
     !!! outline "<span class="mb-label mb-label-blue">User access</span>"
 
         <span data-uuid="128c8577-802c-42bb-982e-72e9338bba37" style="display:none"></span>
