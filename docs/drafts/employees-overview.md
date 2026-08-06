@@ -91,16 +91,18 @@ Employee records can hold information about the employee it represents. Such as:
     !!! outline "<span class="mb-label mb-label-violet">Manager access</span>"
 
         <span data-uuid="b569cd3a-09c8-4332-8119-9f9ffd364405" style="display:none"></span>
-        <span class="mb-label mb-label-violet">Manager</span> access is suitable for employees who have managerial responsibilities, such as general/assistant managers. It allows the employee to:
+        <span class="mb-label mb-label-violet">Manager</span> access is designed for employees with managerial responsibilities, such as General Managers and Assistant Managers. <span class="mb-label mb-label-violet">Managers</span> have additional permissions that enable them to oversee and manage their site(s).
 
-        - Do everything a <span class="mb-label mb-label-blue">User</span> can do
-        - Access confidential tasks such as incidents or employee interventions.
-        - Access Manage mode at their site(s), including:
-            - Manage employees (add/edit/archive/link)
-            - Manage assets (add/edit/archive)
-            - Manage documents (add/edit/archive)
-            - Manage checklists/playbooks (add/edit/archive)
-            - Run reports via Task Reports or the Site Snapshot
+        With <span class="mb-label mb-label-violet">Manager</span> access, employees can:
+
+        - Perform everything available to a <span class="mb-label mb-label-blue">User</span>
+        - Access confidential tasks, including incidents and employee interventions
+        - Access **Manage** mode for their assigned site(s), allowing them to:
+            - Manage employees (add, edit, archive, and link)
+            - Manage assets (add, edit, and archive)
+            - Manage documents (add, edit, and archive)
+            - Manage checklists and playbooks (add, edit, and archive)
+            - Generate reports using Task Reports and the Site Snapshot
 
     !!! outline "<span class="mb-label mb-label-pink">Administrator access</span>"
 
