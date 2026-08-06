@@ -31,13 +31,11 @@ hide:
 <div style="align-self: center" markdown>
 
 <span data-uuid="96bf97d8-e672-45a4-9105-2ae9e09c2823" style="display:none"></span>
-<span class="mb-label mb-label-slate">Smarter management, built for compliance</span>
+<span class="mb-label mb-label-olive">Compliance via collaboration</span>
 
-# Opus Contractor Management
+# Employees Overview
 
-Stay on top of contractor management with Opus Contractor Management. Gain in-depth visibility and control over your contractors and projects, while maintaining compliance through seamless integration with your existing Opus experience.
-
-*Interested in Opus Contractor Management?*
+Employees in Opus Compliance Cloud enables you to add, track and manage your workforce digitally, while also giving you the opportunity to have them participate in compliance related activities across your organisation.
 
 <span data-uuid="24a0b13c-0957-430b-938d-78b026d8e4d8" style="display:none"></span>
 [Contact us :lucide-send:](https://www.opus-safety.co.uk/contact){ .md-button .md-button--primary target="_blank" rel="noopener" }
