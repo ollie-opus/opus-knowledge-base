@@ -10,6 +10,9 @@ This page highlights the main user-facing improvements, additions and feature re
 
 !!! question "Have an idea, suggestion or question?"
     We'd love to hear from you! Please <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">get in touch</a>.
+
+!!! info "Stay in the loop"
+    Want to hear about our system updates via our email? <a href="https://cloud.opus-safety.co.uk/my/newsletters" >Subscribe to our System Updates Newsletter here</a>.
 ## 2026
 
 ---
