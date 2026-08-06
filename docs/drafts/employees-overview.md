@@ -47,3 +47,8 @@ Employees in Opus Compliance Cloud enables you to add, track and manage your wor
 <style data-mb-hide-section-title>:is(h1,h2,h3):has(+ p + style[data-mb-hide-section-title]){display:none}</style>
 
 ---
+
+## What are Employees?
+<span data-uuid="d60b202c-8e26-4c1f-8053-ba9d66f2fc5b" style="display:none"></span>
+
+Employees are records you can create within Opus Compliance Cloud. Typically, every employee in your organisation should have an employee record.
