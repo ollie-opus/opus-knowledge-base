@@ -90,6 +90,9 @@ draft_nav = [
       {"Guidebooks" = [
         {"Managing Opus Compliance Cloud" = "drafts/managing-opus-compliance-cloud.md"}
       ]}
+    ]},
+    {"Employees" = [
+      {"Employee access" = "drafts/employee-access.md"}
     ]}
   ]}
 ]
