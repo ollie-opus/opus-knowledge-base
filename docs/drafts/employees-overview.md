@@ -71,3 +71,13 @@ Employee records can hold information about the employee it represents. Such as:
 
     <span data-uuid="53a02c97-cbed-4250-b872-4f1b0b7319c8" style="display:none"></span>
     Employees are stored within a site in Opus Compliance Cloud. Each site acts as a digital representation of a physical workplace/location, helping you keep your employee records organised and easy to manage.
+
+!!! outline "<span class="mb-label mb-label-olive">Access & Authorisations</span>"
+
+    <span data-uuid="57ff20e6-c9bf-4920-9caa-9e497b209170" style="display:none"></span>
+    Employees can have access defined on their record. An employee may have access to a single site or many sites, depending on the nature of their job within your organisation. Furthermore, access has 3 options to choose from.
+
+    - User access - An employee with user access to a site is able to:
+        - Complete their own requirements (such as e-learning courses, DSE assessments, etc)
+        - Access to the view mode side of a site, including:
+            - The Site Inbox,
