@@ -37,9 +37,6 @@ hide:
 
 Employees in Opus Compliance Cloud enables you to add, track and manage your workforce digitally, while also giving you the opportunity to have them participate in compliance related activities across your organisation.
 
-<span data-uuid="24a0b13c-0957-430b-938d-78b026d8e4d8" style="display:none"></span>
-[Contact us :lucide-send:](https://www.opus-safety.co.uk/contact){ .md-button .md-button--primary target="_blank" rel="noopener" }
-
 </div>
 
 </div>
