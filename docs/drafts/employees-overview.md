@@ -78,6 +78,3 @@ Employee records can hold information about the employee it represents. Such as:
     Employees can have access defined on their record. An employee may have access to a single site or many sites, depending on the nature of their job within your organisation. Furthermore, access has 3 options to choose from.
 
     - User access - An employee with user access to a site is able to:
-        - Complete their own requirements (such as e-learning courses, DSE assessments, etc)
-        - Access to the view mode side of a site, including:
-            - The Site Inbox,
