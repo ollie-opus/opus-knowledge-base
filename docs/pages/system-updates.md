@@ -16,9 +16,9 @@ This page highlights the main user-facing improvements, additions and feature re
     [Contact us :lucide-send:](#){ .md-button .md-button--primary onclick="event.preventDefault(); window.groove.widget.open();" }
 
 !!! info "Stay in the loop"
-    Want to hear about our system updates via our email?
+    We have a system updates email newsletter!
 
-    [Subscribe to our System Updates Newsletter here :lucide-bell-ring:](https://cloud.opus-safety.co.uk/my/newsletters){ .md-button target="_blank" rel="noopener" }
+    [Subscribe here :lucide-bell-ring:](https://cloud.opus-safety.co.uk/my/newsletters){ .md-button target="_blank" rel="noopener" }
 </div>
 
 ## 2026
