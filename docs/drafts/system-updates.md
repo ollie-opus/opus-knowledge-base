@@ -1,5 +1,3 @@
-# System update drafts
-
 ---
 search:
   exclude: true
