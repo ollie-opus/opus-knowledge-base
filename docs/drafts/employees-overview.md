@@ -8,6 +8,7 @@ tags:
 hide:
   - navigation
   - toc
+  - path
 ---
 
 # Employees overview
