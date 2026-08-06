@@ -78,3 +78,14 @@ Employee records can hold information about the employee it represents. Such as:
     Employees can have access defined on their record. An employee may have access to a single site or many sites, depending on the nature of their job within your organisation. Furthermore, access has 3 options to choose from.
 
     - User access - An employee with user access to a site is able to:
+
+    !!! outline "<span class="mb-label mb-label-blue">User access</span>"
+
+        <span data-uuid="128c8577-802c-42bb-982e-72e9338bba37" style="display:none"></span>
+        <span class="mb-label mb-label-blue">User</span> is the base level of access, suitable for any non-managerial employees. It allows them to:
+
+        - Complete their own requirements (such as e-learning courses, DSE assessments, etc).
+        - Access to the site's view mode to report events such as incidents.
+        - Access to tasks that are scoped to be visible & completable by users, such as vehicle pre-use checks.
+        - Access to the assets located at a site, allowing them to report defects or to complete user scoped checks.
+        - Setup subscriptions to receive in-system/email notifications
