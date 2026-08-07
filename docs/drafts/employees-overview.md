@@ -98,9 +98,9 @@ Employee records can hold information about the employee it represents. Such as:
     ??? outline "<span class="mb-label mb-label-violet">Manager</span>"
 
         <span data-uuid="b569cd3a-09c8-4332-8119-9f9ffd364405" style="display:none"></span>
-        <span class="mb-label mb-label-violet">Manager</span> access is designed for employees with managerial responsibilities, such as General Managers and Assistant Managers. <span class="mb-label mb-label-violet">Managers</span> have additional permissions that enable them to oversee and manage their site(s).
+        Manager access is designed for employees with managerial responsibilities, such as General Managers and Assistant Managers. Managers have additional permissions that enable them to oversee and manage their site(s).
 
-        With <span class="mb-label mb-label-violet">Manager</span> access, employees can:
+        With Manager access, employees can:
 
         - Perform everything available to a <span class="mb-label mb-label-blue">User</span>
         - Access confidential tasks, including incidents and employee interventions
