@@ -12,7 +12,7 @@ Employees can be assigned specific levels of access to sites, as well as authori
 ## Access levels
 <span data-uuid="2aebb6f5-f7dd-42b3-b45f-3ffb7febba22" style="display:none"></span>
 
-Employees can have their access defined on their employee record. Depending on their role within your organisation, an employee may have access to a single site or multiple sites. There are three levels of access available, allowing you to assign the appropriate level of access to each employee.
+Employees can have their access defined on their employee record. Depending on their responsibilities within your organisation, an employee may have access to a single site or multiple sites. There are three levels of access available, allowing you to assign the appropriate level of access to each employee.
 
 - <span class="mb-label mb-label-blue">User</span> access is the standard level of access, designed for employees who do not have managerial responsibilities.
 - <span class="mb-label mb-label-purple">Manager</span> access is designed for employees with managerial responsibilities, such as General Managers and Assistant Managers. Managers have additional permissions that enable them to oversee and manage their site(s).
