@@ -83,24 +83,6 @@ Employee records can hold information about the employee it represents. Such as:
 
     User access is the standard level of access, designed for employees who do not have managerial responsibilities.
 
-    ??? outline "<span class="mb-label mb-label-violet">Manager</span>"
-
-        <span data-uuid="b569cd3a-09c8-4332-8119-9f9ffd364405" style="display:none"></span>
-        Manager access is designed for employees with managerial responsibilities, such as General Managers and Assistant Managers. Managers have additional permissions that enable them to oversee and manage their site(s).
-
-        With Manager access, employees can:
-
-        - Perform everything available to a <span class="mb-label mb-label-blue">User</span>
-        - Access confidential tasks, including incidents and employee interventions
-        - View documents that are set to be available to managers.
-        - View and complete checklists that are set to be completable by managers, such as site fire safety checks.
-        - Access **Manage** mode for their assigned site(s), allowing them to:
-            - Manage employees (add, edit, archive, and link)
-            - Manage assets (add, edit, and archive)
-            - Manage documents (add, edit, and archive)
-            - Manage checklists and playbooks (add, edit, and archive)
-            - Generate reports using Task Reports and the Site Snapshot
-
     ??? outline "<span class="mb-label mb-label-pink">Administrator</span>"
 
         <span data-uuid="a07325c5-4e9b-4c8e-8fa0-22f1697570f1" style="display:none"></span>
