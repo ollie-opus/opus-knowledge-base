@@ -90,7 +90,7 @@ Employee records can hold information about the employee it represents. Such as:
     | Ability | <span class="mb-label mb-label-blue">User</span> | <span class="mb-label mb-label-purple">Manager</span> | <span class="mb-label mb-label-pink">Administrator</span> |
     | :--- | :---: | :---: | :---: |
     | Complete their own requirements, such as e-learning courses and employee checklists | :lucide-check: | :lucide-check: | :lucide-check: |
-    | Access a site's View mode to report events, such as incidents | :lucide-check: | :lucide-check: | :lucide-check: |
+    | Access to a site's View mode to report events, such as incidents | :lucide-check: | :lucide-check: | :lucide-check: |
     | Complete tasks that have been made available to users, such as vehicle pre-use checks | :lucide-check: | :lucide-check: | :lucide-check: |
     | Access site assets to report defects or complete user-scoped checks | :lucide-check: | :lucide-check: | :lucide-check: |
     | View documents that are set to be available to users, such as company policies and risk assessments. | :lucide-check: | :lucide-check: | :lucide-check: |
