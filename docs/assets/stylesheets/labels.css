@@ -6,9 +6,14 @@
    (md_in_html renders it). This stylesheet is fully standalone — the colour
    values below are hand-authored here and have no link to anything outside this
    repo. Light values apply under the "default" scheme, dark under "slate".
+
+   Also styles nav label pills (the .md-nav scope): the forked theme template
+   at overrides/partials/nav-item.html emits the same spans next to sidebar
+   nav titles, configured via [project.extra.nav_labels] in zensical.toml.
+   Nav-specific sizing is in the block at the end of this file.
    ============================================================================ */
 
-.md-typeset .mb-label {
+:is(.md-typeset, .md-nav) .mb-label {
   display: inline-flex;
   align-items: center;
   padding: 0.1em 0.55em;
@@ -21,58 +26,65 @@
 }
 
 /* chromatic */
-[data-md-color-scheme="default"] .md-typeset .mb-label-red { background: rgb(255,226,226); color: rgb(159,7,18); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-red { background: rgb(159,7,18); color: rgb(255,226,226); border-color: rgb(251,44,54); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-orange { background: rgb(255,237,212); color: rgb(159,45,0); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-orange { background: rgb(159,45,0); color: rgb(255,237,212); border-color: rgb(255,105,0); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-amber { background: rgb(254,243,198); color: rgb(151,60,0); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-amber { background: rgb(151,60,0); color: rgb(254,243,198); border-color: rgb(254,154,0); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-yellow { background: rgb(254,249,194); color: rgb(137,75,0); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-yellow { background: rgb(137,75,0); color: rgb(254,249,194); border-color: rgb(240,177,0); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-lime { background: rgb(236,252,202); color: rgb(60,99,0); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-lime { background: rgb(60,99,0); color: rgb(236,252,202); border-color: rgb(124,207,0); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-green { background: rgb(220,252,231); color: rgb(1,102,48); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-green { background: rgb(1,102,48); color: rgb(220,252,231); border-color: rgb(0,201,80); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-emerald { background: rgb(208,250,229); color: rgb(0,96,69); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-emerald { background: rgb(0,96,69); color: rgb(208,250,229); border-color: rgb(0,188,125); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-teal { background: rgb(203,251,241); color: rgb(0,95,90); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-teal { background: rgb(0,95,90); color: rgb(203,251,241); border-color: rgb(0,187,167); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-cyan { background: rgb(206,250,254); color: rgb(0,95,120); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-cyan { background: rgb(0,95,120); color: rgb(206,250,254); border-color: rgb(0,184,219); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-sky { background: rgb(223,242,254); color: rgb(0,89,138); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-sky { background: rgb(0,89,138); color: rgb(223,242,254); border-color: rgb(0,166,244); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-blue { background: rgb(219,234,254); color: rgb(25,60,184); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-blue { background: rgb(25,60,184); color: rgb(219,234,254); border-color: rgb(43,127,255); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-indigo { background: rgb(224,231,255); color: rgb(55,42,172); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-indigo { background: rgb(55,42,172); color: rgb(224,231,255); border-color: rgb(97,95,255); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-violet { background: rgb(237,233,254); color: rgb(93,14,192); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-violet { background: rgb(93,14,192); color: rgb(237,233,254); border-color: rgb(142,81,255); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-purple { background: rgb(243,232,255); color: rgb(110,17,176); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-purple { background: rgb(110,17,176); color: rgb(243,232,255); border-color: rgb(173,70,255); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-fuchsia { background: rgb(250,232,255); color: rgb(138,1,148); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-fuchsia { background: rgb(138,1,148); color: rgb(250,232,255); border-color: rgb(225,42,251); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-pink { background: rgb(252,231,243); color: rgb(163,0,76); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-pink { background: rgb(163,0,76); color: rgb(252,231,243); border-color: rgb(246,51,154); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-rose { background: rgb(255,228,230); color: rgb(165,0,54); border-color: transparent; }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-rose { background: rgb(165,0,54); color: rgb(255,228,230); border-color: rgb(255,32,86); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-red { background: rgb(255,226,226); color: rgb(159,7,18); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-red { background: rgb(159,7,18); color: rgb(255,226,226); border-color: rgb(251,44,54); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-orange { background: rgb(255,237,212); color: rgb(159,45,0); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-orange { background: rgb(159,45,0); color: rgb(255,237,212); border-color: rgb(255,105,0); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-amber { background: rgb(254,243,198); color: rgb(151,60,0); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-amber { background: rgb(151,60,0); color: rgb(254,243,198); border-color: rgb(254,154,0); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-yellow { background: rgb(254,249,194); color: rgb(137,75,0); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-yellow { background: rgb(137,75,0); color: rgb(254,249,194); border-color: rgb(240,177,0); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-lime { background: rgb(236,252,202); color: rgb(60,99,0); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-lime { background: rgb(60,99,0); color: rgb(236,252,202); border-color: rgb(124,207,0); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-green { background: rgb(220,252,231); color: rgb(1,102,48); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-green { background: rgb(1,102,48); color: rgb(220,252,231); border-color: rgb(0,201,80); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-emerald { background: rgb(208,250,229); color: rgb(0,96,69); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-emerald { background: rgb(0,96,69); color: rgb(208,250,229); border-color: rgb(0,188,125); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-teal { background: rgb(203,251,241); color: rgb(0,95,90); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-teal { background: rgb(0,95,90); color: rgb(203,251,241); border-color: rgb(0,187,167); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-cyan { background: rgb(206,250,254); color: rgb(0,95,120); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-cyan { background: rgb(0,95,120); color: rgb(206,250,254); border-color: rgb(0,184,219); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-sky { background: rgb(223,242,254); color: rgb(0,89,138); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-sky { background: rgb(0,89,138); color: rgb(223,242,254); border-color: rgb(0,166,244); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-blue { background: rgb(219,234,254); color: rgb(25,60,184); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-blue { background: rgb(25,60,184); color: rgb(219,234,254); border-color: rgb(43,127,255); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-indigo { background: rgb(224,231,255); color: rgb(55,42,172); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-indigo { background: rgb(55,42,172); color: rgb(224,231,255); border-color: rgb(97,95,255); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-violet { background: rgb(237,233,254); color: rgb(93,14,192); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-violet { background: rgb(93,14,192); color: rgb(237,233,254); border-color: rgb(142,81,255); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-purple { background: rgb(243,232,255); color: rgb(110,17,176); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-purple { background: rgb(110,17,176); color: rgb(243,232,255); border-color: rgb(173,70,255); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-fuchsia { background: rgb(250,232,255); color: rgb(138,1,148); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-fuchsia { background: rgb(138,1,148); color: rgb(250,232,255); border-color: rgb(225,42,251); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-pink { background: rgb(252,231,243); color: rgb(163,0,76); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-pink { background: rgb(163,0,76); color: rgb(252,231,243); border-color: rgb(246,51,154); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-rose { background: rgb(255,228,230); color: rgb(165,0,54); border-color: transparent; }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-rose { background: rgb(165,0,54); color: rgb(255,228,230); border-color: rgb(255,32,86); }
 
 /* neutrals */
-[data-md-color-scheme="default"] .md-typeset .mb-label-slate { background: rgb(226,232,240); color: rgb(49,65,88); border-color: rgb(144,161,185); }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-slate { background: rgb(49,65,88); color: rgb(241,245,249); border-color: rgb(98,116,142); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-grey { background: rgb(229,231,235); color: rgb(54,65,83); border-color: rgb(153,161,175); }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-grey { background: rgb(54,65,83); color: rgb(243,244,246); border-color: rgb(106,114,130); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-zinc { background: rgb(228,228,231); color: rgb(63,63,70); border-color: rgb(159,159,169); }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-zinc { background: rgb(63,63,70); color: rgb(244,244,245); border-color: rgb(113,113,123); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-neutral { background: rgb(229,229,229); color: rgb(64,64,64); border-color: rgb(161,161,161); }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-neutral { background: rgb(38,38,38); color: rgb(245,245,245); border-color: rgb(115,115,115); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-stone { background: rgb(231,229,228); color: rgb(68,64,59); border-color: rgb(166,160,155); }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-stone { background: rgb(68,64,59); color: rgb(245,245,244); border-color: rgb(121,113,107); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-taupe { background: rgb(232,228,227); color: rgb(71,60,57); border-color: rgb(171,160,156); }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-taupe { background: rgb(43,36,34); color: rgb(243,241,241); border-color: rgb(124,109,103); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-mauve { background: rgb(231,228,231); color: rgb(70,57,71); border-color: rgb(168,158,169); }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-mauve { background: rgb(42,33,44); color: rgb(243,241,243); border-color: rgb(121,105,123); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-mist { background: rgb(227,231,232); color: rgb(57,68,71); border-color: rgb(156,168,171); }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-mist { background: rgb(34,41,43); color: rgb(241,243,243); border-color: rgb(103,120,124); }
-[data-md-color-scheme="default"] .md-typeset .mb-label-olive { background: rgb(232,232,227); color: rgb(71,71,57); border-color: rgb(171,171,156); }
-[data-md-color-scheme="slate"] .md-typeset .mb-label-olive { background: rgb(43,43,34); color: rgb(244,244,240); border-color: rgb(124,124,103); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-slate { background: rgb(226,232,240); color: rgb(49,65,88); border-color: rgb(144,161,185); }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-slate { background: rgb(49,65,88); color: rgb(241,245,249); border-color: rgb(98,116,142); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-grey { background: rgb(229,231,235); color: rgb(54,65,83); border-color: rgb(153,161,175); }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-grey { background: rgb(54,65,83); color: rgb(243,244,246); border-color: rgb(106,114,130); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-zinc { background: rgb(228,228,231); color: rgb(63,63,70); border-color: rgb(159,159,169); }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-zinc { background: rgb(63,63,70); color: rgb(244,244,245); border-color: rgb(113,113,123); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-neutral { background: rgb(229,229,229); color: rgb(64,64,64); border-color: rgb(161,161,161); }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-neutral { background: rgb(38,38,38); color: rgb(245,245,245); border-color: rgb(115,115,115); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-stone { background: rgb(231,229,228); color: rgb(68,64,59); border-color: rgb(166,160,155); }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-stone { background: rgb(68,64,59); color: rgb(245,245,244); border-color: rgb(121,113,107); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-taupe { background: rgb(232,228,227); color: rgb(71,60,57); border-color: rgb(171,160,156); }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-taupe { background: rgb(43,36,34); color: rgb(243,241,241); border-color: rgb(124,109,103); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-mauve { background: rgb(231,228,231); color: rgb(70,57,71); border-color: rgb(168,158,169); }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-mauve { background: rgb(42,33,44); color: rgb(243,241,243); border-color: rgb(121,105,123); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-mist { background: rgb(227,231,232); color: rgb(57,68,71); border-color: rgb(156,168,171); }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-mist { background: rgb(34,41,43); color: rgb(241,243,243); border-color: rgb(103,120,124); }
+[data-md-color-scheme="default"] :is(.md-typeset, .md-nav) .mb-label-olive { background: rgb(232,232,227); color: rgb(71,71,57); border-color: rgb(171,171,156); }
+[data-md-color-scheme="slate"] :is(.md-typeset, .md-nav) .mb-label-olive { background: rgb(43,43,34); color: rgb(244,244,240); border-color: rgb(124,124,103); }
+
+/* nav pills — sized down to sit beside .7rem sidebar nav titles */
+.md-nav .mb-label {
+  margin-left: 0.4em;
+  font-size: 0.6rem;
+  vertical-align: middle;
+}
 

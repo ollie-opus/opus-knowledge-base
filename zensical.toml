@@ -208,6 +208,18 @@ toggle.name  = "Switch to light mode"
 new = "Recently added"
 
 # ----------------------------------------------------------------------------
+# Nav labels — CUSTOM capability, not a zensical feature.
+# Rendered by our forked/overridden copy of the theme's nav template at
+# overrides/partials/nav-item.html. NOTE: updating zensical may require
+# re-syncing that override (re-copy the packaged template and re-apply the
+# marked edit — instructions in the comment at the top of that file).
+# Keys must exactly match a nav title below; color is any mb-label palette
+# name from docs/assets/stylesheets/labels.css.
+# ----------------------------------------------------------------------------
+[project.extra.nav_labels]
+"Contractors" = { text = "Add-on", color = "violet" }
+
+# ----------------------------------------------------------------------------
 # Other Markdown extensions
 # ----------------------------------------------------------------------------
 [project.markdown_extensions.attr_list]
