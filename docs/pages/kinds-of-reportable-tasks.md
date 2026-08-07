@@ -19,6 +19,8 @@ hide:
 
 <span data-uuid="2f0945ed-759f-4dca-af16-05cb9fb85f43" style="display:none"></span>
 
+<div class="nowrap-first" markdown>
+
 | Report type | Often used by sector | Description |
 | :--- | :--- | :--- |
 | A problem that can be corrected or prevented (PCA) | <span class="mb-label mb-label-amber">Manufacturing</span> | This template records preventive and corrective actions in accordance with <span class="mb-label mb-label-olive">ISO 9001</span>. Preventive actions address potential nonconformities, while corrective actions prevent recurrence of existing nonconformities. |
@@ -47,3 +49,5 @@ hide:
 | Spillage | <span class="mb-label mb-label-orange">Merchants</span> <span class="mb-label mb-label-amber">Manufacturing</span> | Designed for recording spillages of substances. This could be particularly beneficial for clients who are <span class="mb-label mb-label-mauve">ISO 14001</span> accredited and require detailed spillage documentation. |
 | Task observation | <span class="mb-label mb-label-slate">Any</span> | This template is used to observe tasks as part of a spot check to ensure correct procedures are being observed. |
 | Visitor on site | <span class="mb-label mb-label-slate">Any</span> | This template is similar to the Contractor on site, but for logging general visitors on site. |
+
+</div>

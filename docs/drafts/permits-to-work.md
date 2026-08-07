@@ -17,6 +17,8 @@ search:
 
     <span data-uuid="0070de4b-ba0d-4c77-b2c1-fb89d74600c7" style="display:none"></span>
 
+    <div class="nowrap-first" markdown>
+
     | Status | Description |
     | :--- | :--- |
     | <span class="mb-label mb-label-amber">In-progress</span> | The permit is being created or amended. |
@@ -24,6 +26,8 @@ search:
     | <span class="mb-label mb-label-emerald">Valid</span> | All responses to the permit's fields and questions have been deemed satisfactory, and the permit is active. |
     | <span class="mb-label mb-label-orange">Future</span> | The permit is not yet valid, as the current date and time before its validity period. The permit will automatically update to valid when it reaches the defined `valid from` date/time. |
     | <span class="mb-label mb-label-slate">Expired</span> | The permit was previously valid but has since expired, as the current date and time are now beyond its validity period. |
+
+    </div>
 
 === "Logic diagram"
 

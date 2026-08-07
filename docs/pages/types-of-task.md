@@ -70,6 +70,8 @@ View the Diagram / Table below to view the different kinds of reminder tasks you
 
     <span data-uuid="96706bb5-e74a-4d3e-a0d0-e02124a06435" style="display:none"></span>
 
+    <div class="nowrap-first" markdown>
+
     | Applied to | Reminder Type | Examples |
     | :--- | :--- | :--- |
     | <span class="mb-label mb-label-lime">Assets</span> | <span class="mb-label mb-label-slate">Documents</span> | Annual Services, LOLER/Thorough Examinations, Inspection Certificates, etc. |
@@ -83,6 +85,8 @@ View the Diagram / Table below to view the different kinds of reminder tasks you
     | <span class="mb-label mb-label-sky">Sites</span> | <span class="mb-label mb-label-slate">Documents</span> | Company policies, Handbooks, Risk assessments, etc. |
     | <span class="mb-label mb-label-sky">Sites</span> | <span class="mb-label mb-label-olive">Checklists</span> | Site Fire Safety Checks, Office Checks, Warehouse Checks, Opening/Closing Checks, etc. |
     | <span class="mb-label mb-label-sky">Sites</span> | <span class="mb-label mb-label-mauve">Playbooks</span> | Site Procedures, Step-by-step guides, etc. |
+
+    </div>
 
 === "Reminder Tasks: Example"
 
@@ -131,11 +135,15 @@ View the Diagram / Table below to view the different kinds of Corrective Actions
 
     <span data-uuid="da9d8035-17b0-4d99-aff6-4c2457d55c59" style="display:none"></span>
 
+    <div class="nowrap-first" markdown>
+
     | Corrective Action Type | Description |
     | :--- | :--- |
     | <span class="mb-label mb-label-cyan">Automated Corrective Actions</span> | An automated corrective action is an action that is generated automatically as a result of someone completing a checklist or playbook. It is triggered when a response to a question meets a specific condition, causing a corrective action to be raised. |
     | <span class="mb-label mb-label-rose">Audit Corrective Actions</span> | An audit corrective action is an action generated as a result of an auditor or consultant carrying out an audit of a site. These corrective actions are typically bespoke, detailed, and often relate to higher-priority findings that require attention. |
     | <span class="mb-label mb-label-purple">Manually Reported Corrective Actions</span> | A manually reported corrective action is an ad-hoc action that has been raised by a user. For example, an employee may notice a defect while walking past a vehicle and report it as a corrective action immediately. |
+
+    </div>
 
 === "Corrective Actions: Example"
 

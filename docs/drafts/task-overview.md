@@ -59,11 +59,15 @@ The table below shows the kinds of task each component contributes to the inbox.
 
 <span data-uuid="8acecef1-a5d5-45be-b8a7-9901394145dc" style="display:none"></span>
 
+<div class="nowrap-first" markdown>
+
 | Component | Task types |
 | :--- | :--- |
 | **Sites** | Incidents, site checklist corrective actions, checklists due, site documents due. |
 | **Assets** | Asset checklist corrective actions, asset checklists due, asset documents due. |
 | **Employees** | Training due, e-learning due, checklists (e.g. health surveillance) due, employee documents due. |
+
+</div>
 
 ## What you can do with a task
 <span data-uuid="21af7b16-88dc-4665-91e4-c02c0563e067" style="display:none"></span>

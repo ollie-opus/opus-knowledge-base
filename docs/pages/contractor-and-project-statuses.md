@@ -16,6 +16,8 @@ icon: lucide/gauge
 
     <span data-uuid="b76ec5ec-5f8b-477e-adb0-f2995dba4d1d" style="display:none"></span>
 
+    <div class="nowrap-first" markdown>
+
     | Status | Description |
     | :--- | :--- |
     | <span data-uuid="645110d4-1210-4cac-b103-81ab3820e30a" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/stale-light-mode.png#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/stale-dark-mode.png#only-dark){ style="height: 30px" loading=lazy } | This Contractor is configured to not be required to be kept up to date while not in use. Its requirements are due; however, the Contractor is not currently being used. test |
@@ -23,6 +25,8 @@ icon: lucide/gauge
     | <span data-uuid="3ca2523e-7061-42eb-a0d0-c228e4fc6c0d" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/renewable-light-mode.png#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/renewable-dark-mode.png#only-dark){ style="height: 30px" loading=lazy } | All requirements for the Contractor have been fulfilled previously, but at least one requirement is now out of date and needs renewing. |
     | <span data-uuid="80167fce-c436-49a0-95fe-0cc4278357f6" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/ready-light-mode.png#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/ready-dark-mode.png#only-dark){ style="height: 30px" loading=lazy } | All requirements for the Contractor have been fulfilled and are currently up to date. The Contractor is ready for use. |
     | <span data-uuid="8f45e36e-187c-433b-a403-d5fc67903b01" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/archived-light-mode.png#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/archived-dark-mode.png#only-dark){ style="height: 30px" loading=lazy } | The Contractor has been archived from the Contractor's edit page. Any existing open requirement tasks for this Contractor will have been resolved, and no new tasks will be generated for outstanding requirements. |
+
+    </div>
 
 === "Logic diagram"
 
@@ -74,6 +78,8 @@ icon: lucide/gauge
 
     <span data-uuid="eff02b38-7146-4834-bda2-9a32f308657b" style="display:none"></span>
 
+    <div class="nowrap-first" markdown>
+
     | Status | Description |
     | :--- | :--- |
     | <span data-uuid="94f269eb-7d71-4ec9-a4d1-75990f066989" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/future-light-mode.png#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/future-dark-mode.png#only-dark){ style="height: 30px" loading=lazy } | This Project's start date is in the future. Tasks will not generate until this Project starts. |
@@ -81,6 +87,8 @@ icon: lucide/gauge
     | <span data-uuid="6c66f86b-2b9e-49da-9bdf-6da593de9fab" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/renewable-light-mode.png#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/renewable-dark-mode.png#only-dark){ style="height: 30px" loading=lazy } | All requirements for the Project have been fulfilled previously, but at least one requirement is now out of date and needs renewing. |
     | <span data-uuid="39d1124e-5352-4b0b-80b9-d438aa47fd35" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/ready-light-mode.png#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/ready-dark-mode.png#only-dark){ style="height: 30px" loading=lazy } | All requirements for the Project have been fulfilled and are currently up to date. The Project is ready to start. |
     | <span data-uuid="3096cf46-1ff1-4f79-ba9f-ca75acb75ffe" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/ended-light-mode.png#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/ended-dark-mode.png#only-dark){ style="height: 30px" loading=lazy } | The Project has ended. |
+
+    </div>
 
 === "Logic diagram"
 
