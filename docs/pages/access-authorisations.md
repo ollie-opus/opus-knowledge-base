@@ -37,7 +37,7 @@ Employees can have their access defined on their employee record. Depending on t
 | Manage documents (add, edit, and archive) |  | :lucide-check: | :lucide-check: |
 | Manage checklists and playbooks (add, edit, and archive) |  | :lucide-check: | :lucide-check: |
 | Generate reports using Task Reports and the Site Snapshot |  | :lucide-check: | :lucide-check: |
-| Create and edit resource templates, including Documents, Checklists, Playbooks, and Training |  |  | :lucide-check: |
+| Create and edit resource templates, including Documents, Checklists, Playbooks, E-learning and Training |  |  | :lucide-check: |
 | Create and manage employee roles, asset types, and (if [Contractor Management](contractors-overview.md) is enabled) contractor and project types |  |  | :lucide-check: |
 | Edit site structures, including renaming and moving sites |  |  | :lucide-check: |
 | Access additional task management capabilities, such as extended task snooze periods |  |  | :lucide-check: |
