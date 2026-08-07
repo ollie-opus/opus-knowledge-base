@@ -82,6 +82,7 @@ Employee records can hold information about the employee it represents. Such as:
     Employees can have access defined on their record. An employee may have access to a single site or many sites, depending on the nature of their job within your organisation. Furthermore, access has 3 options to choose from.
 
     User access is the standard level of access, designed for employees who do not have managerial responsibilities.
+    Manager access is designed for employees with managerial responsibilities, such as General Managers and Assistant Managers. Managers have additional permissions that enable them to oversee and manage their site(s).
 
     ??? outline "<span class="mb-label mb-label-pink">Administrator</span>"
 
