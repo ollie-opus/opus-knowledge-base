@@ -146,6 +146,12 @@ Employee records can hold information about the employee it represents. Such as:
 
 </div>
 
+<div class="card" markdown>
+
+<span data-uuid="d87fae48-03e5-48f9-8b84-99664492fe05" style="display:none"></span>
+
+</div>
+
 </div>
 
 ??? outline "<span class="mb-label mb-label-olive">Employee Details</span>"
