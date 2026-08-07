@@ -22,12 +22,32 @@
    out-cascade the theme's accent-colour hover AND `.md-button--primary` when
    both classes appear. Hover/focus follows the EFFECTIVE trio via --btn-hover
    (a force-dark button on a light page gets the dark brighten).
+
+   Border modifiers (independent of the theme modifiers, one of):
+
+     .custom-button--bordered      → border on both trios
+     .custom-button--border-light  → border only when the LIGHT trio paints
+     .custom-button--border-dark   → border only when the DARK trio paints
+     .custom-button--borderless    → never a border
+
+   "Light/dark" here means the trio the button is showing, NOT the page scheme
+   — so a force-light button keeps its border state in both schemes. Mechanism:
+   each painting rule resolves border-colour through a side-specific override
+   (--btn-border-light / --btn-border-dark) that falls back to the trio's own
+   border. The border modifiers only SET those two custom properties, so they
+   need no scheme scoping and no specificity games — whichever trio paints
+   consumes the matching side. The chromatic light trios have no border colour
+   (transparent by design), so an enabled light border falls back to a
+   color-mix of the light fg (--btn-light-strong); the neutrals override that
+   with their curated --btn-light-border-strong so Default and Always match.
    ============================================================================ */
 
 /* The modern theme's .md-button has no border; the neutral variants (and all
    dark variants) rely on one, same as the label pills. */
 .md-typeset .md-button[class*="custom-button-"] {
   border: 1px solid transparent;
+  --btn-light-strong: var(--btn-light-border-strong,
+      color-mix(in srgb, var(--btn-light-fg) 30%, transparent));
 }
 
 /* ── Colour trios (no painting here) ─────────────────────────────────────── */
@@ -105,69 +125,100 @@
 /* neutrals */
 .md-typeset .custom-button-slate {
   --btn-light-bg: rgb(226,232,240); --btn-light-fg: rgb(49,65,88); --btn-light-border: rgb(144,161,185);
+  --btn-light-border-strong: rgb(144,161,185);
   --btn-dark-bg: rgb(49,65,88); --btn-dark-fg: rgb(241,245,249); --btn-dark-border: rgb(98,116,142);
 }
 .md-typeset .custom-button-grey {
   --btn-light-bg: rgb(229,231,235); --btn-light-fg: rgb(54,65,83); --btn-light-border: rgb(153,161,175);
+  --btn-light-border-strong: rgb(153,161,175);
   --btn-dark-bg: rgb(54,65,83); --btn-dark-fg: rgb(243,244,246); --btn-dark-border: rgb(106,114,130);
 }
 .md-typeset .custom-button-zinc {
   --btn-light-bg: rgb(228,228,231); --btn-light-fg: rgb(63,63,70); --btn-light-border: rgb(159,159,169);
+  --btn-light-border-strong: rgb(159,159,169);
   --btn-dark-bg: rgb(63,63,70); --btn-dark-fg: rgb(244,244,245); --btn-dark-border: rgb(113,113,123);
 }
 .md-typeset .custom-button-neutral {
   --btn-light-bg: rgb(229,229,229); --btn-light-fg: rgb(64,64,64); --btn-light-border: rgb(161,161,161);
+  --btn-light-border-strong: rgb(161,161,161);
   --btn-dark-bg: rgb(38,38,38); --btn-dark-fg: rgb(245,245,245); --btn-dark-border: rgb(115,115,115);
 }
 .md-typeset .custom-button-stone {
   --btn-light-bg: rgb(231,229,228); --btn-light-fg: rgb(68,64,59); --btn-light-border: rgb(166,160,155);
+  --btn-light-border-strong: rgb(166,160,155);
   --btn-dark-bg: rgb(68,64,59); --btn-dark-fg: rgb(245,245,244); --btn-dark-border: rgb(121,113,107);
 }
 .md-typeset .custom-button-taupe {
   --btn-light-bg: rgb(232,228,227); --btn-light-fg: rgb(71,60,57); --btn-light-border: rgb(171,160,156);
+  --btn-light-border-strong: rgb(171,160,156);
   --btn-dark-bg: rgb(43,36,34); --btn-dark-fg: rgb(243,241,241); --btn-dark-border: rgb(124,109,103);
 }
 .md-typeset .custom-button-mauve {
   --btn-light-bg: rgb(231,228,231); --btn-light-fg: rgb(70,57,71); --btn-light-border: rgb(168,158,169);
+  --btn-light-border-strong: rgb(168,158,169);
   --btn-dark-bg: rgb(42,33,44); --btn-dark-fg: rgb(243,241,243); --btn-dark-border: rgb(121,105,123);
 }
 .md-typeset .custom-button-mist {
   --btn-light-bg: rgb(227,231,232); --btn-light-fg: rgb(57,68,71); --btn-light-border: rgb(156,168,171);
+  --btn-light-border-strong: rgb(156,168,171);
   --btn-dark-bg: rgb(34,41,43); --btn-dark-fg: rgb(241,243,243); --btn-dark-border: rgb(103,120,124);
 }
 .md-typeset .custom-button-olive {
   --btn-light-bg: rgb(232,232,227); --btn-light-fg: rgb(71,71,57); --btn-light-border: rgb(171,171,156);
+  --btn-light-border-strong: rgb(171,171,156);
   --btn-dark-bg: rgb(43,43,34); --btn-dark-fg: rgb(244,244,240); --btn-dark-border: rgb(124,124,103);
 }
 
 /* ── Scheme pickers ──────────────────────────────────────────────────────── */
 
 [data-md-color-scheme="default"] .md-typeset .md-button[class*="custom-button-"] {
-  background: var(--btn-light-bg); color: var(--btn-light-fg); border-color: var(--btn-light-border);
+  background: var(--btn-light-bg); color: var(--btn-light-fg);
+  border-color: var(--btn-border-light, var(--btn-light-border));
   --btn-hover: brightness(0.95);
 }
 [data-md-color-scheme="slate"] .md-typeset .md-button[class*="custom-button-"] {
-  background: var(--btn-dark-bg); color: var(--btn-dark-fg); border-color: var(--btn-dark-border);
+  background: var(--btn-dark-bg); color: var(--btn-dark-fg);
+  border-color: var(--btn-border-dark, var(--btn-dark-border));
   --btn-hover: brightness(1.15);
 }
 
 /* ── Theme modifiers (must follow the pickers — equal specificity) ───────── */
 
 [data-md-color-scheme="default"] .md-typeset .md-button.custom-button--inversed {
-  background: var(--btn-dark-bg); color: var(--btn-dark-fg); border-color: var(--btn-dark-border);
+  background: var(--btn-dark-bg); color: var(--btn-dark-fg);
+  border-color: var(--btn-border-dark, var(--btn-dark-border));
   --btn-hover: brightness(1.15);
 }
 [data-md-color-scheme="slate"] .md-typeset .md-button.custom-button--inversed {
-  background: var(--btn-light-bg); color: var(--btn-light-fg); border-color: var(--btn-light-border);
+  background: var(--btn-light-bg); color: var(--btn-light-fg);
+  border-color: var(--btn-border-light, var(--btn-light-border));
   --btn-hover: brightness(0.95);
 }
 [data-md-color-scheme] .md-typeset .md-button.custom-button--force-light {
-  background: var(--btn-light-bg); color: var(--btn-light-fg); border-color: var(--btn-light-border);
+  background: var(--btn-light-bg); color: var(--btn-light-fg);
+  border-color: var(--btn-border-light, var(--btn-light-border));
   --btn-hover: brightness(0.95);
 }
 [data-md-color-scheme] .md-typeset .md-button.custom-button--force-dark {
-  background: var(--btn-dark-bg); color: var(--btn-dark-fg); border-color: var(--btn-dark-border);
+  background: var(--btn-dark-bg); color: var(--btn-dark-fg);
+  border-color: var(--btn-border-dark, var(--btn-dark-border));
   --btn-hover: brightness(1.15);
+}
+
+/* ── Border modifiers (custom-property switches — no scheme scoping needed;
+      whichever trio paints consumes its side's override) ──────────────────── */
+
+.md-typeset .md-button.custom-button--bordered {
+  --btn-border-light: var(--btn-light-strong); --btn-border-dark: var(--btn-dark-border);
+}
+.md-typeset .md-button.custom-button--border-light {
+  --btn-border-light: var(--btn-light-strong); --btn-border-dark: transparent;
+}
+.md-typeset .md-button.custom-button--border-dark {
+  --btn-border-light: transparent; --btn-border-dark: var(--btn-dark-border);
+}
+.md-typeset .md-button.custom-button--borderless {
+  --btn-border-light: transparent; --btn-border-dark: transparent;
 }
 
 /* hover/focus feedback (variant colours suppress the theme's accent hover) */
