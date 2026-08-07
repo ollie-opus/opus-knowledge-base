@@ -163,43 +163,6 @@ Employee records can hold information about the employee it represents. Such as:
 
 <div class="card" markdown>
 
-<span data-uuid="090fc7d3-9337-46d3-8fce-88e6530b071a" style="display:none"></span>
-
-??? outline "<span class="mb-label mb-label-olive">Employee Details</span>"
-
-    <span data-uuid="2e67fd20-5abe-4d5c-a507-4a76d0096bf2" style="display:none"></span>
-
-
-
-
-    You can store general information about the employee on their record such as:
-
-    - Full name
-    - Photo
-    - Start date
-    - End date
-    - Role(s)
-    - Additional notes (such as contact information)
-
-</div>
-
-<div class="card" markdown>
-
-<span data-uuid="1371e08f-3c8e-4f7f-999c-a52e6e09ba9b" style="display:none"></span>
-
-??? outline "<span class="mb-label mb-label-olive">Location</span>"
-
-    <span data-uuid="74604a26-4691-413e-a1b9-d42cd39c3f9f" style="display:none"></span>
-
-
-
-
-    Employees are stored within a site in Opus Compliance Cloud. Each site acts as a digital representation of a physical workplace/location, helping you keep your employee records organised and easy to manage.
-
-</div>
-
-<div class="card" markdown>
-
 <span data-uuid="a0e8f7af-4479-4561-8888-279abb12e5de" style="display:none"></span>
 
 ??? outline "<span class="mb-label mb-label-olive">Access</span>"
