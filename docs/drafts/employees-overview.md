@@ -84,9 +84,9 @@ Employee records can hold information about the employee it represents. Such as:
     ??? outline "<span class="mb-label mb-label-blue">User</span>"
 
         <span data-uuid="128c8577-802c-42bb-982e-72e9338bba37" style="display:none"></span>
-        <span class="mb-label mb-label-blue">User</span> access is the standard level of access, designed for employees who do not have managerial responsibilities.
+        User access is the standard level of access, designed for employees who do not have managerial responsibilities.
 
-        With <span class="mb-label mb-label-blue">User</span> access, employees can:
+        With User access, employees can:
 
         - Complete their own requirements, such as e-learning courses and employee checklists
         - Access a site's **View** mode to report events, such as incidents
