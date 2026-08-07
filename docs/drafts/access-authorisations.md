@@ -19,8 +19,6 @@ Employees can have access defined on their record. An employee may have access t
 
 <span data-uuid="c460aa2b-adc2-4fc7-a193-d9166884c952" style="display:none"></span>
 
-<div class="nowrap-first" markdown>
-
 | Ability | <span class="mb-label mb-label-blue">User</span> | <span class="mb-label mb-label-purple">Manager</span> | <span class="mb-label mb-label-pink">Administrator</span> |
 | :--- | :---: | :---: | :---: |
 | Complete their own requirements, such as e-learning courses and employee checklists | :lucide-check: | :lucide-check: | :lucide-check: |
@@ -42,8 +40,6 @@ Employees can have access defined on their record. An employee may have access t
 | Create and manage employee roles, asset types, and (if [Contractor Management](contractors-overview.md) is enabled) contractor and project types |  |  | :lucide-check: |
 | Edit site structures, including renaming and moving sites |  |  | :lucide-check: |
 | Access additional task management capabilities, such as extended task snooze periods |  |  | :lucide-check: |
-
-</div>
 
 !!! info
 
