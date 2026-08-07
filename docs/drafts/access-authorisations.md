@@ -43,15 +43,6 @@ Employees can have access defined on their record. An employee may have access t
 
 !!! info
 
-    <span data-uuid="0f35bccc-1846-4299-ad62-5d9e42c3cbfc" style="display:none"></span>
-
-
-
-
-    <span class="mb-label mb-label-pink">Administrator</span> access is a relatively new permission level, introduced to provide a clear distinction between site managers and administrators with regional or organisation-wide responsibilities.
-
-!!! info
-
     <span data-uuid="e3858757-a181-4425-9d3f-63f7c522f04f" style="display:none"></span>
 
 
