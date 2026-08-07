@@ -99,6 +99,51 @@ Employee records can hold information about the employee it represents. Such as:
 
 <span data-uuid="1edcce56-7b73-4b52-8c9b-88229fcf2e34" style="display:none"></span>
 
+??? outline "<span class="mb-label mb-label-olive">Access</span>"
+
+    <span data-uuid="5bf2e923-84ce-4d53-8fd1-984e1fc1595e" style="display:none"></span>
+
+
+    Employees can have access defined on their record. An employee may have access to a single site or many sites, depending on the nature of their job within your organisation. Furthermore, access has 3 options to choose from.
+
+    - <span class="mb-label mb-label-blue">User</span> access is the standard level of access, designed for employees who do not have managerial responsibilities.
+    - <span class="mb-label mb-label-purple">Manager</span> access is designed for employees with managerial responsibilities, such as General Managers and Assistant Managers. Managers have additional permissions that enable them to oversee and manage their site(s).
+    - <span class="mb-label mb-label-pink">Administrator</span> access is intended for employees with elevated management responsibilities, typically spanning regions or the organisation as a whole. Administrators have advanced permissions that allow them to make fundamental changes to their company's Opus Compliance Cloud configuration.
+
+
+    <span data-uuid="c5bd2482-30c9-4c81-8e82-51cb23a087bb" style="display:none"></span>
+
+    | Ability | <span class="mb-label mb-label-blue">User</span> | <span class="mb-label mb-label-purple">Manager</span> | <span class="mb-label mb-label-pink">Administrator</span> |
+    | :--- | :---: | :---: | :---: |
+    | Complete their own requirements, such as e-learning courses and employee checklists | :lucide-check: | :lucide-check: | :lucide-check: |
+    | Access to a site's View mode to report events, such as incidents | :lucide-check: | :lucide-check: | :lucide-check: |
+    | Complete tasks that have been made available to users, such as vehicle pre-use checks | :lucide-check: | :lucide-check: | :lucide-check: |
+    | Access site assets to report defects or complete user-scoped checks | :lucide-check: | :lucide-check: | :lucide-check: |
+    | View documents that are set to be available to users, such as company policies and risk assessments. | :lucide-check: | :lucide-check: | :lucide-check: |
+    | Manage their notification subscriptions to receive in-system and email notifications | :lucide-check: | :lucide-check: | :lucide-check: |
+    | Access confidential tasks, including incidents and employee interventions |  | :lucide-check: | :lucide-check: |
+    | View documents that are set to be available to managers. |  | :lucide-check: | :lucide-check: |
+    | View and complete checklists that are set to be completable by managers, such as site fire safety checks. |  | :lucide-check: | :lucide-check: |
+    | Access Manage mode for their assigned site(s) |  | :lucide-check: | :lucide-check: |
+    | Manage employees (add, edit, archive, and link) |  | :lucide-check: | :lucide-check: |
+    | Manage assets (add, edit, and archive) |  | :lucide-check: | :lucide-check: |
+    | Manage documents (add, edit, and archive) |  | :lucide-check: | :lucide-check: |
+    | Manage checklists and playbooks (add, edit, and archive) |  | :lucide-check: | :lucide-check: |
+    | Generate reports using Task Reports and the Site Snapshot |  | :lucide-check: | :lucide-check: |
+    | Create and edit resource templates, including Documents, Checklists, Playbooks, and Training |  |  | :lucide-check: |
+    | Create and manage employee roles, asset types, and (if [Contractor Management](contractors-overview.md) is enabled) contractor and project types |  |  | :lucide-check: |
+    | Edit site structures, including renaming and moving sites |  |  | :lucide-check: |
+    | Access additional task management capabilities, such as extended task snooze periods |  |  | :lucide-check: |
+
+    !!! info
+
+        <span data-uuid="f8deb072-cdf7-4896-84bc-53f87d936fda" style="display:none"></span>
+
+
+
+
+        <span class="mb-label mb-label-pink">Administrator</span> access is a relatively new permission level, introduced to provide a clear distinction between site managers and administrators with regional or organisation-wide responsibilities.
+
 </div>
 
 </div>
