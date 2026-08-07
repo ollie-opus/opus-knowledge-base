@@ -99,6 +99,13 @@ Employee records can hold information about the employee it represents. Such as:
 
 <span data-uuid="a73d32f0-2b9e-48f8-93a5-9f6b0880e6bd" style="display:none"></span>
 
+!!! outline "<span class="mb-label mb-label-olive">Access & Authorisations</span>"
+
+    <span data-uuid="b13cd31f-8839-46f5-bae6-7c67e2d4aec4" style="display:none"></span>
+    Employees can have access defined on their record. An employee may have access to a single site or many sites, depending on the nature of their job within your organisation.
+
+    Separately, authorisations are...
+
 </div>
 
 </div>
