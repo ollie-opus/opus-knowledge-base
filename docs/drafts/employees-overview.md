@@ -66,6 +66,20 @@ Employee records can hold information about the employee it represents. Such as:
 
 <span data-uuid="091c05fa-bbdc-41e9-84ff-13607523d5fa" style="display:none"></span>
 
+??? outline "<span class="mb-label mb-label-olive">Employee Details</span>"
+
+    <span data-uuid="5eebd375-a2ab-4c62-8cb9-035b6b27ddf2" style="display:none"></span>
+
+
+    You can store general information about the employee on their record such as:
+
+    - Full name
+    - Photo
+    - Start date
+    - End date
+    - Role(s)
+    - Additional notes (such as contact information)
+
 </div>
 
 <div class="card" markdown>
