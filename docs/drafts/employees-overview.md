@@ -84,3 +84,10 @@ Employee records can hold information about the employee it represents. Such as:
     - <span class="mb-label mb-label-blue">User</span> access is the standard level of access, designed for employees who do not have managerial responsibilities.
     - <span class="mb-label mb-label-purple">Manager</span> access is designed for employees with managerial responsibilities, such as General Managers and Assistant Managers. Managers have additional permissions that enable them to oversee and manage their site(s).
     - <span class="mb-label mb-label-pink">Administrator</span> access is intended for employees with elevated management responsibilities, typically spanning regions or the organisation as a whole. Administrators have advanced permissions that allow them to make fundamental changes to their company's Opus Compliance Cloud configuration.
+
+    !!! info
+
+        <span data-uuid="45b27cb7-1705-4d65-9805-85a63f8f01b4" style="display:none"></span>
+
+
+        <span class="mb-label mb-label-pink">Administrator</span> access is a relatively new permission level, introduced to provide a clear distinction between site managers and administrators with regional or organisation-wide responsibilities.
