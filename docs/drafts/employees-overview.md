@@ -120,4 +120,4 @@ Employee records can hold information about the employee it represents. Such as:
     [test :lucide-send:](#){ .md-button .custom-button-emerald .custom-button--force-dark .custom-button--border-dark }
 
     <span data-uuid="e43a05e8-5126-4415-b8e6-565b2d858161" style="display:none"></span>
-    [test :lucide-send:](#){ .md-button .custom-button-emerald .custom-button--force-light }
+    [test :lucide-send:](#){ .md-button .custom-button-emerald .custom-button--bordered }
