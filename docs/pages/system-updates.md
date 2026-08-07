@@ -27,7 +27,7 @@ This page highlights the main user-facing improvements, additions and feature re
     ![](../assets/media/occ-captures/admin/sites/uuid/checklists/id/submissions/uuid/full-page-a-checklist-actions-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/checklists/id/submissions/uuid/full-page-a-checklist-actions-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
-??? improvement "Improvement: Cross-site answers for questions<span class="meta">30th July 2026</span>"
+??? new-addition "New addition: Cross-site answers for questions<span class="meta">30th July 2026</span>"
 
     <span data-uuid="2459a684-7670-4839-91bd-6c723fe7d938" style="display:none"></span>
     You can now view answers to a specific checklist/playbook question across sites/assets that ask that question.
