@@ -87,8 +87,6 @@ Employee records can hold information about the employee it represents. Such as:
     ??? outline "<span class="mb-label mb-label-pink">Administrator</span>"
 
         <span data-uuid="a07325c5-4e9b-4c8e-8fa0-22f1697570f1" style="display:none"></span>
-        Administrator access is intended for employees with elevated management responsibilities, typically spanning regions or the organisation as a whole. Administrators have advanced permissions that allow them to make fundamental changes to their company's Opus Compliance Cloud configuration.
-
         With Administrator access, employees can:
 
         - Perform everything available to a <span class="mb-label mb-label-blue">User</span> and a <span class="mb-label mb-label-violet">Manager</span>
