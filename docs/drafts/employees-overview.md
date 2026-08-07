@@ -86,6 +86,13 @@ Employee records can hold information about the employee it represents. Such as:
 
 <span data-uuid="86be496b-ed17-4b69-82b7-ea485be59fa5" style="display:none"></span>
 
+??? outline "<span class="mb-label mb-label-olive">Location</span>"
+
+    <span data-uuid="fd7eaddd-3454-4a28-a90a-6afbf1a273a8" style="display:none"></span>
+
+
+    Employees are stored within a site in Opus Compliance Cloud. Each site acts as a digital representation of a physical workplace/location, helping you keep your employee records organised and easy to manage.
+
 </div>
 
 <div class="card" markdown>
