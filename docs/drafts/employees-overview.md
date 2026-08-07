@@ -85,6 +85,30 @@ Employee records can hold information about the employee it represents. Such as:
     - <span class="mb-label mb-label-purple">Manager</span> access is designed for employees with managerial responsibilities, such as General Managers and Assistant Managers. Managers have additional permissions that enable them to oversee and manage their site(s).
     - <span class="mb-label mb-label-pink">Administrator</span> access is intended for employees with elevated management responsibilities, typically spanning regions or the organisation as a whole. Administrators have advanced permissions that allow them to make fundamental changes to their company's Opus Compliance Cloud configuration.
 
+    <span data-uuid="e520289b-4832-44c9-8b8d-926d5c6330b3" style="display:none"></span>
+
+    | Ability | User | Manager | Administrator |
+    | :--- | :--- | :--- | :--- |
+    | Complete their own requirements, such as e-learning courses and employee checklists | :lucide-check: | :lucide-check: | :lucide-check: |
+    | Access a site's View mode to report events, such as incidents | :lucide-check: | :lucide-check: | :lucide-check: |
+    | Complete tasks that have been made available to users, such as vehicle pre-use checks | :lucide-check: | :lucide-check: | :lucide-check: |
+    | Access site assets to report defects or complete user-scoped checks | :lucide-check: | :lucide-check: | :lucide-check: |
+    | View documents that are set to be available to users, such as company policies and risk assessments. | :lucide-check: | :lucide-check: | :lucide-check: |
+    | Manage their notification subscriptions to receive in-system and email notifications | :lucide-check: | :lucide-check: | :lucide-check: |
+    | Access confidential tasks, including incidents and employee interventions |  | :lucide-check: | :lucide-check: |
+    | View documents that are set to be available to managers. |  | :lucide-check: | :lucide-check: |
+    | View and complete checklists that are set to be completable by managers, such as site fire safety checks. |  | :lucide-check: | :lucide-check: |
+    | Access Manage mode for their assigned site(s) |  | :lucide-check: | :lucide-check: |
+    | Manage employees (add, edit, archive, and link) |  | :lucide-check: | :lucide-check: |
+    | Manage assets (add, edit, and archive) |  | :lucide-check: | :lucide-check: |
+    | Manage documents (add, edit, and archive) |  | :lucide-check: | :lucide-check: |
+    | Manage checklists and playbooks (add, edit, and archive) |  | :lucide-check: | :lucide-check: |
+    | Generate reports using Task Reports and the Site Snapshot |  | :lucide-check: | :lucide-check: |
+    | Create and edit resource templates, including Documents, Checklists, Playbooks, and Training |  |  | :lucide-check: |
+    | Create and manage employee roles, asset types, and (if [Contractor Management](contractors-overview.md) is enabled) contractor and project types |  |  | :lucide-check: |
+    | Edit site structures, including renaming and moving sites |  |  | :lucide-check: |
+    | Access additional task management capabilities, such as extended task snooze periods |  |  | :lucide-check: |
+
     !!! info
 
         <span data-uuid="45b27cb7-1705-4d65-9805-85a63f8f01b4" style="display:none"></span>
