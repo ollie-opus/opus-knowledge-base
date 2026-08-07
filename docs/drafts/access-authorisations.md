@@ -47,3 +47,10 @@ Employees can have access defined on their record. An employee may have access t
 
 
     <span class="mb-label mb-label-pink">Administrator</span> access is a relatively new permission level, introduced to provide a clear distinction between site managers and administrators with regional or organisation-wide responsibilities.
+
+## Authorisations
+<span data-uuid="8d5dfa78-d3ba-4e20-8094-29c7da26e264" style="display:none"></span>
+
+Authorisations are separate permissions that can be assigned to employees. Employees with an authorisation can access specific types of sensitive data.
+
+Currently, the system supports a <span class="mb-label mb-label-fuchsia">Sensitive Health</span> authorisation out of the box. This can be assigned to managers who need to view, export, and interact with tasks containing employee sensitive health data, such as corrective actions arising from Health Surveillance.
