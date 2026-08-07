@@ -13,12 +13,12 @@ This page highlights the main user-facing improvements, additions and feature re
 !!! question "Have an idea, suggestion or question?"
     We'd love to hear from you!
 
-    [Contact us :lucide-send:](#){ .md-button .custom-button-emerald .custom-button--force-dark onclick="event.preventDefault(); window.groove.widget.open();" }
+    [Contact us :lucide-send:](#){ .md-button .custom-button-emerald .custom-button--force-dark .custom-button--borderless onclick="event.preventDefault(); window.groove.widget.open();" }
 
 !!! info "Stay in the loop"
     We have a system updates email newsletter!
 
-    [Subscribe here :lucide-bell-ring:](https://cloud.opus-safety.co.uk/my/newsletters){ .md-button .custom-button-cyan .custom-button--force-dark target="_blank" rel="noopener" }
+    [Subscribe here :lucide-bell-ring:](https://cloud.opus-safety.co.uk/my/newsletters){ .md-button .custom-button-cyan .custom-button--force-dark .custom-button--borderless target="_blank" rel="noopener" }
 </div>
 
 ## 2026
