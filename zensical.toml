@@ -56,7 +56,8 @@ nav = [
       {"Registering an employee" = "pages/registering-an-employee.md"},
       {"Granting an employee temporary access" = "pages/granting-an-employee-temporary-access.md"},
       {"Archiving an employee" = "pages/archiving-an-employee.md"},
-      {"Moving an employee" = "pages/moving-an-employee.md"}
+      {"Moving an employee" = "pages/moving-an-employee.md"},
+      {"Access & Authorisations" = "pages/access-authorisations.md"}
     ]},
     {"Assets" = [
       {"Adding an asset" = "pages/adding-an-asset.md"},
@@ -95,8 +96,7 @@ draft_nav = [
       ]}
     ]},
     {"Employees" = [
-      {"Employees overview" = "drafts/employees-overview.md"},
-      {"Access & Authorisations" = "drafts/access-authorisations.md"}
+      {"Employees overview" = "drafts/employees-overview.md"}
     ]}
   ]}
 ]
