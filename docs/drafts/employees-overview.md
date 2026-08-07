@@ -116,8 +116,5 @@ Employee records can hold information about the employee it represents. Such as:
 
         <span class="mb-label mb-label-pink">Administrator</span> access is a relatively new permission level, introduced to provide a clear distinction between site managers and administrators with regional or organisation-wide responsibilities.
 
-    <span data-uuid="bd07fdbc-bef5-4e2e-8faf-790384c5b2d5" style="display:none"></span>
-    [test :lucide-send:](#){ .md-button .custom-button-emerald .custom-button--force-dark .custom-button--borderless }
-
     <span data-uuid="e43a05e8-5126-4415-b8e6-565b2d858161" style="display:none"></span>
     [test :lucide-send:](#){ .md-button .custom-button-emerald .custom-button--bordered }
