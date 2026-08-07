@@ -1,6 +1,9 @@
 ---
+icon: lucide/key-round
 search:
   exclude: true
+tags:
+  - Managing OCC
 ---
 
 # Access & Authorisations
