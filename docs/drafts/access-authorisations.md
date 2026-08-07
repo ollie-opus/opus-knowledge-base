@@ -53,4 +53,4 @@ Employees can have access defined on their record. An employee may have access t
 
 Authorisations are separate permissions that can be assigned to employees. Employees with an authorisation can access specific types of sensitive data.
 
-Currently, the system supports a <span class="mb-label mb-label-fuchsia">Sensitive Health</span> authorisation out of the box. This can be assigned to managers who need to view, export, and interact with tasks containing employee sensitive health data, such as corrective actions arising from Health Surveillance.
+Currently, the system supports a <span class="mb-label mb-label-teal">Sensitive Health</span> authorisation out of the box. This can be assigned to managers who need to view, export, and interact with tasks containing employee sensitive health data, such as corrective actions arising from Health Surveillance.
