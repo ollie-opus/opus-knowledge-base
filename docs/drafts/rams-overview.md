@@ -45,3 +45,9 @@ By combining your existing Opus Compliance Cloud data with a streamlined workflo
 </div>
 
 </div>
+
+## What is Opus RAMS?
+<span data-uuid="399544ca-b618-4b50-8a38-e56f56c1881a" style="display:none"></span>
+
+Opus RAMS is a powerful new add-on product that acts as your shortcut to producing site-specific Risk Assessments and Method Statements (RAMS).
+It brings together all required safety information into a single, well-formatted and accessible PDF that is ready to issue directly to clients and principal contractors.
