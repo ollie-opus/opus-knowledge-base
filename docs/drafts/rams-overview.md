@@ -20,14 +20,13 @@ hide:
 <div style="align-self: center" markdown>
 
 <span data-uuid="585b98de-329b-46c0-9876-4086d5d59dcd" style="display:none"></span>
+<span class="mb-label mb-label-mist">Better RAMS. Safer work.</span>
 
-<span class="mb-label mb-label-slate">Smarter management, built for compliance</span>
+# Opus RAMS
 
-# Opus Contractor Management
+Produce highly effective Risk Assessments and Method Statements (RAMS) within Opus Compliance Cloud. By combining your existing Opus Compliance Cloud data with a streamlined workflow, our RAMS add-on helps you to quickly produce professional, comprehensive documentation.
 
-Stay on top of contractor management with Opus Contractor Management. Gain in-depth visibility and control over your contractors and projects, while maintaining compliance through seamless integration with your existing Opus experience.
-
-*Interested in Opus Contractor Management?*
+*Interested in Opus RAMS?*
 
 <span data-uuid="4fa5c790-1444-4db5-90fc-2d3af835eff2" style="display:none"></span>
 [Contact us :lucide-send:](https://www.opus-safety.co.uk/contact){ .md-button .md-button--primary target="_blank" rel="noopener" }
