@@ -46,6 +46,13 @@ By combining your existing Opus Compliance Cloud data with a streamlined workflo
 
 </div>
 
+## -
+<span data-uuid="9353afb1-4ca7-4ac2-9ba9-193ab257ec94" style="display:none"></span>
+
+<style data-mb-hide-section-title>:is(h1,h2,h3):has(+ p + style[data-mb-hide-section-title]){display:none}</style>
+
+---
+
 ## What is Opus RAMS?
 <span data-uuid="399544ca-b618-4b50-8a38-e56f56c1881a" style="display:none"></span>
 
@@ -56,10 +63,3 @@ It brings together all required safety information into a single, well-formatted
 <span data-uuid="cb5d7d69-695f-43a9-a2ba-23ee64b142e0" style="display:none"></span>
 
 Opus RAMS is primarily intended for contractors preparing site-specific safety packs for clients or principal contractors. However, it may also be useful for complex internal works.
-
-## -
-<span data-uuid="9353afb1-4ca7-4ac2-9ba9-193ab257ec94" style="display:none"></span>
-
-<style data-mb-hide-section-title>:is(h1,h2,h3):has(+ p + style[data-mb-hide-section-title]){display:none}</style>
-
----
