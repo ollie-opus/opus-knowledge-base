@@ -25,7 +25,7 @@ hide:
 
 # Opus RAMS
 
-Produce highly effective Risk Assessments and Method Statements (RAMS) within Opus Compliance Cloud. By combining your existing Opus Compliance Cloud data with a streamlined workflow, our RAMS add-on helps you to quickly produce professional, comprehensive documentation.
+By combining your existing Opus Compliance Cloud data with a streamlined workflow, our RAMS add-on helps you to quickly produce professional, comprehensive documentation.
 
 *Interested in Opus RAMS?*
 
