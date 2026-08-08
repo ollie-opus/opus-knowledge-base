@@ -39,8 +39,8 @@ By combining your existing Opus Compliance Cloud data with a streamlined workflo
 <span data-uuid="8e60f9f2-5fbe-4ff8-b1ea-7e78a1a5c808" style="display:none"></span>
 
 <span data-uuid="419cb481-2459-4841-9451-5d3c0de1399a" style="display:none"></span>
-![](../assets/media/occ-captures/admin/sites/uuid/rams/method-statements/new/standard-personal-protective-equipment-options-light-mode.png#only-dark){ style="border-radius: 8px" width="900" loading=lazy }
-![](../assets/media/occ-captures/admin/sites/uuid/rams/method-statements/new/standard-personal-protective-equipment-options-dark-mode.png#only-light){ style="border-radius: 8px" width="900" loading=lazy }
+![](../assets/media/occ-captures/admin/sites/uuid/rams/method-statements/new/standard-personal-protective-equipment-options-light-mode.png#only-dark){ style="border-radius: 8px" width="800" loading=lazy }
+![](../assets/media/occ-captures/admin/sites/uuid/rams/method-statements/new/standard-personal-protective-equipment-options-dark-mode.png#only-light){ style="border-radius: 8px" width="800" loading=lazy }
 
 </div>
 
