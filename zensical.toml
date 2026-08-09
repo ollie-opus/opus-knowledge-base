@@ -221,7 +221,7 @@ new = "Recently added"
 # ----------------------------------------------------------------------------
 [project.extra.nav_labels]
 "Contractors" = { text = "Add-on", color = "violet" }
-"Rams" = { text = "Add-on", color = "violet" }
+"RAMS" = { text = "Add-on", color = "violet" }
 
 # ----------------------------------------------------------------------------
 # Other Markdown extensions
