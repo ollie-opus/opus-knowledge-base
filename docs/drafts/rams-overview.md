@@ -113,6 +113,11 @@ Opus RAMS is primarily intended for contractors preparing site-specific safety p
 
 <span data-uuid="547301ea-d051-4a5f-b0fd-624286c8149b" style="display:none"></span>
 
+!!! outline "<span class="mb-label mb-label-mist">Customisation and Flexibility</span>"
+
+    <span data-uuid="0d7bf6c2-7145-41fa-9b97-9d1599b37807" style="display:none"></span>
+    You have the freedom to use standard Opus template assessments, edit them to build a tailored library, or create your own custom document library from scratch.
+
 </div>
 
 </div>
