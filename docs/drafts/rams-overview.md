@@ -73,19 +73,6 @@ Opus RAMS is primarily intended for contractors preparing site-specific safety p
 
 <div markdown>
 
-<span data-uuid="4b7cfd2c-a85b-4b2b-b83f-51f3fd1d185c" style="display:none"></span>
-
-!!! outline "<span class="mb-label mb-label-mist">RAMS Example</span>"
-
-    <span data-uuid="3cdc5d80-8664-408c-89a6-72953ac5d7dd" style="display:none"></span>
-
-    <span data-uuid="1bc93f84-2287-4384-bbe8-dd0e48fbb4e4" style="display:none"></span>
-    <video src="../assets/media/videos/rams-example.mp4" autoplay loop muted playsinline preload="none" style="border-radius: 8px"></video>
-
-</div>
-
-<div markdown>
-
 <span data-uuid="aaac8e8f-5c8d-471b-8795-e2acc23395f4" style="display:none"></span>
 
 !!! outline "<span class="mb-label mb-label-mist">RAMS Sections</span>"
@@ -107,6 +94,19 @@ Opus RAMS is primarily intended for contractors preparing site-specific safety p
     - Vibration assessments
     - Method statements
     - Weekly toolbox talks
+
+</div>
+
+<div markdown>
+
+<span data-uuid="4b7cfd2c-a85b-4b2b-b83f-51f3fd1d185c" style="display:none"></span>
+
+!!! outline "<span class="mb-label mb-label-mist">RAMS Example</span>"
+
+    <span data-uuid="3cdc5d80-8664-408c-89a6-72953ac5d7dd" style="display:none"></span>
+
+    <span data-uuid="1bc93f84-2287-4384-bbe8-dd0e48fbb4e4" style="display:none"></span>
+    <video src="../assets/media/videos/rams-example.mp4" autoplay loop muted playsinline preload="none" style="border-radius: 8px"></video>
 
 </div>
 
