@@ -75,8 +75,8 @@ search:
     Fill in the project's initial details
 
     <span data-uuid="d294e90f-02b2-4d3d-a9a9-3e4c9fcae12d" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/initial-details-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/initial-details-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/initial-details-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/initial-details-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
 
 !!! step "<span class="meta">(optional)</span>"
 
