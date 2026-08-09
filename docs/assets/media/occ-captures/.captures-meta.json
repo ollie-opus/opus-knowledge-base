@@ -238,5 +238,9 @@
   "docs/assets/media/occ-captures/admin/sites/uuid/rams/new/valid-until-light-mode.png": {
     "resized": true,
     "padding": 15
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/rams/new/insurance-light-mode.png": {
+    "resized": true,
+    "padding": 15
   }
 }
