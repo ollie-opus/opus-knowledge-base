@@ -91,3 +91,7 @@ search:
 
     <span data-uuid="1bafd3df-b2e7-4dec-9273-8a560d53e842" style="display:none"></span>
     Upload your insurance certificate
+
+    <span data-uuid="07bea0dd-f1e5-4557-a698-3e5cac8f89e8" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/insurance-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/insurance-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
