@@ -73,3 +73,14 @@ search:
     <span data-uuid="6554fe61-6d5d-46cf-921d-b3819c7bf3cf" style="display:none"></span>
     ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! step
+
+    <span data-uuid="abdfbbfb-1c97-4f93-b0ae-20b739940686" style="display:none"></span>
+
+
+    Click the :lucide-ellipsis: icon to open the more options menu.
+
+    <span data-uuid="adde09eb-c630-43f0-995f-38c921924d28" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/show-extra-menu-options-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/show-extra-menu-options-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
