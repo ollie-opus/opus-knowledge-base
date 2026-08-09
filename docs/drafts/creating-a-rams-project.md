@@ -58,3 +58,9 @@ search:
 
 ## Creating the RAMS project
 <span data-uuid="6865323a-a7e6-4fcd-9e47-b931dbd3d8b3" style="display:none"></span>
+
+
+!!! step
+
+    <span data-uuid="c8bf9c10-047e-473c-8448-9fb37016955e" style="display:none"></span>
+    From the project page, click the `+New` button
