@@ -10,17 +10,6 @@ search:
 
 !!! step
 
-    <span data-uuid="25f68b25-503b-4825-b318-754cf174644d" style="display:none"></span>
-
-
-    From the site inbox, click the **Switch to Manage Mode** button.
-
-    <span data-uuid="5d4d4292-11a6-4f02-8579-2cf8d2775009" style="display:none"></span>
-    ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
-!!! step
-
     <span data-uuid="02e18ef2-e59d-4843-b595-e85473c16bc9" style="display:none"></span>
     Click the :lucide-ellipsis: icon to open the more options menu.
 
