@@ -108,3 +108,8 @@ search:
     <span data-uuid="96e9aa9a-0fca-49c4-812b-6c341a9d60a0" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/element-header-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/element-header-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
+
+    !!! note
+
+        <span data-uuid="175a5aa8-66ea-4772-89bf-9b4563f26290" style="display:none"></span>
+        The export always uses the latest version of the certificate, so if the document is updated later, the updated version will be used.
