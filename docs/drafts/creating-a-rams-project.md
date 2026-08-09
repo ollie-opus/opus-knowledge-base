@@ -7,6 +7,7 @@ search:
 # Creating a RAMS project
 <span data-uuid="eebd6486-f131-4700-91c3-2838ec1b2f0c" style="display:none"></span>
 
+This guide details how to create a RAMS project in Opus Compliance Cloud.
 
 ## Navigating to the RAMS projects page
 <span data-uuid="39932418-398a-485d-a7af-e487d6566262" style="display:none"></span>
