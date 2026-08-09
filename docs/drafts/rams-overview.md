@@ -75,21 +75,6 @@ Opus RAMS is primarily intended for contractors preparing site-specific safety p
 
 <span data-uuid="aaac8e8f-5c8d-471b-8795-e2acc23395f4" style="display:none"></span>
 
-- Site information: description of the works, site photo, dates, and insurance certificate
-- Staff members, with selected training certificates
-- Health and safety policy statement of intent
-- Work activity information
-- Emergency procedures
-- Site induction and rules
-- Site induction register
-- Plant and equipment, with selected inspection certificates
-- Risk assessments
-- Manual handling assessments
-- COSHH assessments
-- Vibration assessments
-- Method statements
-- Weekly toolbox talks
-
 </div>
 
 <div markdown>
