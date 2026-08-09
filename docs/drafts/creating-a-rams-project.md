@@ -113,3 +113,10 @@ search:
 
         <span data-uuid="175a5aa8-66ea-4772-89bf-9b4563f26290" style="display:none"></span>
         The export always uses the latest version of the certificate, so if the document is updated later, the updated version will be used.
+
+!!! step
+
+    <span data-uuid="fbe07335-b9f4-4223-8a57-5470dd4ca0a5" style="display:none"></span>
+    Similarly to Plant & equipment, Add employee training/e-learning certificates directly via your existing employees on Opus Compliance Cloud.
+
+    Firstly, add the employee, and then select which certificates are relevant for the project.
