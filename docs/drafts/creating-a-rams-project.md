@@ -47,3 +47,7 @@ search:
     <span data-uuid="224c3d11-5fa7-40d9-97cf-720524ddb490" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/rams-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/rams-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! step
+
+    <span data-uuid="bd180fd1-d51b-48f5-8681-b5f92818e2f2" style="display:none"></span>
