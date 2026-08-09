@@ -145,3 +145,8 @@ search:
     <span data-uuid="621ab6e2-2793-4322-8729-43e20a2f9b34" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/emergency-procedures-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/emergency-procedures-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
+
+    !!! tip
+
+        <span data-uuid="c40475ce-8118-410f-9944-00c872ece77d" style="display:none"></span>
+        To avoid having to re-edit these sections for every project, we recommend creating a template project that you can copy and reuse. You may find it useful to create several templates to cover the different types of projects you typically undertake.
