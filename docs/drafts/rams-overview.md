@@ -124,8 +124,8 @@ Opus RAMS is primarily intended for contractors preparing site-specific safety p
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/method-statements/new/rt-dark-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
 
     <span data-uuid="94b51697-aa64-495a-a19f-f96cf7274de4" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/rams/risk-assessments/new/rt-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/rams/risk-assessments/new/rt-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/risk-assessments/new/rt-light-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/risk-assessments/new/rt-dark-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
 
 </div>
 
