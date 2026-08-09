@@ -69,7 +69,7 @@ nav = [
       {"Contractor & Project statuses" = "pages/contractor-and-project-statuses.md"},
       {"Adding a contractor" = "pages/adding-a-contractor.md"}
     ]},
-    {"Rams" = [
+    {"RAMS" = [
       {"RAMS Overview" = "pages/rams-overview.md"}
     ]}
   ]},
@@ -221,6 +221,7 @@ new = "Recently added"
 # ----------------------------------------------------------------------------
 [project.extra.nav_labels]
 "Contractors" = { text = "Add-on", color = "violet" }
+"Rams" = { text = "Add-on", color = "violet" }
 
 # ----------------------------------------------------------------------------
 # Other Markdown extensions
