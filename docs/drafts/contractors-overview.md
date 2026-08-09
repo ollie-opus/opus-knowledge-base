@@ -1,11 +1,13 @@
 ---
 icon: lucide/layout-dashboard
+search:
+  exclude: true
+tags:
+  - Overview
 hide:
   - toc
   - navigation
   - path
-search:
-  exclude: true
 ---
 
 # Contractors Overview
