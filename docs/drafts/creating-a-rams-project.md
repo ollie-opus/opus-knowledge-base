@@ -141,3 +141,7 @@ search:
     - Work activity information
 
     Each section is pre-populated with default Opus text. Please review and amend the content as required to reflect your company, the specific project, and the work being undertaken.
+
+    <span data-uuid="621ab6e2-2793-4322-8729-43e20a2f9b34" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/emergency-procedures-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/emergency-procedures-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
