@@ -234,5 +234,9 @@
   },
   "docs/assets/media/occ-captures/admin/sites/uuid/rams/new/additional-information-light-mode.png": {
     "padding": 10
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/rams/new/valid-until-light-mode.png": {
+    "resized": true,
+    "padding": 15
   }
 }
