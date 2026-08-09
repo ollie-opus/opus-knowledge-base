@@ -224,5 +224,9 @@
   "docs/assets/media/occ-captures/admin/sites/uuid/rams/risk-assessments/new/rt-light-mode.png": {
     "resized": true,
     "padding": 20
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/rams/settings/as-light-mode.png": {
+    "resized": true,
+    "padding": 20
   }
 }
