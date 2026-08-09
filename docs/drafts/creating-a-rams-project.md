@@ -95,3 +95,8 @@ search:
     <span data-uuid="07bea0dd-f1e5-4557-a698-3e5cac8f89e8" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/insurance-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/insurance-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
+
+!!! step
+
+    <span data-uuid="b6accb3e-709e-4c69-a5b8-7514c1d3cce1" style="display:none"></span>
+    Add plant & equipment certificates directly via your existing assets on Opus Compliance Cloud.
