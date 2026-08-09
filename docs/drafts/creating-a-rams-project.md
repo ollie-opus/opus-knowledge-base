@@ -81,7 +81,7 @@ search:
 !!! step "<span class="meta">(optional)</span>"
 
     <span data-uuid="6fb62abc-4f72-4691-a888-a3a65cbd84bb" style="display:none"></span>
-    Use the `Additional information` section to add custom fields, e.g. "Assistant Supervisor".
+    Use the <span class="mb-label mb-label-slate">Additional information</span> section to add custom fields, e.g. "Assistant Supervisor".
 
     <span data-uuid="520f7ddf-8a7a-456c-a40d-d7592b790975" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/additional-information-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
