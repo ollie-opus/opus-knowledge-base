@@ -91,6 +91,7 @@ Opus RAMS is primarily intended for contractors preparing site-specific safety p
 !!! outline "<span class="mb-label mb-label-mist">RAMS Sections</span>"
 
     <span data-uuid="3525f2cf-857d-4f54-a7a3-d08eeccdc6ec" style="display:none"></span>
+    The Opus RAMS Sections include:
 
     - Site information: description of the works, site photo, dates, and insurance certificate
     - Staff members, with selected training certificates
