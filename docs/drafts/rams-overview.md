@@ -96,6 +96,10 @@ Opus RAMS is primarily intended for contractors preparing site-specific safety p
 
 <span data-uuid="4b7cfd2c-a85b-4b2b-b83f-51f3fd1d185c" style="display:none"></span>
 
+!!! outline "<span class="mb-label mb-label-mist">RAMS Example</span>"
+
+    <span data-uuid="3cdc5d80-8664-408c-89a6-72953ac5d7dd" style="display:none"></span>
+
 </div>
 
 </div>
