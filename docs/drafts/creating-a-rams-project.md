@@ -62,3 +62,14 @@ search:
     <span data-uuid="41ebf503-6bb5-48f9-9ddb-55c9189f655e" style="display:none"></span>
     ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! step
+
+    <span data-uuid="bc094bf4-43ee-431e-bad3-20daa07a1b98" style="display:none"></span>
+
+
+    From the site inbox, click the **Switch to Manage Mode** button.
+
+    <span data-uuid="6554fe61-6d5d-46cf-921d-b3819c7bf3cf" style="display:none"></span>
+    ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
