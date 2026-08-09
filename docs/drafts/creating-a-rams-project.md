@@ -8,15 +8,6 @@ search:
 <span data-uuid="eebd6486-f131-4700-91c3-2838ec1b2f0c" style="display:none"></span>
 
 
-!!! step
-
-    <span data-uuid="4ee85d41-431f-4412-a155-2d07a95c5f07" style="display:none"></span>
-    From the popup menu, select <span class="mb-label mb-label-slate">RAMS</span>
-
-    <span data-uuid="224c3d11-5fa7-40d9-97cf-720524ddb490" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/rams-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/rams-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
 ## Navigating to the RAMS projects page
 <span data-uuid="39932418-398a-485d-a7af-e487d6566262" style="display:none"></span>
 
