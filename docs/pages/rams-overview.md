@@ -89,6 +89,7 @@ Opus RAMS is primarily intended for contractors preparing site-specific safety p
 !!! outline "<span class="mb-label mb-label-mist">RAMS Sections</span>"
 
     <span data-uuid="3525f2cf-857d-4f54-a7a3-d08eeccdc6ec" style="display:none"></span>
+    The Opus RAMS Sections include:
 
     - Site information: description of the works, site photo, dates, and insurance certificate
     - Staff members, with selected training certificates
@@ -119,6 +120,10 @@ Opus RAMS is primarily intended for contractors preparing site-specific safety p
     <span data-uuid="6c7ecabb-d7bc-4417-8790-0a3305eea09f" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/method-statements/new/rt-light-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/method-statements/new/rt-dark-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+
+    <span data-uuid="94b51697-aa64-495a-a19f-f96cf7274de4" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/risk-assessments/new/rt-light-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/risk-assessments/new/rt-dark-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
 
 </div>
 
