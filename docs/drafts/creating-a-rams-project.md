@@ -50,3 +50,15 @@ search:
 
 ## Navigating to the RAMS projects page
 <span data-uuid="39932418-398a-485d-a7af-e487d6566262" style="display:none"></span>
+
+
+!!! step
+
+    <span data-uuid="1dc5ed9e-4cbd-4129-abc2-cabe843eaf2a" style="display:none"></span>
+
+
+    From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard), click on **Pick workspace** and select the site where you want to create the RAMS project.
+
+    <span data-uuid="41ebf503-6bb5-48f9-9ddb-55c9189f655e" style="display:none"></span>
+    ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
