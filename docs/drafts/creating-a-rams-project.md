@@ -128,3 +128,16 @@ search:
     <span data-uuid="5426b496-cce2-467b-af28-504a8464ecae" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/james-scott-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/james-scott-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
+
+!!! step
+
+    <span data-uuid="018804f6-d4c8-4d1b-8493-e0fbf56df13a" style="display:none"></span>
+    On the remainder of the page, you will need to review and confirm the content of the following sections. If any of these sections are not required for your export, you can simply skip them:
+
+    - Emergency procedures ***(shown below)***
+    - Health & Safety Policy Statement of Intent
+    - Site induction and rules
+    - Site induction register
+    - Work activity information
+
+    Each section is pre-populated with default Opus text. Please review and amend the content as required to reflect your company, the specific project, and the work being undertaken.
