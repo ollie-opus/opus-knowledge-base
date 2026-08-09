@@ -17,3 +17,9 @@ search:
     ???+ outline "<span class="mb-label mb-label-slate">Employees</span>"
 
         <span data-uuid="904cdda6-65b9-4239-8cf1-f74ad9c43c1c" style="display:none"></span>
+        Adding a new employee
+        Registering an employee
+        Granting an employee temporary access
+        Archiving an employee
+        Moving an employee
+        Access & Authorisations
