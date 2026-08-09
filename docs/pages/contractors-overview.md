@@ -1,5 +1,7 @@
 ---
 icon: lucide/layout-dashboard
+tags:
+  - Overview
 hide:
   - toc
   - navigation
