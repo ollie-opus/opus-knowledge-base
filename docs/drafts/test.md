@@ -13,3 +13,7 @@ search:
 ???+ outline "<span class="mb-label mb-label-slate">Guides</span>"
 
     <span data-uuid="13a2b214-9ea1-47e6-b724-a78b4b689c1d" style="display:none"></span>
+
+    ???+ outline "<span class="mb-label mb-label-slate">Employees</span>"
+
+        <span data-uuid="904cdda6-65b9-4239-8cf1-f74ad9c43c1c" style="display:none"></span>
