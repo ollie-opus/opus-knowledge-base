@@ -34,3 +34,7 @@ search:
 
     <span data-uuid="02e18ef2-e59d-4843-b595-e85473c16bc9" style="display:none"></span>
     Click the :lucide-ellipsis: icon to open the more options menu.
+
+    <span data-uuid="444f3625-5e64-459b-a136-5357b235d60f" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/show-extra-menu-options-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/show-extra-menu-options-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
