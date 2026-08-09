@@ -99,4 +99,4 @@ search:
 !!! step
 
     <span data-uuid="b6accb3e-709e-4c69-a5b8-7514c1d3cce1" style="display:none"></span>
-    Add plant & equipment certificates directly via your existing assets on Opus Compliance Cloud.
+    Add plant & equipment certificates directly via your existing assets on Opus Compliance Cloud. Firstly, add the asset, and then select which documents are relevant for the project.
