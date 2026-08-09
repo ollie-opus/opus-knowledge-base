@@ -64,7 +64,7 @@ It brings together all required safety information into a single, well-formatted
 
 Opus RAMS is primarily intended for contractors preparing site-specific safety packs for clients or principal contractors. However, it may also be useful for complex internal works.
 
-## Opus RAMS sections
+## Feature Details
 <span data-uuid="da738713-4f52-47c5-9724-117d2e45355c" style="display:none"></span>
 
 
