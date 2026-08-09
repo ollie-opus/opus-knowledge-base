@@ -64,3 +64,7 @@ search:
 
     <span data-uuid="c8bf9c10-047e-473c-8448-9fb37016955e" style="display:none"></span>
     From the project page, click the `+New` button
+
+    <span data-uuid="59546696-c944-4298-ba7f-666677c86287" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/new-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/new-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
