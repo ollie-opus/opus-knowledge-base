@@ -68,3 +68,8 @@ search:
     <span data-uuid="59546696-c944-4298-ba7f-666677c86287" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/new-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/new-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! step
+
+    <span data-uuid="aab48177-a530-4711-9428-729858174267" style="display:none"></span>
+    Fill in the project's initial details
