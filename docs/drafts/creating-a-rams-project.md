@@ -120,3 +120,7 @@ search:
     Similarly to Plant & equipment, Add employee training/e-learning certificates directly via your existing employees on Opus Compliance Cloud.
 
     Firstly, add the employee, and then select which certificates are relevant for the project.
+
+    <span data-uuid="777ef691-1b73-49ce-93d3-7d1a5401d3a3" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/staff-members-light-mode.png#only-light){ style="height: 500px; border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/new/staff-members-dark-mode.png#only-dark){ style="height: 500px; border-radius: 8px" loading=lazy }
