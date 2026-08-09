@@ -47,3 +47,6 @@ search:
     <span data-uuid="224c3d11-5fa7-40d9-97cf-720524ddb490" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/rams-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/rams-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+## Navigating to the RAMS projects page
+<span data-uuid="39932418-398a-485d-a7af-e487d6566262" style="display:none"></span>
