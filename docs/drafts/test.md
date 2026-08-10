@@ -10,7 +10,7 @@ search:
 <span data-uuid="b65918c9-5536-496a-bd22-d2be27ca0b5c" style="display:none"></span>
 
 
-???+ blank "Guides"
+???+ blank "<span class="mb-label mb-label-slate">Guides</span>"
 
     <span data-uuid="71bb3b2d-c978-4821-95ca-375d5750a032" style="display:none"></span>
 
