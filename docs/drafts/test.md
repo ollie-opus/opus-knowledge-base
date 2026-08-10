@@ -17,7 +17,7 @@ search:
 
 
     <span data-uuid="6416f6d3-0c21-4562-a180-2c33a0ee69a4" style="display:none"></span>
-    [Adding a new employee :lucide-arrow-up-right:](https://support.opus-safety.co.uk/pages/adding-a-new-employee){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
+    [Adding a new employee :lucide-arrow-up-right:](https://support.opus-safety.co.uk/pages/adding-a-new-employee){ .md-button .custom-button-stone .custom-button--slim target="_blank" rel="noopener" }
 
     <span data-uuid="86639985-2a50-4e8c-8b0c-b0a689ea759e" style="display:none"></span>
     [Registering an employee :lucide-arrow-up-right:](https://support.opus-safety.co.uk/pages/registering-an-employee){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
