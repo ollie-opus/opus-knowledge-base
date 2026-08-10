@@ -1,5 +1,5 @@
 /**
- * nav-links.js — fills "Nav links" component placeholders with a live list of
+ * nav-links.js — fills "Nav links" component placeholders with a live set of
  * page links.
  *
  * Two placeholder flavours, authored into pages by the more-buttons extension:
@@ -7,10 +7,15 @@
  *   <div class="mb-nav-links" data-nav-path="guides/employees"></div>
  *   <div class="mb-nav-links" data-nav-tag="System" data-nav-layout="flat"></div>
  *
- * Path mode renders the nested list of every page under that part of the site
- * nav. Tag mode renders every page whose frontmatter carries the tag — layout
- * "flat" as one plain list, "grouped" spliced into the nav-section hierarchy
- * (only branches containing a match survive).
+ * Rendered output mirrors the hand-authored house style (see docs/drafts/test.md):
+ * pages become full-width slim stone buttons with a trailing arrow icon, and
+ * sections become `blank` admonitions titled with a slate mb-label — the
+ * top-level section as a static admonition (`!!! blank` equivalent), every
+ * deeper section as an open collapsible (`???+ blank` equivalent). Path mode
+ * renders the matched section itself as the static admonition (e.g.
+ * "guides/contractors" → a static "Contractors" box), tag mode "grouped" the
+ * nav hierarchy filtered to tagged pages (only branches containing a match
+ * survive), and tag mode "flat" a bare button stack with no admonition.
  *
  * The full nav tree is baked into every page as a hidden
  * `<template id="__mb-nav-tree">` by overrides/main.html (derived from
@@ -24,6 +29,10 @@
   'use strict';
 
   var ERROR_TEXT = "Nav link error: No pages found. Please contact Opus support if you're seeing this.";
+
+  // Same markup the emoji extension inlines for :lucide-arrow-up-right:
+  // (copied from zensical's packaged templates/.icons/lucide/arrow-up-right.svg).
+  var ARROW_ICON_SVG = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-up-right" viewBox="0 0 24 24"><path d="M7 7h10v10M7 17 17 7"/></svg>';
 
   // MUST match the extension's navToml.js slugify so paths resolve identically.
   function slugify(title) {
@@ -79,90 +88,118 @@
     return false;
   }
 
-  // Render one hidden-tree page <li> as a rendered <li> with a new-tab link.
-  function renderPageLi(src) {
-    var li = document.createElement('li');
+  // Render one hidden-tree page <li> as a p-wrapped slim-button link, matching
+  // what the markdown pipeline emits for
+  //   [Title :lucide-arrow-up-right:](url){ .md-button .custom-button-stone
+  //   .custom-button--slim target="_blank" rel="noopener" }
+  // Label first / icon last: slim's space-between flex pins them to the edges.
+  function renderButton(src) {
+    var p = document.createElement('p');
     var a = document.createElement('a');
+    a.className = 'md-button custom-button-stone custom-button--slim';
     a.href = src.getAttribute('data-url');
     a.target = '_blank';
     a.rel = 'noopener';
-    a.textContent = src.getAttribute('data-title') || '';
-    li.appendChild(a);
+    var title = src.getAttribute('data-title') || '';
     if (src.getAttribute('data-current')) {
+      // Label + marker share one span so they stay one flex item together.
+      var label = document.createElement('span');
+      label.appendChild(document.createTextNode(title));
       var marker = document.createElement('em');
       marker.className = 'mb-nav-links__current';
       marker.textContent = ' (current page)';
-      li.appendChild(marker);
+      label.appendChild(marker);
+      a.appendChild(label);
+      a.appendChild(document.createTextNode(' '));
+    } else {
+      a.appendChild(document.createTextNode(title + ' '));
     }
-    return li;
+    var icon = document.createElement('span');
+    icon.className = 'twemoji';
+    icon.innerHTML = ARROW_ICON_SVG;
+    a.appendChild(icon);
+    p.appendChild(a);
+    return p;
   }
 
-  // Clone a hidden-tree <ul> into a rendered nested list: pages → new-tab links,
-  // sections → a heading span plus their own nested list.
-  function renderList(srcUl) {
-    var ul = document.createElement('ul');
-    ul.className = 'mb-nav-links__list';
+  // A section container matching a built `blank` admonition: static
+  // (`!!! blank` → div.admonition) when top-level, an open collapsible
+  // (`???+ blank` → details[open]) below. Title is a slate mb-label.
+  function renderSectionContainer(title, isTop) {
+    var label = document.createElement('span');
+    label.className = 'mb-label mb-label-slate';
+    label.textContent = title;
+    var box, heading;
+    if (isTop) {
+      box = document.createElement('div');
+      box.className = 'admonition blank';
+      heading = document.createElement('p');
+      heading.className = 'admonition-title';
+    } else {
+      box = document.createElement('details');
+      box.className = 'blank';
+      box.open = true;
+      heading = document.createElement('summary');
+    }
+    heading.appendChild(label);
+    box.appendChild(heading);
+    return box;
+  }
+
+  // Render a section's hidden-tree <ul> into its admonition: pages → buttons,
+  // subsections → nested open collapsibles.
+  function renderSection(title, srcUl, isTop) {
+    var box = renderSectionContainer(title, isTop);
     for (var i = 0; i < srcUl.children.length; i++) {
       var src = srcUl.children[i];
       if (src.tagName !== 'LI') continue;
-      var li;
-      if (src.getAttribute('data-url')) {
-        li = renderPageLi(src);
-      } else {
-        li = document.createElement('li');
-        var span = document.createElement('span');
-        span.className = 'mb-nav-links__section';
-        span.textContent = src.getAttribute('data-title') || '';
-        li.appendChild(span);
-      }
       var childUl = directChildUl(src);
-      if (childUl) li.appendChild(renderList(childUl));
-      ul.appendChild(li);
+      if (src.getAttribute('data-url')) {
+        box.appendChild(renderButton(src));
+      } else if (childUl) {
+        box.appendChild(renderSection(src.getAttribute('data-title') || '', childUl, false));
+      }
     }
-    return ul;
+    return box;
   }
 
-  // Flat tag list: every tagged page in nav order, one plain list.
+  // Flat tag list: every tagged page in nav order as one bare button stack.
   function renderTagFlat(srcUl, tag) {
-    var ul = document.createElement('ul');
-    ul.className = 'mb-nav-links__list';
+    var frag = document.createDocumentFragment();
     (function walk(level) {
       for (var i = 0; i < level.children.length; i++) {
         var src = level.children[i];
         if (src.tagName !== 'LI') continue;
-        if (src.getAttribute('data-url') && hasTag(src, tag)) ul.appendChild(renderPageLi(src));
+        if (src.getAttribute('data-url') && hasTag(src, tag)) frag.appendChild(renderButton(src));
         var childUl = directChildUl(src);
         if (childUl) walk(childUl);
       }
     })(srcUl);
-    return ul.children.length ? ul : null;
+    return frag.childNodes.length ? frag : null;
   }
 
   // Grouped tag list: the nav hierarchy filtered down to tagged pages — a
-  // section survives iff its subtree contains a match. Returns null when empty.
-  function renderTagGrouped(srcUl, tag) {
-    var ul = document.createElement('ul');
-    ul.className = 'mb-nav-links__list';
+  // section survives iff its subtree contains a match. Surviving top-level
+  // sections render as static admonitions, deeper ones as open collapsibles.
+  // Returns null when empty.
+  function renderTagGrouped(srcUl, tag, isTop) {
+    var frag = document.createDocumentFragment();
     for (var i = 0; i < srcUl.children.length; i++) {
       var src = srcUl.children[i];
       if (src.tagName !== 'LI') continue;
       var childUl = directChildUl(src);
       if (src.getAttribute('data-url')) {
-        if (hasTag(src, tag)) ul.appendChild(renderPageLi(src));
+        if (hasTag(src, tag)) frag.appendChild(renderButton(src));
       } else if (childUl) {
-        var filtered = renderTagGrouped(childUl, tag);
-        if (filtered) {
-          var li = document.createElement('li');
-          var span = document.createElement('span');
-          span.className = 'mb-nav-links__section';
-          span.textContent = src.getAttribute('data-title') || '';
-          li.appendChild(span);
-          li.appendChild(filtered);
-          ul.appendChild(li);
+        var inner = renderTagGrouped(childUl, tag, false);
+        if (inner) {
+          var box = renderSectionContainer(src.getAttribute('data-title') || '', isTop);
+          box.appendChild(inner);
+          frag.appendChild(box);
         }
       }
     }
-    return ul.children.length ? ul : null;
+    return frag.childNodes.length ? frag : null;
   }
 
   function showError(ph) {
@@ -184,12 +221,14 @@
         var tag = ph.getAttribute('data-nav-tag');
         if (tag != null) {
           var grouped = ph.getAttribute('data-nav-layout') === 'grouped';
-          var list = grouped ? renderTagGrouped(root, tag) : renderTagFlat(root, tag);
+          var list = grouped ? renderTagGrouped(root, tag, true) : renderTagFlat(root, tag);
           if (list) ph.appendChild(list);
         } else {
           var section = findSection(root, ph.getAttribute('data-nav-path'));
           var sub = section && directChildUl(section);
-          if (sub && sub.children.length) ph.appendChild(renderList(sub));
+          if (sub && sub.children.length) {
+            ph.appendChild(renderSection(section.getAttribute('data-title') || '', sub, true));
+          }
         }
       }
       if (!ph.firstChild) showError(ph); // unresolved path/tag, empty section, or missing tree

@@ -1,5 +1,6 @@
 /* Nav-links component (filled at runtime by assets/javascripts/nav-links.js).
-   The lists themselves use the theme's typography; only the no-results error
+   The rendered admonitions, labels and slim buttons are styled by their own
+   sheets (admonitions.css, labels.css, buttons.css); only the no-results error
    line needs styling — visible but calm, it reads as a support prompt. */
 
 .md-typeset .mb-nav-links__error {
