@@ -23,7 +23,7 @@ search:
     [Registering an employee :lucide-arrow-up-right:](https://support.opus-safety.co.uk/pages/registering-an-employee){ .md-button .custom-button-stone .custom-button--slim target="_blank" rel="noopener" }
 
     <span data-uuid="393962ba-61ec-4c53-9d8b-8c2785b2e006" style="display:none"></span>
-    [Granting an employee temporary access :lucide-arrow-up-right:](#){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
+    [Granting an employee temporary access :lucide-arrow-up-right:](#){ .md-button .custom-button-stone .custom-button--slim target="_blank" rel="noopener" }
 
     <span data-uuid="e74f63fd-e71d-45a6-a45a-cfbefc57d32a" style="display:none"></span>
     [Archiving an employee :lucide-arrow-up-right:](#){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
