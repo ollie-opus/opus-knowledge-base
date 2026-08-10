@@ -32,7 +32,7 @@ search:
     [Moving an employee :lucide-arrow-up-right:](#){ .md-button .custom-button-stone .custom-button--slim target="_blank" rel="noopener" }
 
     <span data-uuid="7d27ad47-fdb0-4282-9623-3c10b8779f32" style="display:none"></span>
-    [Access & Authorisations :lucide-arrow-up-right:](#){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
+    [Access & Authorisations :lucide-arrow-up-right:](#){ .md-button .custom-button-stone .custom-button--slim target="_blank" rel="noopener" }
 
 ???+ blank "<span class="mb-label mb-label-slate">Assets</span>"
 
