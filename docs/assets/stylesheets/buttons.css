@@ -230,10 +230,10 @@
 }
 
 /* ── Style modifier: slim (full-width row button) ─────────────────────────
-      Paragraph-weight text (the theme's .md-button already inherits paragraph
-      font-size — only the 700 weight and big padding make it look larger),
-      tighter padding, small radius, and a full-width flex row: the label text
-      node is the first flex item, the trailing .twemoji icon the second, so
+      Medium-weight text at paragraph size (the theme's .md-button already
+      inherits paragraph font-size — only the 700 weight and big padding make
+      it look larger), tighter padding, small radius, full-width flex row: the
+      label text node is the first flex item, the trailing .twemoji icon the second, so
       space-between pins label left / icon right. ───────────────────────────── */
 
 .md-typeset .md-button.custom-button--slim {
@@ -241,7 +241,7 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  font-weight: 400;
+  font-weight: 500;
   padding: .4em .9em;
   border-radius: .3rem;
 }
