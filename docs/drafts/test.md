@@ -47,4 +47,4 @@ search:
     [Archiving an asset :lucide-arrow-up-right:](#){ .md-button .custom-button-stone .custom-button--slim target="_blank" rel="noopener" }
 
     <span data-uuid="af2ef595-1d72-4256-9b44-97bbb3b2195e" style="display:none"></span>
-    [Moving an asset :lucide-arrow-up-right:](#){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
+    [Moving an asset :lucide-arrow-up-right:](#){ .md-button .custom-button-stone .custom-button--slim target="_blank" rel="noopener" }
