@@ -40,6 +40,9 @@ search:
         <span data-uuid="d55a422c-7169-49e8-817f-a3a083ca7b7f" style="display:none"></span>
         [Moving an employee :lucide-arrow-up-right:](#){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
 
+        <span data-uuid="d58c42fa-0f48-4fff-800d-a9967b120031" style="display:none"></span>
+        [Access & Authorisations :lucide-arrow-up-right:](#){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
+
     ???+ blank "<span class="mb-label mb-label-slate">Assets</span>"
 
         <span data-uuid="6e44d4f0-a9a7-4f7b-94e1-f2536951133e" style="display:none"></span>
