@@ -40,6 +40,14 @@
    (transparent by design), so an enabled light border falls back to a
    color-mix of the light fg (--btn-light-strong); the neutrals override that
    with their curated --btn-light-border-strong so Default and Always match.
+
+   Style modifier (independent of theme and border, one of):
+
+     .custom-button--slim  → full-width flex row: paragraph-weight text,
+                             tighter padding, small radius, icon pinned right
+
+   All colour/theme/border rules apply to slim buttons unchanged — slim only
+   overrides the theme's .md-button geometry.
    ============================================================================ */
 
 /* The modern theme's .md-button has no border; the neutral variants (and all
@@ -220,6 +228,24 @@
 .md-typeset .md-button.custom-button--borderless {
   --btn-border-light: transparent; --btn-border-dark: transparent;
 }
+
+/* ── Style modifier: slim (full-width row button) ─────────────────────────
+      Paragraph-weight text (the theme's .md-button already inherits paragraph
+      font-size — only the 700 weight and big padding make it look larger),
+      tighter padding, small radius, and a full-width flex row: the label text
+      node is the first flex item, the trailing .twemoji icon the second, so
+      space-between pins label left / icon right. ───────────────────────────── */
+
+.md-typeset .md-button.custom-button--slim {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  padding: .4em .9em;
+  border-radius: .3rem;
+}
+.md-typeset .md-button.custom-button--slim .twemoji { flex-shrink: 0; }
 
 /* hover/focus feedback (variant colours suppress the theme's accent hover) */
 .md-typeset .md-button[class*="custom-button-"]:hover,
