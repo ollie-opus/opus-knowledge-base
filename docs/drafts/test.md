@@ -29,7 +29,7 @@ search:
     [Archiving an employee :lucide-arrow-up-right:](#){ .md-button .custom-button-stone .custom-button--slim target="_blank" rel="noopener" }
 
     <span data-uuid="ff6f06b1-cc3d-4f66-9d72-8ae40e9241fb" style="display:none"></span>
-    [Moving an employee :lucide-arrow-up-right:](#){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
+    [Moving an employee :lucide-arrow-up-right:](#){ .md-button .custom-button-stone .custom-button--slim target="_blank" rel="noopener" }
 
     <span data-uuid="7d27ad47-fdb0-4282-9623-3c10b8779f32" style="display:none"></span>
     [Access & Authorisations :lucide-arrow-up-right:](#){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
