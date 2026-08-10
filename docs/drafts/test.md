@@ -10,6 +10,10 @@ search:
 <span data-uuid="b65918c9-5536-496a-bd22-d2be27ca0b5c" style="display:none"></span>
 
 
+???+ blank "Guides"
+
+    <span data-uuid="71bb3b2d-c978-4821-95ca-375d5750a032" style="display:none"></span>
+
 ???+ blank "<span class="mb-label mb-label-slate">Employees</span>"
 
     <span data-uuid="f25c4068-c790-4298-8bdd-f66af777640b" style="display:none"></span>
