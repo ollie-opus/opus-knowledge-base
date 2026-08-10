@@ -26,7 +26,7 @@ search:
     [Granting an employee temporary access :lucide-arrow-up-right:](#){ .md-button .custom-button-stone .custom-button--slim target="_blank" rel="noopener" }
 
     <span data-uuid="e74f63fd-e71d-45a6-a45a-cfbefc57d32a" style="display:none"></span>
-    [Archiving an employee :lucide-arrow-up-right:](#){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
+    [Archiving an employee :lucide-arrow-up-right:](#){ .md-button .custom-button-stone .custom-button--slim target="_blank" rel="noopener" }
 
     <span data-uuid="ff6f06b1-cc3d-4f66-9d72-8ae40e9241fb" style="display:none"></span>
     [Moving an employee :lucide-arrow-up-right:](#){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
