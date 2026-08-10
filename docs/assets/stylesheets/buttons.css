@@ -182,12 +182,12 @@
 [data-md-color-scheme="default"] .md-typeset .md-button[class*="custom-button-"] {
   background: var(--btn-light-bg); color: var(--btn-light-fg);
   border-color: var(--btn-border-light, var(--btn-light-border));
-  --btn-hover: brightness(0.95);
+  --btn-hover: brightness(0.95); --btn-hover-strong: brightness(0.9);
 }
 [data-md-color-scheme="slate"] .md-typeset .md-button[class*="custom-button-"] {
   background: var(--btn-dark-bg); color: var(--btn-dark-fg);
   border-color: var(--btn-border-dark, var(--btn-dark-border));
-  --btn-hover: brightness(1.15);
+  --btn-hover: brightness(1.15); --btn-hover-strong: brightness(1.3);
 }
 
 /* ── Theme modifiers (must follow the pickers — equal specificity) ───────── */
@@ -195,22 +195,22 @@
 [data-md-color-scheme="default"] .md-typeset .md-button.custom-button--inversed {
   background: var(--btn-dark-bg); color: var(--btn-dark-fg);
   border-color: var(--btn-border-dark, var(--btn-dark-border));
-  --btn-hover: brightness(1.15);
+  --btn-hover: brightness(1.15); --btn-hover-strong: brightness(1.3);
 }
 [data-md-color-scheme="slate"] .md-typeset .md-button.custom-button--inversed {
   background: var(--btn-light-bg); color: var(--btn-light-fg);
   border-color: var(--btn-border-light, var(--btn-light-border));
-  --btn-hover: brightness(0.95);
+  --btn-hover: brightness(0.95); --btn-hover-strong: brightness(0.9);
 }
 [data-md-color-scheme] .md-typeset .md-button.custom-button--force-light {
   background: var(--btn-light-bg); color: var(--btn-light-fg);
   border-color: var(--btn-border-light, var(--btn-light-border));
-  --btn-hover: brightness(0.95);
+  --btn-hover: brightness(0.95); --btn-hover-strong: brightness(0.9);
 }
 [data-md-color-scheme] .md-typeset .md-button.custom-button--force-dark {
   background: var(--btn-dark-bg); color: var(--btn-dark-fg);
   border-color: var(--btn-border-dark, var(--btn-dark-border));
-  --btn-hover: brightness(1.15);
+  --btn-hover: brightness(1.15); --btn-hover-strong: brightness(1.3);
 }
 
 /* ── Border modifiers (custom-property switches — no scheme scoping needed;
@@ -251,4 +251,16 @@
 .md-typeset .md-button[class*="custom-button-"]:hover,
 .md-typeset .md-button[class*="custom-button-"]:focus {
   filter: var(--btn-hover, brightness(0.95));
+}
+
+/* Slim hover: the theme's default .md-button:hover { opacity:.8 } still
+   applies to custom buttons (nothing else declares opacity) and fading a pale
+   trio toward the page half-cancels the brightness darken — on slim's big
+   full-width bar the net change was near-invisible. Suppress the fade and use
+   the stronger trio-aware brightness instead. Equal specificity with the rule
+   above; source order wins. */
+.md-typeset .md-button.custom-button--slim:hover,
+.md-typeset .md-button.custom-button--slim:focus {
+  opacity: 1;
+  filter: var(--btn-hover-strong, brightness(0.9));
 }
