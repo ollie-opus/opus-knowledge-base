@@ -91,7 +91,8 @@ draft_nav = [
       {"Interacting with a task" = "drafts/interacting-with-a-task.md"}
     ]},
     {"Contractors" = [
-      {"Permits to Work" = "drafts/permits-to-work.md"}
+      {"Permits to Work" = "drafts/permits-to-work.md"},
+      {"Contractors Overview" = "drafts/contractors-overview.md"}
     ]},
     {"Getting Started" = [
       {"Guidebooks" = [
