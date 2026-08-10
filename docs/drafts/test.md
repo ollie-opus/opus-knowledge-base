@@ -34,6 +34,9 @@ search:
         <span data-uuid="25ded007-82c3-488f-9d2e-1e5dd7bd53d7" style="display:none"></span>
         [Granting an employee temporary access :lucide-arrow-up-right:](#){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
 
+        <span data-uuid="299fc757-ca11-426a-b6a3-2daedbb79d08" style="display:none"></span>
+        [Archiving an employee :lucide-arrow-up-right:](#){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
+
     ???+ blank "<span class="mb-label mb-label-slate">Assets</span>"
 
         <span data-uuid="6e44d4f0-a9a7-4f7b-94e1-f2536951133e" style="display:none"></span>
