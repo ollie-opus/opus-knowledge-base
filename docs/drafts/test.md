@@ -10,7 +10,7 @@ search:
 <span data-uuid="b65918c9-5536-496a-bd22-d2be27ca0b5c" style="display:none"></span>
 
 
-???+ outline "<span class="mb-label mb-label-slate">Guides</span>"
+???+ blank "<span class="mb-label mb-label-slate">Guides</span>"
 
     <span data-uuid="13a2b214-9ea1-47e6-b724-a78b4b689c1d" style="display:none"></span>
 
