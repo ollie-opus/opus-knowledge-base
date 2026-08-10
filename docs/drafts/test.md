@@ -43,3 +43,6 @@ search:
         - Adding an asset
         - Archiving an asset
         - Moving an asset
+
+        <span data-uuid="b3fe05bf-cc17-4e5e-b7e5-fff2e49ac888" style="display:none"></span>
+        [Adding an asset :lucide-arrow-up-right:](#){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
