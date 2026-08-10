@@ -161,6 +161,34 @@
 }
 
 /* --------------------------------------------------------------------------
+   blank — outline without the icon
+   -------------------------------------------------------------------------- */
+
+.admonition.blank,
+.md-typeset details.blank {
+  background-color: transparent;
+  border: 1px solid rgba(158, 158, 158, 0.45);
+}
+
+/* No icon, so collapse the theme's 1.6rem icon gutter on the title entirely —
+   the container's own 0.8rem padding lines the title up with the body text
+   (selectors outweigh the theme's `[dir=ltr] .md-typeset .admonition-title`). */
+.md-typeset .admonition.blank > .admonition-title,
+.md-typeset details.blank > summary {
+  padding-left: 0;
+}
+
+.md-typeset .blank > .admonition-title::before,
+.md-typeset .blank > summary::before {
+  display: none;
+}
+
+/* Keep the collapse chevron on `??? blank`, tinted like outline's. */
+.md-typeset .blank > summary::after {
+  color: rgb(158, 158, 158);
+}
+
+/* --------------------------------------------------------------------------
    Admonition meta subtitle
    -------------------------------------------------------------------------- */
 
