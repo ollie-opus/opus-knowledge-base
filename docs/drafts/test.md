@@ -25,7 +25,7 @@ search:
         - Moving an employee
         - Access & Authorisations
 
-    ???+ outline "<span class="mb-label mb-label-slate">Assets</span>"
+    ???+ blank "<span class="mb-label mb-label-slate">Assets</span>"
 
         <span data-uuid="6e44d4f0-a9a7-4f7b-94e1-f2536951133e" style="display:none"></span>
 
