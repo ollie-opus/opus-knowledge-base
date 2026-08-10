@@ -36,3 +36,17 @@ search:
 
         <span data-uuid="395ea1f3-3912-4a2a-846b-969413a6c0c0" style="display:none"></span>
         [Access & Authorisations :lucide-arrow-up-right:](#){ .md-button .custom-button-stone .custom-button--slim target="_blank" rel="noopener" }
+
+    ???+ blank "<span class="mb-label mb-label-slate">Assets</span>"
+
+        <span data-uuid="246f2dda-8cde-4fbc-ae6d-b0a5215f173b" style="display:none"></span>
+
+
+        <span data-uuid="507aef71-2a32-465e-8ac0-9e0fb05dac2b" style="display:none"></span>
+        [Adding an asset :lucide-arrow-up-right:](#){ .md-button .custom-button-stone .custom-button--slim target="_blank" rel="noopener" }
+
+        <span data-uuid="011a9e43-c789-4cf3-a40d-e8b421b01bed" style="display:none"></span>
+        [Archiving an asset :lucide-arrow-up-right:](#){ .md-button .custom-button-stone .custom-button--slim target="_blank" rel="noopener" }
+
+        <span data-uuid="88be3927-15fa-4ac3-b766-c8f76e96e26c" style="display:none"></span>
+        [Moving an asset :lucide-arrow-up-right:](#){ .md-button .custom-button-stone .custom-button--slim target="_blank" rel="noopener" }
