@@ -46,3 +46,6 @@ search:
 
         <span data-uuid="b3fe05bf-cc17-4e5e-b7e5-fff2e49ac888" style="display:none"></span>
         [Adding an asset :lucide-arrow-up-right:](#){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
+
+        <span data-uuid="a0e79711-2f24-41ab-8649-06d186c48feb" style="display:none"></span>
+        [Archiving an asset :lucide-arrow-up-right:](#){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
