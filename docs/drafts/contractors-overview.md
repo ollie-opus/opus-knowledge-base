@@ -128,6 +128,9 @@ Opus Contractor Management is designed for businesses that regularly engage cont
 
 <span data-uuid="8cf70478-bf15-4c20-a33e-765bfd879c08" style="display:none"></span>
 
+<span data-uuid="c6224e43-2a28-4f33-9dc7-5b724851955b" style="display:none"></span>
+<div class="mb-nav-links" data-nav-path="guides/contractors"></div>
+
 </div>
 
 <div markdown>
