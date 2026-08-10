@@ -25,6 +25,9 @@ search:
         - Moving an employee
         - Access & Authorisations
 
+        <span data-uuid="f80b6d1f-799b-4791-b7fb-d53c87d9607c" style="display:none"></span>
+        [Adding a new employee :lucide-arrow-up-right:](https://support.opus-safety.co.uk/pages/adding-a-new-employee){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
+
     ???+ blank "<span class="mb-label mb-label-slate">Assets</span>"
 
         <span data-uuid="6e44d4f0-a9a7-4f7b-94e1-f2536951133e" style="display:none"></span>
