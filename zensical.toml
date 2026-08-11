@@ -102,9 +102,6 @@ draft_nav = [
       {"Employees overview" = "drafts/employees-overview.md"},
       {"Adding a new employee" = "drafts/adding-a-new-employee.md"}
     ]},
-    {"Test" = [
-      {"test" = "drafts/test.md"}
-    ]},
     {"Rams" = [
       {"Creating a RAMS project" = "drafts/creating-a-rams-project.md"}
     ]}
