@@ -1,13 +1,14 @@
 ---
 icon: lucide/layout-dashboard
+search:
+  exclude: true
 tags:
   - Overview
+  - RAMS
 hide:
   - navigation
   - toc
   - path
-search:
-  exclude: true
 ---
 
 # RAMS Overview
