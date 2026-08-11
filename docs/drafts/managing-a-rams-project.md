@@ -8,6 +8,9 @@ search:
 
 This guide details how to manage a RAMS project in Opus Compliance Cloud.
 
+## Finding your RAMS projects
+<span data-uuid="53d2832e-12d1-45fe-b402-8aff4825c46a" style="display:none"></span>
+
 ## Adding risk assessments & method statements
 <span data-uuid="5a4b4f6b-6127-4e6d-bce3-3315d27a0108" style="display:none"></span>
 
@@ -19,6 +22,3 @@ This guide details how to manage a RAMS project in Opus Compliance Cloud.
 
 ## How toolbox talks are scheduled
 <span data-uuid="73d21559-960a-4fbb-b2bf-49f2873f15d5" style="display:none"></span>
-
-## Finding your RAMS projects
-<span data-uuid="53d2832e-12d1-45fe-b402-8aff4825c46a" style="display:none"></span>
