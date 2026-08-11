@@ -16,3 +16,6 @@ This guide details how to manage a RAMS project in Opus Compliance Cloud.
 
 ## Promoting risk assessments & method statements
 <span data-uuid="bb8fdd1b-3918-48a5-a4d5-1d230b454c00" style="display:none"></span>
+
+## How toolbox talks are scheduled
+<span data-uuid="73d21559-960a-4fbb-b2bf-49f2873f15d5" style="display:none"></span>
