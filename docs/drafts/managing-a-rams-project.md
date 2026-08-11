@@ -1,6 +1,9 @@
 ---
+icon: lucide/file-chart-line
 search:
   exclude: true
+tags:
+  - RAMS
 ---
 
 # Managing a RAMS project
