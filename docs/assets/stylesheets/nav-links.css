@@ -1,7 +1,77 @@
 /* Nav-links component (filled at runtime by assets/javascripts/nav-links.js).
-   The rendered admonitions, labels and slim buttons are styled by their own
-   sheets (admonitions.css, labels.css, buttons.css); only the no-results error
-   line needs styling — visible but calm, it reads as a support prompt. */
+   Pages render as slim buttons (buttons.css); sections render as an unboxed
+   typographic tree styled here: small uppercase headings over button stacks,
+   depth shown by heading scale/colour and indentation — no admonition boxes,
+   no label pills. Top-level sections are static divs, deeper sections open
+   <details> collapsibles that keep the theme's chevron. */
+
+/* ── Section groups ──────────────────────────────────────────────────────── */
+
+/* Both group shapes. The details variant must undo the theme's blanket
+   admonition treatment of bare <details> (tinted background, side padding,
+   radius, .64rem font-size, 1.5625em margins) so the buttons inside keep
+   paragraph size and nothing reads as a box. */
+.md-typeset .mb-nav-group {
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  font-size: inherit;
+  margin: 1.25em 0;
+}
+
+/* Nested groups indent under their parent. */
+.md-typeset .mb-nav-group--sub {
+  margin: 1.1em 0 1.1em 0.9rem;
+}
+
+/* Group heading (a <p> at top level, a <summary> below): small semibold
+   uppercase. The DOM keeps the title-case text; only the CSS shouts. */
+.md-typeset .mb-nav-group > .mb-nav-group__title {
+  margin: 0 0 0.45em;
+  padding: 0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.6;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color);
+}
+
+/* Sub-level heading: one step smaller and muted. Zeroed left padding drops
+   the theme's 1.6rem summary icon gutter; the right padding keeps room for
+   the chevron. */
+.md-typeset details.mb-nav-group > summary.mb-nav-group__title {
+  font-size: 0.625rem;
+  font-weight: 600;
+  color: var(--md-default-fg-color--light);
+  padding-left: 0;
+  padding-right: 1rem;
+  min-height: 0;
+}
+
+/* No admonition icon on the summary. */
+.md-typeset details.mb-nav-group > summary::before {
+  display: none;
+}
+
+/* Keep the theme's rotating collapse chevron, tinted like the old outline
+   admonitions and scaled down to sit with the smaller heading. */
+.md-typeset details.mb-nav-group > summary::after {
+  background-color: rgb(158, 158, 158);
+  width: 0.8rem;
+  height: 0.8rem;
+  top: 0.1rem;
+}
+
+/* Tighter rhythm for the p-wrapped buttons than default paragraph spacing
+   (scoped to the component so ordinary prose is untouched). */
+.md-typeset .mb-nav-links p {
+  margin: 0.5em 0;
+}
+
+/* ── Buttons and error line ──────────────────────────────────────────────── */
 
 /* The "(current page)" marker inside a slim button keeps normal weight so it
    reads as an aside next to the semibold label. */

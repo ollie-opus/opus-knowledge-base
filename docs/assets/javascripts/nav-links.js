@@ -7,15 +7,15 @@
  *   <div class="mb-nav-links" data-nav-path="guides/employees"></div>
  *   <div class="mb-nav-links" data-nav-tag="System" data-nav-layout="flat"></div>
  *
- * Rendered output mirrors the hand-authored house style (see docs/drafts/test.md):
- * pages become full-width slim stone buttons with a trailing arrow icon, and
- * sections become `blank` admonitions titled with a slate mb-label — the
- * top-level section as a static admonition (`!!! blank` equivalent), every
- * deeper section as an open collapsible (`???+ blank` equivalent). Path mode
- * renders the matched section itself as the static admonition (e.g.
- * "guides/contractors" → a static "Contractors" box), tag mode "grouped" the
- * nav hierarchy filtered to tagged pages (only branches containing a match
- * survive), and tag mode "flat" a bare button stack with no admonition.
+ * Rendered output is an unboxed typographic tree: pages become full-width slim
+ * stone buttons with a trailing arrow icon, and sections become small
+ * uppercase headings (styled in nav-links.css) — the top-level section as a
+ * static group (div.mb-nav-group--top), every deeper section as an open
+ * collapsible (details.mb-nav-group--sub). Path mode renders the matched
+ * section itself as the static group (e.g. "guides/contractors" → a
+ * "CONTRACTORS" heading over its buttons), tag mode "grouped" the nav
+ * hierarchy filtered to tagged pages (only branches containing a match
+ * survive), and tag mode "flat" a bare button stack with no group heading.
  *
  * The full nav tree is baked into every page as a hidden
  * `<template id="__mb-nav-tree">` by overrides/main.html (derived from
@@ -122,31 +122,28 @@
     return p;
   }
 
-  // A section container matching a built `blank` admonition: static
-  // (`!!! blank` → div.admonition) when top-level, an open collapsible
-  // (`???+ blank` → details[open]) below. Title is a slate mb-label.
+  // A section group: an unboxed typographic heading over its children — a
+  // static div when top-level, an open collapsible (details[open]) below. The
+  // heading is plain text; nav-links.css uppercases and sizes it per level.
   function renderSectionContainer(title, isTop) {
-    var label = document.createElement('span');
-    label.className = 'mb-label mb-label-slate';
-    label.textContent = title;
     var box, heading;
     if (isTop) {
       box = document.createElement('div');
-      box.className = 'admonition blank';
+      box.className = 'mb-nav-group mb-nav-group--top';
       heading = document.createElement('p');
-      heading.className = 'admonition-title';
     } else {
       box = document.createElement('details');
-      box.className = 'blank';
+      box.className = 'mb-nav-group mb-nav-group--sub';
       box.open = true;
       heading = document.createElement('summary');
     }
-    heading.appendChild(label);
+    heading.className = 'mb-nav-group__title';
+    heading.textContent = title;
     box.appendChild(heading);
     return box;
   }
 
-  // Render a section's hidden-tree <ul> into its admonition: pages → buttons,
+  // Render a section's hidden-tree <ul> into its group: pages → buttons,
   // subsections → nested open collapsibles.
   function renderSection(title, srcUl, isTop) {
     var box = renderSectionContainer(title, isTop);
@@ -180,7 +177,7 @@
 
   // Grouped tag list: the nav hierarchy filtered down to tagged pages — a
   // section survives iff its subtree contains a match. Surviving top-level
-  // sections render as static admonitions, deeper ones as open collapsibles.
+  // sections render as static groups, deeper ones as open collapsibles.
   // Returns null when empty.
   function renderTagGrouped(srcUl, tag, isTop) {
     var frag = document.createDocumentFragment();
