@@ -61,6 +61,10 @@ This guide details how to manage a RAMS project in Opus Compliance Cloud.
     <span data-uuid="46005308-095f-4b33-92ca-0aadc2007f00" style="display:none"></span>
     The RAMS projects for this site will appear in a list. Select a project to view/manage it.
 
+    <span data-uuid="3a60f995-5ae8-47c2-a9e8-00c7c622bcfc" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/rams-projects-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/rams-projects-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
+
 ## Adding risk assessments & method statements
 <span data-uuid="5a4b4f6b-6127-4e6d-bce3-3315d27a0108" style="display:none"></span>
 
