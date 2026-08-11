@@ -262,5 +262,10 @@
   "docs/assets/media/occ-captures/admin/sites/uuid/rams/new/emergency-procedures-light-mode.png": {
     "resized": true,
     "padding": 15
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/rams/rams-projects-light-mode.png": {
+    "resized": true,
+    "padding": 20,
+    "zapped": true
   }
 }
