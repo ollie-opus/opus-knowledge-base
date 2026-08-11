@@ -2,7 +2,6 @@
 icon: lucide/layout-dashboard
 tags:
   - Overview
-  - RAMS
 hide:
   - navigation
   - toc
