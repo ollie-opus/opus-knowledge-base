@@ -2,8 +2,6 @@
 icon: lucide/file-plus
 search:
   exclude: true
-tags:
-  - RAMS
 ---
 
 # Creating a RAMS project
