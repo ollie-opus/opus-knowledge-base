@@ -104,6 +104,9 @@ draft_nav = [
     ]},
     {"Test" = [
       {"test" = "drafts/test.md"}
+    ]},
+    {"Rams" = [
+      {"Creating a RAMS project" = "drafts/creating-a-rams-project.md"}
     ]}
   ]}
 ]
