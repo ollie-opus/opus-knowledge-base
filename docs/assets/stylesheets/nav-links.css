@@ -3,6 +3,12 @@
    sheets (admonitions.css, labels.css, buttons.css); only the no-results error
    line needs styling — visible but calm, it reads as a support prompt. */
 
+/* The "(current page)" marker inside a slim button keeps normal weight so it
+   reads as an aside next to the semibold label. */
+.md-typeset .md-button.custom-button--slim .mb-nav-links__current {
+  font-weight: 400;
+}
+
 .md-typeset .mb-nav-links__error {
   font-style: italic;
   font-size: 0.85em;
