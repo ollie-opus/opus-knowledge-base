@@ -128,6 +128,10 @@ This guide details how to manage a RAMS project in Opus Compliance Cloud.
 
 Risk assessments / Method statements that have been added to a project can be overridden using the **Override** button. This edits the content of the resource for **that project only.**
 
+<span data-uuid="bbb2534f-1b1a-497c-88b3-05a236fbc133" style="display:none"></span>
+![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/method-statements-override-a-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/method-statements-override-a-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 ## Promoting risk assessments & method statements
 <span data-uuid="bb8fdd1b-3918-48a5-a4d5-1d230b454c00" style="display:none"></span>
 
