@@ -124,3 +124,7 @@ This guide details how to export a RAMS project.
 
     <span data-uuid="06b456e9-b86b-4a66-a177-ced26fd72ad0" style="display:none"></span>
     ![](../assets/media/other/screenshots/rams-project-export-email.png){ style="border-radius: 8px" width="500" loading=lazy }
+
+!!! step
+
+    <span data-uuid="add698fb-70d4-4f6d-9c58-2496f3dd7318" style="display:none"></span>
