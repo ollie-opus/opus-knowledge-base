@@ -71,7 +71,8 @@ nav = [
     ]},
     {"RAMS" = [
       {"RAMS Overview" = "pages/rams-overview.md"},
-      {"Creating a RAMS project" = "pages/creating-a-rams-project.md"}
+      {"Creating a RAMS project" = "pages/creating-a-rams-project.md"},
+      {"Managing a RAMS project" = "pages/managing-a-rams-project.md"}
     ]}
   ]},
   {"System" = [
@@ -103,7 +104,6 @@ draft_nav = [
       {"Adding a new employee" = "drafts/adding-a-new-employee.md"}
     ]},
     {"Rams" = [
-      {"Managing a RAMS project" = "drafts/managing-a-rams-project.md"},
       {"Creating a RAMS project" = "drafts/creating-a-rams-project.md"}
     ]}
   ]}
