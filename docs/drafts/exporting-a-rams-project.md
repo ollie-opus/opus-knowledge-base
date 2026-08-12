@@ -76,3 +76,7 @@ This guide details how to export a RAMS project.
 
     <span data-uuid="cfe0ac3b-40ae-497c-9de2-cb0a907218d2" style="display:none"></span>
     On the project page, select the **Exports** button at the top
+
+    <span data-uuid="bbbd44d3-19d2-47aa-985e-6e3a483bbfd6" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/exports-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/exports-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
