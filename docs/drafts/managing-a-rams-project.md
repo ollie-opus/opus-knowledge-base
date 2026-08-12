@@ -142,5 +142,9 @@ Risk assessments / Method statements that have been added to a project can be ov
 
 Risk assessments / Method statements that have been added to a project can be promoted using the Promote button. This duplicates the content of the resource, **including any edits made via overriding**, to your site so it to be used on other projects.
 
+<span data-uuid="f0201a7d-cc0b-47b9-8bb0-b325623d1059" style="display:none"></span>
+![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/manual-handling-assessments-promote-a-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/manual-handling-assessments-promote-a-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 ## How toolbox talks are scheduled
 <span data-uuid="73d21559-960a-4fbb-b2bf-49f2873f15d5" style="display:none"></span>
