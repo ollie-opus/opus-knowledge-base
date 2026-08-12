@@ -128,3 +128,7 @@ This guide details how to export a RAMS project.
 !!! step
 
     <span data-uuid="add698fb-70d4-4f6d-9c58-2496f3dd7318" style="display:none"></span>
+
+    <span data-uuid="e3105dc2-df73-4d10-909d-e44b0e0ca0c1" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/exports/rams-project-exports-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/exports/rams-project-exports-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
