@@ -89,9 +89,8 @@ icon: lucide/square-plus
 
         - You will always receive ongoing task reminders into your inbox to complete and maintain this contractor’s requirements (e.g. insurance documents).
         - Reminders will continue even if the contractor is not currently in use (via an active project).
-        - This helps ensure important or frequently used contractors remain compliant and ready to use when needed.
 
-        **^^Recommended for:^^** Contractors who are regularly used or important to your operations.
+        **^^Recommended for:^^** Contractors who are regularly used or important to your operations as it helps ensure contractors remain compliant and ready when needed.
 
     ??? info "When to select No"
 
