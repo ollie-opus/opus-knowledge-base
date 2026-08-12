@@ -73,6 +73,12 @@ This guide details how to manage a RAMS project in Opus Compliance Cloud.
 ## Adding risk assessments & method statements
 <span data-uuid="5a4b4f6b-6127-4e6d-bce3-3315d27a0108" style="display:none"></span>
 
+
+!!! step
+
+    <span data-uuid="9532b66c-0d39-407c-8188-f60e0809154b" style="display:none"></span>
+    After selecting a project from your RAMS projects list, scroll down to the relevant Risk Assessment/Method Statement sections
+
 ## Overriding risk assessments & method statements
 <span data-uuid="b0ee0132-4272-4fd6-a0c8-f2706c093ec1" style="display:none"></span>
 
