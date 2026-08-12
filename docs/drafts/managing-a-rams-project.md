@@ -106,7 +106,7 @@ This guide details how to manage a RAMS project in Opus Compliance Cloud.
     !!! tip
 
         <span data-uuid="f0165e18-9bbf-4dd9-9b0a-f14f5e1b9f5f" style="display:none"></span>
-        Each option can be clicked to reveal an expandable section with information of what is included in that resource.
+        Each option can be clicked to expand a section showing information about what is included in that assessment/statement.
 
         <span data-uuid="522a20ab-84d8-4da5-997d-17d62237de92" style="display:none"></span>
         ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/manual-handling-assessments/table-option-expanded-a-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
