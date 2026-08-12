@@ -8,22 +8,6 @@ search:
 
 This guide details how to export a RAMS project.
 
-!!! step
-
-    <span data-uuid="00c8aad7-fe47-4266-b9e1-301e4aa84f1c" style="display:none"></span>
-
-    The RAMS projects for this site will appear in a list. Select the project you wish to export.
-
-    <span data-uuid="55c84ffe-6954-4835-8bd6-4b6a19e7ca04" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/rams/rams-projects-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/rams/rams-projects-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
-
-    !!! tip
-
-        <span data-uuid="3206ce4a-f3c0-49b9-8d25-f7e86c6bb5cf" style="display:none"></span>
-
-        Use the search bar to find projects by title or author.
-
 ## Finding the project
 <span data-uuid="1d2c4868-b4b0-4218-a877-ff9aaba260d0" style="display:none"></span>
 
