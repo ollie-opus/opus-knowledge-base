@@ -98,3 +98,7 @@ This guide details how to export a RAMS project.
     Select/deselect the sections you would like to include in the export.
 
     *(All sections are selected by default)*
+
+    <span data-uuid="642924c5-bd16-4460-aa83-6d4d3cd37c2f" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/exports/new/as-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/exports/new/as-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
