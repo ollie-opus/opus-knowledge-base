@@ -77,7 +77,7 @@ This guide details how to manage a RAMS project in Opus Compliance Cloud.
 !!! step
 
     <span data-uuid="9532b66c-0d39-407c-8188-f60e0809154b" style="display:none"></span>
-    After selecting a project from your RAMS projects list, scroll down to see the Risk Assessment/Method Statement sections
+    After selecting a project from your RAMS projects list, scroll down to see the Risk Assessment/Method Statement sections.
 
     <span data-uuid="a08b6963-2269-4159-a224-34af26a91cf3" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/assessments-and-statements-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
