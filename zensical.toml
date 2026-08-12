@@ -105,8 +105,7 @@ draft_nav = [
     ]},
     {"Rams" = [
       {"Creating a RAMS project" = "drafts/creating-a-rams-project.md"},
-      {"Exporting a RAMS project" = "drafts/exporting-a-rams-project.md"},
-      {"Managing a RAMS project" = "drafts/managing-a-rams-project.md"}
+      {"Exporting a RAMS project" = "drafts/exporting-a-rams-project.md"}
     ]}
   ]}
 ]
