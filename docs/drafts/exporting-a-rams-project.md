@@ -133,3 +133,8 @@ This guide details how to export a RAMS project.
     <span data-uuid="e3105dc2-df73-4d10-909d-e44b0e0ca0c1" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/exports/rams-project-exports-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/exports/rams-project-exports-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
+    !!! warning
+
+        <span data-uuid="0ad29c0b-c2ca-4702-81c8-2c0fc798c530" style="display:none"></span>
+        If the project is updated after an export has been created, the export will be removed from the table to prevent users from downloading an outdated version. If required, you will need to generate a new export.
