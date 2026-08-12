@@ -157,3 +157,7 @@ Risk assessments / Method statements that have been added to a project can be pr
 
 ## How toolbox talks are scheduled
 <span data-uuid="73d21559-960a-4fbb-b2bf-49f2873f15d5" style="display:none"></span>
+
+Toolbox talks are scheduled based on the duration of your project. If the project runs for longer than the number of talks selected, the sequence will repeat.
+
+For example, if you select 5 talks for a 10-week project, a new talk will be delivered each week for the first 5 weeks, before the sequence starts again from the beginning.
