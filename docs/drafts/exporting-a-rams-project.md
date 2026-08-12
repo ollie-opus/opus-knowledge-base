@@ -27,3 +27,23 @@ This guide details how to export a RAMS project.
     <span data-uuid="e4dd2923-bf5e-4f22-847c-7144db79d354" style="display:none"></span>
     ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! step
+
+    <span data-uuid="48c3462b-9dd5-4ab7-b7b3-fc87ad070970" style="display:none"></span>
+
+    Click the :lucide-ellipsis: icon to open the more options menu.
+
+    <span data-uuid="e65bfd17-352d-46cc-ac8b-bb9020e5b7cd" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/show-extra-menu-options-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/show-extra-menu-options-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! step
+
+    <span data-uuid="66fb4365-4885-4610-9d4e-0f40eb37cec0" style="display:none"></span>
+
+    From the popup menu, select <span class="mb-label mb-label-slate">RAMS</span>
+
+    <span data-uuid="8703cdb9-dbc7-464d-b7c5-7b5c6990f177" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
