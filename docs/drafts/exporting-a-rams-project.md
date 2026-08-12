@@ -1,4 +1,5 @@
 ---
+icon: lucide/file-down
 search:
   exclude: true
 ---
