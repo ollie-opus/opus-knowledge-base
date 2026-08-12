@@ -132,6 +132,11 @@ Risk assessments / Method statements that have been added to a project can be ov
 ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/method-statements-override-a-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
 ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/method-statements-override-a-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
+!!! info
+
+    <span data-uuid="2ce8fc51-cfca-4da4-a224-03860d0d96db" style="display:none"></span>
+    If you are using a standard Opus assessment/statement, you may want to override it to make sure the content reflects the specifics of your project.
+
 ## Promoting risk assessments & method statements
 <span data-uuid="bb8fdd1b-3918-48a5-a4d5-1d230b454c00" style="display:none"></span>
 
