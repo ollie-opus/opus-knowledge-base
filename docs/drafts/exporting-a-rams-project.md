@@ -102,3 +102,8 @@ This guide details how to export a RAMS project.
     <span data-uuid="642924c5-bd16-4460-aa83-6d4d3cd37c2f" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/exports/new/as-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/exports/new/as-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
+!!! step
+
+    <span data-uuid="8d5dc10c-92af-4eee-a51b-5235311018d5" style="display:none"></span>
+    Click the **Export to PDF** button.
