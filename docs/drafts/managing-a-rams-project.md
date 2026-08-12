@@ -98,8 +98,8 @@ This guide details how to manage a RAMS project in Opus Compliance Cloud.
     From the list of available options, select which resources you would like to add to the project.
 
     <span data-uuid="af25eb8d-429b-4844-ae77-b92813756e9b" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/manual-handling-assessments/table-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/manual-handling-assessments/table-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/manual-handling-assessments/table-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/manual-handling-assessments/table-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
     !!! tip
 
