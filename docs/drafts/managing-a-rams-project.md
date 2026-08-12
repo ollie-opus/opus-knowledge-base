@@ -83,6 +83,11 @@ This guide details how to manage a RAMS project in Opus Compliance Cloud.
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/assessments-and-statements-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/assessments-and-statements-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
 
+!!! step
+
+    <span data-uuid="2483ce14-a4ae-49df-b756-ae09b4c53860" style="display:none"></span>
+    Select the **Manage** button on the section you wish to add content to.
+
 ## Overriding risk assessments & method statements
 <span data-uuid="b0ee0132-4272-4fd6-a0c8-f2706c093ec1" style="display:none"></span>
 
