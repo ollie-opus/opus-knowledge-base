@@ -67,3 +67,6 @@ This guide details how to export a RAMS project.
         <span data-uuid="1233b663-ccfa-4cd0-860a-dca826c3d10a" style="display:none"></span>
 
         Use the search bar to find projects by title or author.
+
+## Exporting the project
+<span data-uuid="2b3151d3-eafd-4d11-aa87-36330faaed93" style="display:none"></span>
