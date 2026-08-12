@@ -116,7 +116,7 @@ This guide details how to export a RAMS project.
     !!! note
 
         <span data-uuid="6188e28d-2fc0-47f2-a8be-a245a830333a" style="display:none"></span>
-        Once clicked, an Export of the RAMS project will be requested. The export may take a while to be generated and sent to you by email.
+        Once clicked, an Export of the RAMS project will be requested. Depending on the project size, the export may take some time to be generated. An email will be sent to you when it is ready for download.
 
 !!! step
 
