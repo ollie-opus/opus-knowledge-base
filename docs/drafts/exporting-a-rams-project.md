@@ -70,3 +70,9 @@ This guide details how to export a RAMS project.
 
 ## Exporting the project
 <span data-uuid="2b3151d3-eafd-4d11-aa87-36330faaed93" style="display:none"></span>
+
+
+!!! step
+
+    <span data-uuid="cfe0ac3b-40ae-497c-9de2-cb0a907218d2" style="display:none"></span>
+    On the project page, select the **Exports** button at the top
