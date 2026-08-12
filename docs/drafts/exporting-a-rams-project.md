@@ -120,3 +120,4 @@ This guide details how to export a RAMS project.
 !!! step
 
     <span data-uuid="ade620ec-c5ae-4c55-970a-f60c416c8779" style="display:none"></span>
+    Once you receive the RAMS export email, follow the button/link to the exports overview.
