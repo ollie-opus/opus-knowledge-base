@@ -151,5 +151,9 @@ Risk assessments / Method statements that have been added to a project can be pr
     <span data-uuid="49f8b897-445c-4eb9-a149-bda3ef80b799" style="display:none"></span>
     After promoting the Opus ***Handling Plasterboard or Drywall Panels*** assessment above, you will see both the <span class="mb-label mb-label-rose">original</span> and the <span class="mb-label mb-label-green">duplicate</span> in the Manage list when adding assessments to other projects.
 
+    <span data-uuid="35aad93d-39f1-4b73-ac71-cc541d8b49ee" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/manual-handling-assessments/promoted-assessment-a-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/manual-handling-assessments/promoted-assessment-a-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 ## How toolbox talks are scheduled
 <span data-uuid="73d21559-960a-4fbb-b2bf-49f2873f15d5" style="display:none"></span>
