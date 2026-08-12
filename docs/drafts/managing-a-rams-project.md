@@ -16,9 +16,7 @@ This guide details how to manage a RAMS project in Opus Compliance Cloud.
 !!! step
 
     <span data-uuid="4f736c36-3823-44f2-9cb4-fc6c82019d0f" style="display:none"></span>
-
-
-    From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard), click on **Pick workspace** and select the site where you want to create the RAMS project.
+    From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard), click on **Pick workspace** and select the site that contains the RAMS project(s) you're looking for..
 
     <span data-uuid="b993c8af-056f-46fe-9413-937ef08c411f" style="display:none"></span>
     ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
