@@ -304,5 +304,9 @@
   "docs/assets/media/occ-captures/admin/sites/uuid/rams/uuid/exports/new/as-light-mode.png": {
     "resized": true,
     "padding": 20
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/rams/uuid/exports/rams-project-exports-light-mode.png": {
+    "resized": true,
+    "padding": 20
   }
 }
