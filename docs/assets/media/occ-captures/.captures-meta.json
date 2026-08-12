@@ -275,5 +275,10 @@
   "docs/assets/media/occ-captures/admin/sites/uuid/rams/uuid/manual-handling-assessments/table-light-mode.png": {
     "resized": true,
     "padding": 20
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/rams/uuid/manual-handling-assessments/table-option-expanded-a-light-mode.png": {
+    "resized": true,
+    "padding": 15,
+    "annotated": true
   }
 }
