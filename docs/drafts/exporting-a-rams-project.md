@@ -80,3 +80,10 @@ This guide details how to export a RAMS project.
     <span data-uuid="bbbd44d3-19d2-47aa-985e-6e3a483bbfd6" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/exports-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/rams/uuid/exports-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! step
+
+    <span data-uuid="2bea77b8-8f62-4e03-874e-8e37bec94b6a" style="display:none"></span>
+    If any exports have previously been created for this project, they will be displayed in a list on this page.
+
+    To create a new export, click **+New**.
