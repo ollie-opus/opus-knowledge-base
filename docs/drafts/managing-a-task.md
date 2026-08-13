@@ -110,6 +110,10 @@ Labels are a way of tagging tasks with information which can be used when search
 ## Exporting Tasks
 <span data-uuid="b8b6bffe-006e-4fb7-b82b-e4502a2968c0" style="display:none"></span>
 
+An **Export** button can be found at the top of any task.
+
+This feature allows you to create a tailored, filtered view of the task, which ensures the recipient only sees the information you choose to share.
+
 ## Moving Tasks
 <span data-uuid="ff756a4f-fe0d-4ea5-a122-e1ffd4922a15" style="display:none"></span>
 
