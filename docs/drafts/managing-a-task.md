@@ -96,7 +96,7 @@ Labels are a way of tagging tasks with information which can be used when search
     - Which body part(s) were injured? (e.g. <span class="mb-label mb-label-grey">hand</span>, <span class="mb-label mb-label-grey">head</span>, <span class="mb-label mb-label-grey">foot</span>)
     These labels are **critical** for any kind of querying/reporting/analysis using features such as the **incident report**.
 
-!!! outline "How labels get applied to tasks?"
+!!! outline "How to add labels to tasks"
 
     <span data-uuid="bb96d9e2-4297-43dc-a35a-34c575114f1f" style="display:none"></span>
     Although labels are sometimes applied to tasks automatically based on the task status or the answers provided to questions, you can also add them manually. 
