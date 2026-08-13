@@ -312,5 +312,8 @@
   "docs/assets/media/occ-captures/todos/uuid/export/system-a-6mo-ago-light-mode.png": {
     "padding": 20,
     "annotated": true
+  },
+  "docs/assets/media/occ-captures/todos/uuid/export/hide-messages-written-after-light-mode.png": {
+    "padding": 10
   }
 }
