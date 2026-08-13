@@ -133,6 +133,10 @@ This feature allows you to create a tailored, filtered view of the task, which e
         <span data-uuid="a4ed4104-337d-49b9-9bbd-5f1efa557e1a" style="display:none"></span>
         To find the exact date a comment was created, hover your mouse pointer over the relative timestamp.
 
+        <span data-uuid="0118d216-1b2d-4bdd-9352-a2c62b3fd299" style="display:none"></span>
+        ![](../assets/media/occ-captures/todos/uuid/export/system-a-6mo-ago-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+        ![](../assets/media/occ-captures/todos/uuid/export/system-a-6mo-ago-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 ## Moving Tasks
 <span data-uuid="ff756a4f-fe0d-4ea5-a122-e1ffd4922a15" style="display:none"></span>
 
