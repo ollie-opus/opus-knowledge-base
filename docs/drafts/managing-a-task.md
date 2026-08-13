@@ -150,6 +150,10 @@ This feature allows you to create a tailored, filtered view of the task, which e
     ![](../assets/media/occ-captures/todos/uuid/export/display-options-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
     ![](../assets/media/occ-captures/todos/uuid/export/display-options-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
 
+!!! step
+
+    <span data-uuid="d0dd6617-ccf5-457c-b1cc-2741b68cec53" style="display:none"></span>
+
 ## Moving Tasks
 <span data-uuid="ff756a4f-fe0d-4ea5-a122-e1ffd4922a15" style="display:none"></span>
 
