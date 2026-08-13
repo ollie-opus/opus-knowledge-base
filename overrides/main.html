@@ -12,6 +12,22 @@
   </li>
 {% endmacro %}
 
+{# Incident announcement bar. Driven by [project.extra] mb_status_banner in
+   zensical.toml ("" | "disruption" | "outage"), which the more-buttons
+   extension rewrites whenever an incident is opened/resolved/deleted. The
+   theme only renders the bar when this block emits something, so the {%- -%}
+   whitespace control matters: an inactive banner must render as ''. Severity
+   colours live in docs/assets/stylesheets/status-banner.css. #}
+{% block announce %}
+  {%- if config.extra.mb_status_banner in ("disruption", "outage") %}
+    <span class="mb-status-banner mb-status-banner--{{ config.extra.mb_status_banner }}">
+      <span class="mb-status-banner__text">Opus Compliance Cloud is currently experiencing
+        {{- " a service outage" if config.extra.mb_status_banner == "outage" else " service disruption" }}</span>
+      <a class="md-button mb-status-banner__btn" href="{{ 'pages/system-status/' | url }}">Read more</a>
+    </span>
+  {%- endif -%}
+{% endblock %}
+
 {% block extrahead %}
   {# Hidden, full site-nav tree (in <head> so it survives instant-navigation body
      swaps) + the script that fills .mb-nav-links placeholders from it. #}

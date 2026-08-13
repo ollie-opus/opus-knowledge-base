@@ -1,0 +1,45 @@
+/* ============================================================================
+   Incident announcement banner (`.mb-status-banner`)
+   ----------------------------------------------------------------------------
+   Colours the theme's announcement bar by incident severity. The bar itself is
+   emitted by the announce block in overrides/main.html, driven by the
+   [project.extra] mb_status_banner value in zensical.toml (which the More
+   Buttons extension keeps in sync with open incidents on the System Status
+   page). Amber = disruption, red = outage — the same palette values as the
+   amber/red label pills in labels.css. Light values apply under the "default"
+   scheme, dark under "slate". The aside can't be classed from inside the
+   announce block, so severity is targeted via :has().
+   ============================================================================ */
+
+.md-banner .mb-status-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.6rem;
+  padding: 0.15rem 0;
+  text-align: center;
+}
+
+/* The Read more button hugs the strip: thin, and drawn from the banner's own
+   text colour instead of the theme primary. */
+.md-banner .md-button.mb-status-banner__btn {
+  color: currentColor;
+  border: 0.05rem solid currentColor;
+  padding: 0.1em 0.9em;
+  font-size: 0.65rem;
+  border-radius: 5px;
+}
+.md-banner .md-button.mb-status-banner__btn:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent);
+  color: currentColor;
+  border-color: currentColor;
+}
+
+/* disruption — amber */
+[data-md-color-scheme="default"] .md-banner:has(.mb-status-banner--disruption) { background: rgb(254,243,198); color: rgb(151,60,0); }
+[data-md-color-scheme="slate"] .md-banner:has(.mb-status-banner--disruption) { background: rgb(151,60,0); color: rgb(254,243,198); }
+
+/* outage — red */
+[data-md-color-scheme="default"] .md-banner:has(.mb-status-banner--outage) { background: rgb(255,226,226); color: rgb(159,7,18); }
+[data-md-color-scheme="slate"] .md-banner:has(.mb-status-banner--outage) { background: rgb(159,7,18); color: rgb(255,226,226); }
