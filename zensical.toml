@@ -135,8 +135,9 @@ custom_dir = "overrides"
 #code = "JetBrains Mono"
 
 features = [
-    # Announcement bar
-    "announce.dismiss",
+    # Announcement bar dismissal deliberately OFF — the incident banner
+    # (overrides/main.html + mb_status_banner) must stay visible while an
+    # incident is open. To make it dismissable again add "announce.dismiss".
 
     # Content
     "content.code.annotate",        # code block annotations

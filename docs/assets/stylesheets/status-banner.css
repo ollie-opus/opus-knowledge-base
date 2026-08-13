@@ -17,8 +17,14 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 0.3rem 0.6rem;
-  padding: 0.15rem 0;
   text-align: center;
+}
+
+/* Slim strip: the theme gives .md-banner__inner a .6rem vertical margin —
+   halve it, but only when the banner is ours. */
+.md-banner:has(.mb-status-banner) .md-banner__inner {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
 /* The Read more button hugs the strip: thin, and drawn from the banner's own
