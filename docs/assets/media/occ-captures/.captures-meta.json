@@ -319,5 +319,9 @@
   "docs/assets/media/occ-captures/todos/uuid/export/display-options-light-mode.png": {
     "resized": true,
     "padding": 15
+  },
+  "docs/assets/media/occ-captures/todos/uuid/export/system-a-exclude-light-mode.png": {
+    "padding": 20,
+    "annotated": true
   }
 }
