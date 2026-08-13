@@ -119,10 +119,6 @@ This feature allows you to create a tailored, filtered view of the task, which e
     <span data-uuid="965801f5-6854-43f2-ab4f-a80ce87ca3a0" style="display:none"></span>
     When on a task, click the **Export** button in the top right-hand side of the page.
 
-    <span data-uuid="403f0495-a270-4663-a3f5-5facae75d1b6" style="display:none"></span>
-    ![](../assets/media/occ-captures/todos/uuid/edit-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/todos/uuid/edit-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
 ## Moving Tasks
 <span data-uuid="ff756a4f-fe0d-4ea5-a122-e1ffd4922a15" style="display:none"></span>
 
