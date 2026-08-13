@@ -128,6 +128,10 @@ This feature allows you to create a tailored, filtered view of the task, which e
     <span data-uuid="8c7c4592-a431-4fbe-b06b-95b742461654" style="display:none"></span>
     Hide comments or messages that were written after a specific date by using the date filter.
 
+    <span data-uuid="a47dd2cf-8b2b-45a8-8852-10697b20f8b5" style="display:none"></span>
+    ![](../assets/media/occ-captures/todos/uuid/export/hide-messages-written-after-light-mode.png#only-light)
+    ![](../assets/media/occ-captures/todos/uuid/export/hide-messages-written-after-dark-mode.png#only-dark)
+
     !!! tip
 
         <span data-uuid="a4ed4104-337d-49b9-9bbd-5f1efa557e1a" style="display:none"></span>
