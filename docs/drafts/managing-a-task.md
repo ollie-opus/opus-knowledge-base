@@ -154,6 +154,10 @@ This feature allows you to create a tailored, filtered view of the task, which e
 
     <span data-uuid="d0dd6617-ccf5-457c-b1cc-2741b68cec53" style="display:none"></span>
 
+    <span data-uuid="9301abe3-4f65-455e-9e2a-3862a54b6202" style="display:none"></span>
+    ![](../assets/media/occ-captures/todos/uuid/export/system-a-exclude-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/export/system-a-exclude-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 ## Moving Tasks
 <span data-uuid="ff756a4f-fe0d-4ea5-a122-e1ffd4922a15" style="display:none"></span>
 
