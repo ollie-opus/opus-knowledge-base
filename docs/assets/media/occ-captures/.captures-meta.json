@@ -315,5 +315,9 @@
   },
   "docs/assets/media/occ-captures/todos/uuid/export/hide-messages-written-after-light-mode.png": {
     "padding": 10
+  },
+  "docs/assets/media/occ-captures/todos/uuid/export/display-options-light-mode.png": {
+    "resized": true,
+    "padding": 15
   }
 }
