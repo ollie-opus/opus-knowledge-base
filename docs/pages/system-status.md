@@ -10,12 +10,12 @@ icon: lucide/chart-no-axes-column-increasing
 
 <div class="grid" markdown>
 
-!!! status-disruption "Server"
+!!! status-available "Server"
 
     <span data-uuid="3e7c2ce8-ef4d-495a-a1b8-b9917838617c" style="display:none"></span>
 
 
-    **Status:** DISRUPTION
+    **Status:** AVAILABLE
 !!! status-available "Account Login"
 
     <span data-uuid="86d36e3b-2dab-44cc-b863-2cf64213b28a" style="display:none"></span>
@@ -44,18 +44,6 @@ icon: lucide/chart-no-axes-column-increasing
 
 ---
 ## Open Incidents
-
-!!! status-disruption "Server"
-
-    <span data-uuid="dc270408-4e80-435d-b878-b0b574fd0e6e" style="display:none"></span>
-
-
-    - **Service Impact:** DISRUPTION
-    - **Current Status:** `Ongoing`
-    - **Description:** test
-    - **Reported:** 2026-08-13 17:51
-    - **Resolved:** 
-    - **Causation:** 
 
 ---
 
