@@ -259,7 +259,7 @@ emoji_generator = "zensical.extensions.emoji.to_svg"
 [project.extra]
 # Announcement bar for open incidents ("" | "disruption" | "outage") —
 # managed by the more-buttons extension, rendered by overrides/main.html.
-mb_status_banner = "disruption"
+mb_status_banner = ""
 mb_created_tags = [
   "System",
   "Managing OCC",
