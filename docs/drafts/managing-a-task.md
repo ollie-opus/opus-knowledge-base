@@ -123,6 +123,11 @@ This feature allows you to create a tailored, filtered view of the task, which e
     ![](../assets/media/occ-captures/todos/uuid/export-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/todos/uuid/export-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
+!!! step
+
+    <span data-uuid="8c7c4592-a431-4fbe-b06b-95b742461654" style="display:none"></span>
+    Hide comments or messages that were written after a specific date by using the date filter.
+
 ## Moving Tasks
 <span data-uuid="ff756a4f-fe0d-4ea5-a122-e1ffd4922a15" style="display:none"></span>
 
