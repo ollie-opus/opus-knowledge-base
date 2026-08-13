@@ -34,28 +34,16 @@ icon: lucide/chart-no-axes-column-increasing
 
 
     **Status:** AVAILABLE
-!!! status-outage "Notifications"
+!!! status-available "Notifications"
 
     <span data-uuid="3bf0ddc2-b721-4031-844b-55961b163655" style="display:none"></span>
 
 
-    **Status:** OUTAGE
+    **Status:** AVAILABLE
 </div>
 
 ---
 ## Open Incidents
-
-!!! status-outage "Notifications"
-
-    <span data-uuid="5a85d397-68b8-49cc-9e26-7e5f4861c2e7" style="display:none"></span>
-
-
-    - **Service Impact:** OUTAGE
-    - **Current Status:** `Ongoing`
-    - **Description:** TEST
-    - **Reported:** 2026-08-13 17:59
-    - **Resolved:** 
-    - **Causation:** 
 
 ---
 
