@@ -128,7 +128,7 @@ This feature allows you to create a tailored, filtered view of the task, which e
     <span data-uuid="8c7c4592-a431-4fbe-b06b-95b742461654" style="display:none"></span>
     Hide comments or messages that were written after a specific date by using the date filter.
 
-    !!! step
+    !!! tip
 
         <span data-uuid="a4ed4104-337d-49b9-9bbd-5f1efa557e1a" style="display:none"></span>
         To find the exact date a comment was created, hover your mouse pointer over the relative timestamp.
