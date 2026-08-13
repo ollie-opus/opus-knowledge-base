@@ -162,6 +162,7 @@ This feature allows you to create a tailored, filtered view of the task, which e
 !!! step
 
     <span data-uuid="16bb3b49-5aa8-42bd-85e5-c5b6ca650874" style="display:none"></span>
+    Once you're happy with your choices, select **Apply options and excludes**.
 
     <span data-uuid="696a12aa-1a70-496a-a7f6-f3d44320bea4" style="display:none"></span>
     ![](../assets/media/occ-captures/todos/uuid/export/apply-options-excludes-light-mode.png#only-light){ style="height: 50px" loading=lazy }
