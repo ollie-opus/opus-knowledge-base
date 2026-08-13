@@ -153,6 +153,7 @@ This feature allows you to create a tailored, filtered view of the task, which e
 !!! step
 
     <span data-uuid="d0dd6617-ccf5-457c-b1cc-2741b68cec53" style="display:none"></span>
+    Select the **Exclude** option on any message to hide it from the export.
 
     <span data-uuid="9301abe3-4f65-455e-9e2a-3862a54b6202" style="display:none"></span>
     ![](../assets/media/occ-captures/todos/uuid/export/system-a-exclude-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
