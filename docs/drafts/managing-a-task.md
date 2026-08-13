@@ -99,7 +99,9 @@ Labels are a way of tagging tasks with information which can be used when search
 !!! outline "How labels get applied to tasks?"
 
     <span data-uuid="bb96d9e2-4297-43dc-a35a-34c575114f1f" style="display:none"></span>
-    Labels are often applied to tasks automatically based on the task's status or the answers provided. However, labels can also be added manually when required. To do this, use the Labels section on the task.
+    Although labels are sometimes applied to tasks automatically based on the task status or the answers provided to questions, you can also add them manually. 
+
+    To add a label manually, select the edit button in the **Labels** section.
 
     <span data-uuid="0a80ce15-beae-427d-8662-4c3381237bd6" style="display:none"></span>
     ![](../assets/media/occ-captures/todos/uuid/labels-a-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
