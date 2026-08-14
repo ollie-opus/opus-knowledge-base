@@ -139,25 +139,26 @@
 }
 
 /* --------------------------------------------------------------------------
-   status-maintenance — orange (planned windows; distinct from disruption amber)
+   status-maintenance — amber (same palette as disruption; wrench icon +
+   MAINTENANCE label keep the two distinguishable)
    -------------------------------------------------------------------------- */
 
 .admonition.status-maintenance,
 .md-typeset details.status-maintenance {
-  background-color: rgba(255, 112, 67, 0.12);
-  border: 1px solid rgba(255, 112, 67, 0.45);
+  background-color: rgba(255, 179, 0, 0.12);
+  border: 1px solid rgba(255, 179, 0, 0.45);
 }
 
 .md-typeset .status-maintenance > .admonition-title::before,
 .md-typeset .status-maintenance > summary::before {
-  background-color: rgb(255, 112, 67);
+  background-color: rgb(255, 179, 0);
   -webkit-mask-image: var(--md-admonition-icon--status-maintenance);
           mask-image: var(--md-admonition-icon--status-maintenance);
 }
 
 .md-typeset .status-maintenance > .admonition-title::after,
 .md-typeset .status-maintenance > summary::after {
-  color: rgb(255, 112, 67);
+  color: rgb(255, 179, 0);
 }
 
 /* --------------------------------------------------------------------------

@@ -20,6 +20,10 @@
   text-align: center;
 }
 
+.md-banner .mb-status-banner__text {
+  font-weight: 500;
+}
+
 /* Slim strip: the theme gives .md-banner__inner a .6rem vertical margin —
    halve it, but only when the banner is ours. */
 .md-banner:has(.mb-status-banner) .md-banner__inner {
@@ -50,9 +54,9 @@
 [data-md-color-scheme="default"] .md-banner:has(.mb-status-banner--outage) { background: rgb(255,226,226); color: rgb(159,7,18); }
 [data-md-color-scheme="slate"] .md-banner:has(.mb-status-banner--outage) { background: rgb(159,7,18); color: rgb(255,226,226); }
 
-/* maintenance — orange. The markup is emitted [hidden] and revealed by
-   status-banner.js only inside the 7-days-before → window-end range, so the
-   whole strip must collapse while the span is hidden. */
+/* maintenance — same amber as disruption. The markup is emitted [hidden] and
+   revealed by status-banner.js only inside the 7-days-before → window-end
+   range, so the whole strip must collapse while the span is hidden. */
 .md-banner:has(.mb-status-banner--maintenance[hidden]) { display: none; }
-[data-md-color-scheme="default"] .md-banner:has(.mb-status-banner--maintenance:not([hidden])) { background: rgb(255,231,222); color: rgb(154,52,18); }
-[data-md-color-scheme="slate"] .md-banner:has(.mb-status-banner--maintenance:not([hidden])) { background: rgb(154,52,18); color: rgb(255,231,222); }
+[data-md-color-scheme="default"] .md-banner:has(.mb-status-banner--maintenance:not([hidden])) { background: rgb(254,243,198); color: rgb(151,60,0); }
+[data-md-color-scheme="slate"] .md-banner:has(.mb-status-banner--maintenance:not([hidden])) { background: rgb(151,60,0); color: rgb(254,243,198); }

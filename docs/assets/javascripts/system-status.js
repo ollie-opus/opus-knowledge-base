@@ -66,6 +66,35 @@
     return title ? title.textContent.replace(/¶/g, '').trim() : '';
   }
 
+  // The markdown's Scheduled Start/End lines are the AUTHOR's local wall-clock
+  // with no zone label — ambiguous for visitors in other timezones. The hidden
+  // span carries the true instants (ISO with UTC offset), so rewrite both lines
+  // into the visitor's own local time, labelled with their zone (e.g. "BST",
+  // "GMT-4"). Idempotent: same output every tick.
+  var scheduleFmt = new Intl.DateTimeFormat(undefined, {
+    day: 'numeric', month: 'short', year: 'numeric',
+    hour: '2-digit', minute: '2-digit', timeZoneName: 'short',
+  });
+
+  function localizeScheduleLines(el) {
+    var span = el.querySelector('span[data-mb-start]');
+    if (!span) return;
+    var instants = {
+      'Scheduled Start': Date.parse(span.getAttribute('data-mb-start') || ''),
+      'Scheduled End': Date.parse(span.getAttribute('data-mb-end') || ''),
+    };
+    var strongs = el.querySelectorAll('strong');
+    for (var i = 0; i < strongs.length; i++) {
+      var label = strongs[i].textContent.replace(/:\s*$/, '');
+      var ms = instants[label];
+      if (ms === undefined || isNaN(ms)) continue;
+      var text = ' ' + scheduleFmt.format(new Date(ms));
+      var node = strongs[i].nextSibling;
+      if (node && node.nodeType === Node.TEXT_NODE) node.textContent = text;
+      else strongs[i].insertAdjacentText('afterend', text);
+    }
+  }
+
   function placementOf(el, pastDetails, activeHeading) {
     if (pastDetails && pastDetails.contains(el)) return 'past';
     if (activeHeading && (el.compareDocumentPosition(activeHeading) & Node.DOCUMENT_POSITION_PRECEDING)) return 'active';
@@ -91,6 +120,7 @@
     for (var i = 0; i < cards.length; i++) {
       var el = cards[i];
       if (el.closest('.grid')) continue; // service tile, handled below
+      localizeScheduleLines(el);
       var phase = phaseOf(el, now);
       if (!phase) continue;
       var stored = storedStatusOf(el);

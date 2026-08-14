@@ -36,7 +36,6 @@
 
     var now = Date.now();
     var textEl = banner.querySelector('.mb-status-banner__text');
-    var services = banner.getAttribute('data-mb-services') || '';
 
     if (now < startMs - LEAD_MS || now >= endMs) {
       banner.hidden = true;
@@ -44,8 +43,8 @@
     }
     if (textEl) {
       textEl.textContent = now < startMs
-        ? 'Planned maintenance is scheduled for ' + fmtWindow(startMs, endMs) + (services ? ' (' + services + ')' : '')
-        : 'Planned maintenance is in progress' + (services ? ' — ' + services + ' may be temporarily unavailable' : '');
+        ? 'Opus Compliance Cloud planned maintenance: ' + fmtWindow(startMs, endMs)
+        : 'Opus Compliance Cloud planned maintenance is in progress';
     }
     banner.hidden = false;
   }
