@@ -37,7 +37,10 @@
           data-mb-end="{{ config.extra.mb_maintenance_end | e }}"
           data-mb-services="{{ config.extra.mb_maintenance_services | e }}">
       <span class="mb-status-banner__text"></span>
-      <a class="md-button mb-status-banner__btn" href="{{ 'pages/system-status/' | url }}">Read more</a>
+      <span class="mb-status-banner__group">
+        <span class="mb-status-banner__window"></span>
+        <a class="md-button mb-status-banner__btn" href="{{ 'pages/system-status/' | url }}">Read more</a>
+      </span>
     </span>
   {%- endif -%}
 {% endblock %}

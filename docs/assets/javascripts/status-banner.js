@@ -22,7 +22,7 @@
     var time = new Intl.DateTimeFormat(undefined, { hour: '2-digit', minute: '2-digit' });
     var sameDay = day.format(start) === day.format(end);
     return sameDay
-      ? day.format(start) + ', ' + time.format(start) + '–' + time.format(end)
+      ? day.format(start) + ', ' + time.format(start) + ' – ' + time.format(end)
       : day.format(start) + ', ' + time.format(start) + ' – ' + day.format(end) + ', ' + time.format(end);
   }
 
@@ -36,15 +36,22 @@
 
     var now = Date.now();
     var textEl = banner.querySelector('.mb-status-banner__text');
+    var windowEl = banner.querySelector('.mb-status-banner__window');
 
     if (now < startMs - LEAD_MS || now >= endMs) {
       banner.hidden = true;
       return;
     }
+    /* Lead sentence and the date/time window live in separate spans so the
+       window (grouped with the Read more button in main.html) wraps to its own
+       line on narrow screens instead of splitting mid-range. */
     if (textEl) {
       textEl.textContent = now < startMs
-        ? 'Opus Compliance Cloud planned maintenance: ' + fmtWindow(startMs, endMs)
+        ? 'Opus Compliance Cloud planned maintenance:'
         : 'Opus Compliance Cloud planned maintenance is in progress';
+    }
+    if (windowEl) {
+      windowEl.textContent = now < startMs ? fmtWindow(startMs, endMs) : '';
     }
     banner.hidden = false;
   }

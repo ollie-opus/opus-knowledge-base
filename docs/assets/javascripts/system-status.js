@@ -19,6 +19,8 @@
 
   var RANK = { 'upcoming': 0, 'in progress': 1, 'completed': 2 };
   var LABEL = { 'upcoming': 'Upcoming', 'in progress': 'In progress', 'completed': 'Completed' };
+  // Status values render as label pills; the colour class follows the status.
+  var STATUS_SLUG = { 'upcoming': 'sky', 'in progress': 'amber', 'completed': 'green' };
   var timer = null;
 
   function headingByText(text) {
@@ -39,25 +41,30 @@
     return 'upcoming';
   }
 
-  function storedStatusOf(el) {
-    var codes = el.querySelectorAll('code');
-    for (var i = 0; i < codes.length; i++) {
-      var host = codes[i].closest('li, p');
-      if (host && host.textContent.indexOf('Current Status') !== -1) {
-        return (codes[i].textContent || '').trim().toLowerCase();
-      }
+  // The Current Status value is a label pill (`.mb-label`); legacy markup used
+  // a backticked value, which renders as <code> — kept as a read fallback for
+  // stale-cached pages.
+  function statusValueEl(el) {
+    var values = el.querySelectorAll('.mb-label, code');
+    for (var i = 0; i < values.length; i++) {
+      var host = values[i].closest('li, p');
+      if (host && host.textContent.indexOf('Current Status') !== -1) return values[i];
     }
-    return 'upcoming';
+    return null;
+  }
+
+  function storedStatusOf(el) {
+    var value = statusValueEl(el);
+    return value ? (value.textContent || '').trim().toLowerCase() : 'upcoming';
   }
 
   function setStoredStatus(el, status) {
-    var codes = el.querySelectorAll('code');
-    for (var i = 0; i < codes.length; i++) {
-      var host = codes[i].closest('li, p');
-      if (host && host.textContent.indexOf('Current Status') !== -1) {
-        codes[i].textContent = LABEL[status] || status;
-        return;
-      }
+    var value = statusValueEl(el);
+    if (!value) return;
+    value.textContent = LABEL[status] || status;
+    // Keep the pill colour in step with the status it shows.
+    if (value.classList.contains('mb-label')) {
+      value.className = 'mb-label mb-label-' + (STATUS_SLUG[status] || 'sky');
     }
   }
 
@@ -66,10 +73,25 @@
     return title ? title.textContent.replace(/¶/g, '').trim() : '';
   }
 
-  // The markdown's Scheduled Start/End lines are the AUTHOR's local wall-clock
-  // with no zone label — ambiguous for visitors in other timezones. The hidden
-  // span carries the true instants (ISO with UTC offset), so rewrite both lines
-  // into the visitor's own local time, labelled with their zone (e.g. "BST",
+  // Event cards list their services in a `Services Affected` field (the card
+  // title is the event kind pill); legacy cards carried them in the title.
+  function servicesOf(el) {
+    var strongs = el.querySelectorAll('strong');
+    for (var i = 0; i < strongs.length; i++) {
+      if (strongs[i].textContent.indexOf('Services Affected') === 0) {
+        var host = strongs[i].closest('li, p');
+        var text = host ? host.textContent : '';
+        return text.slice(text.indexOf(':') + 1);
+      }
+    }
+    return titleOf(el);
+  }
+
+  // The markdown's timestamp lines (Scheduled Start/End on maintenance,
+  // Reported/Resolved on incidents) are the AUTHOR's local wall-clock with no
+  // zone label — ambiguous for visitors in other timezones. The hidden span
+  // carries the true instants (ISO with UTC offset), so rewrite each line into
+  // the visitor's own local time, labelled with their zone (e.g. "BST",
   // "GMT-4"). Idempotent: same output every tick.
   var scheduleFmt = new Intl.DateTimeFormat(undefined, {
     day: 'numeric', month: 'short', year: 'numeric',
@@ -77,21 +99,31 @@
   });
 
   function localizeScheduleLines(el) {
-    var span = el.querySelector('span[data-mb-start]');
+    var span = el.querySelector('span[data-mb-start], span[data-mb-reported]');
     if (!span) return;
     var instants = {
       'Scheduled Start': Date.parse(span.getAttribute('data-mb-start') || ''),
       'Scheduled End': Date.parse(span.getAttribute('data-mb-end') || ''),
+      'Reported': Date.parse(span.getAttribute('data-mb-reported') || ''),
+      'Resolved': Date.parse(span.getAttribute('data-mb-resolved') || ''),
     };
     var strongs = el.querySelectorAll('strong');
     for (var i = 0; i < strongs.length; i++) {
       var label = strongs[i].textContent.replace(/:\s*$/, '');
       var ms = instants[label];
       if (ms === undefined || isNaN(ms)) continue;
-      var text = ' ' + scheduleFmt.format(new Date(ms));
-      var node = strongs[i].nextSibling;
-      if (node && node.nodeType === Node.TEXT_NODE) node.textContent = text;
-      else strongs[i].insertAdjacentText('afterend', text);
+      var text = scheduleFmt.format(new Date(ms));
+      var pill = strongs[i].nextElementSibling;
+      if (pill && pill.classList && pill.classList.contains('mb-label')) {
+        // Timestamp sits inside a slate pill — replace the pill's text, never
+        // append beside it (nextSibling is whitespace, not the value).
+        pill.textContent = text;
+      } else {
+        // Legacy markup: bare text node after the <strong>.
+        var node = strongs[i].nextSibling;
+        if (node && node.nodeType === Node.TEXT_NODE) node.textContent = ' ' + text;
+        else strongs[i].insertAdjacentText('afterend', ' ' + text);
+      }
     }
   }
 
@@ -129,7 +161,7 @@
 
       var placement = placementOf(el, pastDetails, activeHeading);
       if (shown === 'in progress') {
-        inProgressServices = inProgressServices.concat(titleOf(el).split(','));
+        inProgressServices = inProgressServices.concat(servicesOf(el).split(','));
         if (placement !== 'active' && activeHeading) activeHeading.insertAdjacentElement('afterend', el);
       } else if (shown === 'completed' && placement !== 'past' && pastDetails) {
         var summary = pastDetails.querySelector('summary');
@@ -140,6 +172,16 @@
     for (var s = 0; s < inProgressServices.length; s++) {
       var name = inProgressServices[s].trim();
       if (name) underMaintenance[name] = true;
+    }
+
+    // Incident cards only need their Reported/Resolved timestamps localized —
+    // they never move sections or change status client-side.
+    var incidents = document.querySelectorAll(
+      '.md-typeset .admonition.status-outage, .md-typeset details.status-outage, ' +
+      '.md-typeset .admonition.status-disruption, .md-typeset details.status-disruption');
+    for (var n = 0; n < incidents.length; n++) {
+      if (incidents[n].closest('.grid')) continue; // service tile
+      localizeScheduleLines(incidents[n]);
     }
 
     // 2. Re-skin service tiles: Available ↔ Maintenance only — incident
