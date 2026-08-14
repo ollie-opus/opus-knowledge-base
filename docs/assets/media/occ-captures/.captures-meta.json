@@ -333,5 +333,10 @@
     "padding": 5,
     "annotated": true,
     "zapped": true
+  },
+  "docs/assets/media/occ-captures/todos/uuid/open-a-confidential-light-mode.png": {
+    "resized": true,
+    "padding": 15,
+    "annotated": true
   }
 }
