@@ -191,8 +191,6 @@ Managers/administrators have the ability to move tasks to another site. This is 
     <span data-uuid="9e05fdc6-f6e0-45e6-815d-24b34105a222" style="display:none"></span>
     This functionality requires manager or administrator access to both the site where the task currently exists and the destination site.
 
-    If you do not have access to the destination site, you may need to contact someone in your organisation with the appropriate level of access, such as a regional manager, to complete the move on your behalf.
-
 !!! danger "Important"
 
     <span data-uuid="1d614968-0d34-4893-87d7-3988164d45f0" style="display:none"></span>
