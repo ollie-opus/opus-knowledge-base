@@ -182,6 +182,10 @@ This feature allows you to create a tailored, filtered view of the task, which e
 
 Managers/administrators have the ability to move tasks to another site. This is useful if a task has been reported in the wrong location.
 
+<span data-uuid="851a3bb2-c5ae-4e6c-b4f5-ce27794e5ef6" style="display:none"></span>
+![](../assets/media/occ-captures/todos/uuid/todo-actions-a-move-task-z-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
+![](../assets/media/occ-captures/todos/uuid/todo-actions-a-move-task-z-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
+
 <span data-uuid="daa62a80-6838-4dfa-b7d3-6e826eb99548" style="display:none"></span>
 ![](../assets/media/occ-captures/todos/uuid/todo-actions-a-add-sub-task-z-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
 ![](../assets/media/occ-captures/todos/uuid/todo-actions-a-add-sub-task-z-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
