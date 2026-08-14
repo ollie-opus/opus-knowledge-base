@@ -44,13 +44,26 @@ status-page: true
 </div>
 
 ---
-## Open Incidents
+## Upcoming Events
+
+!!! status-maintenance "Server, Account Login, Files, Tasks, Notifications"
+
+    <span data-uuid="73a3622b-2d4b-475b-8b22-ecaf5d443526" data-mb-start="2026-08-20T19:00+01:00" data-mb-end="2026-08-20T21:00+01:00" style="display:none"></span>
+
+    - **Scheduled Start:** 2026-08-20 19:00
+    - **Scheduled End:** 2026-08-20 21:00
+    - **Current Status:** `Upcoming`
+    - **Description:** We are be conducting a round of general maintenance. There will be downtime on your services during this window.
 
 ---
 
-## Past Incidents
+## Active Events
 
-??? outline "View past incidents"
+---
+
+## Past Events
+
+??? outline "View past events"
 
     !!! status-outage "Server"
 
