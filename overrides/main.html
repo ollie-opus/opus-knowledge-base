@@ -12,17 +12,31 @@
   </li>
 {% endmacro %}
 
-{# Incident announcement bar. Driven by [project.extra] mb_status_banner in
-   zensical.toml ("" | "disruption" | "outage"), which the more-buttons
-   extension rewrites whenever an incident is opened/resolved/deleted. The
-   theme only renders the bar when this block emits something, so the {%- -%}
-   whitespace control matters: an inactive banner must render as ''. Severity
-   colours live in docs/assets/stylesheets/status-banner.css. #}
+{# Status announcement bar. Driven by [project.extra] scalars in zensical.toml,
+   which the more-buttons extension rewrites whenever a status event is
+   opened/resolved/deleted:
+     mb_status_banner        "" | "disruption" | "outage" — incident bar
+     mb_maintenance_start/…  next maintenance window (ISO with UTC offset)
+   Incidents take priority. The maintenance bar is emitted HIDDEN with the
+   window baked into data attrs; assets/javascripts/status-banner.js reveals it
+   client-side from 7 days before start until the end (the site can't rebuild
+   itself on a timer, so the time gate must run in the visitor's browser).
+   The theme only renders the bar when this block emits something, so the
+   {%- -%} whitespace control matters: an inactive banner must render as ''.
+   Severity colours live in docs/assets/stylesheets/status-banner.css. #}
 {% block announce %}
   {%- if config.extra.mb_status_banner in ("disruption", "outage") %}
     <span class="mb-status-banner mb-status-banner--{{ config.extra.mb_status_banner }}">
       <span class="mb-status-banner__text">Opus Compliance Cloud is currently experiencing
         {{- " a service outage" if config.extra.mb_status_banner == "outage" else " service disruption" }}</span>
+      <a class="md-button mb-status-banner__btn" href="{{ 'pages/system-status/' | url }}">Read more</a>
+    </span>
+  {%- elif config.extra.mb_maintenance_start %}
+    <span class="mb-status-banner mb-status-banner--maintenance" hidden
+          data-mb-start="{{ config.extra.mb_maintenance_start | e }}"
+          data-mb-end="{{ config.extra.mb_maintenance_end | e }}"
+          data-mb-services="{{ config.extra.mb_maintenance_services | e }}">
+      <span class="mb-status-banner__text"></span>
       <a class="md-button mb-status-banner__btn" href="{{ 'pages/system-status/' | url }}">Read more</a>
     </span>
   {%- endif -%}
@@ -33,6 +47,9 @@
      swaps) + the script that fills .mb-nav-links placeholders from it. #}
   <template id="__mb-nav-tree"><ul>{% for item in nav.items %}{{ mb_nav_node(item) }}{% endfor %}</ul></template>
   <script src="{{ 'assets/javascripts/nav-links.js' | url }}" defer></script>
+  {# Time-gates the maintenance announcement bar (emitted hidden by the
+     announce block above) — loads on every page, no-ops when there's no bar. #}
+  <script src="{{ 'assets/javascripts/status-banner.js' | url }}" defer></script>
 
   {% if page.meta and page.meta['background-animation'] == 'neural-v1' %}
     <script src="{{ 'assets/javascripts/neural-v1.js' | url }}" defer></script>
@@ -44,6 +61,9 @@
   {% endif %}
   {% if page.meta and page.meta.editor %}
     <script src="{{ 'assets/javascripts/editor.js' | url }}" defer></script>
+  {% endif %}
+  {% if page.meta and page.meta['status-page'] %}
+    <script src="{{ 'assets/javascripts/system-status.js' | url }}" defer></script>
   {% endif %}
   {# Groove support widget loads on every page so any link can trigger it via
      window.groove.widget.open(); deferred so it never blocks rendering. #}

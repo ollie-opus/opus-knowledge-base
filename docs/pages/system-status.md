@@ -2,6 +2,7 @@
 tags:
     - System
 icon: lucide/chart-no-axes-column-increasing
+status-page: true
 ---
 
 # System Status

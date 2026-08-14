@@ -139,6 +139,28 @@
 }
 
 /* --------------------------------------------------------------------------
+   status-maintenance — orange (planned windows; distinct from disruption amber)
+   -------------------------------------------------------------------------- */
+
+.admonition.status-maintenance,
+.md-typeset details.status-maintenance {
+  background-color: rgba(255, 112, 67, 0.12);
+  border: 1px solid rgba(255, 112, 67, 0.45);
+}
+
+.md-typeset .status-maintenance > .admonition-title::before,
+.md-typeset .status-maintenance > summary::before {
+  background-color: rgb(255, 112, 67);
+  -webkit-mask-image: var(--md-admonition-icon--status-maintenance);
+          mask-image: var(--md-admonition-icon--status-maintenance);
+}
+
+.md-typeset .status-maintenance > .admonition-title::after,
+.md-typeset .status-maintenance > summary::after {
+  color: rgb(255, 112, 67);
+}
+
+/* --------------------------------------------------------------------------
    outline — neutral grey (transparent background)
    -------------------------------------------------------------------------- */
 

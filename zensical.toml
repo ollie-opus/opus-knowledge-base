@@ -187,6 +187,7 @@ feature-release = "lucide/sparkles"
 status-available = "lucide/cloud-check"
 status-disruption = "lucide/cloud-alert"
 status-outage = "lucide/cloud-off"
+status-maintenance = "lucide/wrench"
 outline = "lucide/text-align-start"
 step = "lucide/circle-check"
 tip = "lucide/lightbulb"
@@ -261,6 +262,12 @@ emoji_generator = "zensical.extensions.emoji.to_svg"
 # Announcement bar for open incidents ("" | "disruption" | "outage") —
 # managed by the more-buttons extension, rendered by overrides/main.html.
 mb_status_banner = ""
+# Next maintenance window (empty when none) — managed by the more-buttons
+# extension; local ISO with UTC offset, revealed client-side from 7 days
+# before start by assets/javascripts/status-banner.js.
+mb_maintenance_start = ""
+mb_maintenance_end = ""
+mb_maintenance_services = ""
 mb_created_tags = [
   "System",
   "Managing OCC",
