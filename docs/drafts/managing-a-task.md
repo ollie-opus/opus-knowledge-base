@@ -186,10 +186,6 @@ Managers/administrators have the ability to move tasks to another site. This is 
 ![](../assets/media/occ-captures/todos/uuid/todo-actions-a-move-task-z-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
 ![](../assets/media/occ-captures/todos/uuid/todo-actions-a-move-task-z-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
 
-<span data-uuid="daa62a80-6838-4dfa-b7d3-6e826eb99548" style="display:none"></span>
-![](../assets/media/occ-captures/todos/uuid/todo-actions-a-add-sub-task-z-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
-![](../assets/media/occ-captures/todos/uuid/todo-actions-a-add-sub-task-z-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
-
 !!! note
 
     <span data-uuid="9e05fdc6-f6e0-45e6-815d-24b34105a222" style="display:none"></span>
