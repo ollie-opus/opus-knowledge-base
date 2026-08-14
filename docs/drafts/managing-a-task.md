@@ -194,7 +194,7 @@ Managers/administrators have the ability to move tasks to another site. This is 
 !!! danger "Important"
 
     <span data-uuid="1d614968-0d34-4893-87d7-3988164d45f0" style="display:none"></span>
-    We strongly recommend against moving **system-generated reminder tasks**. Moving a task may also result in it being transferred to a site without access to the task requirement, preventing it's resolve.
+    We strongly recommend against moving **system-generated reminder tasks**. Moving a task may result in it being transferred to a site without access to the task requirement, preventing it's resolve.
 
     Moving tasks is more appropriate for reported events, such as incidents logged against the wrong site.
 
