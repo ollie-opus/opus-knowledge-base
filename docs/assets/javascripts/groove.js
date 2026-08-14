@@ -33,6 +33,7 @@ new MutationObserver(function(mutations, outerObs) {
 
     var closedWidth = null;
     var closedHeight = null;
+    var didCenter = false;
 
     new ResizeObserver(function(entries) {
       var rect = entries[0].contentRect;
@@ -43,15 +44,21 @@ new MutationObserver(function(mutations, outerObs) {
         return;
       }
       var isOpen = rect.width > closedWidth + 50 || rect.height > closedHeight + 50;
-      grooveOverlay.style.opacity = isOpen ? '1' : '0';
-      grooveOverlay.style.pointerEvents = isOpen ? 'auto' : 'none';
-      if (isOpen) {
+      // On small viewports Groove stretches the container full-screen via its
+      // inset values, so centering (right/bottom: auto) collapses it to a tiny
+      // box — leave the container alone there and skip the overlay too.
+      var centerPanel = window.matchMedia('(min-width: 768px)').matches;
+      grooveOverlay.style.opacity = isOpen && centerPanel ? '1' : '0';
+      grooveOverlay.style.pointerEvents = isOpen && centerPanel ? 'auto' : 'none';
+      if (isOpen && centerPanel) {
+        didCenter = true;
         container.style.setProperty('left',      '50%',                   'important');
         container.style.setProperty('top',       '50%',                   'important');
         container.style.setProperty('right',     'auto',                  'important');
         container.style.setProperty('bottom',    'auto',                  'important');
         container.style.setProperty('transform', 'translate(-50%, -50%)', 'important');
-      } else {
+      } else if (didCenter) {
+        didCenter = false;
         ['left', 'top', 'right', 'bottom', 'transform'].forEach(function(prop) {
           container.style.setProperty(prop, savedPosition[prop]);
         });
