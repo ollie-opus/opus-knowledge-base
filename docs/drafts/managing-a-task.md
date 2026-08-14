@@ -203,5 +203,9 @@ Managers/administrators have the ability to move tasks to another site. This is 
 ## Confidential Tasks
 <span data-uuid="276c19b1-6515-4398-89a3-904d3b10f433" style="display:none"></span>
 
+Tasks can be marked as confidential. Many reported events, such as incidents, are confidential by default. Confidential tasks can only be accessed by employees with Manager access or above at the site where the task is located.
+
+Confidential tasks are identified by the slashed-eye icon.
+
 ## Sensitive Tasks
 <span data-uuid="4d492156-7fa8-4c4b-acc7-97da7a6583bb" style="display:none"></span>
