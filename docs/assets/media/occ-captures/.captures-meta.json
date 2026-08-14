@@ -323,5 +323,10 @@
   "docs/assets/media/occ-captures/todos/uuid/export/system-a-exclude-light-mode.png": {
     "padding": 20,
     "annotated": true
+  },
+  "docs/assets/media/occ-captures/todos/uuid/todo-actions-a-add-sub-task-z-light-mode.png": {
+    "padding": 5,
+    "annotated": true,
+    "zapped": true
   }
 }
