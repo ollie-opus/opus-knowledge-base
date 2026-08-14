@@ -180,7 +180,7 @@ This feature allows you to create a tailored, filtered view of the task, which e
 ## Moving Tasks
 <span data-uuid="ff756a4f-fe0d-4ea5-a122-e1ffd4922a15" style="display:none"></span>
 
-Managers/administrators have the ability to move tasks to another site. This is useful if a task has been reported in the wrong location
+Managers/administrators have the ability to move tasks to another site. This is useful if a task has been reported in the wrong location.
 
 ## Confidential Tasks
 <span data-uuid="276c19b1-6515-4398-89a3-904d3b10f433" style="display:none"></span>
