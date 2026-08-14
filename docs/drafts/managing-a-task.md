@@ -206,8 +206,8 @@ Tasks can be marked as confidential. Many reported events, such as incidents, ar
 Confidential tasks are identified by the slashed-eye icon.
 
 <span data-uuid="4d25ba58-829e-4309-a835-e1d7b6d5b242" style="display:none"></span>
-![](../assets/media/occ-captures/todos/uuid/open-a-confidential-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
-![](../assets/media/occ-captures/todos/uuid/open-a-confidential-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
+![](../assets/media/occ-captures/todos/uuid/open-a-confidential-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
+![](../assets/media/occ-captures/todos/uuid/open-a-confidential-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
 
 !!! tip
 
