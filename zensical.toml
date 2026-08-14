@@ -266,7 +266,7 @@ mb_status_banner = ""
 # extension; local ISO with UTC offset, revealed client-side from 7 days
 # before start by assets/javascripts/status-banner.js.
 mb_maintenance_start = "2026-08-13T19:00+01:00"
-mb_maintenance_end = "2026-08-14T13:02+01:00"
+mb_maintenance_end = "2026-08-14T12:58+01:00"
 mb_maintenance_services = "Server, Account Login, Files, Tasks, Notifications"
 mb_created_tags = [
   "System",
