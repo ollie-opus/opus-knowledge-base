@@ -53,7 +53,7 @@ status-page: true
     - **Scheduled Start:** 2026-08-20 19:00
     - **Scheduled End:** 2026-08-20 21:00
     - **Current Status:** `Upcoming`
-    - **Description:** We are be conducting a round of general maintenance. There will be downtime on your services during this window.
+    - **Description:** We are be conducting a round of general maintenance. There will be downtime on Opus Compliance Cloud during this window.
 
 ---
 
