@@ -33,6 +33,8 @@ The system automatically creates a reminder task when a requirement is due. Thes
 ## Interacting with fields
 <span data-uuid="b833aaf9-7e2c-44f5-ace4-5457b7cc3a1a" style="display:none"></span>
 
+Some tasks require you to fill in fields, especially with [reported events](kinds-of-reportable-tasks.md).
+
 ## Commenting
 <span data-uuid="4b8e4a57-882d-4316-bace-27b350ba5491" style="display:none"></span>
 
