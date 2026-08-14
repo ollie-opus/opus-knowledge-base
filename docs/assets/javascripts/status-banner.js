@@ -8,12 +8,17 @@
  * this script reveals the bar inside [start − 7 days, end), swaps the copy to
  * "in progress" during the window, and re-hides it after the end. Incident
  * banners always win — main.html only emits the maintenance markup when no
- * incident banner is active. */
+ * incident banner is active.
+ *
+ * It also publishes the announce bar's live height as --mb-banner-height on
+ * <html>, which home-hero.css subtracts from the scroll-locked homepage hero
+ * so the banner never pushes the hero's bottom buttons off-screen. */
 (function () {
   'use strict';
 
   var LEAD_MS = 7 * 24 * 60 * 60 * 1000; // announce 7 days ahead
   var timer = null;
+  var ro = null;
 
   function fmtWindow(startMs, endMs) {
     var start = new Date(startMs);
@@ -56,8 +61,29 @@
     banner.hidden = false;
   }
 
+  /* The banner's height is content-based (it can wrap to two lines) and it
+     toggles at runtime via update(), so the height must be measured, not
+     assumed. Set on <html> so it survives instant-navigation body swaps. */
+  function publishHeight(el) {
+    var h = el ? el.getBoundingClientRect().height : 0;
+    document.documentElement.style.setProperty('--mb-banner-height', h + 'px');
+  }
+
+  function observe() {
+    /* The wrapper div always exists; it measures 0 when no banner is built or
+       when status-banner.css collapses the hidden maintenance aside. */
+    var el = document.querySelector('[data-md-component="announce"]');
+    if (ro) { ro.disconnect(); ro = null; }
+    publishHeight(el);
+    if (el && 'ResizeObserver' in window) {
+      ro = new ResizeObserver(function () { publishHeight(el); });
+      ro.observe(el);
+    }
+  }
+
   function start() {
     update();
+    observe();
     if (timer) clearInterval(timer);
     timer = setInterval(update, 60 * 1000); // catch boundary crossings while the tab stays open
   }

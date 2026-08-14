@@ -27,6 +27,16 @@
 {% block announce %}
   {%- if config.extra.mb_status_banner in ("disruption", "outage") %}
     <span class="mb-status-banner mb-status-banner--{{ config.extra.mb_status_banner }}">
+      {#- Same lucide icon as the matching status-* admonition (zensical.toml
+          theme.icon.admonition): cloud-off for outage, cloud-alert for
+          disruption. Inlined because overrides can't include theme icons. #}
+      <svg class="mb-status-banner__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        {%- if config.extra.mb_status_banner == "outage" %}
+        <path d="m2 2 20 20M5.782 5.782A7 7 0 0 0 9 19h8.5a4.5 4.5 0 0 0 1.307-.193M21.532 16.5A4.5 4.5 0 0 0 17.5 10h-1.79A7.01 7.01 0 0 0 10 5.07"/>
+        {%- else %}
+        <path d="M12 12v4M12 20h.01M17 18h.5a1 1 0 0 0 0-9h-1.79A7 7 0 1 0 7 17.708"/>
+        {%- endif %}
+      </svg>
       <span class="mb-status-banner__text">Opus Compliance Cloud is currently experiencing
         {{- " a service outage" if config.extra.mb_status_banner == "outage" else " service disruption" }}</span>
       <a class="md-button mb-status-banner__btn" href="{{ 'pages/system-status/' | url }}">Read more</a>
@@ -36,6 +46,11 @@
           data-mb-start="{{ config.extra.mb_maintenance_start | e }}"
           data-mb-end="{{ config.extra.mb_maintenance_end | e }}"
           data-mb-services="{{ config.extra.mb_maintenance_services | e }}">
+      {#- lucide/wrench, matching the status-maintenance admonition icon. Kept a
+          sibling of __text: status-banner.js fills that span via textContent. #}
+      <svg class="mb-status-banner__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"/>
+      </svg>
       <span class="mb-status-banner__text"></span>
       <span class="mb-status-banner__group">
         <span class="mb-status-banner__window"></span>

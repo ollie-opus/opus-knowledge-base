@@ -2,7 +2,10 @@
    Homepage hero content
    ============================================================================ */
 
-/* Position the hero at the bottom of the viewport */
+/* Position the hero at the bottom of the viewport.
+   bottom: 96px also compensates for the desktop .md-tabs row (48px), which
+   the .md-content__inner height calc below does not subtract — net 48px
+   clearance on desktop, 96px on mobile (no tabs). */
 .home-hero {
   position: absolute;
   bottom: 96px;
@@ -18,7 +21,11 @@
 /* Positioned ancestor for .home-hero; sized to fill viewport below header */
 body.neural-active .md-content__inner {
   position: relative;
-  height: calc(100vh - 2.4rem);
+  /* --mb-banner-height is published by status-banner.js (0 when no
+     announcement bar is showing) so the bar doesn't push the hero's bottom
+     buttons below the scroll-locked viewport. */
+  height: calc(100vh - 2.4rem - var(--mb-banner-height, 0px));
+  height: calc(100dvh - 2.4rem - var(--mb-banner-height, 0px));
   padding: 0;
   overflow: hidden;
 }

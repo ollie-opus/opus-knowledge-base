@@ -24,6 +24,16 @@
   font-weight: 500;
 }
 
+/* Severity icon (inlined lucide SVG from overrides/main.html) — strokes with
+   currentColor, so it follows the banner's severity colour in both schemes.
+   Negative end margin pulls it inside the root's 0.6rem column gap. */
+.md-banner .mb-status-banner__icon {
+  width: 0.8rem;
+  height: 0.8rem;
+  flex: none;
+  margin-inline-end: -0.2rem;
+}
+
 /* Maintenance bar: the date/time window and the Read more button ride as one
    flex item, so a narrow viewport wraps after the lead sentence's colon —
    never mid-range — and the button stays beside the window on line two. */
