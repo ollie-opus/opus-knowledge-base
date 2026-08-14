@@ -189,6 +189,13 @@ Managers/administrators have the ability to move tasks to another site. This is 
 
     If you do not have access to the destination site, you may need to contact someone in your organisation with the appropriate level of access, such as a regional manager, to complete the move on your behalf.
 
+!!! danger "Important"
+
+    <span data-uuid="1d614968-0d34-4893-87d7-3988164d45f0" style="display:none"></span>
+    We strongly recommend against moving **system-generated reminder tasks**. Moving a task may also result in it being transferred to a site without access to the task requirement, preventing it's resolve.
+
+    Moving tasks is more appropriate for reported events, such as incidents logged against the wrong site.
+
 ## Confidential Tasks
 <span data-uuid="276c19b1-6515-4398-89a3-904d3b10f433" style="display:none"></span>
 
