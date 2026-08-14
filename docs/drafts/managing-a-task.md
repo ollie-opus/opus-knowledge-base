@@ -216,5 +216,9 @@ Confidential tasks are identified by the slashed-eye icon.
     <span data-uuid="dcd3b7e4-0abd-4b7f-aec5-4146f5441a0e" style="display:none"></span>
     You can manually add or remove the confidential flag from any task using the option in the Actions panel.
 
+    <span data-uuid="d19d9243-dc95-45cf-abe8-f007c97a6b75" style="display:none"></span>
+    ![](../assets/media/occ-captures/todos/uuid/todo-actions-a-remove-confidential-flag-z-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/todo-actions-a-remove-confidential-flag-z-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
+
 ## Sensitive Tasks
 <span data-uuid="4d492156-7fa8-4c4b-acc7-97da7a6583bb" style="display:none"></span>
