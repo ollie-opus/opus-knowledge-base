@@ -147,8 +147,8 @@ This feature allows you to create a tailored, filtered view of the task, which e
     Select any additional display options you would like to add to your export.
 
     <span data-uuid="da323297-df95-4afd-aa85-c43ceccd0688" style="display:none"></span>
-    ![](../assets/media/occ-captures/todos/uuid/export/display-options-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
-    ![](../assets/media/occ-captures/todos/uuid/export/display-options-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/export/display-options-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/export/display-options-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
 
 !!! step "<span class="meta">(optional)</span>"
 
