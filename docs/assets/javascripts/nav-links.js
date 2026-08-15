@@ -5,7 +5,10 @@
  * Two placeholder flavours, authored into pages by the more-buttons extension:
  *
  *   <div class="mb-nav-links" data-nav-path="guides/employees"></div>
- *   <div class="mb-nav-links" data-nav-tag="System" data-nav-layout="flat"></div>
+ *   <div class="mb-nav-links" data-nav-tag="System, RAMS" data-nav-layout="flat"></div>
+ *
+ * data-nav-tag is a comma-separated list (one or more tags); a page matches
+ * when its frontmatter carries ANY of them (tags never contain commas).
  *
  * Rendered output is an unboxed typographic tree: pages become full-width slim
  * stone buttons with a trailing arrow icon, and sections become small
@@ -14,8 +17,9 @@
  * collapsible (details.mb-nav-group--sub). Path mode renders the matched
  * section itself as the static group (e.g. "guides/contractors" → a
  * "CONTRACTORS" heading over its buttons), tag mode "grouped" the nav
- * hierarchy filtered to tagged pages (only branches containing a match
- * survive), and tag mode "flat" a bare button stack with no group heading.
+ * hierarchy filtered to pages carrying any of the tags (only branches
+ * containing a match survive), and tag mode "flat" a bare button stack with
+ * no group heading.
  *
  * The full nav tree is baked into every page as a hidden
  * `<template id="__mb-nav-tree">` by overrides/main.html (derived from
@@ -75,15 +79,29 @@
     return match;
   }
 
-  // A hidden-tree page <li> carries the tag iff data-tags (comma-separated,
-  // from page frontmatter) contains it — trimmed, case-insensitive.
-  function hasTag(src, tag) {
+  // Comma-separated attribute → trimmed, lowercased, non-empty list.
+  function splitTags(raw) {
+    var out = [];
+    var parts = String(raw || '').split(',');
+    for (var i = 0; i < parts.length; i++) {
+      var t = parts[i].trim().toLowerCase();
+      if (t) out.push(t);
+    }
+    return out;
+  }
+
+  // A hidden-tree page <li> matches iff its data-tags (comma-separated, from
+  // page frontmatter) contains ANY of the placeholder's tags — case-insensitive.
+  // `tags` may be the raw data-nav-tag string (one tag or a comma list).
+  function hasTag(src, tags) {
     var raw = src.getAttribute('data-tags');
     if (!raw) return false;
-    var want = String(tag).trim().toLowerCase();
-    var tags = raw.split(',');
-    for (var i = 0; i < tags.length; i++) {
-      if (tags[i].trim().toLowerCase() === want) return true;
+    var want = splitTags(tags);
+    var have = splitTags(raw);
+    for (var i = 0; i < want.length; i++) {
+      for (var j = 0; j < have.length; j++) {
+        if (have[j] === want[i]) return true;
+      }
     }
     return false;
   }
@@ -160,7 +178,8 @@
     return box;
   }
 
-  // Flat tag list: every tagged page in nav order as one bare button stack.
+  // Flat tag list: every page carrying any of the tags, in nav order, as one
+  // bare button stack.
   function renderTagFlat(srcUl, tag) {
     var frag = document.createDocumentFragment();
     (function walk(level) {
@@ -175,8 +194,8 @@
     return frag.childNodes.length ? frag : null;
   }
 
-  // Grouped tag list: the nav hierarchy filtered down to tagged pages — a
-  // section survives iff its subtree contains a match. Surviving top-level
+  // Grouped tag list: the nav hierarchy filtered down to pages carrying any of
+  // the tags — a section survives iff its subtree contains a match. Surviving top-level
   // sections render as static groups, deeper ones as open collapsibles.
   // Returns null when empty.
   function renderTagGrouped(srcUl, tag, isTop) {
