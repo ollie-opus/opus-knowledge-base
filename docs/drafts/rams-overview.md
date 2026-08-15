@@ -1,13 +1,15 @@
 ---
 icon: lucide/layout-dashboard
+search:
+  exclude: true
 tags:
+  - Managing OCC
   - Overview
+  - Add-on
 hide:
   - navigation
   - toc
   - path
-search:
-  exclude: true
 ---
 
 # RAMS Overview
