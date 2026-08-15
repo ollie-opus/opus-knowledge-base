@@ -2,6 +2,9 @@
 icon: lucide/gauge
 search:
   exclude: true
+tags:
+  - Managing OCC
+  - Add-on
 ---
 
 # Contractor & Project statuses
