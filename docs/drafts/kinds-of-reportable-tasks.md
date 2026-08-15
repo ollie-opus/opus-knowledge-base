@@ -1,9 +1,11 @@
 ---
 icon: lucide/megaphone
-hide:
-  - toc
 search:
   exclude: true
+tags:
+  - Managing OCC
+hide:
+  - toc
 ---
 
 # Kinds of reportable tasks
