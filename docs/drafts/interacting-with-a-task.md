@@ -98,3 +98,7 @@ Snoozing is useful when you’re unable to complete a task for reasons such as, 
 <span data-uuid="362638da-9cc6-4327-8c5c-13cfde0f761a" style="display:none"></span>
 
 Tasks can be manually marked as resolved using the button at the bottom of the task page.
+
+<span data-uuid="00dd3f1e-16e1-4450-b5d0-ed5a03929afd" style="display:none"></span>
+![](../assets/media/occ-captures/todos/uuid/mark-resolved-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+![](../assets/media/occ-captures/todos/uuid/mark-resolved-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
