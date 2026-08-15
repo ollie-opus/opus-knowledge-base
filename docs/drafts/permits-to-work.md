@@ -1,6 +1,10 @@
 ---
+icon: lucide/clipboard-edit
 search:
   exclude: true
+tags:
+  - Managing OCC
+  - Add-on
 ---
 
 # Permits to Work
