@@ -2,6 +2,8 @@
 icon: lucide/inbox
 search:
   exclude: true
+tags:
+  - Using OCC
 ---
 
 # Task Inboxing
