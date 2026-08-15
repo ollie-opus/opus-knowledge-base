@@ -63,6 +63,18 @@
     "docs/assets/media/occ-captures/sites/uuid/inbox-coach-2-dark-mode.png",
     "docs/assets/media/occ-captures/sites/uuid/inbox-coach-2-light-mode.png"
   ],
+  "docs/drafts/task-severities.md": [
+    "docs/assets/media/occ-captures/other/advisory-dark-mode.svg",
+    "docs/assets/media/occ-captures/other/advisory-light-mode.svg",
+    "docs/assets/media/occ-captures/other/critical-dark-mode.svg",
+    "docs/assets/media/occ-captures/other/critical-light-mode.svg",
+    "docs/assets/media/occ-captures/other/disaster-dark-mode.svg",
+    "docs/assets/media/occ-captures/other/disaster-light-mode.svg",
+    "docs/assets/media/occ-captures/other/major-dark-mode.svg",
+    "docs/assets/media/occ-captures/other/major-light-mode.svg",
+    "docs/assets/media/occ-captures/other/minor-dark-mode.svg",
+    "docs/assets/media/occ-captures/other/minor-light-mode.svg"
+  ],
   "docs/pages/adding-a-contractor.md": [
     "docs/assets/media/occ-captures/admin/sites/uuid/contractors-dark-mode.png",
     "docs/assets/media/occ-captures/admin/sites/uuid/contractors-light-mode.png",
