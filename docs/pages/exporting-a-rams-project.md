@@ -1,5 +1,8 @@
 ---
 icon: lucide/file-down
+tags:
+  - Managing OCC
+  - Add-on
 ---
 
 # Exporting a RAMS project
