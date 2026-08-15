@@ -102,8 +102,7 @@ draft_nav = [
       ]}
     ]},
     {"Employees" = [
-      {"Employees overview" = "drafts/employees-overview.md"},
-      {"Access & Authorisations" = "drafts/access-authorisations.md"}
+      {"Employees overview" = "drafts/employees-overview.md"}
     ]}
   ]}
 ]
