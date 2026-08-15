@@ -3,7 +3,7 @@ icon: lucide/clipboard-edit
 search:
   exclude: true
 tags:
-  - Using OCC
+  - Managing OCC
   - Add-on
 ---
 
