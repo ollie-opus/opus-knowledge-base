@@ -107,3 +107,10 @@ Tasks can be manually marked as resolved using the button at the bottom of the t
 
     <span data-uuid="694464ce-8bcf-4575-a9d8-a0528df460a3" style="display:none"></span>
     Marking a task as resolved is typically only used for manually reported events or corrective actions. Tasks with linked requirements, such as checklist/document reminder tasks, can only be resolved by completing the requirement.
+
+### Missing Information
+<span data-uuid="4c45ec42-c310-4e2e-8a3b-81c1ac71c17c" style="display:none"></span>
+
+You may encounter tasks that cannot be resolved and instead display a “Missing information” message.
+
+This occurs when a task has required inputs or conditions that have not yet been met. The message will describe the information that is missing and what is required to resolve the task.
