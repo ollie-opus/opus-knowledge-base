@@ -100,7 +100,8 @@ draft_nav = [
       {"Managing a task" = "drafts/managing-a-task.md"}
     ]},
     {"Employees" = [
-      {"Employees overview" = "drafts/employees-overview.md"}
+      {"Employees overview" = "drafts/employees-overview.md"},
+      {"Access & Authorisations" = "drafts/access-authorisations.md"}
     ]},
     {"Contractors" = [
       {"Permits to Work" = "drafts/permits-to-work.md"}
