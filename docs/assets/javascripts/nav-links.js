@@ -30,7 +30,9 @@
  * instead of silently staying blank.
  *
  * Tag-mode buttons also carry one uppercase pill per MATCHED tag (placeholder
- * tags ∩ page tags), left of the arrow. Pill colours come from the tag
+ * tags ∩ page tags), left of the arrow. A page carrying any ALWAYS_SHOW_TAGS
+ * tag (currently just "Add-on") additionally shows that pill LAST, even when
+ * the placeholder query didn't ask for it. Pill colours come from the tag
  * registry in zensical.toml ([project.extra] mb_created_tags — managed by the
  * extension's Knowledge Base Settings form) which main.html bakes into a
  * second template, `<template id="__mb-tag-colours">` of
@@ -114,18 +116,26 @@
     return false;
   }
 
+  // Tags (lowercase) that always render as a pill on a tag-mode button when
+  // the page carries them, whether or not the placeholder query includes them.
+  // They ride LAST, after the matched pills, in this order.
+  var ALWAYS_SHOW_TAGS = ['add-on'];
+
   // The placeholder tags a page carries, in placeholder order, using the page's
-  // own (frontmatter) spelling — the CSS uppercases anyway. [] when none.
+  // own (frontmatter) spelling — the CSS uppercases anyway — followed by any
+  // ALWAYS_SHOW_TAGS the page carries that weren't already matched. [] when none.
   function matchedTags(src, tags) {
     var out = [];
     var raw = src.getAttribute('data-tags');
     if (!raw) return out;
-    var want = splitTags(tags);
+    var want = splitTags(tags).concat(ALWAYS_SHOW_TAGS);
     var haveRaw = String(raw).split(',');
+    var seen = {};
     for (var i = 0; i < want.length; i++) {
+      if (seen[want[i]]) continue;
       for (var j = 0; j < haveRaw.length; j++) {
         var h = haveRaw[j].trim();
-        if (h && h.toLowerCase() === want[i]) { out.push(h); break; }
+        if (h && h.toLowerCase() === want[i]) { out.push(h); seen[want[i]] = true; break; }
       }
     }
     return out;
