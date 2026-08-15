@@ -74,5 +74,9 @@ You can add sub-tasks to a task by clicking the button in the task actions list.
 
 Tasks can be snoozed for up to 14 days. Snoozing is useful when you’re unable to complete a task because you’re waiting for something, such as a delivery or a booked service.
 
+<span data-uuid="d48e149d-ff33-4ce7-a83d-61c25a6510fd" style="display:none"></span>
+![](../assets/media/occ-captures/todos/uuid/snooze-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+![](../assets/media/occ-captures/todos/uuid/snooze-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
 ## Resolving tasks
 <span data-uuid="362638da-9cc6-4327-8c5c-13cfde0f761a" style="display:none"></span>
