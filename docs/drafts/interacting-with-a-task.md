@@ -20,8 +20,8 @@ The system automatically creates a reminder task when a requirement is due. Thes
 Reminder tasks include a button / blue link in the initial task message, allowing direct access to complete the requirement.
 
 <span data-uuid="418fee33-4807-45a7-8f71-924120a662ae" style="display:none"></span>
-![](../assets/media/occ-captures/todos/uuid/system-message-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
-![](../assets/media/occ-captures/todos/uuid/system-message-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
+![](../assets/media/occ-captures/todos/uuid/system-message-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+![](../assets/media/occ-captures/todos/uuid/system-message-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
 !!! warning
 
