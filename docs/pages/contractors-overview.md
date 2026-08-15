@@ -9,6 +9,9 @@ hide:
   - navigation
   - path
   - suitable-for
+suitable-for:
+  - Managers
+  - Administrators
 ---
 
 # Contractors Overview
