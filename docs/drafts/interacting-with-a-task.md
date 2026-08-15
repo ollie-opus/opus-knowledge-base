@@ -12,7 +12,10 @@ This guide covers the basics of interacting with tasks.
 ## Reminder Tasks
 <span data-uuid="53327301-5943-46a9-91bc-78f8e3d43dda" style="display:none"></span>
 
-The system automatically creates a reminder task when a requirement is due. These reminders may involve completing an e-learning course, uploading a document, or filling in a checklist. Most reminder tasks include a button / blue link in the initial task message, allowing direct access to complete the requirement.
+The system automatically creates a reminder task when a requirement is due. These reminders may involve completing an e-learning course, uploading a document, or filling in a checklist.
+
+
+Reminder tasks include a button / blue link in the initial task message, allowing direct access to complete the requirement.
 
 <span data-uuid="418fee33-4807-45a7-8f71-924120a662ae" style="display:none"></span>
 ![](../assets/media/occ-captures/todos/uuid/system-message-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
