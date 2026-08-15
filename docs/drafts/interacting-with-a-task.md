@@ -54,6 +54,7 @@ You can post comments in the task log by using the comment section, which is loc
 ## Creating sub tasks
 <span data-uuid="086aa064-7bf0-4607-8197-419524b11e9d" style="display:none"></span>
 
+You can add sub-tasks to a task by clicking the button in the task actions list. They are a useful way to break large or complex pieces of work into smaller, more manageable parts.
 
 <span data-uuid="18d7db20-bbfc-42ff-9f85-28c1b2f79985" style="display:none"></span>
 ![](../assets/media/occ-captures/todos/uuid/todo-actions-a-add-sub-task-z-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
