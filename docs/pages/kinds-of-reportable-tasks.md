@@ -1,5 +1,7 @@
 ---
 icon: lucide/megaphone
+tags:
+  - Managing OCC
 hide:
   - toc
 ---
