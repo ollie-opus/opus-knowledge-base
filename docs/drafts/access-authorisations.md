@@ -50,9 +50,7 @@ There are three levels of access available, allowing you to assign the appropria
 !!! info
 
     <span data-uuid="e3858757-a181-4425-9d3f-63f7c522f04f" style="display:none"></span>
-
-
-    <span class="mb-label mb-label-pink">Administrator</span> access is a relatively new permission level, introduced to provide a clear distinction between site managers and administrators with regional or organisation-wide responsibilities.
+    <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrator</span> access is a relatively new permission level, introduced to provide a clear distinction between site managers and administrators with regional or organisation-wide responsibilities.
 
 ## Authorisations
 <span data-uuid="8d5dfa78-d3ba-4e20-8094-29c7da26e264" style="display:none"></span>
