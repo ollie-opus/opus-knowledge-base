@@ -102,3 +102,8 @@ Tasks can be manually marked as resolved using the button at the bottom of the t
 <span data-uuid="00dd3f1e-16e1-4450-b5d0-ed5a03929afd" style="display:none"></span>
 ![](../assets/media/occ-captures/todos/uuid/mark-resolved-light-mode.png#only-light){ style="height: 50px" loading=lazy }
 ![](../assets/media/occ-captures/todos/uuid/mark-resolved-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! warning
+
+    <span data-uuid="694464ce-8bcf-4575-a9d8-a0528df460a3" style="display:none"></span>
+    Marking a task as resolved is typically only used for manually reported events or corrective actions. Tasks with linked requirements, such as checklist/document reminder tasks, can only be resolved by completing the requirement.
