@@ -2,6 +2,9 @@
 icon: lucide/file-plus
 search:
   exclude: true
+tags:
+  - Managing OCC
+  - Add-on
 ---
 
 # Creating a RAMS project
