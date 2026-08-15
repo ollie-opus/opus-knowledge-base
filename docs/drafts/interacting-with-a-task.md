@@ -69,7 +69,7 @@ Tasks can be snoozed for up to 14 days via the button at the bottom of the task 
 
 Snoozing is useful when you’re unable to complete a task for reasons such as waiting on a delivery or a booked service.
 
-:lucide-user: *Those with user access can only snooze tasks if they've been assigned.*
+:lucide-user: *Those with user access can only snooze tasks if they're assigned.*
 
 <span data-uuid="d48e149d-ff33-4ce7-a83d-61c25a6510fd" style="display:none"></span>
 ![](../assets/media/occ-captures/todos/uuid/snooze-light-mode.png#only-light){ style="height: 50px" loading=lazy }
