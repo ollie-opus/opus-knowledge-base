@@ -2,6 +2,8 @@
 icon: lucide/mouse-pointer
 search:
   exclude: true
+tags:
+  - Using OCC
 ---
 
 # Interacting with a task
