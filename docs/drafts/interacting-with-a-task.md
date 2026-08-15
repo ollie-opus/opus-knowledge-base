@@ -60,9 +60,10 @@ You can add sub-tasks to a task by clicking the button in the task actions list.
 ![](../assets/media/occ-captures/todos/uuid/todo-actions-a-add-sub-task-z-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
 ![](../assets/media/occ-captures/todos/uuid/todo-actions-a-add-sub-task-z-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
 
-!!! example
+!!! example "Example - Adding Sub Tasks to Incidents"
 
     <span data-uuid="10bdf799-3446-4a37-987b-ec39279348dc" style="display:none"></span>
+    For managers handling incidents, sub tasks can be a useful way to create and allocate relevant work.
 
     <span data-uuid="1ea7b2d4-aab6-4940-8982-c5901bcf1518" style="display:none"></span>
     ![](../assets/media/occ-captures/todos/uuid/sub-tasks-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
