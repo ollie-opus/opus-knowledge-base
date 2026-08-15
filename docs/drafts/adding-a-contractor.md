@@ -2,6 +2,9 @@
 icon: lucide/square-plus
 search:
   exclude: true
+tags:
+  - Managing OCC
+  - Add-on
 ---
 
 # Adding a contractor
