@@ -39,6 +39,10 @@ As tasks may often be collaborative, involving multiple colleagues, comments are
 
 They are also commonly used as a way to upload CCTV footage onto an incident task.
 
+!!! example "Example 1 - Logging Task Progress"
+
+    <span data-uuid="3437015f-e24b-4e27-a580-93bf3ff1e89a" style="display:none"></span>
+
 ## Creating sub tasks
 <span data-uuid="086aa064-7bf0-4607-8197-419524b11e9d" style="display:none"></span>
 
