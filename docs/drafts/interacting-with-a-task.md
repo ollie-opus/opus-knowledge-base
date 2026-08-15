@@ -80,5 +80,10 @@ Snoozing is useful when you’re unable to complete a task for reasons such as, 
 ![](../assets/media/occ-captures/todos/uuid/snooze-light-mode.png#only-light){ style="height: 50px" loading=lazy }
 ![](../assets/media/occ-captures/todos/uuid/snooze-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
+!!! note
+
+    <span data-uuid="2e58e2d5-b2c8-410c-9cc2-e321e1ad9032" style="display:none"></span>
+    Snoozed tasks appear under their own tab on task pages.
+
 ## Resolving tasks
 <span data-uuid="362638da-9cc6-4327-8c5c-13cfde0f761a" style="display:none"></span>
