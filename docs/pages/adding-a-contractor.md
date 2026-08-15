@@ -1,5 +1,8 @@
 ---
 icon: lucide/square-plus
+tags:
+  - Managing OCC
+  - Add-on
 ---
 
 # Adding a contractor
