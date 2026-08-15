@@ -343,5 +343,9 @@
     "padding": 5,
     "annotated": true,
     "zapped": true
+  },
+  "docs/assets/media/occ-captures/todos/uuid/todo-messages-z-light-mode.png": {
+    "padding": 20,
+    "zapped": true
   }
 }
