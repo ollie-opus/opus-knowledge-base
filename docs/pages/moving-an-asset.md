@@ -2,9 +2,6 @@
 icon: lucide/package
 tags:
   - Managing OCC
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Moving an asset

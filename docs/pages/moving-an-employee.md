@@ -2,9 +2,6 @@
 icon: lucide/user-pen
 tags:
   - Managing OCC
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Moving an employee

@@ -2,9 +2,6 @@
 icon: lucide/user-check
 tags:
   - Managing OCC
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Registering an Employee with an Opus Account

@@ -2,9 +2,6 @@
 icon: lucide/user-minus
 tags:
   - Managing OCC
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Archiving an employee

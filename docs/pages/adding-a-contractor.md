@@ -3,9 +3,6 @@ icon: lucide/square-plus
 tags:
   - Managing OCC
   - Add-on
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Adding a contractor

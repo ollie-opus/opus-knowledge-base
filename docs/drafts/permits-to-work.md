@@ -5,9 +5,6 @@ search:
 tags:
   - Managing OCC
   - Add-on
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Permits to Work

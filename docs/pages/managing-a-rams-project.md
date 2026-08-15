@@ -3,9 +3,6 @@ icon: lucide/file-chart-line
 tags:
   - Managing OCC
   - Add-on
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Managing a RAMS project

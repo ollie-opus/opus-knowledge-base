@@ -4,9 +4,6 @@ search:
   exclude: true
 tags:
   - Managing OCC
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Managing an incident

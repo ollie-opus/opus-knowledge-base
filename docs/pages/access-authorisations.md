@@ -2,9 +2,6 @@
 icon: lucide/key-round
 tags:
   - Managing OCC
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Access & Authorisations

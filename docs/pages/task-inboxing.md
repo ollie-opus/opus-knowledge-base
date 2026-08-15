@@ -2,10 +2,6 @@
 icon: lucide/inbox
 tags:
   - Using OCC
-suitable-for:
-  - Users
-  - Managers
-  - Administrators
 ---
 
 # Task Inboxing

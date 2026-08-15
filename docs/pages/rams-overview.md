@@ -8,10 +8,7 @@ hide:
   - navigation
   - toc
   - path
-  - suitable-for
-suitable-for:
-  - Managers
-  - Administrators
+  - relevant-to
 ---
 
 # RAMS Overview

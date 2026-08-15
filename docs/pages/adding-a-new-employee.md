@@ -2,9 +2,6 @@
 icon: lucide/user-plus
 tags:
   - Managing OCC
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Adding a new employee

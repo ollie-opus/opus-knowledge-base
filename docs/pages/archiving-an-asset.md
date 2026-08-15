@@ -2,9 +2,6 @@
 icon: lucide/package-minus
 tags:
   - Managing OCC
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Archiving an asset

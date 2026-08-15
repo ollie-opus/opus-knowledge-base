@@ -2,8 +2,6 @@
 icon: lucide/rocket
 tags:
   - Administering OCC
-suitable-for:
-  - Administrators
 ---
 
 # The Onboarding Process

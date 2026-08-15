@@ -2,10 +2,6 @@
 icon: lucide/alert-circle
 tags:
   - Using OCC
-suitable-for:
-  - Users
-  - Managers
-  - Administrators
 ---
 
 # Task Severities

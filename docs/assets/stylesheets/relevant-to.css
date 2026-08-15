@@ -1,11 +1,11 @@
 /* ============================================================================
-   "Suitable for" audience line (`.mb-suitable-for`)
+   "Relevant to" audience line (`.mb-relevant-to`)
    ----------------------------------------------------------------------------
    A single line of role pills that sits directly under the page h1, telling
    the reader which roles a guide applies to. Emitted at build time by
-   overrides/partials/content.html from the page's `suitable-for:` frontmatter
-   (role colours/icons from [project.extra] mb_roles in zensical.toml). Pill
-   colours themselves come from labels.css.
+   overrides/partials/content.html from the page's audience tag (Using OCC /
+   Managing OCC / Administering OCC) via the ordered [project.extra]
+   mb_audiences registry in zensical.toml. Pill colours come from labels.css.
 
    Design intent: read as page furniture, not the first paragraph. Tight to
    the title above (the h1's usual 1.25em bottom margin is pulled in when this
@@ -15,11 +15,11 @@
    stay legible while the label text goes quiet.
    ============================================================================ */
 
-.md-typeset h1:has(+ .mb-suitable-for) {
+.md-typeset h1:has(+ .mb-relevant-to) {
   margin-bottom: 0.35em;
 }
 
-.md-typeset .mb-suitable-for {
+.md-typeset .mb-relevant-to {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -30,25 +30,25 @@
   color: var(--md-default-fg-color--light);
 }
 
-.md-typeset .mb-suitable-for__label {
+.md-typeset .mb-relevant-to__label {
   margin-right: 0.15rem;
 }
 
 /* Pills: fixed size independent of the muted label text; icon + name with a
    small gap (overrides labels.css's em-relative sizing). */
-.md-typeset .mb-suitable-for .mb-label {
+.md-typeset .mb-relevant-to .mb-label {
   gap: 0.35em;
   font-size: 0.6rem;
   line-height: 1.5;
   padding: 0.12em 0.55em;
 }
 
-.md-typeset .mb-suitable-for .mb-label .twemoji {
+.md-typeset .mb-relevant-to .mb-label .twemoji {
   display: inline-flex;
   vertical-align: middle;
 }
 
-.md-typeset .mb-suitable-for .mb-label .twemoji svg {
+.md-typeset .mb-relevant-to .mb-label .twemoji svg {
   width: 1.15em;
   height: 1.15em;
 }

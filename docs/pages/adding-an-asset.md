@@ -2,9 +2,6 @@
 icon: lucide/package-plus
 tags:
   - Managing OCC
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Adding an asset

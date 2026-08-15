@@ -4,10 +4,6 @@ search:
   exclude: true
 tags:
   - Using OCC
-suitable-for:
-  - Users
-  - Managers
-  - Administrators
 ---
 
 # Reporting an incident

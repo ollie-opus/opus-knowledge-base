@@ -3,9 +3,6 @@ icon: lucide/file-plus
 tags:
   - Managing OCC
   - Add-on
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Creating a RAMS project

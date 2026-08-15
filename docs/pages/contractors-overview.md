@@ -8,10 +8,7 @@ hide:
   - toc
   - navigation
   - path
-  - suitable-for
-suitable-for:
-  - Managers
-  - Administrators
+  - relevant-to
 ---
 
 # Contractors Overview

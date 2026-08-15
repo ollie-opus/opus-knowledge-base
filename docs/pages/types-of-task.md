@@ -2,10 +2,6 @@
 icon: lucide/grid-2-x-2-check
 tags:
   - Using OCC
-suitable-for:
-  - Users
-  - Managers
-  - Administrators
 ---
 
 # Types of task

@@ -6,14 +6,22 @@
   0.0.54 (identical in 0.0.28). Because it lives in overrides/, zensical uses
   this copy INSTEAD of its own, so it does not pick up upstream changes.
 
-  What it adds: the "Suitable for" audience line — a <p class="mb-suitable-for">
-  of role pills spliced in DIRECTLY AFTER the page's <h1>, driven by the
-  page's `suitable-for:` frontmatter list (written by the More Buttons
-  extension). Role → colour/icon comes from [project.extra] mb_roles in
-  zensical.toml; a role missing from that registry still renders, as a plain
-  grey pill, so nothing disappears silently. Suppressed when the page's
-  `hide:` list contains "suitable-for". Styled by
-  docs/assets/stylesheets/suitable-for.css.
+  What it adds: the "Relevant to" audience line — a <p class="mb-relevant-to">
+  of role pills spliced in DIRECTLY AFTER the page's <h1>, derived from the
+  page's audience tag. [project.extra] mb_audiences (zensical.toml) is an
+  ORDERED list of { tag, name, colour, icon }: the page's audience is the first
+  entry whose tag appears in the page's `tags:` frontmatter, and the line shows
+  that entry plus every later one ("X and above"):
+
+      Using OCC          → Users · Managers · Administrators
+      Managing OCC       → Managers · Administrators
+      Administering OCC  → Administrators
+      (no audience tag)  → no line
+
+  Suppressed when the page's `hide:` list contains "relevant-to" (the More
+  Buttons "Relevant to" hide checkbox — used on overview/landing pages).
+  Nothing is authored in the page for this: the tag is the single source of
+  truth. Styled by docs/assets/stylesheets/relevant-to.css.
 
   Why here and not in the Markdown: the h1 is part of page.content, so the
   only build-time way to land the line under it is to splice the rendered
@@ -21,7 +29,7 @@
 
   After upgrading zensical:
     1. Re-copy the packaged content.html over this file.
-    2. Re-apply the block fenced with "CUSTOM: suitable for — begin/end"
+    2. Re-apply the block fenced with "CUSTOM: relevant to — begin/end"
        (it replaces the bare `{{ page.content }}` line) and restore this
        header comment.
 -#}
@@ -29,38 +37,33 @@
 {% if "<h1" not in page.content %}
   <h1 id="__skip">{{ page.title | d(config.site_name, true)}}</h1>
 {% endif %}
-{#- CUSTOM: suitable for — begin -#}
-{% set roles = page.meta and page.meta["suitable-for"] %}
-{% set hidden = page.meta and page.meta.hide and "suitable-for" in page.meta.hide %}
-{% if roles and not hidden %}
-  {% set sf %}
-    <p class="mb-suitable-for">
-      <span class="mb-suitable-for__label">Suitable for</span>
-      {%- for role in roles %}
-        {%- set ns = namespace(colour = "grey", icon = "") %}
-        {%- for r in config.extra.mb_roles or [] %}
-          {%- if r is mapping and r.name == role %}
-            {%- set ns.colour = r.colour or ns.colour %}
-            {%- set ns.icon = r.icon or "" %}
-          {%- endif %}
-        {%- endfor %}
-        <span class="mb-label mb-label-{{ ns.colour | e }}">
-          {%- if ns.icon %}<span class="twemoji">{% include ".icons/" ~ ns.icon ~ ".svg" %}</span>{% endif -%}
-          {{ role | e -}}
-        </span>
-      {%- endfor %}
-    </p>
-  {% endset %}
+{#- CUSTOM: relevant to — begin -#}
+{% set tags = (page.meta and page.meta.tags) or [] %}
+{% set hidden = page.meta and page.meta.hide and "relevant-to" in page.meta.hide %}
+{% set ns = namespace(started = false) %}
+{% set pills %}
+  {%- for a in config.extra.mb_audiences or [] %}
+    {%- if a is mapping and a.tag in tags %}{% set ns.started = true %}{% endif %}
+    {%- if ns.started and a is mapping %}
+      <span class="mb-label mb-label-{{ (a.colour or "grey") | e }}">
+        {%- if a.icon %}<span class="twemoji">{% include ".icons/" ~ a.icon ~ ".svg" %}</span>{% endif -%}
+        {{ a.name | e -}}
+      </span>
+    {%- endif %}
+  {%- endfor %}
+{% endset %}
+{% if ns.started and not hidden %}
+  {% set line %}<p class="mb-relevant-to"><span class="mb-relevant-to__label">Relevant to</span>{{ pills }}</p>{% endset %}
   {% if "</h1>" in page.content %}
-    {{ page.content | replace("</h1>", "</h1>" ~ sf) | safe }}
+    {{ page.content | replace("</h1>", "</h1>" ~ line) | safe }}
   {% else %}
-    {{ sf | safe }}
+    {{ line | safe }}
     {{ page.content }}
   {% endif %}
 {% else %}
   {{ page.content }}
 {% endif %}
-{#- CUSTOM: suitable for — end -#}
+{#- CUSTOM: relevant to — end -#}
 {% include "partials/tags.html" %}
 {% include "partials/source-file.html" %}
 {% include "partials/feedback.html" %}

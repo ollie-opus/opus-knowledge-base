@@ -25,7 +25,7 @@ extra_css = [
   "assets/stylesheets/buttons.css",
   "assets/stylesheets/nav-links.css",
   "assets/stylesheets/status-banner.css",
-  "assets/stylesheets/suitable-for.css",
+  "assets/stylesheets/relevant-to.css",
 ]
 # Sortable tables disabled — to re-enable, add these two entries back:
 #   "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
@@ -270,17 +270,18 @@ mb_status_banner = ""
 mb_maintenance_start = "2026-08-20T19:00+01:00"
 mb_maintenance_end = "2026-08-20T21:00+01:00"
 mb_maintenance_services = "Server, Account Login, Files, Tasks, Notifications"
-# "Suitable for" role registry — CUSTOM capability, not a zensical feature.
-# Pages declare their audience in frontmatter (`suitable-for: [Managers, …]`,
-# written by the More Buttons extension); overrides/partials/content.html
-# renders one mb-label pill per role directly under the page h1, looking the
-# role up here for its colour (any mb-label palette name from labels.css) and
-# icon (theme icon path, e.g. lucide/user-cog). Roles not listed here still
-# render, as a plain grey pill with no icon. Styling: suitable-for.css.
-mb_roles = [
-  { name = "Users",          colour = "blue",   icon = "lucide/user" },
-  { name = "Managers",       colour = "purple", icon = "lucide/user-shield" },
-  { name = "Administrators", colour = "pink",   icon = "lucide/user-cog" },
+# "Relevant to" audience registry — CUSTOM capability, not a zensical feature.
+# ORDERED. overrides/partials/content.html renders a line of mb-label pills
+# directly under the page h1: the page's audience is the first entry whose
+# `tag` appears in the page's `tags:` frontmatter (the three reserved audience
+# tags the More Buttons "Relevant to" radios write), and the line shows that
+# entry plus every later one ("X and above"). No audience tag → no line;
+# `hide: [relevant-to]` suppresses it. `colour` is any mb-label palette name
+# from labels.css; `icon` a theme icon path. Styling: relevant-to.css.
+mb_audiences = [
+  { tag = "Using OCC",         name = "Users",          colour = "blue",   icon = "lucide/user" },
+  { tag = "Managing OCC",      name = "Managers",       colour = "purple", icon = "lucide/user-shield" },
+  { tag = "Administering OCC", name = "Administrators", colour = "pink",   icon = "lucide/user-cog" },
 ]
 mb_created_tags = [
   { name = "System" },

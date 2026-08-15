@@ -3,9 +3,6 @@ icon: lucide/file-down
 tags:
   - Managing OCC
   - Add-on
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Exporting a RAMS project

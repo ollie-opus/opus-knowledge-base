@@ -2,9 +2,6 @@
 icon: lucide/user-star
 tags:
   - Managing OCC
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Granting an employee temporary access

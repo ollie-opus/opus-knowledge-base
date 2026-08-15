@@ -3,9 +3,6 @@ icon: lucide/gauge
 tags:
   - Managing OCC
   - Add-on
-suitable-for:
-  - Managers
-  - Administrators
 ---
 
 # Contractor & Project statuses

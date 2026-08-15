@@ -4,10 +4,6 @@ search:
   exclude: true
 tags:
   - Using OCC
-suitable-for:
-  - Users
-  - Managers
-  - Administrators
 ---
 
 # Interacting with a task
