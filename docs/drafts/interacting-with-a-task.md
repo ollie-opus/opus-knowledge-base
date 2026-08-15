@@ -65,9 +65,11 @@ You can add sub-tasks to a task by clicking the button in the task actions list.
 ## Snoozing tasks
 <span data-uuid="991647ca-b013-4539-b8bf-382edc17dca3" style="display:none"></span>
 
-Tasks can be snoozed for up to 14 days via the button at the bottom of the task page.
+Tasks can be snoozed for up to 14 days via the button at the bottom of the task page. 
 
 Snoozing is useful when you’re unable to complete a task for reasons such as waiting on a delivery or a booked service.
+
+:lucide-user: *Those with user access can only snooze tasks if they've been assigned.*
 
 <span data-uuid="d48e149d-ff33-4ce7-a83d-61c25a6510fd" style="display:none"></span>
 ![](../assets/media/occ-captures/todos/uuid/snooze-light-mode.png#only-light){ style="height: 50px" loading=lazy }
