@@ -2,6 +2,8 @@
 icon: lucide/alert-circle
 search:
   exclude: true
+tags:
+  - Using OCC
 ---
 
 # Task Severities
