@@ -214,6 +214,7 @@ tags:
             <span data-uuid="6bf4442e-3675-4b52-b55c-899dae90bbeb" style="display:none"></span>
             Granting user access automatically gives user access to assets, allowing employees to report defects, view asset documentation, and complete checklists where required.
 
+        <span data-uuid="a1309cce-75e6-4ba6-8a0a-e789a79278df" style="display:none"></span>
         ![](../assets/media/other/screenshots/APaQ0ST_UgoGam1x7NuixSy7GtD8fAnNNkSZd6b1_013f3a85.gif)
 
     === "Multiple Sites"
@@ -227,6 +228,7 @@ tags:
             <span data-uuid="0792c42b-2806-4d2c-a714-da1752890ae1" style="display:none"></span>
             Access cascades down the site hierarchy. Granting access at a site automatically applies the same access to all of its sub-sites.
 
+        <span data-uuid="47a0b240-a56e-486f-a678-c713b23a7017" style="display:none"></span>
         ![](../assets/media/other/screenshots/APaQ0SRL-eDqthpF8jrV9xBNKwEhqf67e9IeA91W_d2fe5420.gif)
 
 !!! step
