@@ -80,6 +80,11 @@ Snoozing is useful when you’re unable to complete a task for reasons such as, 
 ![](../assets/media/occ-captures/todos/uuid/snooze-light-mode.png#only-light){ style="height: 50px" loading=lazy }
 ![](../assets/media/occ-captures/todos/uuid/snooze-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
+!!! warning
+
+    <span data-uuid="91c48861-7906-499a-b016-f2f49dc153d8" style="display:none"></span>
+    We recommend only snoozing tasks that have been assigned. If a task is unassigned, assign it to yourself or the person responsible before snoozing it. Unassigned snoozed tasks will continue to appear in the main site inbox.
+
 !!! note
 
     <span data-uuid="2e58e2d5-b2c8-410c-9cc2-e321e1ad9032" style="display:none"></span>
