@@ -7,6 +7,8 @@ search:
 # Interacting with a task
 <span data-uuid="4e951955-763b-426b-b87e-236cf24ec19b" style="display:none"></span>
 
+This guide covers the basics of interacting with tasks.
+
 ## Reminder Tasks
 <span data-uuid="53327301-5943-46a9-91bc-78f8e3d43dda" style="display:none"></span>
 
