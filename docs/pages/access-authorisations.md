@@ -16,9 +16,10 @@ Employees can have their access defined on their employee record. Depending on t
 
 There are three levels of access available, allowing you to assign the appropriate level of access to each employee.
 
-- <span class="mb-label mb-label-blue">User</span> access is the standard level of access, designed for employees who do not have managerial responsibilities.
-- <span class="mb-label mb-label-purple">Manager</span> access is designed for employees with managerial responsibilities, such as General Managers and Assistant Managers. Managers have additional permissions that enable them to oversee and manage their site(s).
-- <span class="mb-label mb-label-pink">Administrator</span> access is intended for employees with elevated management responsibilities, typically spanning regions or the organisation as a whole. Administrators have advanced permissions that allow them to make fundamental changes to their company's Opus Compliance Cloud configuration.
+
+- <span class="mb-label mb-label-blue">:lucide-user: · User</span> access is the standard level of access, designed for employees who do not have managerial responsibilities.
+- <span class="mb-label mb-label-purple">:lucide-user-shield: · Manager</span> access is designed for employees with managerial responsibilities, such as General Managers and Assistant Managers. Managers have additional permissions that enable them to oversee and manage their site(s).
+- <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrator</span> access is intended for employees with elevated management responsibilities, typically spanning regions or the organisation as a whole. Administrators have advanced permissions that allow them to make fundamental changes to their company's Opus Compliance Cloud configuration.
 
 <span data-uuid="c460aa2b-adc2-4fc7-a193-d9166884c952" style="display:none"></span>
 
@@ -47,9 +48,7 @@ There are three levels of access available, allowing you to assign the appropria
 !!! info
 
     <span data-uuid="e3858757-a181-4425-9d3f-63f7c522f04f" style="display:none"></span>
-
-
-    <span class="mb-label mb-label-pink">Administrator</span> access is a relatively new permission level, introduced to provide a clear distinction between site managers and administrators with regional or organisation-wide responsibilities.
+    <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrator</span> access is a relatively new permission level, introduced to provide a clear distinction between site managers and administrators with regional or organisation-wide responsibilities.
 
 ## Authorisations
 <span data-uuid="8d5dfa78-d3ba-4e20-8094-29c7da26e264" style="display:none"></span>
