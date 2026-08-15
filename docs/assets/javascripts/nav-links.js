@@ -28,6 +28,14 @@
  * toml or frontmatter + rebuilding updates every list without re-editing any
  * page. A placeholder that ends up with no links renders a visible error line
  * instead of silently staying blank.
+ *
+ * Tag-mode buttons also carry one uppercase pill per MATCHED tag (placeholder
+ * tags ∩ page tags), left of the arrow. Pill colours come from the tag
+ * registry in zensical.toml ([project.extra] mb_created_tags — managed by the
+ * extension's Knowledge Base Settings form) which main.html bakes into a
+ * second template, `<template id="__mb-tag-colours">` of
+ * `<span data-tag data-colour>`; a coloured pill gets `mb-label mb-label-<slug>`
+ * (labels.css paints it), an uncoloured one is outline-only (nav-links.css).
  */
 (function () {
   'use strict';
@@ -106,12 +114,57 @@
     return false;
   }
 
+  // The placeholder tags a page carries, in placeholder order, using the page's
+  // own (frontmatter) spelling — the CSS uppercases anyway. [] when none.
+  function matchedTags(src, tags) {
+    var out = [];
+    var raw = src.getAttribute('data-tags');
+    if (!raw) return out;
+    var want = splitTags(tags);
+    var haveRaw = String(raw).split(',');
+    for (var i = 0; i < want.length; i++) {
+      for (var j = 0; j < haveRaw.length; j++) {
+        var h = haveRaw[j].trim();
+        if (h && h.toLowerCase() === want[i]) { out.push(h); break; }
+      }
+    }
+    return out;
+  }
+
+  // lowercase tag name → palette slug, from the baked `__mb-tag-colours`
+  // template ({} when absent). Read once per hydrate.
+  var tagColours = {};
+  function readTagColours() {
+    var map = {};
+    var tpl = document.getElementById('__mb-tag-colours');
+    var root = tpl ? (tpl.content || tpl) : null;
+    if (!root) return map;
+    var spans = root.querySelectorAll('span[data-tag]');
+    for (var i = 0; i < spans.length; i++) {
+      var name = (spans[i].getAttribute('data-tag') || '').trim().toLowerCase();
+      var colour = (spans[i].getAttribute('data-colour') || '').trim().toLowerCase();
+      if (name && colour) map[name] = colour;
+    }
+    return map;
+  }
+
+  // One tag pill: <span class="mb-nav-tag[ mb-label mb-label-<slug>]">Tag</span>
+  function renderTagPill(tag) {
+    var pill = document.createElement('span');
+    var slug = tagColours[String(tag).toLowerCase()];
+    pill.className = 'mb-nav-tag' + (slug ? ' mb-label mb-label-' + slug : '');
+    pill.textContent = tag;
+    return pill;
+  }
+
   // Render one hidden-tree page <li> as a p-wrapped slim-button link, matching
   // what the markdown pipeline emits for
   //   [Title :lucide-arrow-up-right:](url){ .md-button .custom-button-stone
   //   .custom-button--slim target="_blank" rel="noopener" }
-  // Label first / icon last: slim's space-between flex pins them to the edges.
-  function renderButton(src) {
+  // Label first / tail last: slim's space-between flex pins them to the edges.
+  // The tail groups the matched-tag pills (tag mode; `tags` = []) and the arrow
+  // icon so they sit together on the right.
+  function renderButton(src, tags) {
     var p = document.createElement('p');
     var a = document.createElement('a');
     a.className = 'md-button custom-button-stone custom-button--slim';
@@ -132,10 +185,16 @@
     } else {
       a.appendChild(document.createTextNode(title + ' '));
     }
+    var tail = document.createElement('span');
+    tail.className = 'mb-nav-links__tail';
+    for (var t = 0; t < (tags || []).length; t++) {
+      tail.appendChild(renderTagPill(tags[t]));
+    }
     var icon = document.createElement('span');
     icon.className = 'twemoji';
     icon.innerHTML = ARROW_ICON_SVG;
-    a.appendChild(icon);
+    tail.appendChild(icon);
+    a.appendChild(tail);
     p.appendChild(a);
     return p;
   }
@@ -170,7 +229,7 @@
       if (src.tagName !== 'LI') continue;
       var childUl = directChildUl(src);
       if (src.getAttribute('data-url')) {
-        box.appendChild(renderButton(src));
+        box.appendChild(renderButton(src, []));
       } else if (childUl) {
         box.appendChild(renderSection(src.getAttribute('data-title') || '', childUl, false));
       }
@@ -186,7 +245,7 @@
       for (var i = 0; i < level.children.length; i++) {
         var src = level.children[i];
         if (src.tagName !== 'LI') continue;
-        if (src.getAttribute('data-url') && hasTag(src, tag)) frag.appendChild(renderButton(src));
+        if (src.getAttribute('data-url') && hasTag(src, tag)) frag.appendChild(renderButton(src, matchedTags(src, tag)));
         var childUl = directChildUl(src);
         if (childUl) walk(childUl);
       }
@@ -205,7 +264,7 @@
       if (src.tagName !== 'LI') continue;
       var childUl = directChildUl(src);
       if (src.getAttribute('data-url')) {
-        if (hasTag(src, tag)) frag.appendChild(renderButton(src));
+        if (hasTag(src, tag)) frag.appendChild(renderButton(src, matchedTags(src, tag)));
       } else if (childUl) {
         var inner = renderTagGrouped(childUl, tag, false);
         if (inner) {
@@ -230,6 +289,7 @@
     if (!placeholders.length) return;
     var tpl = document.getElementById('__mb-nav-tree');
     var root = tpl ? (tpl.content || tpl).querySelector('ul') : null;
+    tagColours = readTagColours();
     for (var i = 0; i < placeholders.length; i++) {
       var ph = placeholders[i];
       ph.innerHTML = ''; // idempotent: clear before (re)injecting

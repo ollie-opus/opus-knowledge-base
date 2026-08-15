@@ -73,6 +73,40 @@
 
 /* ── Buttons and error line ──────────────────────────────────────────────── */
 
+/* Right-hand tail of a slim button: the matched-tag pills (tag mode) + the
+   arrow icon, grouped so slim's space-between pins them together on the right. */
+.md-typeset .md-button.custom-button--slim .mb-nav-links__tail {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  flex-shrink: 0;
+}
+
+/* Tag pill inside a nav-links button: small uppercase (echoing the group
+   headings), ALWAYS bordered — labels.css gives chromatic pills a transparent
+   border in light mode, so this (0,4,0) rule's `border` shorthand wins over
+   its (0,3,0) colour rules for the border only; bg/text still come from
+   labels.css `.mb-label-<slug>` when the tag has a colour. */
+[data-md-color-scheme] .md-typeset .md-button .mb-nav-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.45em;
+  border-radius: 4px;
+  border: 1px solid color-mix(in srgb, currentColor 40%, transparent);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.6;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Uncoloured tag (no registry colour): outline-only in the button's ink. */
+[data-md-color-scheme] .md-typeset .md-button .mb-nav-tag:not(.mb-label) {
+  background: transparent;
+  color: currentColor;
+}
+
 /* The "(current page)" marker inside a slim button keeps normal weight so it
    reads as an aside next to the semibold label. */
 .md-typeset .md-button.custom-button--slim .mb-nav-links__current {

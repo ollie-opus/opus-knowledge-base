@@ -5,7 +5,12 @@
    Consumed at runtime by nav-links.js to render "Nav links" components — see the
    more-buttons extension. The tree is identical on every page and derives from
    zensical.toml + page frontmatter at build time, so editing either + rebuilding
-   updates every nav-links list with no page edits. #}
+   updates every nav-links list with no page edits.
+   A second template, __mb-tag-colours (extrahead), bakes the tag registry's
+   colours ([project.extra] mb_created_tags inline tables { name, colour },
+   managed by the extension's Knowledge Base Settings form) so tag-mode buttons
+   can paint their matched-tag pills; colourless / legacy string entries are
+   simply omitted. #}
 {% macro mb_nav_node(item) %}
   <li data-title="{{ item.title | e }}"{% if item.url %} data-url="{{ item.url | url }}"{% endif %}{% if item.active %} data-current="1"{% endif %}{% if item.meta and item.meta.tags %} data-tags="{{ item.meta.tags | join(',') | e }}"{% endif %}>
     {%- if item.children %}<ul>{% for child in item.children %}{{ mb_nav_node(child) }}{% endfor %}</ul>{% endif -%}
@@ -64,6 +69,7 @@
   {# Hidden, full site-nav tree (in <head> so it survives instant-navigation body
      swaps) + the script that fills .mb-nav-links placeholders from it. #}
   <template id="__mb-nav-tree"><ul>{% for item in nav.items %}{{ mb_nav_node(item) }}{% endfor %}</ul></template>
+  <template id="__mb-tag-colours">{% for t in config.extra.mb_created_tags or [] %}{% if t is mapping and t.colour %}<span data-tag="{{ t.name | e }}" data-colour="{{ t.colour | e }}"></span>{% endif %}{% endfor %}</template>
   <script src="{{ 'assets/javascripts/nav-links.js' | url }}" defer></script>
   {# Time-gates the maintenance announcement bar (emitted hidden by the
      announce block above) — loads on every page, no-ops when there's no bar. #}
