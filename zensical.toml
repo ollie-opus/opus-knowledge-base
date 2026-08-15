@@ -87,7 +87,8 @@ draft_nav = [
   {"Guides" = [
     {"Tasks" = [
       {"Reporting And Logging" = [
-        {"Reporting an incident" = "drafts/reporting-an-incident.md"}
+        {"Reporting an incident" = "drafts/reporting-an-incident.md"},
+        {"Kinds of reportable tasks" = "drafts/kinds-of-reportable-tasks.md"}
       ]},
       {"Task Overview" = "drafts/task-overview.md"},
       {"Managing a task" = "drafts/managing-a-task.md"},
