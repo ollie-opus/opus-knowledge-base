@@ -2,6 +2,8 @@
 icon: lucide/rocket
 search:
   exclude: true
+tags:
+  - Administering OCC
 ---
 
 # The Onboarding Process
