@@ -64,6 +64,10 @@ You can add sub-tasks to a task by clicking the button in the task actions list.
 
     <span data-uuid="10bdf799-3446-4a37-987b-ec39279348dc" style="display:none"></span>
 
+    <span data-uuid="1ea7b2d4-aab6-4940-8982-c5901bcf1518" style="display:none"></span>
+    ![](../assets/media/occ-captures/todos/uuid/sub-tasks-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/sub-tasks-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
+
 ## Snoozing tasks
 <span data-uuid="991647ca-b013-4539-b8bf-382edc17dca3" style="display:none"></span>
 
