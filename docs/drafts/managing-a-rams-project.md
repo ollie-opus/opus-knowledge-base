@@ -2,6 +2,9 @@
 icon: lucide/file-chart-line
 search:
   exclude: true
+tags:
+  - Managing OCC
+  - Add-on
 ---
 
 # Managing a RAMS project
