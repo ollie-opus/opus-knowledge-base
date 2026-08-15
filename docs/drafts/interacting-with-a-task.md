@@ -51,6 +51,10 @@ They are also commonly used as a way to upload CCTV footage onto an incident tas
 
     <span data-uuid="242529d5-2e81-431e-8ceb-952f1d4b88cc" style="display:none"></span>
 
+    <span data-uuid="34fc0bb0-33e1-47dd-ac2a-d6c3b80e2681" style="display:none"></span>
+    ![](../assets/media/occ-captures/todos/uuid/todo-messages-cctv-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/todo-messages-cctv-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 ## Creating sub tasks
 <span data-uuid="086aa064-7bf0-4607-8197-419524b11e9d" style="display:none"></span>
 
