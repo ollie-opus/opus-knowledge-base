@@ -1,5 +1,8 @@
 ---
 icon: lucide/file-chart-line
+tags:
+  - Managing OCC
+  - Add-on
 ---
 
 # Managing a RAMS project
