@@ -117,7 +117,7 @@ This occurs when a task has required inputs or conditions that have not yet been
 
 <span class="mb-label mb-label-sky">:lucide-user: · Users</span>
 <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span>
-<span class="mb-label mb-label-pink">:lucide-user-cog: ·Administrators</span>
+<span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 <span data-uuid="2ceabfad-dbe8-44b4-801b-0324edfbae64" style="display:none"></span>
 ![](../assets/media/occ-captures/todos/uuid/todo-messages-missing-information-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
