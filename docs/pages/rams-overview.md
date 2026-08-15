@@ -1,7 +1,9 @@
 ---
 icon: lucide/layout-dashboard
 tags:
+  - Managing OCC
   - Overview
+  - Add-on
 hide:
   - navigation
   - toc
