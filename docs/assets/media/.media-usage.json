@@ -1,30 +1,4 @@
 {
-  "docs/drafts/adding-a-contractor.md": [
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/contractor-name-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/contractor-name-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/keep-requirements-up-to-date-outside-of-projects-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/keep-requirements-up-to-date-outside-of-projects-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/kind-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/kind-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/located-at-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/located-at-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/photo-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/photo-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/save-contractor-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/save-contractor-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/type-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/type-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/website-phone-email-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/contractors/new/website-phone-email-light-mode.png",
-    "docs/assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png",
-    "docs/assets/media/occ-captures/dashboard/pick-workspace-light-mode.png",
-    "docs/assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png",
-    "docs/assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png"
-  ],
   "docs/drafts/employees-overview.md": [
     "docs/assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png",
     "docs/assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png"
