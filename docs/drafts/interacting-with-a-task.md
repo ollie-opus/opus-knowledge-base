@@ -96,3 +96,5 @@ Snoozing is useful when you’re unable to complete a task for reasons such as, 
 
 ## Resolving tasks
 <span data-uuid="362638da-9cc6-4327-8c5c-13cfde0f761a" style="display:none"></span>
+
+Tasks can be manually marked as resolved using the button at the bottom of the task page.
