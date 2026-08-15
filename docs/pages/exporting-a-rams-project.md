@@ -8,6 +8,9 @@ tags:
 # Exporting a RAMS project
 <span data-uuid="fd436366-43e2-4761-b20f-cc366280caca" style="display:none"></span>
 
+<span data-mb-suitable-for style="display:none"></span>
+This guide is suitable for: <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
+
 This guide details how to export a RAMS project.
 
 ## Finding the project

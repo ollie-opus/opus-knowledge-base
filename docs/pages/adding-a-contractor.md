@@ -8,6 +8,8 @@ tags:
 # Adding a contractor
 <span data-uuid="3fc2a090-7aed-40b1-a4e2-713bceeef145" style="display:none"></span>
 
+<span data-mb-suitable-for style="display:none"></span>
+This guide is suitable for: <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 !!! step
 

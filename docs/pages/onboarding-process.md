@@ -7,6 +7,9 @@ tags:
 # The Onboarding Process
 <span data-uuid="84f4a07b-fa18-491f-96e6-1fc31ccf503e" style="display:none"></span>
 
+<span data-mb-suitable-for style="display:none"></span>
+This guide is suitable for: <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
+
 ## Introduction
 <span data-uuid="7043ce76-0915-4745-af2d-b93fbc98392e" style="display:none"></span>
 

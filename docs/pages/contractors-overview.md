@@ -8,6 +8,7 @@ hide:
   - toc
   - navigation
   - path
+  - suitable-for
 ---
 
 # Contractors Overview

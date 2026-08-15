@@ -7,6 +7,9 @@ tags:
 # Moving an asset
 <span data-uuid="1e90248f-18da-46a1-a28a-d342c1b46c12" style="display:none"></span>
 
+<span data-mb-suitable-for style="display:none"></span>
+This guide is suitable for: <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
+
 If an asset has moved to another site, you can easily update it in the system — as long as you have access to both the current site and the new one. If you don't, reach out to someone in your organisation who does, or <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">get in touch with support</a>.
 
 ## Navigating to the asset
