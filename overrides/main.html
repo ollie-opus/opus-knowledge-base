@@ -71,6 +71,23 @@
   <template id="__mb-nav-tree"><ul>{% for item in nav.items %}{{ mb_nav_node(item) }}{% endfor %}</ul></template>
   <template id="__mb-tag-colours">{% for t in config.extra.mb_created_tags or [] %}{% if t is mapping and t.colour %}<span data-tag="{{ t.name | e }}" data-colour="{{ t.colour | e }}"></span>{% endif %}{% endfor %}</template>
   <script src="{{ 'assets/javascripts/nav-links.js' | url }}" defer></script>
+  {# Without JavaScript nav-links.js never runs and every placeholder would stay
+     blank. Paint a visible notice into any still-empty placeholder instead —
+     scoped to <noscript> so JS-enabled visitors never see it, even briefly.
+     Styled to match .mb-nav-links__error in nav-links.css. #}
+  <noscript>
+    <style>
+      .md-typeset .mb-nav-links:empty::before {
+        content: "Nav links require JavaScript. Please enable JavaScript in your browser to view this list of pages.";
+        display: block;
+        font-style: italic;
+        font-size: 0.85em;
+        color: var(--md-default-fg-color--light);
+        border-left: 2px solid var(--md-warning-fg-color, #e6a700);
+        padding-left: 0.75em;
+      }
+    </style>
+  </noscript>
   {# Time-gates the maintenance announcement bar (emitted hidden by the
      announce block above) — loads on every page, no-ops when there's no bar. #}
   <script src="{{ 'assets/javascripts/status-banner.js' | url }}" defer></script>

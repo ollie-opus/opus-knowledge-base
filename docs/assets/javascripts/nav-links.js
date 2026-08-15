@@ -27,7 +27,9 @@
  * data-tags attribute). Because the page stores only the path/tag, editing the
  * toml or frontmatter + rebuilding updates every list without re-editing any
  * page. A placeholder that ends up with no links renders a visible error line
- * instead of silently staying blank.
+ * instead of silently staying blank. (With JavaScript disabled this script
+ * never runs; a <noscript> style in overrides/main.html paints a "requires
+ * JavaScript" notice into every empty placeholder instead.)
  *
  * Tag-mode buttons also carry one uppercase pill per MATCHED tag (placeholder
  * tags ∩ page tags), left of the arrow. A page carrying any ALWAYS_SHOW_TAGS
