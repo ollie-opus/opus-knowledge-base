@@ -90,13 +90,13 @@
 [data-md-color-scheme] .md-typeset .md-button .mb-nav-tag {
   display: inline-flex;
   align-items: center;
-  padding: 0 0.45em;
+  padding: 0 0.4em;
   border-radius: 4px;
   border: 1px solid color-mix(in srgb, currentColor 40%, transparent);
-  font-size: 0.6rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  line-height: 1.6;
+  font-size: 0.52rem; /* matches the sidebar nav pills (labels.css) */
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
   text-transform: uppercase;
   white-space: nowrap;
 }
