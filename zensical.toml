@@ -85,25 +85,25 @@ nav = [
 
 draft_nav = [
   {"Guides" = [
+    {"Getting started" = [
+      {"Guidebooks" = [
+        {"Managing Opus Compliance Cloud" = "drafts/managing-opus-compliance-cloud.md"}
+      ]}
+    ]},
     {"Tasks" = [
       {"Reporting And Logging" = [
         {"Reporting an incident" = "drafts/reporting-an-incident.md"},
         {"Managing an incident" = "drafts/managing-an-incident.md"}
       ]},
       {"Task Overview" = "drafts/task-overview.md"},
-      {"Managing a task" = "drafts/managing-a-task.md"},
-      {"Interacting with a task" = "drafts/interacting-with-a-task.md"}
-    ]},
-    {"Contractors" = [
-      {"Permits to Work" = "drafts/permits-to-work.md"}
-    ]},
-    {"Getting Started" = [
-      {"Guidebooks" = [
-        {"Managing Opus Compliance Cloud" = "drafts/managing-opus-compliance-cloud.md"}
-      ]}
+      {"Interacting with a task" = "drafts/interacting-with-a-task.md"},
+      {"Managing a task" = "drafts/managing-a-task.md"}
     ]},
     {"Employees" = [
       {"Employees overview" = "drafts/employees-overview.md"}
+    ]},
+    {"Contractors" = [
+      {"Permits to Work" = "drafts/permits-to-work.md"}
     ]}
   ]}
 ]
