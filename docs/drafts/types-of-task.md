@@ -2,6 +2,8 @@
 icon: lucide/grid-2-x-2-check
 search:
   exclude: true
+tags:
+  - Using OCC
 ---
 
 # Types of task
