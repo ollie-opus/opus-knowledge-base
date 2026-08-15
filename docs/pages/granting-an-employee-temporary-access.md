@@ -2,13 +2,13 @@
 icon: lucide/user-star
 tags:
   - Managing OCC
+suitable-for:
+  - Managers
+  - Administrators
 ---
 
 # Granting an employee temporary access
 <span data-uuid="12e41d2e-adc4-4d64-a0f8-b113aedd893b" style="display:none"></span>
-
-<span data-mb-suitable-for style="display:none"></span>
-This guide is suitable for: <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 Temporary access is a way to grant your employees **temporary access** to certain features without an account (such as E-learning, viewing site documents, and reporting events).
 

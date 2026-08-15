@@ -2,13 +2,14 @@
 icon: lucide/alert-circle
 tags:
   - Using OCC
+suitable-for:
+  - Users
+  - Managers
+  - Administrators
 ---
 
 # Task Severities
 <span data-uuid="081e8d68-163a-48c9-bcf9-3723bae200e8" style="display:none"></span>
-
-<span data-mb-suitable-for style="display:none"></span>
-This guide is suitable for: <span class="mb-label mb-label-blue">:lucide-user: · Users</span> <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 Tasks are assigned a severity level to help you prioritise them in the task inbox. The most severe tasks appear at the top of the inbox. Some severity levels are assigned by the system, while others can be configured.
 

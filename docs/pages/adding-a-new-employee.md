@@ -2,13 +2,13 @@
 icon: lucide/user-plus
 tags:
   - Managing OCC
+suitable-for:
+  - Managers
+  - Administrators
 ---
 
 # Adding a new employee
 <span data-uuid="4a117361-0f80-4470-a607-6653e0662468" style="display:none"></span>
-
-<span data-mb-suitable-for style="display:none"></span>
-This guide is suitable for: <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 !!! note "Restricted Access"
 

@@ -5,13 +5,13 @@ search:
 tags:
   - Managing OCC
   - Add-on
+suitable-for:
+  - Managers
+  - Administrators
 ---
 
 # Permits to Work
 <span data-uuid="00e4887d-0452-4417-bac5-b3fa0aba5577" style="display:none"></span>
-
-<span data-mb-suitable-for style="display:none"></span>
-This guide is suitable for: <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 ## Permits to Work statuses
 <span data-uuid="21c6165d-2c78-45c2-b9a3-b3361b74e35c" style="display:none"></span>

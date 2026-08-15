@@ -4,13 +4,14 @@ search:
   exclude: true
 tags:
   - Using OCC
+suitable-for:
+  - Users
+  - Managers
+  - Administrators
 ---
 
 # Interacting with a task
 <span data-uuid="4e951955-763b-426b-b87e-236cf24ec19b" style="display:none"></span>
-
-<span data-mb-suitable-for style="display:none"></span>
-This guide is suitable for: <span class="mb-label mb-label-blue">:lucide-user: · Users</span> <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 This guide covers the basics of interacting with tasks.
 

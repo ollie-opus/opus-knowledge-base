@@ -2,13 +2,13 @@
 icon: lucide/package-plus
 tags:
   - Managing OCC
+suitable-for:
+  - Managers
+  - Administrators
 ---
 
 # Adding an asset
 <span data-uuid="459e12a7-7eeb-4f7b-94d7-55481df46603" style="display:none"></span>
-
-<span data-mb-suitable-for style="display:none"></span>
-This guide is suitable for: <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 !!! step
 

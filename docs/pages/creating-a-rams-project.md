@@ -3,13 +3,13 @@ icon: lucide/file-plus
 tags:
   - Managing OCC
   - Add-on
+suitable-for:
+  - Managers
+  - Administrators
 ---
 
 # Creating a RAMS project
 <span data-uuid="eebd6486-f131-4700-91c3-2838ec1b2f0c" style="display:none"></span>
-
-<span data-mb-suitable-for style="display:none"></span>
-This guide is suitable for: <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 This guide details how to create a RAMS project in Opus Compliance Cloud.
 

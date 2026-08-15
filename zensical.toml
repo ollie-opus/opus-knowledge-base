@@ -25,6 +25,7 @@ extra_css = [
   "assets/stylesheets/buttons.css",
   "assets/stylesheets/nav-links.css",
   "assets/stylesheets/status-banner.css",
+  "assets/stylesheets/suitable-for.css",
 ]
 # Sortable tables disabled — to re-enable, add these two entries back:
 #   "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
@@ -269,6 +270,18 @@ mb_status_banner = ""
 mb_maintenance_start = "2026-08-20T19:00+01:00"
 mb_maintenance_end = "2026-08-20T21:00+01:00"
 mb_maintenance_services = "Server, Account Login, Files, Tasks, Notifications"
+# "Suitable for" role registry — CUSTOM capability, not a zensical feature.
+# Pages declare their audience in frontmatter (`suitable-for: [Managers, …]`,
+# written by the More Buttons extension); overrides/partials/content.html
+# renders one mb-label pill per role directly under the page h1, looking the
+# role up here for its colour (any mb-label palette name from labels.css) and
+# icon (theme icon path, e.g. lucide/user-cog). Roles not listed here still
+# render, as a plain grey pill with no icon. Styling: suitable-for.css.
+mb_roles = [
+  { name = "Users",          colour = "blue",   icon = "lucide/user" },
+  { name = "Managers",       colour = "purple", icon = "lucide/user-shield" },
+  { name = "Administrators", colour = "pink",   icon = "lucide/user-cog" },
+]
 mb_created_tags = [
   { name = "System" },
   { name = "Managing OCC", colour = "taupe" },

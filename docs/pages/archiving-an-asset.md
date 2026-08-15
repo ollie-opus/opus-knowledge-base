@@ -2,13 +2,13 @@
 icon: lucide/package-minus
 tags:
   - Managing OCC
+suitable-for:
+  - Managers
+  - Administrators
 ---
 
 # Archiving an asset
 <span data-uuid="5dd2078b-99ac-400c-8519-4f77c1576957" style="display:none"></span>
-
-<span data-mb-suitable-for style="display:none"></span>
-This guide is suitable for: <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 Has an asset been sold or left your site? You can easily update this in the system by following the steps below.
 

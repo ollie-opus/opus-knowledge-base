@@ -2,13 +2,14 @@
 icon: lucide/inbox
 tags:
   - Using OCC
+suitable-for:
+  - Users
+  - Managers
+  - Administrators
 ---
 
 # Task Inboxing
 <span data-uuid="6e0f44b9-d0e8-43fb-b10d-3b82596501c2" style="display:none"></span>
-
-<span data-mb-suitable-for style="display:none"></span>
-This guide is suitable for: <span class="mb-label mb-label-blue">:lucide-user: · Users</span> <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 Throughout Opus Compliance Cloud, tasks are displayed via inboxes/lists. This guide explains the different ways tasks are presented.
 

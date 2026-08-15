@@ -2,13 +2,14 @@
 icon: lucide/grid-2-x-2-check
 tags:
   - Using OCC
+suitable-for:
+  - Users
+  - Managers
+  - Administrators
 ---
 
 # Types of task
 <span data-uuid="e0f63ac3-c844-4979-8eb4-0c28194addb7" style="display:none"></span>
-
-<span data-mb-suitable-for style="display:none"></span>
-This guide is suitable for: <span class="mb-label mb-label-blue">:lucide-user: · Users</span> <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 Broadly speaking, a task is anything that needs to be done. This guide will show you the different kinds of tasks you may encounter when using Opus Compliance Cloud.
 

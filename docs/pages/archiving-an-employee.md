@@ -2,13 +2,13 @@
 icon: lucide/user-minus
 tags:
   - Managing OCC
+suitable-for:
+  - Managers
+  - Administrators
 ---
 
 # Archiving an employee
 <span data-uuid="0b6f8b16-f92c-44f8-8136-71fa79eb42b5" style="display:none"></span>
-
-<span data-mb-suitable-for style="display:none"></span>
-This guide is suitable for: <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 If someone's left your workplace, you'll need to **archive their employee record**.
 

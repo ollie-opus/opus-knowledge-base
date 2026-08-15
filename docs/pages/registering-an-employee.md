@@ -2,13 +2,13 @@
 icon: lucide/user-check
 tags:
   - Managing OCC
+suitable-for:
+  - Managers
+  - Administrators
 ---
 
 # Registering an Employee with an Opus Account
 <span data-uuid="c777efce-ef08-442c-8a90-ebc859bdd9f2" style="display:none"></span>
-
-<span data-mb-suitable-for style="display:none"></span>
-This guide is suitable for: <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 Follow this guide to register an employee in Opus Compliance Cloud using their own Opus account. **This guide assumes that the employee record already exists.**
 

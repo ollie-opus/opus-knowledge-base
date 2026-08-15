@@ -2,13 +2,13 @@
 icon: lucide/user-pen
 tags:
   - Managing OCC
+suitable-for:
+  - Managers
+  - Administrators
 ---
 
 # Moving an employee
 <span data-uuid="83239016-5193-4745-8a16-e287f19b31c6" style="display:none"></span>
-
-<span data-mb-suitable-for style="display:none"></span>
-This guide is suitable for: <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 If an employee changes site, you'll need to **move their employee record** to the new location and reconfigure their site access. This guide walks through finding the employee, removing their old access, moving the record, and granting access at the new site.
 

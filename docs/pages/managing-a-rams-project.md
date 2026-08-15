@@ -3,13 +3,13 @@ icon: lucide/file-chart-line
 tags:
   - Managing OCC
   - Add-on
+suitable-for:
+  - Managers
+  - Administrators
 ---
 
 # Managing a RAMS project
 <span data-uuid="6c9ee2c3-ec3f-4be8-a3c2-5aae20877dda" style="display:none"></span>
-
-<span data-mb-suitable-for style="display:none"></span>
-This guide is suitable for: <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 This guide details how to manage a RAMS project in Opus Compliance Cloud.
 

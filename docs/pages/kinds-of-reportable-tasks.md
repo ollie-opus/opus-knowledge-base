@@ -4,13 +4,13 @@ tags:
   - Managing OCC
 hide:
   - toc
+suitable-for:
+  - Managers
+  - Administrators
 ---
 
 # Kinds of reportable tasks
 <span data-uuid="62c629f8-55ba-42db-8258-125785a486fb" style="display:none"></span>
-
-<span data-mb-suitable-for style="display:none"></span>
-This guide is suitable for: <span class="mb-label mb-label-purple">:lucide-user-shield: · Managers</span> <span class="mb-label mb-label-pink">:lucide-user-cog: · Administrators</span>
 
 !!! outline "Report types"
 
