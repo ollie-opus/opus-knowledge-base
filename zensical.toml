@@ -269,10 +269,11 @@ mb_maintenance_start = "2026-08-20T19:00+01:00"
 mb_maintenance_end = "2026-08-20T21:00+01:00"
 mb_maintenance_services = "Server, Account Login, Files, Tasks, Notifications"
 mb_created_tags = [
-  "System",
-  "Managing OCC",
-  "Overview",
-  "RAMS",
-  "Using OCC",
-  "Add-on",
+  { name = "System" },
+  { name = "Managing OCC", colour = "purple" },
+  { name = "Overview" },
+  { name = "RAMS" },
+  { name = "Using OCC", colour = "blue" },
+  { name = "Add-on", colour = "purple" },
+  { name = "Administering OCC", colour = "pink" },
 ]
