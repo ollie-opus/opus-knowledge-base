@@ -1,5 +1,5 @@
 /* ============================================================================
-   "Relevant to" audience line (`.mb-relevant-to`)
+   "Written for" audience line (`.mb-written-for`)
    ----------------------------------------------------------------------------
    A single line of role pills that sits directly under the page h1, telling
    the reader which roles a guide applies to. Emitted at build time by
@@ -15,11 +15,11 @@
    stay legible while the label text goes quiet.
    ============================================================================ */
 
-.md-typeset h1:has(+ .mb-relevant-to) {
+.md-typeset h1:has(+ .mb-written-for) {
   margin-bottom: 0.35em;
 }
 
-.md-typeset .mb-relevant-to {
+.md-typeset .mb-written-for {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -30,25 +30,25 @@
   color: var(--md-default-fg-color--light);
 }
 
-.md-typeset .mb-relevant-to__label {
+.md-typeset .mb-written-for__label {
   margin-right: 0.15rem;
 }
 
 /* Pills: fixed size independent of the muted label text; icon + name with a
    small gap (overrides labels.css's em-relative sizing). */
-.md-typeset .mb-relevant-to .mb-label {
+.md-typeset .mb-written-for .mb-label {
   gap: 0.35em;
   font-size: 0.6rem;
   line-height: 1.5;
   padding: 0.12em 0.55em;
 }
 
-.md-typeset .mb-relevant-to .mb-label .twemoji {
+.md-typeset .mb-written-for .mb-label .twemoji {
   display: inline-flex;
   vertical-align: middle;
 }
 
-.md-typeset .mb-relevant-to .mb-label .twemoji svg {
+.md-typeset .mb-written-for .mb-label .twemoji svg {
   width: 1.15em;
   height: 1.15em;
 }

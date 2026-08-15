@@ -6,7 +6,7 @@
   0.0.54 (identical in 0.0.28). Because it lives in overrides/, zensical uses
   this copy INSTEAD of its own, so it does not pick up upstream changes.
 
-  What it adds: the "Relevant to" audience line — a <p class="mb-relevant-to">
+  What it adds: the "Written for" audience line — a <p class="mb-written-for">
   of role pills spliced in DIRECTLY AFTER the page's <h1>, derived from the
   page's audience tag. [project.extra] mb_audiences (zensical.toml) is an
   ORDERED list of { tag, name, colour, icon }: the page's audience is the first
@@ -18,10 +18,10 @@
       Administering OCC  → Administrators
       (no audience tag)  → no line
 
-  Suppressed when the page's `hide:` list contains "relevant-to" (the More
-  Buttons "Relevant to" hide checkbox — used on overview/landing pages).
+  Suppressed when the page's `hide:` list contains "written-for" (the More
+  Buttons "Written for" hide checkbox — used on overview/landing pages).
   Nothing is authored in the page for this: the tag is the single source of
-  truth. Styled by docs/assets/stylesheets/relevant-to.css.
+  truth. Styled by docs/assets/stylesheets/written-for.css.
 
   Why here and not in the Markdown: the h1 is part of page.content, so the
   only build-time way to land the line under it is to splice the rendered
@@ -29,7 +29,7 @@
 
   After upgrading zensical:
     1. Re-copy the packaged content.html over this file.
-    2. Re-apply the block fenced with "CUSTOM: relevant to — begin/end"
+    2. Re-apply the block fenced with "CUSTOM: written for — begin/end"
        (it replaces the bare `{{ page.content }}` line) and restore this
        header comment.
 -#}
@@ -37,9 +37,9 @@
 {% if "<h1" not in page.content %}
   <h1 id="__skip">{{ page.title | d(config.site_name, true)}}</h1>
 {% endif %}
-{#- CUSTOM: relevant to — begin -#}
+{#- CUSTOM: written for — begin -#}
 {% set tags = (page.meta and page.meta.tags) or [] %}
-{% set hidden = page.meta and page.meta.hide and "relevant-to" in page.meta.hide %}
+{% set hidden = page.meta and page.meta.hide and "written-for" in page.meta.hide %}
 {% set ns = namespace(started = false) %}
 {% set pills %}
   {%- for a in config.extra.mb_audiences or [] %}
@@ -53,7 +53,7 @@
   {%- endfor %}
 {% endset %}
 {% if ns.started and not hidden %}
-  {% set line %}<p class="mb-relevant-to"><span class="mb-relevant-to__label">Relevant to</span>{{ pills }}</p>{% endset %}
+  {% set line %}<p class="mb-written-for"><span class="mb-written-for__label">Written for</span>{{ pills }}</p>{% endset %}
   {% if "</h1>" in page.content %}
     {{ page.content | replace("</h1>", "</h1>" ~ line) | safe }}
   {% else %}
@@ -63,7 +63,7 @@
 {% else %}
   {{ page.content }}
 {% endif %}
-{#- CUSTOM: relevant to — end -#}
+{#- CUSTOM: written for — end -#}
 {% include "partials/tags.html" %}
 {% include "partials/source-file.html" %}
 {% include "partials/feedback.html" %}
