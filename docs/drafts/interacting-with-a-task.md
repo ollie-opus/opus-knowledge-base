@@ -28,7 +28,7 @@ The system automatically creates a reminder task when a requirement is due. Thes
 
 You can post comments in the task log by using the comment section, which is located towards the bottom of the task page.
 
-!!! example "Example 1 - Logging Task Progress"
+??? example "Example 1 - Logging Task Progress"
 
     <span data-uuid="3437015f-e24b-4e27-a580-93bf3ff1e89a" style="display:none"></span>
 
