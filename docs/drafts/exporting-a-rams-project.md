@@ -2,6 +2,9 @@
 icon: lucide/file-down
 search:
   exclude: true
+tags:
+  - Managing OCC
+  - Add-on
 ---
 
 # Exporting a RAMS project
