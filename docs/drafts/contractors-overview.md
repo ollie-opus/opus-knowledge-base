@@ -1,14 +1,15 @@
 ---
 icon: lucide/layout-dashboard
+search:
+  exclude: true
 tags:
   - Managing OCC
   - Overview
+  - Add-on
 hide:
   - toc
   - navigation
   - path
-search:
-  exclude: true
 ---
 
 # Contractors Overview
