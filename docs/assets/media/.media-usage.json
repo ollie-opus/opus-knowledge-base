@@ -1,20 +1,4 @@
 {
-  "docs/drafts/contractor-and-project-statuses.md": [
-    "docs/assets/media/occ-captures/admin/sites/uuid/archived-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/archived-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/ended-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/ended-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/future-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/future-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/incomplete-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/incomplete-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/ready-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/ready-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/renewable-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/renewable-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/stale-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/stale-light-mode.png"
-  ],
   "docs/drafts/employees-overview.md": [
     "docs/assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png",
     "docs/assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png"
