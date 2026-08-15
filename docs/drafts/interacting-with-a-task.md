@@ -33,11 +33,7 @@ The system automatically creates a reminder task when a requirement is due. Thes
 ## Commenting
 <span data-uuid="4b8e4a57-882d-4316-bace-27b350ba5491" style="display:none"></span>
 
-Towards the bottom of the task page, you can find the comment section, allowing you to post comments in the task log.
-
-As tasks may often be collaborative, involving multiple colleagues, comments are a good way of logging task progress.
-
-They are also commonly used as a way to upload CCTV footage onto an incident task.
+You can post comments in the task log by using the comment section, which is located towards the bottom of the task page.
 
 !!! example "Example 1 - Logging Task Progress"
 
