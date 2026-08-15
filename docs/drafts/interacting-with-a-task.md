@@ -114,3 +114,7 @@ Tasks can be manually marked as resolved using the button at the bottom of the t
 You may encounter tasks that cannot be resolved and instead display a “Missing information” message.
 
 This occurs when a task has required inputs or conditions that have not yet been met. The message will describe the information that is missing and what is required to resolve the task.
+
+<span data-uuid="2ceabfad-dbe8-44b4-801b-0324edfbae64" style="display:none"></span>
+![](../assets/media/occ-captures/todos/uuid/todo-messages-missing-information-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+![](../assets/media/occ-captures/todos/uuid/todo-messages-missing-information-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
