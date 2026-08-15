@@ -2,6 +2,8 @@
 icon: lucide/badge-alert
 search:
   exclude: true
+tags:
+  - Using OCC
 ---
 
 # Reporting an incident
