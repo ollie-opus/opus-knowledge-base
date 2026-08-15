@@ -353,5 +353,8 @@
   },
   "docs/assets/media/occ-captures/todos/uuid/sub-tasks-light-mode.png": {
     "resized": true
+  },
+  "docs/assets/media/occ-captures/todos/uuid/todo-messages-missing-information-light-mode.png": {
+    "padding": 20
   }
 }
