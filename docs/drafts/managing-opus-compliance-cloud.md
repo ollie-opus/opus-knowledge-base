@@ -20,3 +20,6 @@ This guidebook provides everything a <span class="mb-label mb-label-purple">:luc
 !!! blank
 
     <span data-uuid="fe9e2cdc-bb15-427e-84b1-62708eae4993" style="display:none"></span>
+
+    <span data-uuid="69328e96-0938-4013-8856-401346c78588" style="display:none"></span>
+    <div class="mb-nav-links" data-nav-tag="Using OCC, Managing OCC" data-nav-layout="grouped"></div>
