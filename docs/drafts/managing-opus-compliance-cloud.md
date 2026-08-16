@@ -14,12 +14,5 @@ This guidebook provides everything a <span class="mb-label mb-label-purple">:luc
 <span data-uuid="b23793d9-f831-4ff8-b747-5a2e25e1ceb3" style="display:none"></span>
 
 
-!!! blank
-
-    <span data-uuid="fe9e2cdc-bb15-427e-84b1-62708eae4993" style="display:none"></span>
-
-    <span data-uuid="69328e96-0938-4013-8856-401346c78588" style="display:none"></span>
-    <div class="mb-nav-links" data-nav-tag="Using OCC, Managing OCC" data-nav-layout="grouped"></div>
-
 <span data-uuid="abdb6461-8f4a-4f07-9e23-51ac40be27ba" style="display:none"></span>
 <div class="mb-nav-links" data-nav-tag="Using OCC, Managing OCC" data-nav-layout="grouped"></div>
