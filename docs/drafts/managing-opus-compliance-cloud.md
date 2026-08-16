@@ -10,7 +10,7 @@ This guidebook provides everything a <span class="mb-label mb-label-purple">:luc
 
 *:lucide-bookmark-plus: Feel free to bookmark this webpage for future use!*
 
-## Relevant resources
+## Relevant guides
 <span data-uuid="b23793d9-f831-4ff8-b747-5a2e25e1ceb3" style="display:none"></span>
 
 
