@@ -10,9 +10,6 @@ This guidebook provides everything a <span class="mb-label mb-label-purple">:luc
 
 *:lucide-bookmark-plus: Feel free to bookmark this webpage for future use!*
 
-<span data-uuid="61d443c2-eb56-44d7-98de-6e7ffac64d85" style="display:none"></span>
-<div class="mb-nav-links" data-nav-tag="Using OCC, Managing OCC" data-nav-layout="grouped"></div>
-
 ## Relevant resources
 <span data-uuid="b23793d9-f831-4ff8-b747-5a2e25e1ceb3" style="display:none"></span>
 
