@@ -106,6 +106,9 @@ draft_nav = [
     ]},
     {"Contractors" = [
       {"Permits to Work" = "drafts/permits-to-work.md"}
+    ]},
+    {"Assets" = [
+      {"Moving an asset" = "drafts/moving-an-asset.md"}
     ]}
   ]}
 ]
