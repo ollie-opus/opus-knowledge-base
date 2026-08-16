@@ -16,3 +16,7 @@ This guidebook provides everything a <span class="mb-label mb-label-purple">:luc
 
 <span data-uuid="696b15e6-3a7e-4ff9-b224-528f27ec7b9b" style="display:none"></span>
 <div class="mb-nav-links" data-nav-tag="Using OCC, Managing OCC" data-nav-layout="grouped"></div>
+
+!!! blank
+
+    <span data-uuid="fe9e2cdc-bb15-427e-84b1-62708eae4993" style="display:none"></span>
