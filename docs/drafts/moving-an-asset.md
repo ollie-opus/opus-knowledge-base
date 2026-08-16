@@ -9,7 +9,7 @@ search:
 # Moving an asset
 <span data-uuid="1e90248f-18da-46a1-a28a-d342c1b46c12" style="display:none"></span>
 
-If an asset has moved to another site, you can easily update it in the system — as long as you have access to both the current site and the new one. If you don't, reach out to someone in your organisation who does, or <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">get in touch with support</a>.
+If an asset has moved to another site, you can easily update it in the system - as long as you have access to both the current site and the new one. If you don't, reach out to someone in your organisation who does, or <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">get in touch with support</a>.
 
 ## Navigating to the asset
 <span data-uuid="886e74e5-3f1f-4b81-a47a-8cb7372aacd6" style="display:none"></span>
