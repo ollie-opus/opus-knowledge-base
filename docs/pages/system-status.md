@@ -35,12 +35,12 @@ status-page: true
 
 
     **Status:** AVAILABLE
-!!! status-available "Notifications"
+!!! status-maintenance "Notifications"
 
     <span data-uuid="3bf0ddc2-b721-4031-844b-55961b163655" style="display:none"></span>
 
 
-    **Status:** AVAILABLE
+    **Status:** MAINTENANCE
 </div>
 
 ---
@@ -59,6 +59,16 @@ status-page: true
 ---
 
 ## Active Events
+
+!!! status-maintenance "<span class="mb-label mb-label-amber">MAINTENANCE</span>"
+
+    <span data-uuid="c5adbdc9-50a7-4af2-a14f-1f5450eb8b6a" data-mb-start="2026-08-17T22:21+01:00" data-mb-end="2026-08-20T22:21+01:00" style="display:none"></span>
+
+    - **Services Affected:** Notifications
+    - **Scheduled Start:** <span class="mb-label mb-label-slate">2026-08-17 22:21</span>
+    - **Scheduled End:** <span class="mb-label mb-label-slate">2026-08-20 22:21</span>
+    - **Current Status:** <span class="mb-label mb-label-amber">In progress</span>
+    - **Description:** test
 
 ---
 
