@@ -23,6 +23,10 @@
   Nothing is authored in the page for this: the tag is the single source of
   truth. Styled by docs/assets/stylesheets/written-for.css.
 
+  Local variables are prefixed `mb_` so they don't shadow `tags`/`hidden`, which
+  the theme's partials/tags.html (included below) reads from the shared context —
+  shadowing them rendered the page's tag pills empty.
+
   Why here and not in the Markdown: the h1 is part of page.content, so the
   only build-time way to land the line under it is to splice the rendered
   content string. Pages carry a single h1, so replacing "</h1>" is safe.
@@ -38,12 +42,12 @@
   <h1 id="__skip">{{ page.title | d(config.site_name, true)}}</h1>
 {% endif %}
 {#- CUSTOM: written for — begin -#}
-{% set tags = (page.meta and page.meta.tags) or [] %}
-{% set hidden = page.meta and page.meta.hide and "written-for" in page.meta.hide %}
+{% set mb_tags = (page.meta and page.meta.tags) or [] %}
+{% set mb_hidden = page.meta and page.meta.hide and "written-for" in page.meta.hide %}
 {% set ns = namespace(started = false) %}
 {% set pills %}
   {%- for a in config.extra.mb_audiences or [] %}
-    {%- if a is mapping and a.tag in tags %}{% set ns.started = true %}{% endif %}
+    {%- if a is mapping and a.tag in mb_tags %}{% set ns.started = true %}{% endif %}
     {%- if ns.started and a is mapping %}
       <span class="mb-label mb-label-{{ (a.colour or "grey") | e }}">
         {%- if a.icon %}<span class="twemoji">{% include ".icons/" ~ a.icon ~ ".svg" %}</span>{% endif -%}
@@ -52,7 +56,7 @@
     {%- endif %}
   {%- endfor %}
 {% endset %}
-{% if ns.started and not hidden %}
+{% if ns.started and not mb_hidden %}
   {% set line %}<p class="mb-written-for"><span class="mb-written-for__label">Written for</span>{{ pills }}</p>{% endset %}
   {% if "</h1>" in page.content %}
     {{ page.content | replace("</h1>", "</h1>" ~ line) | safe }}
