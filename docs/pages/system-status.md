@@ -77,10 +77,10 @@ status-page: true
         <span data-uuid="68dec61c-6858-41dd-8cf5-112fcdc5940c" data-mb-start="2026-07-18T11:45+01:00" data-mb-end="2026-07-18T13:50+01:00" style="display:none"></span>
 
         - **Services Affected:** Server, Account Login, Files, Tasks, Notifications
+        - **Current Status:** <span class="mb-label mb-label-green">:lucide-check: Completed</span>
+        - **Description:** A major framework update
         - **Scheduled Start:** <span class="mb-label mb-label-slate">2026-07-18 11:45</span>
         - **Scheduled End:** <span class="mb-label mb-label-slate">2026-07-18 13:50</span>
-        - **Current Status:** <span class="mb-label mb-label-green">Completed</span>
-        - **Description:** A major framework update
 
     !!! status-outage "<span class="mb-label mb-label-red">OUTAGE</span>"
 
