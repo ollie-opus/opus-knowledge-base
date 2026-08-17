@@ -17,6 +17,9 @@
 (function () {
   'use strict';
 
+  // Sentinel `Services Affected` value meaning every service tile. Keep in step
+  // with ALL_SERVICES in the extension's scripts/statusEvents.js.
+  var ALL_SERVICES = 'All Services';
   var RANK = { 'upcoming': 0, 'in progress': 1, 'completed': 2 };
   var LABEL = { 'upcoming': 'Upcoming', 'in progress': 'In progress', 'completed': 'Completed' };
   // Status values render as label pills; the colour class follows the status.
@@ -210,9 +213,13 @@
       }
     }
     var underMaintenance = {};
+    var allUnderMaintenance = false;
     for (var s = 0; s < inProgressServices.length; s++) {
       var name = inProgressServices[s].trim();
-      if (name) underMaintenance[name] = true;
+      // The `All Services` sentinel covers every tile, whatever they are — the
+      // card deliberately stores it instead of an expanded list.
+      if (name.toLowerCase() === ALL_SERVICES.toLowerCase()) allUnderMaintenance = true;
+      else if (name) underMaintenance[name] = true;
     }
 
     // Incident cards only need their Reported/Resolved timestamps localized —
@@ -231,7 +238,7 @@
     for (var t = 0; t < tiles.length; t++) {
       var tile = tiles[t];
       var tileName = titleOf(tile);
-      var wanted = underMaintenance[tileName];
+      var wanted = allUnderMaintenance || underMaintenance[tileName];
       if (wanted && tile.classList.contains('status-available')) {
         tile.classList.remove('status-available');
         tile.classList.add('status-maintenance');

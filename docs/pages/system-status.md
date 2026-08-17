@@ -60,7 +60,7 @@ status-page: true
 
     <span data-uuid="73a3622b-2d4b-475b-8b22-ecaf5d443526" data-mb-start="2026-08-20T19:00+01:00" data-mb-end="2026-08-20T21:00+01:00" style="display:none"></span>
 
-    - **Services Affected:** Web App, API, Login, E-Learning, Email Notifications, File Storage
+    - **Services Affected:** All Services
     - **Current Status:** <span class="mb-label mb-label-orange">:lucide-fast-forward: Upcoming</span>
     - **Description:** We are conducting a round of general maintenance. There will be downtime on Opus Compliance Cloud during this window.
     - **Scheduled Start:** <span class="mb-label mb-label-slate">2026-08-20 19:00</span>
