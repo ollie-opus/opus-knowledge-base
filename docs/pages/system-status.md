@@ -93,6 +93,16 @@ status-page: true
         - **Resolved:** <span class="mb-label mb-label-slate">2026-06-10 14:52</span>
         - **Causation:** Emergency switch swap required system reboot
 
+    !!! status-maintenance "<span class="mb-label mb-label-amber">MAINTENANCE</span>"
+
+        <span data-uuid="5874df72-37c0-4b9d-8c57-ba2b8e06d3b5" data-mb-start="2026-05-07T19:20+01:00" data-mb-end="2026-05-07T20:00+01:00" style="display:none"></span>
+
+        - **Services Affected:** All Services
+        - **Current Status:** <span class="mb-label mb-label-green">:lucide-check: Completed</span>
+        - **Description:** System will see a couple of short periods of downtime during this period
+        - **Scheduled Start:** <span class="mb-label mb-label-slate">2026-05-07 19:20</span>
+        - **Scheduled End:** <span class="mb-label mb-label-slate">2026-05-07 20:00</span>
+
     !!! status-outage "<span class="mb-label mb-label-red">OUTAGE</span>"
 
         <span data-uuid="7cc25a0a-b8a9-4671-8f90-b2cb57413fa6" data-mb-reported="2026-03-24T12:15+00:00" data-mb-resolved="2026-03-24T13:30+00:00" style="display:none"></span>
