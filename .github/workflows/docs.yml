@@ -26,7 +26,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: pip install zensical
+      # Pinned via requirements.txt so deploys are reproducible and upgrades
+      # are a deliberate commit, not whatever PyPI has that morning.
+      - run: pip install -r requirements.txt
       - uses: actions/configure-pages@v5
       - run: zensical build --clean
       - uses: actions/upload-pages-artifact@v4

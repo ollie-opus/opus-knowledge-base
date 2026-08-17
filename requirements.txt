@@ -1,0 +1,5 @@
+# Single source of truth for the zensical version, used by both the local
+# .venv and CI (.github/workflows/docs.yml). Bump deliberately: change the pin,
+# `pip install -r requirements.txt`, rebuild, check labels/nav/tags render, and
+# diff the forked templates in overrides/partials/ against the new package copy.
+zensical==0.0.55
