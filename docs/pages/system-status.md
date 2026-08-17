@@ -133,11 +133,10 @@ status-page: true
 
         - **Services Affected:** All Services
         - **Current Status:** <span class="mb-label mb-label-green">:lucide-check: Resolved</span>
-        - **Description:** Users unable to log in
+        - **Description:** Users unable to log in. System down
         - **Reported:** <span class="mb-label mb-label-slate">2024-11-13 10:00</span>
         - **Resolved:** <span class="mb-label mb-label-slate">2024-11-13 10:24</span>
         - **Causation:** Memory leak causing server exhaustion
-        
     !!! status-disruption "<span class="mb-label mb-label-amber">DISRUPTION</span>"
 
         <span data-uuid="4d477ca9-63a7-426c-b70c-fa277a98da83" data-mb-reported="2024-07-01T17:49+01:00" data-mb-resolved="2024-07-03T02:28+01:00" style="display:none"></span>
