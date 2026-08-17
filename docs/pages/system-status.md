@@ -124,6 +124,16 @@ status-page: true
         - **Resolved:** <span class="mb-label mb-label-slate">2026-03-24 13:30</span>
         - **Causation:** Database Locking Issue, though root cause was not definitively pinpointed. Additional logging tools have been implemented to help identify and prevent this occurring in the future.
 
+    !!! status-maintenance "<span class="mb-label mb-label-amber">MAINTENANCE</span>"
+
+        <span data-uuid="b44d8a97-b952-4a54-994c-59a8756447c8" data-mb-start="2026-01-13T20:00+00:00" data-mb-end="2026-01-13T21:00+00:00" style="display:none"></span>
+
+        - **Services Affected:** Web App, File Storage
+        - **Current Status:** <span class="mb-label mb-label-green">:lucide-check: Completed</span>
+        - **Description:** A short reboot to apply a security update during this period. Downtime per service is expected to be 30 to 60 seconds.
+        - **Scheduled Start:** <span class="mb-label mb-label-slate">2026-01-13 20:00</span>
+        - **Scheduled End:** <span class="mb-label mb-label-slate">2026-01-13 21:00</span>
+
     !!! status-outage "<span class="mb-label mb-label-red">OUTAGE</span>"
 
         <span data-uuid="e54f65e8-68b3-4f01-b26c-6335064dfed6" data-mb-reported="2026-01-08T16:45+00:00" data-mb-resolved="2026-01-08T16:54+00:00" style="display:none"></span>
