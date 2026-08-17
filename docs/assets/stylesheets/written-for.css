@@ -34,18 +34,12 @@
   margin-right: 0.15rem;
 }
 
-/* Pills: fixed size independent of the muted label text; icon + name with a
-   small gap (overrides labels.css's em-relative sizing). */
+/* Pills: fixed size independent of the muted label text (overrides
+   labels.css's em-relative sizing; icon gap/alignment come from labels.css). */
 .md-typeset .mb-written-for .mb-label {
-  gap: 0.35em;
   font-size: 0.6rem;
   line-height: 1.5;
   padding: 0.12em 0.55em;
-}
-
-.md-typeset .mb-written-for .mb-label .twemoji {
-  display: inline-flex;
-  vertical-align: middle;
 }
 
 .md-typeset .mb-written-for .mb-label .twemoji svg {

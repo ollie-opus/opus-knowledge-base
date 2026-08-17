@@ -3,7 +3,8 @@
    ----------------------------------------------------------------------------
    Coloured inline pills authored from the More Buttons rich-text editor, which
    emits a raw HTML span: <span class="mb-label mb-label-<slug>">text</span>
-   (md_in_html renders it). This stylesheet is fully standalone — the colour
+   (md_in_html renders it). Text may be preceded by an icon shortcode, e.g.
+   <span class="mb-label mb-label-blue">:lucide-user: User</span>. This stylesheet is fully standalone — the colour
    values below are hand-authored here and have no link to anything outside this
    repo. Light values apply under the "default" scheme, dark under "slate".
 
@@ -15,7 +16,13 @@
 
 :is(.md-typeset, .md-nav) .mb-label {
   display: inline-flex;
-  align-items: center;
+  /* baseline, not center: an inline-flex box's baseline comes from its
+     baseline-aligned items, so the pill sits on the surrounding text's
+     baseline whether or not it starts with an icon (icons opt out below). */
+  align-items: baseline;
+  /* icon <-> text spacing; whitespace between flex items collapses, so a
+     literal space in the markup would not render */
+  gap: 0.35em;
   padding: 0.1em 0.55em;
   border-radius: 5px;
   font-size: 0.85em;
@@ -23,6 +30,14 @@
   line-height: 1.4;
   border: 1px solid transparent;
   white-space: nowrap;
+}
+
+/* Icons inside pills (`:lucide-*:` emoji shortcodes render as
+   <span class="twemoji"><svg/></span>): centred on the text, and excluded from
+   baseline alignment so the text - not the icon's bottom edge - defines the
+   pill's baseline. */
+:is(.md-typeset, .md-nav) .mb-label .twemoji {
+  align-self: center;
 }
 
 /* chromatic */
