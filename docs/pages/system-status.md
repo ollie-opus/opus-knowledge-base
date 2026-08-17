@@ -72,16 +72,6 @@ status-page: true
 
 ??? outline "View past events"
 
-    !!! status-maintenance "<span class="mb-label mb-label-amber">MAINTENANCE</span>"
-
-        <span data-uuid="68dec61c-6858-41dd-8cf5-112fcdc5940c" data-mb-start="2026-07-18T11:45+01:00" data-mb-end="2026-07-18T13:50+01:00" style="display:none"></span>
-
-        - **Services Affected:** Web App, API, Login, E-Learning, Email Notifications, File Storage
-        - **Scheduled Start:** <span class="mb-label mb-label-slate">2026-07-18 11:45</span>
-        - **Scheduled End:** <span class="mb-label mb-label-slate">2026-07-18 13:50</span>
-        - **Current Status:** <span class="mb-label mb-label-green">:lucide-check: Completed</span>
-        - **Description:** A major framework update
-
     !!! status-outage "<span class="mb-label mb-label-red">OUTAGE</span>"
 
         <span data-uuid="eabb3f02-50ea-4c86-a72b-63bec6113614" data-mb-reported="2026-06-10T14:19+01:00" data-mb-resolved="2026-06-10T14:52+01:00" style="display:none"></span>
