@@ -103,6 +103,16 @@ status-page: true
         - **Scheduled Start:** <span class="mb-label mb-label-slate">2026-05-07 19:20</span>
         - **Scheduled End:** <span class="mb-label mb-label-slate">2026-05-07 20:00</span>
 
+    !!! status-maintenance "<span class="mb-label mb-label-amber">MAINTENANCE</span>"
+
+        <span data-uuid="953b5e44-8d21-4d37-980f-de9ddcdeb4a9" data-mb-start="2026-03-30T19:00+01:00" data-mb-end="2026-03-30T21:00+01:00" style="display:none"></span>
+
+        - **Services Affected:** All Services
+        - **Current Status:** <span class="mb-label mb-label-green">:lucide-check: Completed</span>
+        - **Description:** Planned Maintenance
+        - **Scheduled Start:** <span class="mb-label mb-label-slate">2026-03-30 19:00</span>
+        - **Scheduled End:** <span class="mb-label mb-label-slate">2026-03-30 21:00</span>
+
     !!! status-outage "<span class="mb-label mb-label-red">OUTAGE</span>"
 
         <span data-uuid="7cc25a0a-b8a9-4671-8f90-b2cb57413fa6" data-mb-reported="2026-03-24T12:15+00:00" data-mb-resolved="2026-03-24T13:30+00:00" style="display:none"></span>
