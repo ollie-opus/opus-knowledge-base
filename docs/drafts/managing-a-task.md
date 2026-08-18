@@ -9,7 +9,7 @@ search:
 # Managing a task
 <span data-uuid="55d95bdb-5551-49cd-8945-91053feb9161" style="display:none"></span>
 
-This guide follows on from the Interacting with a Task guide and covers the additional task features that are available exclusively to managers and above.
+This guide follows on from the [Interacting with a Task](interacting-with-a-task.md) guide and covers the additional task features that are available exclusively to managers and above.
 
 ## Editing the Task Title or Severity
 <span data-uuid="675d79b5-c279-4353-bd46-cf6ee47faff9" style="display:none"></span>
