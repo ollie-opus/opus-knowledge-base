@@ -49,10 +49,10 @@ nav = [
       {"Types of task" = "pages/types-of-task.md"},
       {"Task Inboxing" = "pages/task-inboxing.md"},
       {"Task Severities" = "pages/task-severities.md"},
+      {"Interacting with a task" = "pages/interacting-with-a-task.md"},
       {"Reporting And Logging" = [
         {"Kinds of reportable tasks" = "pages/kinds-of-reportable-tasks.md"}
-      ]},
-      {"Interacting with a task" = "pages/interacting-with-a-task.md"}
+      ]}
     ]},
     {"Employees" = [
       {"Adding a new employee" = "pages/adding-a-new-employee.md"},
@@ -93,16 +93,16 @@ draft_nav = [
       ]}
     ]},
     {"Tasks" = [
+      {"Task Overview" = "drafts/task-overview.md"},
+      {"Managing a task" = "drafts/managing-a-task.md"},
       {"Reporting And Logging" = [
         {"Reporting an incident" = "drafts/reporting-an-incident.md"},
         {"Managing an incident" = "drafts/managing-an-incident.md"}
-      ]},
-      {"Task Overview" = "drafts/task-overview.md"},
-      {"Managing a task" = "drafts/managing-a-task.md"}
+      ]}
     ]},
     {"Employees" = [
-      {"Employees overview" = "drafts/employees-overview.md"},
-      {"Access & Authorisations" = "drafts/access-authorisations.md"}
+      {"Access & Authorisations" = "drafts/access-authorisations.md"},
+      {"Employees overview" = "drafts/employees-overview.md"}
     ]},
     {"Contractors" = [
       {"Permits to Work" = "drafts/permits-to-work.md"}
