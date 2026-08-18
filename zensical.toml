@@ -51,7 +51,8 @@ nav = [
       {"Task Severities" = "pages/task-severities.md"},
       {"Reporting And Logging" = [
         {"Kinds of reportable tasks" = "pages/kinds-of-reportable-tasks.md"}
-      ]}
+      ]},
+      {"Interacting with a task" = "pages/interacting-with-a-task.md"}
     ]},
     {"Employees" = [
       {"Adding a new employee" = "pages/adding-a-new-employee.md"},
@@ -97,7 +98,6 @@ draft_nav = [
         {"Managing an incident" = "drafts/managing-an-incident.md"}
       ]},
       {"Task Overview" = "drafts/task-overview.md"},
-      {"Interacting with a task" = "drafts/interacting-with-a-task.md"},
       {"Managing a task" = "drafts/managing-a-task.md"}
     ]},
     {"Employees" = [
