@@ -26,14 +26,14 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
     This appears when the item has been created from a template, which is usually managed at company level or by Opus centrally. Clicking **Override** lets you make changes to your local copy of that item without affecting the original template.
 
+    If you're not sure whether to override, <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">get in touch</a> and we'll talk it through with you.
+
     !!! warning
 
         <span data-uuid="5606fa3e-a588-4052-81a1-3502a7eb3929" style="display:none"></span>
         Overrides prevent future changes made at a higher level from being applied to the aspects of the template/instance that have been overridden.
 
         **For example**, if you override an e-learning schedule on an employee, any subsequent changes made to the schedule of that course at the company level will not propagate to that employee’s instance. However, other aspects of the instance that have not been overridden will continue to be updated as normal.
-
-    If you're not sure whether to override, [get in touch](https://www.opus-safety.co.uk/contact) and we'll talk it through with you.
 
 ??? question "How do I save pages as PDFs or print them?"
 
