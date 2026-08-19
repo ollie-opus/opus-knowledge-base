@@ -100,9 +100,6 @@
   {% if page.meta and page.meta['force-dark'] %}
     <script src="{{ 'assets/javascripts/dark-lock.js' | url }}" defer></script>
   {% endif %}
-  {% if page.meta and page.meta.editor %}
-    <script src="{{ 'assets/javascripts/editor.js' | url }}" defer></script>
-  {% endif %}
   {% if page.meta and page.meta['status-page'] %}
     <script src="{{ 'assets/javascripts/system-status.js' | url }}" defer></script>
   {% endif %}

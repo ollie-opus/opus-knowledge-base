@@ -101,9 +101,9 @@ Please follow the steps below to register employees as users on the system.
 
         We recommend having a look at these articles:
 
-        - [System Overview for Managers](/opus-safety.co.uk/opus-help/introduction/managers-quick-guide) — a quick introduction to the system
-        - [Training Videos](/opus-safety.co.uk/opus-help/introduction/training-videos) — a series of 15 short videos that cover the basics
-        - [Subscribing to Notifications](/opus-safety.co.uk/opus-help/introduction/subscribing-to-notifications-email-in-system) — remember to subscribe if you want to receive email notifications
+        - [System Overview for Managers](https://sites.google.com/opus-safety.co.uk/opus-help/introduction/managers-quick-guide) — a quick introduction to the system
+        - [Training Videos](https://sites.google.com/opus-safety.co.uk/opus-help/introduction/training-videos) — a series of 15 short videos that cover the basics
+        - [Subscribing to Notifications](https://sites.google.com/opus-safety.co.uk/opus-help/introduction/subscribing-to-notifications-email-in-system) — remember to subscribe if you want to receive email notifications
 
         You can also include any additional information or context you think is necessary for your staff — such as company-specific instructions or a personalised message from a senior manager. This can make for a much warmer and more engaging interaction than a generic system email.
 

@@ -120,7 +120,7 @@ This page highlights the main user-facing improvements, additions and feature re
     <span data-uuid="f4708510-3406-4d58-ae6e-5fcee0caf93a" style="display:none"></span>
     The Days lost by site table in the incident report has been updated. In the 'Days lost' column, a warning icon will appear for incidents where the number of days lost has not been specified. Hovering over the icon displays a message showing the count of the calendar days since the incident. 
 
-    ![Animation](../assets/media/other/gifss/APaQ0SRsFACNA8iJKinXvz4imuNFmvul5rTV6NW8_523747c5.gif){ width="700" align=right }
+    ![Animation](../assets/media/other/gifs/APaQ0SRsFACNA8iJKinXvz4imuNFmvul5rTV6NW8_523747c5.gif){ width="700" align=right }
 ??? feature-release "Feature release: Task Export / Print<span class="meta">8th March 2026</span>"
 
     <span data-uuid="7e5eb1d0-3ce3-4a76-bd2d-564be70b5f98" style="display:none"></span>
@@ -171,7 +171,7 @@ This page highlights the main user-facing improvements, additions and feature re
 
     If you would like to bulk reduce any employee's access to the new Manager level, please contact us or submit [a support request.](https://sites.google.com/opus-safety.co.uk/opus-help/hidden-pages/groove-get-in-touch)
 
-    ![Animation](../assets/media/other/gifss/APaQ0ST4wuGMEIs0gTX1NM70Px7BxiUfNB2uoGLL_34f1a9e9.gif){ width="300" loading=lazy }
+    ![Animation](../assets/media/other/gifs/APaQ0ST4wuGMEIs0gTX1NM70Px7BxiUfNB2uoGLL_34f1a9e9.gif){ width="300" loading=lazy }
 ??? improvement "Improvement: Streamlined Process for Adding New Employees<span class="meta">23rd February 2026</span>"
 
     <span data-uuid="55356b33-d920-4ffb-888b-7a5efc24df41" style="display:none"></span>
@@ -291,7 +291,7 @@ This page highlights the main user-facing improvements, additions and feature re
 
     ![Animation](../assets/media/other/screenshots/APaQ0SQ3TCzlH8J9V8DnYL73g-80weLGqmWJbPu3_10536174.png){ width="700" loading=lazy }
 
-    ![Animation](../assets/media/other/gifss/APaQ0SScXT4EoGhq_ZDCCDotDmMrRFlOSPAW8B7M_81e7996c.gif){ width="700" loading=lazy }
+    ![Animation](../assets/media/other/gifs/APaQ0SScXT4EoGhq_ZDCCDotDmMrRFlOSPAW8B7M_81e7996c.gif){ width="700" loading=lazy }
 
     You can use the following operators to refine your search: **has**, **has one of**, **does not have**. You can also combine parameter searches with free text search (which searches task titles).
 
@@ -401,7 +401,7 @@ This page highlights the main user-facing improvements, additions and feature re
 
     You can use this now by changing the severity of an existing task. If you'd like Opus to update any checklists so that specific triggering responses create an Immediate corrective action, please get in touch.
 
-    ![Animation](../assets/media/other/gifss/APaQ0STIv57hNZ0yKFJ1tqpqzpaX_6t9OB-L9n4N_e14aa31f.gif){ width="700" loading=lazy }
+    ![Animation](../assets/media/other/gifs/APaQ0STIv57hNZ0yKFJ1tqpqzpaX_6t9OB-L9n4N_e14aa31f.gif){ width="700" loading=lazy }
 ??? new-addition "New addition: Search Bar Added to 'My Sites' Page<span class="meta">24th July 2025</span>"
 
     <span data-uuid="1a6a5aae-d207-4d34-9827-68c0ac1172c1" style="display:none"></span>
@@ -825,13 +825,13 @@ This page highlights the main user-facing improvements, additions and feature re
     <span data-uuid="db3b8272-9cfe-4a9a-81e3-c9290f824095" style="display:none"></span>
     When clicking on a card within the Site Snapshot (e.g. Training Due), the number of items listed now corresponds to the number on the card.
 
-    ![Animation](../assets/media/other/gifss/APaQ0SSwOF_2Jn3UMrGmEOLayYVWmnAH7J4w07sg_28a51f15.gif){ width="700" loading=lazy }
+    ![Animation](../assets/media/other/gifs/APaQ0SSwOF_2Jn3UMrGmEOLayYVWmnAH7J4w07sg_28a51f15.gif){ width="700" loading=lazy }
 ??? improvement "Improvement: User Inbox Subscription Button<span class="meta">21st July 2024</span>"
 
     <span data-uuid="f550c574-03e5-49e6-96f2-a56022f77021" style="display:none"></span>
     Subscriptions button (located: User inbox > All Tasks) now functions as intended and takes you to subscriptions page.
 
-    ![Animation](../assets/media/other/gifss/APaQ0STcm6Utv4y26an99RAS9C3mv5sdvdLFIUbB_4bdf0bcb.gif){ width="700" loading=lazy }
+    ![Animation](../assets/media/other/gifs/APaQ0STcm6Utv4y26an99RAS9C3mv5sdvdLFIUbB_4bdf0bcb.gif){ width="700" loading=lazy }
 ??? feature-release "Feature release: Printable Sign-off Sheets and Briefings<span class="meta">19th July 2024</span>"
 
     <span data-uuid="3ffe71b6-1c83-41a3-afe6-07024d4e1a2f" style="display:none"></span>
