@@ -28,6 +28,10 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
     If you're not sure whether to override, <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">get in touch</a> and we'll talk it through with you.
 
+    <span data-uuid="488e01d0-3e72-4dec-948e-55bb4196b81b" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/checklists/id/override-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/checklists/id/override-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
     !!! warning
 
         <span data-uuid="5606fa3e-a588-4052-81a1-3502a7eb3929" style="display:none"></span>
