@@ -47,7 +47,7 @@ nav = [
     ]},
     {"Tasks" = [
       {"Types of task" = "pages/types-of-task.md"},
-      {"Task Inboxing" = "pages/task-inboxing.md"},
+      {"Task inboxing" = "pages/task-inboxing.md"},
       {"Task Severities" = "pages/task-severities.md"},
       {"Interacting with a task" = "pages/interacting-with-a-task.md"},
       {"Reporting And Logging" = [
@@ -100,7 +100,7 @@ draft_nav = [
         {"Managing an incident" = "drafts/managing-an-incident.md"}
       ]},
       {"Task sensitivity" = "drafts/task-sensitivity.md"},
-      {"Task Inboxing" = "drafts/task-inboxing.md"}
+      {"Task inboxing" = "drafts/task-inboxing.md"}
     ]},
     {"Employees" = [
       {"Access & Authorisations" = "drafts/access-authorisations.md"},
