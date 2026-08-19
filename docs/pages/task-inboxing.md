@@ -4,7 +4,7 @@ tags:
   - Using OCC
 ---
 
-# Task Inboxing
+# Task inboxing
 <span data-uuid="6e0f44b9-d0e8-43fb-b10d-3b82596501c2" style="display:none"></span>
 
 Throughout Opus Compliance Cloud, tasks are displayed via inboxes/lists. This guide explains the different ways tasks are presented.
