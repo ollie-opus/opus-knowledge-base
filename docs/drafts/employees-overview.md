@@ -12,7 +12,7 @@ hide:
   - written-for
 ---
 
-# Employees overview
+# Employees Overview
 <span data-uuid="3e985164-18e6-4dc6-81a2-316f0fc29d5d" style="display:none"></span>
 
 <style data-mb-hide-section-title>:is(h1,h2,h3):has(+ p + style[data-mb-hide-section-title]){display:none}</style>
