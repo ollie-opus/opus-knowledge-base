@@ -29,7 +29,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     !!! warning
 
         <span data-uuid="5606fa3e-a588-4052-81a1-3502a7eb3929" style="display:none"></span>
-        Once you override a template-based item, your version will ==no longer update automatically== if the template changes in future. Only override if you're confident the change is needed.
+        Once you override a template-based item, your version will **no longer update automatically** if the template changes in future. Only override if you're confident the change is needed.
 
     If you're not sure whether to override, [get in touch](https://www.opus-safety.co.uk/contact) and we'll talk it through with you.
 
