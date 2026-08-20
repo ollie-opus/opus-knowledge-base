@@ -177,6 +177,7 @@ Now it's time to move the employee record's location.
     <span data-uuid="6afd38b3-9f38-4d72-af77-698fc0068e4d" style="display:none"></span>
     Configure site access at the employee's new site. You can do this via the drop-down menu and can select either **user** or **manager** access.
 
+    <span data-uuid="fca6915f-469a-4ca2-878d-66e76fd71a0f" style="display:none"></span>
     ![](../assets/media/other/screenshots/APaQ0ST_UgoGam1x7NuixSy7GtD8fAnNNkSZd6b1_013f3a85.gif)
 
 !!! step "<span class="meta">(optional)</span>"
@@ -184,6 +185,7 @@ Now it's time to move the employee record's location.
     <span data-uuid="4011d046-9891-4ebb-a323-83b494ac967f" style="display:none"></span>
     If you have multiple sites, you can jump up a level to give access higher up your organisational hierarchy. Just click on the double up arrows next to the site name to give access to other sites, regions or your entire organisation.
 
+    <span data-uuid="730e8c38-877b-41bd-9428-ff26827e6e93" style="display:none"></span>
     ![](../assets/media/other/screenshots/APaQ0SRL-eDqthpF8jrV9xBNKwEhqf67e9IeA91W_d2fe5420.gif)
 
     !!! tip
