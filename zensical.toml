@@ -97,8 +97,7 @@ draft_nav = [
       {"Managing a task" = "drafts/managing-a-task.md"},
       {"Reporting And Logging" = [
         {"Reporting an incident" = "drafts/reporting-an-incident.md"},
-        {"Managing an incident" = "drafts/managing-an-incident.md"},
-        {"Kinds of reportable tasks" = "drafts/kinds-of-reportable-tasks.md"}
+        {"Managing an incident" = "drafts/managing-an-incident.md"}
       ]},
       {"Task sensitivity" = "drafts/task-sensitivity.md"}
     ]},
