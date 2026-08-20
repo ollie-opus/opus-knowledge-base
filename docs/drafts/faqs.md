@@ -92,7 +92,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
         <span data-uuid="16cf6c13-133e-4e49-b727-ba2b52d01c41" style="display:none"></span>
         Health and safety work doesn't always happen where there is good mobile coverage - plant rooms, basements, remote sites, that one corner of the building the WiFi never quite reaches. For checklists, Opus Compliance Cloud handles this for you:
 
-        - As long as you ==start the checklist while you have a signal==, you can carry on completing it offline.
+        - As long as you **start the checklist while you have a signal**, you can carry on completing it offline.
         - Your answers are saved locally on the device as you go.
         - Once you're back in signal, you can submit the checklist and everything syncs up.
 
@@ -146,7 +146,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ??? question "How do I register employees who don't have company email addresses?"
 
     <span data-uuid="49772e07-8d08-4c5f-b4da-4dbe2bef34eb" style="display:none"></span>
-    Opus Compliance Cloud requires a ==unique email address for each registered user account==.
+    Opus Compliance Cloud requires a **unique email address for each registered user account**.
 
     You don't have to register staff on the system in order for them to complete e-learning (see [Granting an employee temporary access](https://support.opus-safety.co.uk/pages/granting-an-employee-temporary-access/)) or to report incidents, which they can do via the site QR code. However, if you want them to complete e-learning via **My Dashboard**, or to carry out site and asset checklists, they will need an account.
 
@@ -181,7 +181,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
         !!! note
 
             <span data-uuid="6845003e-f5db-44c4-a2a1-3765d8f7a3b9" style="display:none"></span>
-            All emails, ==including password resets==, are sent to the inbox of the base email address. Managers with access to that account can help with password resets if needed.
+            All emails, **including password resets**, are sent to the inbox of the base email address. Managers with access to that account can help with password resets if needed.
 
 ??? question "Why doesn't the system send welcome emails?"
 
@@ -225,7 +225,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     !!! note
 
         <span data-uuid="f57f17b0-e29a-42c8-ae50-0f1fc1de815c" style="display:none"></span>
-        If you don't see the option for a certificate, it will be because the course was completed ==before the function was added in March 2025==, or because the e-learning record was imported from another system, so we cannot certify it. <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">Get in touch</a> if this affects you.
+        If you don't see the option for a certificate, it will be because the course was completed **before the function was added in March 2025**, or because the e-learning record was imported from another system, so we cannot certify it. <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">Get in touch</a> if this affects you.
 
 ## Checklists
 <span data-uuid="3585f1fb-094b-49f1-8632-616e2171c992" style="display:none"></span>
@@ -242,12 +242,12 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     !!! info "Multi-choice responses"
 
         <span data-uuid="3bf0c705-c910-4a94-81a8-b135ff71f308" style="display:none"></span>
-        As of ==Spring 2026== we have introduced multi-choice capabilities for checklists. We can configure bespoke responses, such as `Equipment not installed on this machine`, which do not trigger an action. If you have site or asset checklists with genuine exceptions, <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">speak to the Opus team</a> and we'll customise the checklist for those cases.
+        As of **Spring 2026** we have introduced multi-choice capabilities for checklists. We can configure bespoke responses, such as `Equipment not installed on this machine`, which do not trigger an action. If you have site or asset checklists with genuine exceptions, <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">speak to the Opus team</a> and we'll customise the checklist for those cases.
 
 ??? question "How do daily checklist lead times work?"
 
     <span data-uuid="b7d27f06-b989-4ea7-a789-a1cb14aa1231" style="display:none"></span>
-    A daily task is created, and the checklist is ready to be re-submitted, ==16 hours after the last one was completed== (24 hours minus an 8-hour lead time). For example:
+    A daily task is created, and the checklist is ready to be re-submitted, **16 hours after the last one was completed** (24 hours minus an 8-hour lead time). For example:
 
     <span data-uuid="1d50c124-28b2-4431-a841-9c26d3830242" style="display:none"></span>
 
@@ -272,7 +272,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     We understand there are situations where this feels cumbersome and the audit trail is less critical, so we have developed a feature that allows checklists to be completed without logging in. It's important to consider the implications:
 
     - **Weaker audit trail.** Without login verification, users enter their name manually when submitting the checklist, which can lead to inaccuracies or deliberate misuse, such as entering someone else's name or an invalid entry.
-    - **Public access.** If a QR code is used to access the checklist, ==anyone with access to the code - not just employees - could complete it==. This may pose challenges for public-facing QR codes.
+    - **Public access.** If a QR code is used to access the checklist, **anyone with access to the code - not just employees - could complete it**. This may pose challenges for public-facing QR codes.
 
     While this feature increases flexibility, we recommend weighing the trade-offs carefully before enabling it. <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">Speak to Opus</a> to find out more.
 
@@ -314,7 +314,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     !!! step
 
         <span data-uuid="31c136ed-175c-4ab8-b7c0-e82d43bebdbf" style="display:none"></span>
-        Set the document date to ==one year before the MOT expiry date==, and ignore the warning about a future date being entered if it appears.
+        Set the document date to **one year before the MOT expiry date**, and ignore the warning about a future date being entered if it appears.
 
         This way, a task becomes due when the vehicle is due its MOT.
 
@@ -342,14 +342,14 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     <span data-uuid="d16e493b-172c-4b94-85d2-9bcaebd1a24b" style="display:none"></span>
     Target dates can work against you. When tasks are given due dates, there's a real risk that lower-priority items get closed out ahead of more serious ones simply because their deadline falls sooner.
 
-    Instead, Opus Compliance Cloud automatically orders your actions by ==severity first, then by age== - so the oldest, highest-priority item is always at the top of your list. Your team stays focused on what matters most, not just what's due next.
+    Instead, Opus Compliance Cloud automatically orders your actions by **severity first, then by age** - so the oldest, highest-priority item is always at the top of your list. Your team stays focused on what matters most, not just what's due next.
 
     You can of course change the [severity](https://support.opus-safety.co.uk/pages/task-severities/) of a task if something should be prioritised or de-prioritised.
 
 ??? question "Why can't we snooze employees?"
 
     <span data-uuid="187c6a89-f7f2-4502-9305-5719797f9599" style="display:none"></span>
-    Users can snooze individual tasks for up to **2 weeks**, and users with the <span class="mb-label mb-label-fuchsia">Administrator</span> role can snooze for longer to cover extended absences such as maternity leave or long-term sickness. However, it isn't possible to snooze an employee entirely - only tasks that already exist can be snoozed.
+    Users can snooze individual tasks for up to **2 weeks**, and users with the <span class="mb-label mb-label-pink">:lucide-user-cog: Administrator</span> role can snooze for longer to cover extended absences such as maternity leave or long-term sickness. However, it isn't possible to snooze an employee entirely - only tasks that already exist can be snoozed.
 
     <span data-uuid="13861085-adee-42e2-9d81-ef0e3dfaf801" style="display:none"></span>
     ![](../assets/media/occ-captures/todos/uuid/snooze-light-mode.png#only-light){ style="height: 50px" loading=lazy }
@@ -367,7 +367,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ??? question "How can administrators snooze tasks for longer periods?"
 
     <span data-uuid="7bf2fffd-3fb6-4d66-8c2d-13a58c5c2ed4" style="display:none"></span>
-    Users with the <span class="mb-label mb-label-fuchsia">Administrator</span> role can snooze tasks for longer to cover extended absences, using a shortcut known as a ^^slash command^^.
+    Users with the <span class="mb-label mb-label-pink">:lucide-user-cog: Administrator</span> role can snooze tasks for longer to cover extended absences, using a shortcut known as a ^^slash command^^.
 
     Type the command into a comment on the task:
 
@@ -385,7 +385,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     !!! warning
 
         <span data-uuid="bef021d0-e65a-4067-91d3-fbb464693276" style="display:none"></span>
-        The task ==won't hide from the inbox unless it is also assigned== and less than 3 months old.
+        The task **won't hide from the inbox unless it is also assigned** and less than 3 months old.
 
 ## Reporting and records
 <span data-uuid="b79477a4-acf7-4eb2-b752-324793211308" style="display:none"></span>
@@ -422,7 +422,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     We don't have a specific training matrix output, as it's an outdated way of reporting data and has issues:
 
     - **Limited flexibility.** Training matrices are difficult to filter and analyse.
-    - **Complexity and scalability issues.** They become unwieldy for larger organisations. A simple client with 100 employees, 10 e-learning courses and 20 training templates would produce a matrix with ==3,000 individual cells== - a lot to expect a recipient to sift through.
+    - **Complexity and scalability issues.** They become unwieldy for larger organisations. A simple client with 100 employees, 10 e-learning courses and 20 training templates would produce a matrix with **3,000 individual cells** - a lot to expect a recipient to sift through.
 
 ## Access and privacy
 <span data-uuid="6c464d63-26bd-4f38-909d-7ef62f2b7cb5" style="display:none"></span>
@@ -430,14 +430,14 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ??? question "Why do non-managers see the site inbox?"
 
     <span data-uuid="d37dfe0e-05ce-480b-b6a5-37eb0f999a4f" style="display:none"></span>
-    Opus Compliance Cloud is designed with a more inclusive approach, supporting a collaborative working environment. Unlike many other systems, ours facilitates engagement across different user types - for instance, <span class="mb-label mb-label-blue">users</span> may be enabled to undertake certain tasks, such as completing site or asset checklists.
+    Opus Compliance Cloud is designed with a more inclusive approach, supporting a collaborative working environment. Unlike many other systems, ours facilitates engagement across different user types - for instance, employees with <span class="mb-label mb-label-blue">:lucide-user: User</span> access may be enabled to undertake certain tasks, such as completing site or asset checklists.
 
     All users need access to the site inbox to report accidents and safety observations, and need to view site documents to understand risk assessments and other safety protocols. Users may also need to access asset information to review asset documentation or record issues.
 
     !!! note
 
         <span data-uuid="10b23df9-a511-4bbd-8fea-04b705ab6a2e" style="display:none"></span>
-        Non-managers ==do not have access to confidential information==, including details of accidents, health surveillance, or any tasks specifically related to employee management.
+        Non-managers **do not have access to confidential information**, including details of accidents, health surveillance, or any tasks specifically related to employee management.
 
 ??? question "Why don't we show the exact last login time or date?"
 
