@@ -120,8 +120,8 @@ search:
     - **No** — access will need to be configured manually instead.
 
     <span data-uuid="3a1236f8-708d-40d9-8cd6-c6037c919c1d" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/site-access-to-mirror-employee-access-light-mode.png#only-light)
-    ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/site-access-to-mirror-employee-access-dark-mode.png#only-dark)
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/site-access-to-mirror-employee-access-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/site-access-to-mirror-employee-access-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
 
 !!! step "<span class="meta">(optional)</span>"
 
