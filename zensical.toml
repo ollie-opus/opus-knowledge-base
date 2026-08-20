@@ -60,7 +60,7 @@ nav = [
       {"Granting an employee temporary access" = "pages/granting-an-employee-temporary-access.md"},
       {"Archiving an employee" = "pages/archiving-an-employee.md"},
       {"Moving an employee" = "pages/moving-an-employee.md"},
-      {"Access & Authorisations" = "pages/access-authorisations.md"}
+      {"Access & Authorisations" = "pages/access-and-authorisations.md"}
     ]},
     {"Assets" = [
       {"Adding an asset" = "pages/adding-an-asset.md"},
