@@ -102,7 +102,6 @@ draft_nav = [
       {"Task sensitivity" = "drafts/task-sensitivity.md"}
     ]},
     {"Employees" = [
-      {"Access & Authorisations" = "drafts/access-authorisations.md"},
       {"Employees Overview" = "drafts/employees-overview.md"}
     ]},
     {"Contractors" = [
