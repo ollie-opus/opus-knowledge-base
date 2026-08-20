@@ -99,7 +99,8 @@ draft_nav = [
         {"Reporting an incident" = "drafts/reporting-an-incident.md"},
         {"Managing an incident" = "drafts/managing-an-incident.md"}
       ]},
-      {"Task sensitivity" = "drafts/task-sensitivity.md"}
+      {"Task sensitivity" = "drafts/task-sensitivity.md"},
+      {"Task inboxing" = "drafts/task-inboxing.md"}
     ]},
     {"Employees" = [
       {"Access & Authorisations" = "drafts/access-authorisations.md"},
