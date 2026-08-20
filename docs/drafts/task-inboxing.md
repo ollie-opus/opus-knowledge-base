@@ -14,7 +14,7 @@ Throughout Opus Compliance Cloud, tasks are displayed via inboxes/lists. This gu
 ## Site Inbox
 <span data-uuid="1d3c5ab0-5c03-4a59-83ba-6716a17ebf8d" style="display:none"></span>
 
-The `Site Inbox` displays all **open and unassigned** tasks for a site (including tasks relating to employees and assets located at the site).
+The `Site Inbox` displays all **open and unassigned** tasks for a site (including tasks in the inboxes of employees and assets located at the site).
 
 <span data-uuid="1d2b0a06-6549-4750-ba34-000ab76476b3" style="display:none"></span>
 ![](../assets/media/occ-captures/sites/uuid/site-inbox-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
