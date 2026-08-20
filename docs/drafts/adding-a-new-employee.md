@@ -9,11 +9,6 @@ search:
 # Adding a new employee
 <span data-uuid="4a117361-0f80-4470-a607-6653e0662468" style="display:none"></span>
 
-!!! note "Restricted Access"
-
-    <span data-uuid="2d4afe6d-5dc1-4ba8-b6b0-29da68cffefa" style="display:none"></span>
-    You might not have access to add employees if your company manages this centrally.
-
 ## Creating the employee record
 <span data-uuid="8b5fe9d6-25d1-4a4c-a562-c5af2276df05" style="display:none"></span>
 
