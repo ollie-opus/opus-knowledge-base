@@ -14,7 +14,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 !!! tip "Can't find your question?"
 
     <span data-uuid="7e4674f5-b5ab-4375-9b07-f0a7ce6d0069" style="display:none"></span>
-    If your question isn't covered here, [get in touch](https://www.opus-safety.co.uk/contact) and we'll be happy to help.
+    If your question isn't covered here, <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">get in touch</a> and we'll be happy to help.
 
 ## Getting around Opus Compliance Cloud
 <span data-uuid="6cbcd7f1-c7ee-46bf-8720-08cc06322514" style="display:none"></span>
@@ -225,7 +225,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     !!! note
 
         <span data-uuid="f57f17b0-e29a-42c8-ae50-0f1fc1de815c" style="display:none"></span>
-        If you don't see the option for a certificate, it will be because the course was completed ==before the function was added in March 2025==, or because the e-learning record was imported from another system, so we cannot certify it. [Get in touch](https://www.opus-safety.co.uk/contact) if this affects you.
+        If you don't see the option for a certificate, it will be because the course was completed ==before the function was added in March 2025==, or because the e-learning record was imported from another system, so we cannot certify it. <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">Get in touch</a> if this affects you.
 
 ## Checklists
 <span data-uuid="3585f1fb-094b-49f1-8632-616e2171c992" style="display:none"></span>
@@ -242,7 +242,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     !!! info "Multi-choice responses"
 
         <span data-uuid="3bf0c705-c910-4a94-81a8-b135ff71f308" style="display:none"></span>
-        As of ==Spring 2026== we have introduced multi-choice capabilities for checklists. We can configure bespoke responses, such as `Equipment not installed on this machine`, which do not trigger an action. If you have site or asset checklists with genuine exceptions, [speak to the Opus team](https://www.opus-safety.co.uk/contact) and we'll customise the checklist for those cases.
+        As of ==Spring 2026== we have introduced multi-choice capabilities for checklists. We can configure bespoke responses, such as `Equipment not installed on this machine`, which do not trigger an action. If you have site or asset checklists with genuine exceptions, <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">speak to the Opus team</a> and we'll customise the checklist for those cases.
 
 ??? question "How do daily checklist lead times work?"
 
@@ -274,7 +274,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     - **Weaker audit trail.** Without login verification, users enter their name manually when submitting the checklist, which can lead to inaccuracies or deliberate misuse, such as entering someone else's name or an invalid entry.
     - **Public access.** If a QR code is used to access the checklist, ==anyone with access to the code - not just employees - could complete it==. This may pose challenges for public-facing QR codes.
 
-    While this feature increases flexibility, we recommend weighing the trade-offs carefully before enabling it. [Speak to Opus](https://www.opus-safety.co.uk/contact) to find out more.
+    While this feature increases flexibility, we recommend weighing the trade-offs carefully before enabling it. <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">Speak to Opus</a> to find out more.
 
 ## Requirements and assets
 <span data-uuid="1f00b1a4-e7c9-4422-a261-fb7f796e3e60" style="display:none"></span>
