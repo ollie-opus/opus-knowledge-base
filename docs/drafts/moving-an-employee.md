@@ -56,7 +56,7 @@ If an employee changes site, you'll need to **move their employee record** to th
 ## Removing old access
 <span data-uuid="d9a64569-9e00-46a3-b0f5-b22b74afb23c" style="display:none"></span>
 
-If applicable or desired, you may want to remove the employee's existing access at their old site.
+You will next need to revoke the employee’s access to their old site.
 
 !!! step
 
