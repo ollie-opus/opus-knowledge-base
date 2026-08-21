@@ -178,6 +178,7 @@ This section is intended to be followed by the user being registered. Please sel
 
         After registering, you will receive an email confirmation. Click the **Confirm my email** button in your email.
 
+        <span data-uuid="570d4971-52d1-4681-ba7a-bdcb627c8629" style="display:none"></span>
         ![](../assets/media/other/screenshots/APaQ0SR9R6Za6ct00tU0NNdVeMD_nXDc1WtfqOtK_3afa428c.png)
 
 === "Existing Opus User"
