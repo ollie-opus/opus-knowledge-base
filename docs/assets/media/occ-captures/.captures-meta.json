@@ -360,5 +360,9 @@
   },
   "docs/assets/media/occ-captures/admin/sites/uuid/dashboard/sidebar-system-update-light-mode.png": {
     "resized": true
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/dashboard/system-update-light-mode.png": {
+    "resized": true,
+    "padding": 20
   }
 }
