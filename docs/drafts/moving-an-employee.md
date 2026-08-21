@@ -69,6 +69,9 @@ If an employee changes site, you'll need to **move their employee record** to th
 !!! step
 
     <span data-uuid="05628b9e-8b1c-4d42-970a-35894af590d4" style="display:none"></span>
+    In the site tree, select the site to which the employee is moving.
+
+    :lucide-lightbulb: *Use the search bar, or select ****Show all options**** :lucide-arrow-left-right: to help find the site.*
 
     <span data-uuid="3187d72f-fcd3-4eff-b3fc-8b0185984506" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/move/search-or-filter-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
