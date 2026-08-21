@@ -266,7 +266,7 @@ emoji_generator = "zensical.extensions.emoji.to_svg"
 [project.extra]
 # Announcement bar for open incidents ("" | "disruption" | "outage") —
 # managed by the more-buttons extension, rendered by overrides/main.html.
-mb_status_banner = "disruption"
+mb_status_banner = ""
 # Next maintenance window (empty when none) — managed by the more-buttons
 # extension; local ISO with UTC offset, revealed client-side from 7 days
 # before start by assets/javascripts/status-banner.js.
