@@ -17,7 +17,7 @@ search:
     !!! outline "<span class="mb-label mb-label-fuchsia">Redesigned the Sites, Employees, and Assets overview pages</span>"
 
         <span data-uuid="ef0a282f-078f-4fda-a82d-f67136e086da" style="display:none"></span>
-        The improvements make it easier to access the important information.
+        The improvements make it easier for you to access important information.
 
     ??? outline "<span class="mb-label mb-label-fuchsia">Improved the assets/employee list pages</span>"
 
