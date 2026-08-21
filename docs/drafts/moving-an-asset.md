@@ -83,3 +83,7 @@ If an asset has moved to another site, you can easily update it in the system - 
 !!! step
 
     <span data-uuid="0cda8ccf-875e-4612-aee3-69772c74a29b" style="display:none"></span>
+
+    <span data-uuid="3e39efd2-4b42-432d-bfb8-eb0fcbbe3ba3" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/move/move-asset-underneath-demo-site-2-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/move/move-asset-underneath-demo-site-2-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
