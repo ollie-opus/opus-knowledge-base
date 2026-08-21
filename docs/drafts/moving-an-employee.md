@@ -104,47 +104,6 @@ If an employee changes site, you'll need to **move their employee record** to th
     ![](../assets/media/occ-captures/admin/sites/uuid/move/move-employee-underneath-demo-site-2-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/move/move-employee-underneath-demo-site-2-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
-## Removing old access
-<span data-uuid="d9a64569-9e00-46a3-b0f5-b22b74afb23c" style="display:none"></span>
-
-You will next need to revoke the employee’s access to their old site.
-
-!!! step
-
-    <span data-uuid="5b86d28a-d96c-4a08-85bb-cac9882010f8" style="display:none"></span>
-    From the employee record page, scroll down to the **Site access** section.
-
-    <span data-uuid="62ea623d-f8b4-44d4-82db-29f7e80de9de" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/site-access-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/site-access-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
-
-!!! step
-
-    <span data-uuid="97d05a7e-bcaa-4c84-9e1b-f46fc438c63d" style="display:none"></span>
-    Click the **Edit** button in the site access section.
-
-    <span data-uuid="3527e587-db38-4ebb-92a9-d7198b08445f" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
-!!! step
-
-    <span data-uuid="0a93b345-61aa-4b6b-b4b8-e812f4d4bcde" style="display:none"></span>
-    For the employee's old site(s), revoke their access by selecting the **`-`** option.
-
-    <span data-uuid="80d020b9-8a92-4659-8f1a-bfa760fb817c" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/site-access-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/site-access-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
-
-!!! step
-
-    <span data-uuid="d12d6243-00f1-4274-ae55-81daaa36d10f" style="display:none"></span>
-    When done, make sure to click **Apply changes**.
-
-    <span data-uuid="77c96f9a-1935-4d9e-be2e-d023c5c9e3f8" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/apply-changes-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/apply-changes-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
 ## Changing the employee's location
 <span data-uuid="dd452400-4876-4226-a4a4-2a205e1c46a2" style="display:none"></span>
 
