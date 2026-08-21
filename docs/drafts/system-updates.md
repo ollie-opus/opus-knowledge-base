@@ -23,7 +23,7 @@ search:
 
         <span data-uuid="a3f896c0-64e5-4ced-b21a-8cdbb1c2eccf" style="display:none"></span>
 
-    !!! outline "<span class="mb-label mb-label-mauve">Redesigned breadcrumb</span>"
+    ??? outline "<span class="mb-label mb-label-mauve">Redesigned breadcrumb</span>"
 
         <span data-uuid="b3e313b7-5588-4210-ade6-55a232fc4d82" style="display:none"></span>
 
