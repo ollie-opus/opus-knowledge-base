@@ -391,5 +391,8 @@
   },
   "docs/assets/media/occ-captures/admin/sites/uuid/move/update-access-light-mode.png": {
     "zapped": true
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/employees/archived-light-mode.png": {
+    "padding": 20
   }
 }
