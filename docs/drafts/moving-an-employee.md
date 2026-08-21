@@ -61,6 +61,10 @@ If an employee changes site, you'll need to **move their employee record** to th
 
     <span data-uuid="a7f3de34-ad8b-4b76-a459-dc407f85fdca" style="display:none"></span>
 
+    <span data-uuid="0fa393d4-5b7c-46f1-9c73-0262f2f13baf" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-location-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-location-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
 ## Removing old access
 <span data-uuid="d9a64569-9e00-46a3-b0f5-b22b74afb23c" style="display:none"></span>
 
