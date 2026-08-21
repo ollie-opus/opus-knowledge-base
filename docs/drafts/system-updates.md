@@ -14,3 +14,8 @@ search:
 
         <span data-uuid="87d8f209-42c1-4fc0-afdf-bb67d3e19df4" style="display:none"></span>
 
+    !!! outline "Redesigned the Sites, Employees, and Assets overview pages"
+
+        <span data-uuid="ef0a282f-078f-4fda-a82d-f67136e086da" style="display:none"></span>
+        The improvements make it easier to access the important information.
+
