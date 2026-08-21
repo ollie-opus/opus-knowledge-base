@@ -383,5 +383,10 @@
   "docs/assets/media/occ-captures/admin/sites/uuid/dashboard/air-compressor-a-change-location-light-mode.png": {
     "padding": 20,
     "annotated": true
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/move/search-or-filter-light-mode.png": {
+    "resized": true,
+    "padding": 20,
+    "zapped": true
   }
 }
