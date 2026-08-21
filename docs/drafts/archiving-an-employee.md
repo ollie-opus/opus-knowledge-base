@@ -106,8 +106,7 @@ Follow the guide below on how to do this.
 !!! info
 
     <span data-uuid="ea308055-a0d5-4980-b91b-5932bd11067e" style="display:none"></span>
-
-    You will be able to find archived assets in future by changing the filter on the your Asset list page to `Archived` or `All`.
+    You will be able to find archived employees in future by changing the filter on the your Employee list page to `Archived` or `All`.
 
     <span data-uuid="d034cd26-e85f-4fc4-8800-abf58931d67e" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/equipments/archived-light-mode.png#only-light){ width="200" loading=lazy }
