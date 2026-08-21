@@ -364,5 +364,9 @@
   "docs/assets/media/occ-captures/admin/sites/uuid/dashboard/system-update-light-mode.png": {
     "resized": true,
     "padding": 20
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/employees/employee-records-system-update-light-mode.png": {
+    "resized": true,
+    "padding": 20
   }
 }
