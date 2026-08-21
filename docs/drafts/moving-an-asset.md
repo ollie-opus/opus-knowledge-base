@@ -65,20 +65,6 @@ If an asset has moved to another site, you can easily update it in the system - 
 
 !!! step
 
-    <span data-uuid="aaa4948f-fe1c-4568-9dbe-14a27b410ddd" style="display:none"></span>
-    Scroll down to the **Located at** section and move the asset up to the highest common parent between the old and new site (e.g. your company's parent site/dashboard).
-
-    <span data-uuid="65154f1a-6462-4f5d-8059-d60de96d65ad" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/located-at-subsite-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/located-at-subsite-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
-
-    ??? info "Why move up to the parent site first?"
-
-        <span data-uuid="8370b66c-0913-4679-8431-ccf51a7ada16" style="display:none"></span>
-        The **Located at** section only shows sites directly above and below the asset's current site in your organisation. If you're moving the asset horizontally across the organisation, the new site won't appear until you've moved the asset up to a shared parent site first.
-
-!!! step
-
     <span data-uuid="9deb6d5a-dc59-446c-92d4-243d824f84f3" style="display:none"></span>
     Click **Save asset** at the bottom to return back to the asset record.
 
