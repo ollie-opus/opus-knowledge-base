@@ -1,4 +1,24 @@
 {
+  "docs/drafts/adding-an-asset.md": [
+    "docs/assets/media/occ-captures/admin/sites/uuid/assets-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/assets-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/equipments/new-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/equipments/new-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/equipments/new/asset-name-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/equipments/new/asset-name-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/equipments/new/located-at-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/equipments/new/located-at-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/equipments/new/photo-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/equipments/new/photo-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/equipments/new/save-asset-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/equipments/new/save-asset-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/equipments/new/type-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/equipments/new/type-light-mode.png",
+    "docs/assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png",
+    "docs/assets/media/occ-captures/dashboard/pick-workspace-light-mode.png",
+    "docs/assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png",
+    "docs/assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png"
+  ],
   "docs/drafts/employees-overview.md": [
     "docs/assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png",
     "docs/assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png"
