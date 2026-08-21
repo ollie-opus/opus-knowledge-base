@@ -12,7 +12,6 @@ search:
 If someone's left your workplace, you'll need to **archive their employee record**.
 
 
-
 Follow the guide below on how to do this.
 
 ## Steps
