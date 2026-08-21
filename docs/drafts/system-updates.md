@@ -24,8 +24,8 @@ search:
     <span data-uuid="290c6b52-e0dd-434c-a63e-d8b0dbca009b" style="display:none"></span>
 
     <span data-uuid="2f4c3acd-52ed-46c6-9aa2-d528f060387b" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/aston-dixon-a-change-location-system-update-light-mode.png#only-light){ style="border-radius: 8px" width="250" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/aston-dixon-a-change-location-system-update-dark-mode.png#only-dark){ style="border-radius: 8px" width="250" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/aston-dixon-a-change-location-system-update-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/aston-dixon-a-change-location-system-update-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
     </div>
 
