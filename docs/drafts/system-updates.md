@@ -10,6 +10,10 @@ search:
     <span data-uuid="697260ae-9b94-4e0c-aab3-b9e8b34876ad" style="display:none"></span>
     A new and improved flow for setting up your notifications.
 
+    <span data-uuid="5949a8c8-b2aa-4bf8-9c66-74e96eee5eb8" style="display:none"></span>
+    ![](../assets/media/occ-captures/my/subscriptions/wizard/automatic-subscription-management-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/my/subscriptions/wizard/automatic-subscription-management-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
     ??? outline "<span class="mb-label mb-label-mauve">How to start this flow</span>"
 
         <span data-uuid="d586818b-7d4b-4b21-875d-707e1c7205f1" style="display:none"></span>
