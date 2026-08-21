@@ -10,7 +10,6 @@ tags:
 If someone's left your workplace, you'll need to **archive their employee record**.
 
 
-
 Follow the guide below on how to do this.
 
 ## Steps
@@ -69,7 +68,7 @@ Follow the guide below on how to do this.
 !!! step
 
     <span data-uuid="c9aa7863-e62d-4c2d-bc27-a64f4204b629" style="display:none"></span>
-    Click **Edit** in the top right
+    Click **Edit employee** on the record
 
     <span data-uuid="5dee5733-d00b-4207-9f39-16ca71d7a700" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/edit-light-mode.png#only-light){ style="height: 50px" loading=lazy }
@@ -78,7 +77,7 @@ Follow the guide below on how to do this.
 !!! step
 
     <span data-uuid="0bc4999c-feac-4c38-acc8-a0ec798918a0" style="display:none"></span>
-    Type the employee's leaving date in the **End day** field.
+    Select/type employee's leaving date in the **End day** field.
 
     <span data-uuid="6c330984-b5b5-467c-8143-0debf539394e" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/edit/end-day-light-mode.png#only-light)
@@ -122,7 +121,7 @@ After archiving an employee, you may still have open tasks linked to their recor
 !!! danger "Assigned tasks"
 
     <span data-uuid="7f6f6d8a-3ce6-4746-a1d2-0e2e793e2392" style="display:none"></span>
-    If a departing employee still has assigned tasks, an on-screen alert will appear with a direct link to those tasks once you enter the last working date.
+    If a departing employee has any assigned tasks, an on-screen alert will appear when you enter their end day, with a direct link to those tasks.
 
     To prevent these tasks from being 'dumped' back to the site inbox, they will remain assigned to the archived employee's record. This allows you to reassign and hand them over in a controlled manner. The notification will stay on the employee's profile until all tasks are reassigned.
 
