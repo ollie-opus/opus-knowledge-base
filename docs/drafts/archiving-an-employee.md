@@ -70,7 +70,7 @@ Follow the guide below on how to do this.
 !!! step
 
     <span data-uuid="c9aa7863-e62d-4c2d-bc27-a64f4204b629" style="display:none"></span>
-    Click **Edit** in the top right
+    Click **Edit employee** on the record
 
     <span data-uuid="5dee5733-d00b-4207-9f39-16ca71d7a700" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/edit-light-mode.png#only-light){ style="height: 50px" loading=lazy }
