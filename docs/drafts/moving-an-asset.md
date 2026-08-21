@@ -65,15 +65,6 @@ If an asset has moved to another site, you can easily update it in the system - 
 
 !!! step
 
-    <span data-uuid="9deb6d5a-dc59-446c-92d4-243d824f84f3" style="display:none"></span>
-    Click **Save asset** at the bottom to return back to the asset record.
-
-    <span data-uuid="0b1edeaf-41cb-4812-9d8f-63f6415af67d" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/save-asset-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/save-asset-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
-!!! step
-
     <span data-uuid="7f69f4a2-6fb7-4d37-a259-4137c0ae132b" style="display:none"></span>
     Hit the **Edit** button once again.
 
