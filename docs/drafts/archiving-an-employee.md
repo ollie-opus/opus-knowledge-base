@@ -123,7 +123,7 @@ After archiving an employee, you may still have open tasks linked to their recor
 !!! danger "Assigned tasks"
 
     <span data-uuid="7f6f6d8a-3ce6-4746-a1d2-0e2e793e2392" style="display:none"></span>
-    If a departing employee still has assigned tasks, an on-screen alert will appear with a direct link to those tasks once you enter the last working date.
+    If a departing employee has any assigned tasks, an on-screen alert will appear when you enter their end day, with a direct link to those tasks.
 
     To prevent these tasks from being 'dumped' back to the site inbox, they will remain assigned to the archived employee's record. This allows you to reassign and hand them over in a controlled manner. The notification will stay on the employee's profile until all tasks are reassigned.
 
