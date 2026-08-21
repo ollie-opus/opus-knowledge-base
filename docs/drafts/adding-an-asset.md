@@ -39,7 +39,7 @@ search:
 !!! step
 
     <span data-uuid="710dff90-91d8-4f70-8462-1b67cb90d889" style="display:none"></span>
-    Click the **+New** button at the top right of the page.
+    Click the **+New asset** button at the top of the page.
 
     <span data-uuid="1fa8e2c8-603d-4a4e-805c-7c0c08251f7d" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/equipments/new-light-mode.png#only-light){ style="height: 50px" loading=lazy }
