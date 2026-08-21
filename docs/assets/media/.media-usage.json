@@ -89,7 +89,9 @@
   ],
   "docs/drafts/system-updates.md": [
     "docs/assets/media/occ-captures/dashboard/subscriptions-notifications-have-changed-dark-mode.png",
-    "docs/assets/media/occ-captures/dashboard/subscriptions-notifications-have-changed-light-mode.png"
+    "docs/assets/media/occ-captures/dashboard/subscriptions-notifications-have-changed-light-mode.png",
+    "docs/assets/media/occ-captures/my/subscriptions/wizard/automatic-subscription-management-dark-mode.png",
+    "docs/assets/media/occ-captures/my/subscriptions/wizard/automatic-subscription-management-light-mode.png"
   ],
   "docs/drafts/task-overview.md": [
     "docs/assets/media/occ-captures/sites/uuid/inbox-coach-2-dark-mode.png",
