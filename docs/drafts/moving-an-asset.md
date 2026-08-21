@@ -59,6 +59,10 @@ If an asset has moved to another site, you can easily update it in the system - 
     <span data-uuid="81fea6ec-16e9-458f-a9e2-c51d050eb2b6" style="display:none"></span>
     Click the **Change location** button.
 
+    <span data-uuid="a04cb6b0-41db-4dc7-b563-72489b29eb75" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-location-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-location-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
 !!! step
 
     <span data-uuid="aaa4948f-fe1c-4568-9dbe-14a27b410ddd" style="display:none"></span>
