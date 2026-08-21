@@ -40,3 +40,7 @@ search:
 
         <span data-uuid="b3e313b7-5588-4210-ade6-55a232fc4d82" style="display:none"></span>
 
+        <span data-uuid="14adaa3d-9c0a-462a-a769-6de78a9558ce" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/alerts/breadcrumb-system-updates-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/alerts/breadcrumb-system-updates-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
+
