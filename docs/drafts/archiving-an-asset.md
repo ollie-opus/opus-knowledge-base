@@ -91,5 +91,5 @@ Has an asset been sold or left your site? You can easily update this in the syst
     You will be able to find archived assets in future by changing the filter on the your Asset list page to `Archived` or `All`.
 
     <span data-uuid="9128f261-6478-4250-a056-ee96b8b51520" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/equipments/archived-light-mode.png#only-light){ width="200" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/equipments/archived-dark-mode.png#only-dark){ width="200" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/equipments/archived-light-mode.png#only-light){ style="border-radius: 8px" width="300" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/equipments/archived-dark-mode.png#only-dark){ style="border-radius: 8px" width="300" loading=lazy }
