@@ -5,12 +5,16 @@ search:
 
 # System update drafts
 
-??? improvement "Improvement: Improved moving employee flow<span class="meta">21st August 2026</span>"
+??? improvement "Improvement: Improved moving employee/asset flow<span class="meta">21st August 2026</span>"
 
     <span data-uuid="c7894c8c-c1cf-4b24-9b69-74ed7bc5cd93" style="display:none"></span>
-    We have improved the flow for moving employees making it much easier!
+    We’ve improved the process for moving employees and assets, making it quicker and easier than ever!
 
-    As part of the Manage mode UI changes released today, a button appears on the employee record
+    As part of today’s Manage mode UI updates, you’ll now find a Change location button on employee/asset overview pages.
+
+    The new flow simplifies the experience of moving employees/assets between locations, including automatically updating their employee site access and permissions where applicable.
+
+    Read our updated [Moving an employee](moving-an-employee.md) and [Moving an asset](moving-an-asset.md) guides to learn more.
 
     <span data-uuid="e9fd62f5-9a70-47c8-8520-f4c3ababcafa" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/aston-dixon-a-change-location-system-update-light-mode.png#only-light){ style="border-radius: 8px" width="250" loading=lazy }
