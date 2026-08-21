@@ -374,5 +374,10 @@
   },
   "docs/assets/media/occ-captures/my/subscriptions/wizard/automatic-subscription-management-light-mode.png": {
     "padding": 20
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/dashboard/aston-dixon-a-change-location-system-update-light-mode.png": {
+    "resized": true,
+    "padding": 20,
+    "annotated": true
   }
 }
