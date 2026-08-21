@@ -41,27 +41,16 @@ status-page: true
 
 
     **Status:** AVAILABLE
-!!! status-disruption "File Storage"
+!!! status-available "File Storage"
 
     <span data-uuid="698e7760-160a-4edd-b535-9bbeb16af1f8" style="display:none"></span>
 
 
-    **Status:** DISRUPTION
+    **Status:** AVAILABLE
 </div>
 
 ---
 ## Active Events
-
-!!! status-disruption "<span class="mb-label mb-label-amber">DISRUPTION</span>"
-
-    <span data-uuid="6406ca65-01ae-468f-8f99-4c6597d3ef72" data-mb-reported="2026-08-21T08:21+01:00" style="display:none"></span>
-
-    - **Services Affected:** File Storage
-    - **Current Status:** <span class="mb-label mb-label-amber">:lucide-triangle-alert: Ongoing</span>
-    - **Description:** A bug with the file uploader is preventing uploads, although drag-and-drop still works.
-    - **Reported:** <span class="mb-label mb-label-slate">2026-08-21 08:21</span>
-    - **Resolved:** 
-    - **Causation:** 
 
 ---
 
@@ -72,6 +61,17 @@ status-page: true
 ## Past Events
 
 ??? outline "View past events"
+
+    !!! status-disruption "<span class="mb-label mb-label-amber">DISRUPTION</span>"
+
+        <span data-uuid="6406ca65-01ae-468f-8f99-4c6597d3ef72" data-mb-reported="2026-08-21T08:21+01:00" data-mb-resolved="2026-08-21T17:37+01:00" style="display:none"></span>
+
+        - **Services Affected:** File Storage
+        - **Current Status:** <span class="mb-label mb-label-green">:lucide-check: Resolved</span>
+        - **Description:** A bug with the file uploader is preventing uploads, although drag-and-drop still works.
+        - **Reported:** <span class="mb-label mb-label-slate">2026-08-21 08:21</span>
+        - **Resolved:** <span class="mb-label mb-label-slate">2026-08-21 17:37</span>
+        - **Causation:** This issue was caused by a dependancy upgrade which has now been resolved.
 
     !!! status-maintenance "<span class="mb-label mb-label-amber">MAINTENANCE</span>"
 
