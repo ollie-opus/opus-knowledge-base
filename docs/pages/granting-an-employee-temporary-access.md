@@ -51,9 +51,9 @@ Follow this guide to grant an employee temporary access.
     <span data-uuid="f5e862fd-6a74-4cfb-abc1-815989d6d5c6" style="display:none"></span>
     Use the Search Bar / Find the person you're looking for in the list and click on their name:
 
-    <span data-uuid="bc10e62b-e95e-4b8c-b16d-e23e6cc8e596" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/employees/link-to-opus-account-light-mode.png#only-light)
-    ![](../assets/media/occ-captures/admin/sites/uuid/employees/link-to-opus-account-dark-mode.png#only-dark)
+    <span data-uuid="bc95bc6b-4725-4118-af94-1248f5780636" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
 !!! step
 
