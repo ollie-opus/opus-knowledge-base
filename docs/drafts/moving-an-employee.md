@@ -82,6 +82,10 @@ If an employee changes site, you'll need to **move their employee record** to th
         <span data-uuid="91f334cd-9023-4c4a-b711-802bff763663" style="display:none"></span>
         You may not have access to the site the employee is moving to. If this is the case, you may need to contact a senior manager with access to your site and the destination site to complete the move.
 
+!!! step
+
+    <span data-uuid="481aa3a5-5327-4bad-bdbe-4b870e67c1b4" style="display:none"></span>
+
 ## Removing old access
 <span data-uuid="d9a64569-9e00-46a3-b0f5-b22b74afb23c" style="display:none"></span>
 
