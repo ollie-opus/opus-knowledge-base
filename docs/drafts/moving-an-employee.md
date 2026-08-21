@@ -85,11 +85,11 @@ If an employee changes site, you'll need to **move their employee record** to th
 !!! step
 
     <span data-uuid="481aa3a5-5327-4bad-bdbe-4b870e67c1b4" style="display:none"></span>
-    In the Update access section choose how to handle the employee's access. The options are
+    In the **Update access** section, choose how you want to handle the employee’s access:
 
-    <span class="mb-label mb-label-emerald">:lucide-arrow-down-up: Replace</span>
-    <span class="mb-label mb-label-cyan">:lucide-copy: Copy</span>
-    <span class="mb-label mb-label-grey">:lucide-circle-slash: No change</span>
+    - <span class="mb-label mb-label-emerald">:lucide-arrow-down-up: Replace</span> – Removes the employee’s access to their old site and replaces with the same level of access at the new site. ***(recommended)***
+    - <span class="mb-label mb-label-cyan">:lucide-copy: Copy</span> – Keeps the employee’s access to their old site and copies the same level of access to the new site.
+    - <span class="mb-label mb-label-grey">:lucide-circle-slash: No change</span> – Moves the employee’s record without changing their existing access.
 
     <span data-uuid="30d7dc96-2591-4f87-808d-7e5e391d4026" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/move/update-access-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
