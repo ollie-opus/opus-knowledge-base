@@ -33,26 +33,6 @@
     "docs/assets/media/occ-captures/todos/uuid/todo-messages-cctv-dark-mode.png",
     "docs/assets/media/occ-captures/todos/uuid/todo-messages-cctv-light-mode.png"
   ],
-  "docs/drafts/granting-an-employee-temporary-access.md": [
-    "docs/assets/media/occ-captures/admin/sites/uuid/employee-records-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/employee-records-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/employees/uuid/temporary-access/grant-temporary-access-to-an-employee-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/employees/uuid/temporary-access/grant-temporary-access-to-an-employee-light-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/grant-temporary-access-dark-mode.png",
-    "docs/assets/media/occ-captures/admin/sites/uuid/grant-temporary-access-light-mode.png",
-    "docs/assets/media/occ-captures/dashboard/my-dashboard-temporary-access-dark-mode.png",
-    "docs/assets/media/occ-captures/dashboard/my-dashboard-temporary-access-light-mode.png",
-    "docs/assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png",
-    "docs/assets/media/occ-captures/dashboard/pick-workspace-light-mode.png",
-    "docs/assets/media/occ-captures/employees/uuid/link/id/jd-dark-mode.png",
-    "docs/assets/media/occ-captures/employees/uuid/link/id/jd-light-mode.png",
-    "docs/assets/media/occ-captures/employees/uuid/temporary-accessing/id/accept-temporary-access-dark-mode.png",
-    "docs/assets/media/occ-captures/employees/uuid/temporary-accessing/id/accept-temporary-access-light-mode.png",
-    "docs/assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png",
-    "docs/assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png"
-  ],
   "docs/drafts/managing-a-task.md": [
     "docs/assets/media/occ-captures/todos/uuid/assigned-dark-mode.png",
     "docs/assets/media/occ-captures/todos/uuid/assigned-light-mode.png",
