@@ -8,10 +8,13 @@ search:
 ??? improvement "Improvement: Improved moving employee flow<span class="meta">21st August 2026</span>"
 
     <span data-uuid="c7894c8c-c1cf-4b24-9b69-74ed7bc5cd93" style="display:none"></span>
-
     We have improved the flow for moving employees making it much easier!
 
     As part of the Manage mode UI changes released today, a button appears on the employee record
+
+    <span data-uuid="e9fd62f5-9a70-47c8-8520-f4c3ababcafa" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/aston-dixon-a-change-location-system-update-light-mode.png#only-light){ style="border-radius: 8px" width="250" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/aston-dixon-a-change-location-system-update-dark-mode.png#only-dark){ style="border-radius: 8px" width="250" loading=lazy }
 
 ??? feature-release "Feature release: Subscriptions wizard<span class="meta">21st August 2026</span>"
 
