@@ -60,7 +60,7 @@ Follow this guide to grant an employee temporary access.
 !!! step
 
     <span data-uuid="f58fb35d-b15b-4bb8-8769-a5acc29e091a" style="display:none"></span>
-    Select the :lucide-qr-code: **Temporary access** button at the bottom of the E-learning table
+    Select the :lucide-qr-code: **Temporary access** button on their record.
 
     <span data-uuid="7710f797-c051-458b-84cc-e40711b5f482" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/grant-temporary-access-light-mode.png#only-light){ style="height: 50px" loading=lazy }
