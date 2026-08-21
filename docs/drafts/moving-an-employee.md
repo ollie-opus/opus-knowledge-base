@@ -56,6 +56,11 @@ If an employee changes site, you'll need to **move their employee record** to th
 ## Changing the employee's location
 <span data-uuid="ae07259e-eb51-4fb9-b098-712444107138" style="display:none"></span>
 
+
+!!! step
+
+    <span data-uuid="a7f3de34-ad8b-4b76-a459-dc407f85fdca" style="display:none"></span>
+
 ## Removing old access
 <span data-uuid="d9a64569-9e00-46a3-b0f5-b22b74afb23c" style="display:none"></span>
 
