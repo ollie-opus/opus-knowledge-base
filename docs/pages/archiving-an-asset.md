@@ -59,11 +59,11 @@ Has an asset been sold or left your site? You can easily update this in the syst
 !!! step
 
     <span data-uuid="dc22c981-1db2-4475-9f1b-17759615dfaf" style="display:none"></span>
-    Click the **Edit** button in the top right of the asset record page.
+    Click the **Edit asset** button on the asset record.
 
-    <span data-uuid="cec06d32-90fb-4e65-a26a-093e734d3414" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+    <span data-uuid="fd90482d-5a56-4bd0-b4bf-6c2c28c58d2a" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/edit-asset-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/edit-asset-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
 !!! step
 
@@ -89,5 +89,5 @@ Has an asset been sold or left your site? You can easily update this in the syst
     You will be able to find archived assets in future by changing the filter on the your Asset list page to `Archived` or `All`.
 
     <span data-uuid="9128f261-6478-4250-a056-ee96b8b51520" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/equipments/archived-light-mode.png#only-light){ width="200" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/equipments/archived-dark-mode.png#only-dark){ width="200" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/equipments/archived-light-mode.png#only-light){ style="border-radius: 8px" width="300" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/equipments/archived-dark-mode.png#only-dark){ style="border-radius: 8px" width="300" loading=lazy }
