@@ -7,7 +7,7 @@ tags:
 # Moving an employee
 <span data-uuid="83239016-5193-4745-8a16-e287f19b31c6" style="display:none"></span>
 
-If an employee changes site, you'll need to **move their employee record** to the new location and reconfigure their site access. This guide walks through finding the employee, removing their old access, moving the record, and granting access at the new site.
+If an employee changes site, you'll need to **move their employee record** to the new location and reconfigure their site access. This guide walks through this process.
 
 ## Finding the employee
 <span data-uuid="570945c1-c48a-41ee-8954-0e968757bc6f" style="display:none"></span>
