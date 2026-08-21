@@ -37,10 +37,6 @@ search:
 
     </div>
 
-    <span data-uuid="e9fd62f5-9a70-47c8-8520-f4c3ababcafa" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/aston-dixon-a-change-location-system-update-light-mode.png#only-light){ style="border-radius: 8px" width="250" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/aston-dixon-a-change-location-system-update-dark-mode.png#only-dark){ style="border-radius: 8px" width="250" loading=lazy }
-
 ??? feature-release "Feature release: Subscriptions wizard<span class="meta">21st August 2026</span>"
 
     <span data-uuid="697260ae-9b94-4e0c-aab3-b9e8b34876ad" style="display:none"></span>
