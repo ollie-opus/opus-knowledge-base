@@ -51,6 +51,24 @@
     "docs/assets/media/occ-captures/todos/uuid/todo-actions-a-remove-confidential-flag-z-dark-mode.png",
     "docs/assets/media/occ-captures/todos/uuid/todo-actions-a-remove-confidential-flag-z-light-mode.png"
   ],
+  "docs/drafts/moving-an-asset.md": [
+    "docs/assets/media/occ-captures/admin/sites/uuid/assets-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/assets-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit/located-at-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit/located-at-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit/located-at-subsite-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit/located-at-subsite-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit/save-asset-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit/save-asset-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/equipments/list-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/equipments/list-light-mode.png",
+    "docs/assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png",
+    "docs/assets/media/occ-captures/dashboard/pick-workspace-light-mode.png",
+    "docs/assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png",
+    "docs/assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png"
+  ],
   "docs/drafts/system-updates.md": [
     "docs/assets/media/occ-captures/admin/sites/uuid/dashboard/air-compressor-a-change-location-dark-mode.png",
     "docs/assets/media/occ-captures/admin/sites/uuid/dashboard/air-compressor-a-change-location-light-mode.png",
