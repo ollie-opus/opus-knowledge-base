@@ -59,15 +59,6 @@ Follow this guide to grant an employee temporary access.
 
 !!! step
 
-    <span data-uuid="ca7994d3-6d48-4ef0-87a2-1e93e55113b8" style="display:none"></span>
-    Scroll down to find the E-learning section on their record
-
-    <span data-uuid="0dcc53cd-e421-4344-a0d1-e64ddf61ec96" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/e-learning-light-mode.png#only-light)
-    ![](../assets/media/occ-captures/admin/sites/uuid/e-learning-dark-mode.png#only-dark)
-
-!!! step
-
     <span data-uuid="f58fb35d-b15b-4bb8-8769-a5acc29e091a" style="display:none"></span>
     Select the **Grant temporary access** button at the bottom of the E-learning table
 
