@@ -65,17 +65,6 @@ If an asset has moved to another site, you can easily update it in the system - 
 
 !!! step
 
-    <span data-uuid="7f69f4a2-6fb7-4d37-a259-4137c0ae132b" style="display:none"></span>
-    Hit the **Edit** button once again.
-
-    Scroll back down to the **Located at** section and move the asset down to the correct location.
-
-    <span data-uuid="ab406505-aed8-411a-bc55-8a891a14ddda" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/located-at-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/located-at-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
-
-!!! step
-
     <span data-uuid="31a21805-9a33-4dbf-8119-02fd755cc517" style="display:none"></span>
     Once done, click **Save asset** at the bottom of the page.
 
