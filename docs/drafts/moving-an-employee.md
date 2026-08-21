@@ -60,6 +60,7 @@ If an employee changes site, you'll need to **move their employee record** to th
 !!! step
 
     <span data-uuid="a7f3de34-ad8b-4b76-a459-dc407f85fdca" style="display:none"></span>
+    On the employee's record, select **Change location**
 
     <span data-uuid="0fa393d4-5b7c-46f1-9c73-0262f2f13baf" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-location-light-mode.png#only-light){ style="height: 50px" loading=lazy }
