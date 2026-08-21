@@ -104,63 +104,6 @@ If an employee changes site, you'll need to **move their employee record** to th
     ![](../assets/media/occ-captures/admin/sites/uuid/move/move-employee-underneath-demo-site-2-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/move/move-employee-underneath-demo-site-2-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
-## Changing the employee's location
-<span data-uuid="dd452400-4876-4226-a4a4-2a205e1c46a2" style="display:none"></span>
-
-Now it's time to move the employee record's location.
-
-!!! step
-
-    <span data-uuid="88e3708c-b710-4970-ba25-51f503cb0ba1" style="display:none"></span>
-    Navigate back to the employee record and scroll up to the top of the page.
-
-!!! step
-
-    <span data-uuid="954fde5e-5e79-48f9-9c8c-92fa899cf977" style="display:none"></span>
-    Hit the **Edit** button in the top right.
-
-    <span data-uuid="066d7761-b65d-4da4-8580-abd04e1bd8e6" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
-!!! step
-
-    <span data-uuid="501fb8b1-5b70-4d1c-99ad-89f2daa30384" style="display:none"></span>
-    Scroll to the **Located at** section and move the record up to the highest common parent between the old and new site (e.g. your company's parent site/dashboard).
-
-    <span data-uuid="ae50c4e1-064d-4e7b-ba3e-65c0d10f878f" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/located-at-subsite-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/located-at-subsite-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
-
-!!! step
-
-    <span data-uuid="47562cf4-7afe-45fd-bbb1-cbd67ebca7f3" style="display:none"></span>
-    Click **Save employee** at the bottom to return back to the employee record.
-
-    <span data-uuid="cf6c195f-290c-421e-82e7-7bea58624b50" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/save-employee-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/save-employee-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
-!!! step
-
-    <span data-uuid="dd81f61b-116b-4ef7-aa31-211873ec1e75" style="display:none"></span>
-    Click the Edit button once again.
-
-    Scroll back down to the **Located at** section and move the employee to the correct location.
-
-    <span data-uuid="0f92df97-bde6-4956-aebe-ec4f933357a1" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/located-at-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/located-at-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
-
-!!! step
-
-    <span data-uuid="7cc8b849-2e78-49cc-9903-5b9fbdf59088" style="display:none"></span>
-    Then click **Save employee** at the bottom of the page.
-
-    <span data-uuid="12135641-dbb5-4a00-a422-b25b426aadb0" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/save-employee-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/save-employee-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
 ## Reconfiguring employee access
 <span data-uuid="b11c18ba-4878-4c2c-aebe-7969cbecce36" style="display:none"></span>
 
