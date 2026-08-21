@@ -66,8 +66,7 @@ If an asset has moved to another site, you can easily update it in the system - 
 !!! step
 
     <span data-uuid="643a70bb-2f1b-4fe0-ac89-56abb5e061b8" style="display:none"></span>
-
-    In the site tree, select the site to which the employee is moving.
+    In the site tree, select the site where the asset is moving to.
 
     :lucide-lightbulb: *Use the search bar, or select ****Show all options**** :lucide-arrow-left-right: to help find the site.*
 
