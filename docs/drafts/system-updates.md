@@ -24,6 +24,10 @@ search:
         <span data-uuid="ef0a282f-078f-4fda-a82d-f67136e086da" style="display:none"></span>
         The improvements make it easier for you to access important information.
 
+        <span data-uuid="14a15c69-15f5-41f0-9f23-a5814e7dcc9f" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/system-update-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/system-update-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
     ??? outline "<span class="mb-label mb-label-mauve">Improved the assets/employee list pages</span>"
 
         <span data-uuid="a3f896c0-64e5-4ced-b21a-8cdbb1c2eccf" style="display:none"></span>
