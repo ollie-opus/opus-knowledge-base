@@ -13,6 +13,7 @@ search:
     ??? outline "<span class="mb-label mb-label-mauve">Redesigned and reorganised the manage sidebar</span>"
 
         <span data-uuid="87d8f209-42c1-4fc0-afdf-bb67d3e19df4" style="display:none"></span>
+        The old manage sidebar and the old :lucide-circle-ellipsis: menu have been combined into this new and improved manage sidebar. Everything you need to get around manage mode is now all in one place!
 
         <span data-uuid="255fc61c-78ad-4e1e-a88c-f19e81ac0d81" style="display:none"></span>
         ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/sidebar-system-update-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
