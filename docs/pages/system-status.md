@@ -41,36 +41,47 @@ status-page: true
 
 
     **Status:** AVAILABLE
-!!! status-available "File Storage"
+!!! status-disruption "File Storage"
 
     <span data-uuid="698e7760-160a-4edd-b535-9bbeb16af1f8" style="display:none"></span>
 
 
-    **Status:** AVAILABLE
+    **Status:** DISRUPTION
 </div>
 
 ---
 ## Active Events
 
+!!! status-disruption "<span class="mb-label mb-label-amber">DISRUPTION</span>"
+
+    <span data-uuid="6406ca65-01ae-468f-8f99-4c6597d3ef72" data-mb-reported="2026-08-21T08:21+01:00" style="display:none"></span>
+
+    - **Services Affected:** File Storage
+    - **Current Status:** <span class="mb-label mb-label-amber">:lucide-triangle-alert: Ongoing</span>
+    - **Description:** A bug with the file uploader is preventing uploads, although drag-and-drop still works.
+    - **Reported:** <span class="mb-label mb-label-slate">2026-08-21 08:21</span>
+    - **Resolved:** 
+    - **Causation:** 
+
 ---
 
 ## Upcoming Events
-
-!!! status-maintenance "<span class="mb-label mb-label-amber">MAINTENANCE</span>"
-
-    <span data-uuid="73a3622b-2d4b-475b-8b22-ecaf5d443526" data-mb-start="2026-08-20T19:00+01:00" data-mb-end="2026-08-20T21:00+01:00" style="display:none"></span>
-
-    - **Services Affected:** All Services
-    - **Current Status:** <span class="mb-label mb-label-orange">:lucide-fast-forward: Upcoming</span>
-    - **Description:** We are conducting a round of general maintenance. There will be downtime on Opus Compliance Cloud during this window.
-    - **Scheduled Start:** <span class="mb-label mb-label-slate">2026-08-20 19:00</span>
-    - **Scheduled End:** <span class="mb-label mb-label-slate">2026-08-20 21:00</span>
 
 ---
 
 ## Past Events
 
 ??? outline "View past events"
+
+    !!! status-maintenance "<span class="mb-label mb-label-amber">MAINTENANCE</span>"
+
+        <span data-uuid="73a3622b-2d4b-475b-8b22-ecaf5d443526" data-mb-start="2026-08-20T19:00+01:00" data-mb-end="2026-08-20T21:00+01:00" style="display:none"></span>
+
+        - **Services Affected:** All Services
+        - **Current Status:** <span class="mb-label mb-label-green">:lucide-check: Completed</span>
+        - **Description:** We are conducting a round of general maintenance. There will be downtime on Opus Compliance Cloud during this window.
+        - **Scheduled Start:** <span class="mb-label mb-label-slate">2026-08-20 19:00</span>
+        - **Scheduled End:** <span class="mb-label mb-label-slate">2026-08-20 21:00</span>
 
     !!! status-maintenance "<span class="mb-label mb-label-amber">MAINTENANCE</span>"
 
