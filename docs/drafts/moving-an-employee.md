@@ -53,6 +53,9 @@ If an employee changes site, you'll need to **move their employee record** to th
     ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
 
+## Changing the employee's location
+<span data-uuid="ae07259e-eb51-4fb9-b098-712444107138" style="display:none"></span>
+
 ## Removing old access
 <span data-uuid="d9a64569-9e00-46a3-b0f5-b22b74afb23c" style="display:none"></span>
 
@@ -201,6 +204,3 @@ Now it's time to move the employee record's location.
     <span data-uuid="d444fdd7-3fb2-41e1-9ebe-a3cd047a607b" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/apply-changes-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/apply-changes-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
-## Changing the employee's location
-<span data-uuid="ae07259e-eb51-4fb9-b098-712444107138" style="display:none"></span>
