@@ -19,7 +19,7 @@ search:
         <span data-uuid="ef0a282f-078f-4fda-a82d-f67136e086da" style="display:none"></span>
         The improvements make it easier to access the important information.
 
-    ??? outline "<span class="mb-label mb-label-slate">Improved the assets/employee list pages</span>"
+    ??? outline "<span class="mb-label mb-label-purple">Improved the assets/employee list pages</span>"
 
         <span data-uuid="a3f896c0-64e5-4ced-b21a-8cdbb1c2eccf" style="display:none"></span>
 
