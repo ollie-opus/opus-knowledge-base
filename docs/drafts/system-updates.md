@@ -32,6 +32,10 @@ search:
 
         <span data-uuid="a3f896c0-64e5-4ced-b21a-8cdbb1c2eccf" style="display:none"></span>
 
+        <span data-uuid="815236f1-3ceb-49c9-a1dc-416a03abae14" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/employee-records-system-update-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/employee-records-system-update-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
     ??? outline "<span class="mb-label mb-label-mauve">Redesigned breadcrumb</span>"
 
         <span data-uuid="b3e313b7-5588-4210-ade6-55a232fc4d82" style="display:none"></span>
