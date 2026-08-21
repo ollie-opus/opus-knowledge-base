@@ -98,6 +98,7 @@ If an employee changes site, you'll need to **move their employee record** to th
 !!! step
 
     <span data-uuid="516623b7-d42c-410a-8d1e-846dec6fdf2d" style="display:none"></span>
+    Finalise the move by clicking the green **Move employee** button.
 
     <span data-uuid="be95abbc-7245-426c-a3c5-a0947cf5b11d" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/move/move-employee-underneath-demo-site-2-light-mode.png#only-light){ style="height: 50px" loading=lazy }
