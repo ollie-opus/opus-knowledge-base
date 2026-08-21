@@ -56,6 +56,15 @@ If an asset has moved to another site, you can easily update it in the system - 
 
 !!! step
 
+    <span data-uuid="81fea6ec-16e9-458f-a9e2-c51d050eb2b6" style="display:none"></span>
+    Click the **Change location** button.
+
+    <span data-uuid="a04cb6b0-41db-4dc7-b563-72489b29eb75" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-location-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-location-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! step
+
     <span data-uuid="643a70bb-2f1b-4fe0-ac89-56abb5e061b8" style="display:none"></span>
 
     In the site tree, select the site to which the employee is moving.
@@ -71,15 +80,6 @@ If an asset has moved to another site, you can easily update it in the system - 
         <span data-uuid="f3f6aff1-2455-4318-b52b-d8c3a242e452" style="display:none"></span>
 
         You may not have access to the site the employee is moving to. If this is the case, you may need to contact a senior manager with access to your site and the destination site to complete the move.
-
-!!! step
-
-    <span data-uuid="81fea6ec-16e9-458f-a9e2-c51d050eb2b6" style="display:none"></span>
-    Click the **Change location** button.
-
-    <span data-uuid="a04cb6b0-41db-4dc7-b563-72489b29eb75" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-location-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-location-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
 !!! step
 
