@@ -103,6 +103,16 @@ Follow the guide below on how to do this.
     ![](../assets/media/occ-captures/admin/sites/uuid/edit/save-employee-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/edit/save-employee-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
+!!! info
+
+    <span data-uuid="ea308055-a0d5-4980-b91b-5932bd11067e" style="display:none"></span>
+
+    You will be able to find archived assets in future by changing the filter on the your Asset list page to `Archived` or `All`.
+
+    <span data-uuid="d034cd26-e85f-4fc4-8800-abf58931d67e" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/equipments/archived-light-mode.png#only-light){ width="200" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/equipments/archived-dark-mode.png#only-dark){ width="200" loading=lazy }
+
 ## Open tasks related to the employee
 <span data-uuid="3aaf3b7d-62ea-4d6f-8014-134382b5c8c8" style="display:none"></span>
 
