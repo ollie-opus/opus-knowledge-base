@@ -108,6 +108,10 @@ Follow the guide below on how to do this.
     <span data-uuid="ea308055-a0d5-4980-b91b-5932bd11067e" style="display:none"></span>
     You will be able to find archived employees in future by changing the filter on the your Employee list page to `Archived` or `All`.
 
+    <span data-uuid="afb292ef-6406-497d-bb7d-b83613be1c9c" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/archived-light-mode.png#only-light){ style="border-radius: 8px" width="300" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/archived-dark-mode.png#only-dark){ style="border-radius: 8px" width="300" loading=lazy }
+
 ## Open tasks related to the employee
 <span data-uuid="3aaf3b7d-62ea-4d6f-8014-134382b5c8c8" style="display:none"></span>
 
