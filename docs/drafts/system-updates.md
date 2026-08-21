@@ -16,6 +16,23 @@ search:
 
     Read our updated [Moving an employee](moving-an-employee.md) and [Moving an asset](moving-an-asset.md) guides to learn more.
 
+    <span data-uuid="1339aa62-001b-4260-8284-012137ebe468" style="display:none"></span>
+    <div class="grid" markdown>
+
+    <div markdown>
+
+    <span data-uuid="290c6b52-e0dd-434c-a63e-d8b0dbca009b" style="display:none"></span>
+
+    </div>
+
+    <div markdown>
+
+    <span data-uuid="fa432dfe-2724-459b-8737-4acbc194e14b" style="display:none"></span>
+
+    </div>
+
+    </div>
+
     <span data-uuid="e9fd62f5-9a70-47c8-8520-f4c3ababcafa" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/aston-dixon-a-change-location-system-update-light-mode.png#only-light){ style="border-radius: 8px" width="250" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/aston-dixon-a-change-location-system-update-dark-mode.png#only-dark){ style="border-radius: 8px" width="250" loading=lazy }
