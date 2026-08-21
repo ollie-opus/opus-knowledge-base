@@ -50,8 +50,9 @@ If an asset has moved to another site, you can easily update it in the system - 
     ![](../assets/media/occ-captures/admin/sites/uuid/equipments/list-light-mode.png#only-light)
     ![](../assets/media/occ-captures/admin/sites/uuid/equipments/list-dark-mode.png#only-dark)
 
-## Moving the asset's location
+## Changing the asset's location
 <span data-uuid="60ec34c5-b583-4ba5-91a0-168577a33e66" style="display:none"></span>
+
 
 !!! step
 
