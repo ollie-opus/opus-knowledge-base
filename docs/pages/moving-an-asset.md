@@ -48,57 +48,41 @@ If an asset has moved to another site, you can easily update it in the system - 
     ![](../assets/media/occ-captures/admin/sites/uuid/equipments/list-light-mode.png#only-light)
     ![](../assets/media/occ-captures/admin/sites/uuid/equipments/list-dark-mode.png#only-dark)
 
-## Moving the asset's location
+## Changing the asset's location
 <span data-uuid="60ec34c5-b583-4ba5-91a0-168577a33e66" style="display:none"></span>
+
 
 !!! step
 
     <span data-uuid="81fea6ec-16e9-458f-a9e2-c51d050eb2b6" style="display:none"></span>
-    Hit the **Edit** button in the top right of the asset record page.
+    Click the **Change location** button.
 
-    <span data-uuid="2e51b39b-c251-4514-a591-f3ba7ac223ab" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
-!!! step
-
-    <span data-uuid="aaa4948f-fe1c-4568-9dbe-14a27b410ddd" style="display:none"></span>
-    Scroll down to the **Located at** section and move the asset up to the highest common parent between the old and new site (e.g. your company's parent site/dashboard).
-
-    <span data-uuid="65154f1a-6462-4f5d-8059-d60de96d65ad" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/located-at-subsite-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/located-at-subsite-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
-
-    ??? info "Why move up to the parent site first?"
-
-        <span data-uuid="8370b66c-0913-4679-8431-ccf51a7ada16" style="display:none"></span>
-        The **Located at** section only shows sites directly above and below the asset's current site in your organisation. If you're moving the asset horizontally across the organisation, the new site won't appear until you've moved the asset up to a shared parent site first.
+    <span data-uuid="a04cb6b0-41db-4dc7-b563-72489b29eb75" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-location-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-location-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
 !!! step
 
-    <span data-uuid="9deb6d5a-dc59-446c-92d4-243d824f84f3" style="display:none"></span>
-    Click **Save asset** at the bottom to return back to the asset record.
+    <span data-uuid="643a70bb-2f1b-4fe0-ac89-56abb5e061b8" style="display:none"></span>
+    In the site tree, select the site where the asset is moving to.
 
-    <span data-uuid="0b1edeaf-41cb-4812-9d8f-63f6415af67d" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/save-asset-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/save-asset-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+    :lucide-lightbulb: *Use the search bar, or select ****Show all options**** :lucide-arrow-left-right: to help find the site.*
 
-!!! step
+    <span data-uuid="3ff2bedb-8180-4ee0-8d91-469036f919cb" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/move/search-or-filter-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/move/search-or-filter-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
-    <span data-uuid="7f69f4a2-6fb7-4d37-a259-4137c0ae132b" style="display:none"></span>
-    Hit the **Edit** button once again.
+    !!! warning "Can't find the site?"
 
-    Scroll back down to the **Located at** section and move the asset down to the correct location.
+        <span data-uuid="f3f6aff1-2455-4318-b52b-d8c3a242e452" style="display:none"></span>
 
-    <span data-uuid="ab406505-aed8-411a-bc55-8a891a14ddda" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/located-at-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/located-at-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+        You may not have access to the site the employee is moving to. If this is the case, you may need to contact a senior manager with access to your site and the destination site to complete the move.
 
 !!! step
 
-    <span data-uuid="31a21805-9a33-4dbf-8119-02fd755cc517" style="display:none"></span>
-    Once done, click **Save asset** at the bottom of the page.
+    <span data-uuid="0cda8ccf-875e-4612-aee3-69772c74a29b" style="display:none"></span>
+    Finalise the move by clicking the green **Move asset** button.
 
-    <span data-uuid="0981a872-cd10-46ef-8c23-dafde932b4d8" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/save-asset-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/save-asset-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+    <span data-uuid="3e39efd2-4b42-432d-bfb8-eb0fcbbe3ba3" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/move/move-asset-underneath-demo-site-2-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/move/move-asset-underneath-demo-site-2-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
