@@ -43,7 +43,7 @@ search:
 !!! step
 
     <span data-uuid="830c0ae5-baab-43cd-b6e7-6aede1848221" style="display:none"></span>
-    Click the **+New** button at the top right of the page.
+    Click the **+New employee** button at the top of the page.
 
     <span data-uuid="b1bf3986-33b7-4435-834f-492bbcae2582" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/employees/new-employee-light-mode.png#only-light){ style="height: 50px" loading=lazy }
