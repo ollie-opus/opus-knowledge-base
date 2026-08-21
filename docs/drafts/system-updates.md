@@ -18,3 +18,7 @@ search:
         - If you haven't gone through this flow yet, a prompt will appear on [My Dashboard](https://cloud.opus-safety.co.uk/dashboard).
         - If you ever want to retake the wizard in the future, you can [via the subscriptions page](https://cloud.opus-safety.co.uk/my/subscriptions).
 
+        <span data-uuid="65067f30-8e05-4759-9f56-9a928f6c8509" style="display:none"></span>
+        ![](../assets/media/occ-captures/dashboard/subscriptions-notifications-have-changed-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+        ![](../assets/media/occ-captures/dashboard/subscriptions-notifications-have-changed-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
