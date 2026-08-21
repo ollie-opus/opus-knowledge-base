@@ -79,12 +79,3 @@ If an asset has moved to another site, you can easily update it in the system - 
         <span data-uuid="f3f6aff1-2455-4318-b52b-d8c3a242e452" style="display:none"></span>
 
         You may not have access to the site the employee is moving to. If this is the case, you may need to contact a senior manager with access to your site and the destination site to complete the move.
-
-!!! step
-
-    <span data-uuid="31a21805-9a33-4dbf-8119-02fd755cc517" style="display:none"></span>
-    Once done, click **Save asset** at the bottom of the page.
-
-    <span data-uuid="0981a872-cd10-46ef-8c23-dafde932b4d8" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/save-asset-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/edit/save-asset-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
