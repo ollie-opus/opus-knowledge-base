@@ -79,7 +79,7 @@ Follow the guide below on how to do this.
 !!! step
 
     <span data-uuid="0bc4999c-feac-4c38-acc8-a0ec798918a0" style="display:none"></span>
-    Type the employee's leaving date in the **End day** field.
+    Select/type employee's leaving date in the **End day** field.
 
     <span data-uuid="6c330984-b5b5-467c-8143-0debf539394e" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/edit/end-day-light-mode.png#only-light)
