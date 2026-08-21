@@ -5,6 +5,14 @@ search:
 
 # System update drafts
 
+??? improvement "Improvement: Improved moving employee flow<span class="meta">21st August 2026</span>"
+
+    <span data-uuid="c7894c8c-c1cf-4b24-9b69-74ed7bc5cd93" style="display:none"></span>
+
+    We have improved the flow for moving employees making it much easier!
+
+    As part of the Manage mode UI changes released today, a button appears on the employee record
+
 ??? feature-release "Feature release: Subscriptions wizard<span class="meta">21st August 2026</span>"
 
     <span data-uuid="697260ae-9b94-4e0c-aab3-b9e8b34876ad" style="display:none"></span>
