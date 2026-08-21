@@ -61,7 +61,7 @@ Has an asset been sold or left your site? You can easily update this in the syst
 !!! step
 
     <span data-uuid="dc22c981-1db2-4475-9f1b-17759615dfaf" style="display:none"></span>
-    Click the **Edit** button in the top right of the asset record page.
+    Click the **Edit asset** button on the asset record.
 
     <span data-uuid="fd90482d-5a56-4bd0-b4bf-6c2c28c58d2a" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/edit-asset-light-mode.png#only-light){ style="height: 50px" loading=lazy }
