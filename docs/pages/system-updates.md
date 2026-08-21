@@ -41,7 +41,7 @@ This page highlights the main user-facing improvements, additions and feature re
     <span data-uuid="1339aa62-001b-4260-8284-012137ebe468" style="display:none"></span>
     <div class="grid" markdown>
 
-    <div markdown>
+    <div class="card" markdown>
 
     <span data-uuid="290c6b52-e0dd-434c-a63e-d8b0dbca009b" style="display:none"></span>
 
@@ -51,7 +51,7 @@ This page highlights the main user-facing improvements, additions and feature re
 
     </div>
 
-    <div markdown>
+    <div class="card" markdown>
 
     <span data-uuid="fa432dfe-2724-459b-8737-4acbc194e14b" style="display:none"></span>
 
