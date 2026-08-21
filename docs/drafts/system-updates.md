@@ -28,7 +28,7 @@ search:
         ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/system-update-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
         ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/system-update-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
-    ??? outline "<span class="mb-label mb-label-mauve">Improved the assets/employee list pages</span>"
+    ??? outline "<span class="mb-label mb-label-mauve">Redesigned the assets/employee list pages</span>"
 
         <span data-uuid="a3f896c0-64e5-4ced-b21a-8cdbb1c2eccf" style="display:none"></span>
 
