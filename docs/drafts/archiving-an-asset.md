@@ -63,6 +63,10 @@ Has an asset been sold or left your site? You can easily update this in the syst
     <span data-uuid="dc22c981-1db2-4475-9f1b-17759615dfaf" style="display:none"></span>
     Click the **Edit** button in the top right of the asset record page.
 
+    <span data-uuid="fd90482d-5a56-4bd0-b4bf-6c2c28c58d2a" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/edit-asset-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/edit-asset-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
 !!! step
 
     <span data-uuid="45deb062-7b56-47aa-8bb6-e9d31cb99bec" style="display:none"></span>
