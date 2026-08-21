@@ -102,8 +102,7 @@ draft_nav = [
       {"Task sensitivity" = "drafts/task-sensitivity.md"}
     ]},
     {"Employees" = [
-      {"Employees Overview" = "drafts/employees-overview.md"},
-      {"Registering an employee" = "drafts/registering-an-employee.md"}
+      {"Employees Overview" = "drafts/employees-overview.md"}
     ]},
     {"Contractors" = [
       {"Permits to Work" = "drafts/permits-to-work.md"}
