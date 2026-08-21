@@ -57,7 +57,7 @@ If an asset has moved to another site, you can easily update it in the system - 
 !!! step
 
     <span data-uuid="81fea6ec-16e9-458f-a9e2-c51d050eb2b6" style="display:none"></span>
-    Hit the **Edit** button in the top right of the asset record page.
+    Click the **Change location** button.
 
 !!! step
 
