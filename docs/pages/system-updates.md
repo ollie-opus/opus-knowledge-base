@@ -39,6 +39,7 @@ This page highlights the main user-facing improvements, additions and feature re
     Read our updated [Moving an employee](moving-an-employee.md) and [Moving an asset](moving-an-asset.md) guides to learn more.
 
     <span data-uuid="1339aa62-001b-4260-8284-012137ebe468" style="display:none"></span>
+
     <div class="grid" markdown>
 
     <div markdown>
