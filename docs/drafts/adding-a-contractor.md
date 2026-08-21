@@ -42,7 +42,7 @@ search:
 !!! step
 
     <span data-uuid="5f768027-c106-4d58-979c-c2438a14196d" style="display:none"></span>
-    Click the **+New** button at the top right of the page.
+    Click the **+New contractor **button at the top right of the page.
 
     <span data-uuid="64299a0b-4fda-4eea-a6b8-2f009b981765" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/contractors/new-light-mode.png#only-light){ style="height: 50px" loading=lazy }
