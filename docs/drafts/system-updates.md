@@ -14,3 +14,7 @@ search:
 
         <span data-uuid="d586818b-7d4b-4b21-875d-707e1c7205f1" style="display:none"></span>
 
+        - All newly created Opus accounts will be prompted to go through this flow
+        - If you haven't gone through this flow yet, a prompt will appear on [My Dashboard](https://cloud.opus-safety.co.uk/dashboard).
+        - If you ever want to retake the wizard in the future, you can [via the subscriptions page](https://cloud.opus-safety.co.uk/my/subscriptions).
+
