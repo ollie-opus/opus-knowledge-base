@@ -41,7 +41,7 @@ tags:
 !!! step
 
     <span data-uuid="830c0ae5-baab-43cd-b6e7-6aede1848221" style="display:none"></span>
-    Click the **+New** button at the top right of the page.
+    Click the **+New employee** button at the top of the page.
 
     <span data-uuid="b1bf3986-33b7-4435-834f-492bbcae2582" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/employees/new-employee-light-mode.png#only-light){ style="height: 50px" loading=lazy }
@@ -118,8 +118,8 @@ tags:
     - **No** — access will need to be configured manually instead.
 
     <span data-uuid="3a1236f8-708d-40d9-8cd6-c6037c919c1d" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/site-access-to-mirror-employee-access-light-mode.png#only-light)
-    ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/site-access-to-mirror-employee-access-dark-mode.png#only-dark)
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/site-access-to-mirror-employee-access-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/site-access-to-mirror-employee-access-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
 
 !!! step "<span class="meta">(optional)</span>"
 
