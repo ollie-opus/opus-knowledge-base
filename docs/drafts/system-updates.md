@@ -44,7 +44,11 @@ search:
 ??? feature-release "Feature release: Subscriptions wizard<span class="meta">21st August 2026</span>"
 
     <span data-uuid="697260ae-9b94-4e0c-aab3-b9e8b34876ad" style="display:none"></span>
-    A new and improved notification setup flow that gives users the opportunity to select one of our subscription presets, enable digest emails, and subscribe to newsletters.
+    A new and improved notification setup flow that gives users the opportunity to configure:
+
+    - :lucide-circle-check: Task subscriptions via our presets
+    - :lucide-mail: Enable digest emails
+    - :lucide-newspaper: Subscribe to newsletters.
 
     <span data-uuid="5949a8c8-b2aa-4bf8-9c66-74e96eee5eb8" style="display:none"></span>
     ![](../assets/media/occ-captures/my/subscriptions/wizard/automatic-subscription-management-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
