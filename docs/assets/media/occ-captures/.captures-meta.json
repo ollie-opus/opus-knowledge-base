@@ -371,5 +371,8 @@
   },
   "docs/assets/media/occ-captures/admin/sites/uuid/alerts/breadcrumb-system-updates-light-mode.png": {
     "resized": true
+  },
+  "docs/assets/media/occ-captures/my/subscriptions/wizard/automatic-subscription-management-light-mode.png": {
+    "padding": 20
   }
 }
