@@ -81,7 +81,8 @@
   },
   "docs/assets/media/occ-captures/admin/sites/uuid/equipments/list-light-mode.png": {
     "resized": true,
-    "padding": 20
+    "padding": 20,
+    "zapped": true
   },
   "docs/assets/media/occ-captures/admin/sites/uuid/equipments/archived-light-mode.png": {
     "resized": true,
