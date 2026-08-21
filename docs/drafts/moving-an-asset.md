@@ -65,6 +65,10 @@ If an asset has moved to another site, you can easily update it in the system - 
 
 !!! step
 
+    <span data-uuid="4e3eb84c-3e3f-4195-b3b8-c7fe35291681" style="display:none"></span>
+
+!!! step
+
     <span data-uuid="31a21805-9a33-4dbf-8119-02fd755cc517" style="display:none"></span>
     Once done, click **Save asset** at the bottom of the page.
 
