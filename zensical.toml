@@ -109,6 +109,9 @@ draft_nav = [
     ]},
     {"Other" = [
       {"FAQs" = "drafts/faqs.md"}
+    ]},
+    {"Assets" = [
+      {"Moving an asset" = "drafts/moving-an-asset.md"}
     ]}
   ]}
 ]
