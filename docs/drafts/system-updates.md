@@ -14,6 +14,10 @@ search:
 
         <span data-uuid="87d8f209-42c1-4fc0-afdf-bb67d3e19df4" style="display:none"></span>
 
+        <span data-uuid="255fc61c-78ad-4e1e-a88c-f19e81ac0d81" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/sidebar-system-update-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/sidebar-system-update-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
+
     ??? outline "<span class="mb-label mb-label-mauve">Redesigned the Sites, Employees, and Assets overview pages</span>"
 
         <span data-uuid="ef0a282f-078f-4fda-a82d-f67136e086da" style="display:none"></span>
