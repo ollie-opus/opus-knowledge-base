@@ -267,13 +267,13 @@ emoji_generator = "zensical.extensions.emoji.to_svg"
 [project.extra]
 # Announcement bar for open incidents ("" | "disruption" | "outage") —
 # managed by the more-buttons extension, rendered by overrides/main.html.
-mb_status_banner = ""
+mb_status_banner = "disruption"
 # Next maintenance window (empty when none) — managed by the more-buttons
 # extension; local ISO with UTC offset, revealed client-side from 7 days
 # before start by assets/javascripts/status-banner.js.
-mb_maintenance_start = "2026-08-20T19:00+01:00"
-mb_maintenance_end = "2026-08-20T21:00+01:00"
-mb_maintenance_services = "All Services"
+mb_maintenance_start = ""
+mb_maintenance_end = ""
+mb_maintenance_services = ""
 # "Written for" audience registry — CUSTOM capability, not a zensical feature.
 # ORDERED. overrides/partials/content.html renders a line of mb-label pills
 # directly under the page h1: the page's audience is the first entry whose
