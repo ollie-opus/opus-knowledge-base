@@ -33,6 +33,10 @@ search:
 
     <span data-uuid="fa432dfe-2724-459b-8737-4acbc194e14b" style="display:none"></span>
 
+    <span data-uuid="65d9cfaa-7acc-4203-8a56-07b799b42d27" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/air-compressor-a-change-location-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/air-compressor-a-change-location-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
     </div>
 
     </div>
