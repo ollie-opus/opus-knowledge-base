@@ -97,7 +97,8 @@
   },
   "docs/assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png": {
     "resized": true,
-    "padding": 20
+    "padding": 20,
+    "zapped": true
   },
   "docs/assets/media/occ-captures/admin/sites/uuid/site-access-light-mode.png": {
     "resized": true,
