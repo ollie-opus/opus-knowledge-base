@@ -43,3 +43,8 @@ Training & Gaps is a training/e-learning completion and gap analysis report. Thi
     <span data-uuid="dc7227ee-9e2c-490b-885f-f5be76fd8edf" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/training-and-gaps-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/training-and-gaps-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+## How you can use this report
+<span data-uuid="5fc883c3-7712-4a25-9d76-987e5ba75db6" style="display:none"></span>
+
+This report can be used in the following ways:
