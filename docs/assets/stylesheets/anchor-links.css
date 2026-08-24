@@ -1,19 +1,19 @@
 /* ============================================================================
-   Admonition anchors — copy-link affordance + deep-link highlight
-   Pairs with assets/javascripts/admonition-anchors.js, which gives every
-   admonition an id (its hidden data-uuid) and injects the .mb-anchor-copy
-   button into each title/summary.
+   Anchor links — copy-link affordances + deep-link highlight
+   Pairs with assets/javascripts/anchor-links.js, which gives every admonition
+   an id (its hidden data-uuid) and injects .mb-anchor-copy buttons into
+   admonition titles and headings.
    ============================================================================ */
 
 :root {
-  /* lucide/copy and lucide/check, used as masks so they pick up each
-     admonition type's own icon colour. */
-  --mb-anchor-icon-copy: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect width='14' height='14' x='8' y='8' rx='2' ry='2'/%3E%3Cpath d='M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2'/%3E%3C/svg%3E");
+  /* lucide/link-2 and lucide/check, used as masks so they pick up the
+     surrounding colour (admonition type / heading state). */
+  --mb-anchor-icon-link: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 17H7A5 5 0 0 1 7 7h2'/%3E%3Cpath d='M15 7h2a5 5 0 1 1 0 10h-2'/%3E%3Cline x1='8' x2='16' y1='12' y2='12'/%3E%3C/svg%3E");
   --mb-anchor-icon-check: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'/%3E%3C/svg%3E");
 }
 
 /* --------------------------------------------------------------------------
-   Copy button — an invisible click target over the icon gutter
+   Admonitions — an invisible click target over the icon gutter
    -------------------------------------------------------------------------- */
 
 /* The theme draws the type icon as a masked ::before at left:0 inside the
@@ -41,7 +41,7 @@
   border-radius: 4px;
 }
 
-/* Hovering (or keyboard-focusing) the icon swaps it for the copy icon —
+/* Hovering (or keyboard-focusing) the icon swaps it for the link icon —
    mask-image only, so the type's colour and size are kept. !important outruns
    the per-type and per-scheme mask rules in admonitions.css / the theme.
    :not(.mb-anchor-copied) hands over to the check the moment a copy lands —
@@ -49,15 +49,64 @@
    the check would only appear once the cursor left the icon. */
 .md-typeset :is(.admonition-title, summary):not(.mb-anchor-copied):has(> .mb-anchor-copy:hover)::before,
 .md-typeset :is(.admonition-title, summary):not(.mb-anchor-copied):has(> .mb-anchor-copy:focus-visible)::before {
-  -webkit-mask-image: var(--mb-anchor-icon-copy) !important;
-          mask-image: var(--mb-anchor-icon-copy) !important;
+  -webkit-mask-image: var(--mb-anchor-icon-link) !important;
+          mask-image: var(--mb-anchor-icon-link) !important;
 }
 
 /* …and for a moment after a successful copy, a check. (Class applied by the
-   script; wins over the hover swap by order.) */
+   script; wins over the hover swap via its :not() guard.) */
 .md-typeset :is(.admonition-title, summary).mb-anchor-copied::before {
   -webkit-mask-image: var(--mb-anchor-icon-check) !important;
           mask-image: var(--mb-anchor-icon-check) !important;
+}
+
+/* --------------------------------------------------------------------------
+   Headings — a link icon to the right of the text, revealed on hover
+   -------------------------------------------------------------------------- */
+
+/* Headings have no type icon to take over, so the button itself is the icon
+   (same masking trick — the mask colours via background-color). Hidden until
+   the heading is hovered or the button is focused, like the theme's own
+   headerlinks. */
+.md-typeset :is(h1, h2, h3, h4, h5, h6) > .mb-anchor-copy--heading {
+  display: inline-block;
+  width: 0.85em;
+  height: 0.85em;
+  margin-left: 0.4em;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  cursor: pointer;
+  -webkit-appearance: none;
+          appearance: none;
+  background-color: var(--md-default-fg-color--light);
+  -webkit-mask-image: var(--mb-anchor-icon-link);
+          mask-image: var(--mb-anchor-icon-link);
+  -webkit-mask-position: center;
+          mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  opacity: 0;
+  transition: opacity 125ms, background-color 125ms;
+}
+
+.md-typeset :is(h1, h2, h3, h4, h5, h6):hover > .mb-anchor-copy--heading,
+.md-typeset .mb-anchor-copy--heading:focus-visible,
+.md-typeset .mb-anchor-copy--heading.mb-anchor-copied {
+  opacity: 1;
+}
+
+.md-typeset .mb-anchor-copy--heading:hover,
+.md-typeset .mb-anchor-copy--heading:focus-visible {
+  background-color: var(--md-accent-fg-color);
+}
+
+/* Post-copy feedback: the button's own icon becomes a check. */
+.md-typeset .mb-anchor-copy--heading.mb-anchor-copied {
+  -webkit-mask-image: var(--mb-anchor-icon-check);
+          mask-image: var(--mb-anchor-icon-check);
 }
 
 /* --------------------------------------------------------------------------

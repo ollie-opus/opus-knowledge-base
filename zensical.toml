@@ -17,7 +17,7 @@ extra_css = [
   "assets/stylesheets/neural-hero.css",
   "assets/stylesheets/home-hero.css",
   "assets/stylesheets/admonitions.css",
-  "assets/stylesheets/admonition-anchors.css",
+  "assets/stylesheets/anchor-links.css",
   "assets/stylesheets/groove.css",
   "assets/stylesheets/tables.css",
   "assets/stylesheets/grid-spill.css",
