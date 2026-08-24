@@ -12,11 +12,15 @@ This page highlights the main user-facing improvements, additions and feature re
 <div class="grid" markdown>
 
 !!! question "Have an idea, suggestion or question?"
+    <span data-uuid="6b526c59-8411-463f-9d91-c18d4764caca" style="display:none"></span>
+
     We'd love to hear from you!
 
     [Contact us :lucide-send:](#){ .md-button .custom-button-emerald .custom-button--force-dark .custom-button--borderless onclick="event.preventDefault(); window.groove.widget.open();" }
 
 !!! info "Stay in the loop"
+    <span data-uuid="274f372d-f2c3-4518-9827-68ffbe23260c" style="display:none"></span>
+
     We have a system updates email newsletter!
 
     [Subscribe here :lucide-bell-ring:](https://cloud.opus-safety.co.uk/my/newsletters){ .md-button .custom-button-cyan .custom-button--force-dark .custom-button--borderless target="_blank" rel="noopener" }
@@ -257,6 +261,7 @@ This page highlights the main user-facing improvements, additions and feature re
 
     !!! tip
 
+        <span data-uuid="42c3b16d-4430-48cf-b5ac-93c378ec6d29" style="display:none"></span>
         Comments display relative time (e.g. "3mo ago"). Hover over the relative time text to reveal the exact date for filtering purposes.
 ### February 2026
 
@@ -271,6 +276,8 @@ This page highlights the main user-facing improvements, additions and feature re
         - Set up new templates.
 
     !!! warning "Important"
+        <span data-uuid="48f757ea-da31-4351-a517-4ec1bde60201" style="display:none"></span>
+
         To ensure no disruption, all Managers are now Administrators (as of Sat 21st Feb 2026).
 
     If you would like to bulk reduce any employee's access to the new Manager level, please contact us or submit [a support request.](https://sites.google.com/opus-safety.co.uk/opus-help/hidden-pages/groove-get-in-touch)
@@ -479,6 +486,8 @@ This page highlights the main user-facing improvements, additions and feature re
     - Date filtering — selecting a day on the Manage Checklist page now filters the submission table to that date
 
     !!! tip
+        <span data-uuid="d40a5290-391c-486a-8ebf-0f182efb7804" style="display:none"></span>
+
         If you'd like a custom page showing multiple checklist cadence graphs (e.g. across multiple sites), please speak to Opus and we can help set this up.
 
     ![Animation](../assets/media/other/screenshots/APaQ0STTkoRqELPB7XrEIo0AMAAJENqjuwO0sYxf_95484d8f.png){ width="700" loading=lazy }

@@ -62,6 +62,8 @@ status-page: true
 
 ??? outline "View past events"
 
+    <span data-uuid="c93447ec-a3ff-4c65-8e08-f9a870262753" style="display:none"></span>
+
     !!! status-disruption "<span class="mb-label mb-label-amber">DISRUPTION</span>"
 
         <span data-uuid="6406ca65-01ae-468f-8f99-4c6597d3ef72" data-mb-reported="2026-08-21T08:21+01:00" data-mb-resolved="2026-08-21T17:37+01:00" style="display:none"></span>

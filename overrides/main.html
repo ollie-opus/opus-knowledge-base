@@ -106,4 +106,8 @@
   {# Groove support widget loads on every page so any link can trigger it via
      window.groove.widget.open(); deferred so it never blocks rendering. #}
   <script src="{{ 'assets/javascripts/groove.js' | url }}" defer></script>
+  {# Deep links to admonitions: surfaces each block's hidden data-uuid as the
+     element id (so /page/#<uuid> works, auto-opening collapsed ??? blocks) and
+     adds a copy-link button over the type icon. CSS: admonition-anchors.css. #}
+  <script src="{{ 'assets/javascripts/admonition-anchors.js' | url }}" defer></script>
 {% endblock %}
