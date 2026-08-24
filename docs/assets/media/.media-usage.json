@@ -92,8 +92,12 @@
     "docs/assets/media/occ-captures/sites/uuid/inbox-coach-2-light-mode.png"
   ],
   "docs/drafts/training-and-gaps.md": [
+    "docs/assets/media/occ-captures/admin/sites/uuid/employee-records-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/employee-records-light-mode.png",
     "docs/assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png",
-    "docs/assets/media/occ-captures/dashboard/pick-workspace-light-mode.png"
+    "docs/assets/media/occ-captures/dashboard/pick-workspace-light-mode.png",
+    "docs/assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png",
+    "docs/assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png"
   ],
   "docs/pages/adding-a-contractor.md": [
     "docs/assets/media/occ-captures/admin/sites/uuid/contractors-dark-mode.png",
