@@ -8,8 +8,7 @@ search:
 ??? feature-release "Feature release: Training & Gaps report<span class="meta">21st August 2026</span>"
 
     <span data-uuid="e9510474-4655-4043-9552-cfa9cc6e48d8" style="display:none"></span>
-
-    A new report released
+    A new **Training Compliance & Gap Analysis** report page has been released, making it easier to identify and monitor training compliance issues across your organisation. The report allows you to analyse compliance by site and by type of training/e-learning, helping you quickly identify areas where action may be required.
 
 ??? feature-release "Feature release: Subscription report<span class="meta">21st August 2026</span>"
 
