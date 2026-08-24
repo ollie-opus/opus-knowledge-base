@@ -53,6 +53,6 @@ For both training and e-learning the report visualises this data in 3 main ways.
 
     <span data-uuid="4373d75d-b2bc-4348-8d6c-3a69e5db0ca8" style="display:none"></span>
 
-!!! outline "Compliance by template"
+!!! outline "<span class="mb-label mb-label-slate">Compliance by template</span>"
 
     <span data-uuid="93c52984-2533-4e78-9579-74848daa215d" style="display:none"></span>
