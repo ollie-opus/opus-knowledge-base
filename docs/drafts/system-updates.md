@@ -5,6 +5,12 @@ search:
 
 # System update drafts
 
+??? feature-release "Feature release: Training & Gaps report<span class="meta">21st August 2026</span>"
+
+    <span data-uuid="e9510474-4655-4043-9552-cfa9cc6e48d8" style="display:none"></span>
+
+    A new report released
+
 ??? feature-release "Feature release: Subscription report<span class="meta">21st August 2026</span>"
 
     <span data-uuid="31935d7c-7a06-428c-a9ae-7ba62e617261" style="display:none"></span>
