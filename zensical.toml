@@ -109,6 +109,9 @@ draft_nav = [
     ]},
     {"Other" = [
       {"FAQs" = "drafts/faqs.md"}
+    ]},
+    {"Reporting" = [
+      {"Training & Gaps" = "drafts/training-and-gaps.md"}
     ]}
   ]}
 ]
