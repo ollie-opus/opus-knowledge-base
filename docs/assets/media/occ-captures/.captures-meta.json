@@ -401,5 +401,10 @@
   },
   "docs/assets/media/occ-captures/admin/sites/uuid/dashboard/training-and-gaps-light-mode.png": {
     "zapped": true
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/subscriptions/table-light-mode.png": {
+    "resized": true,
+    "padding": 10,
+    "zapped": true
   }
 }
