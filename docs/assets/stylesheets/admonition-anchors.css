@@ -43,9 +43,12 @@
 
 /* Hovering (or keyboard-focusing) the icon swaps it for the copy icon —
    mask-image only, so the type's colour and size are kept. !important outruns
-   the per-type and per-scheme mask rules in admonitions.css / the theme. */
-.md-typeset :is(.admonition-title, summary):has(> .mb-anchor-copy:hover)::before,
-.md-typeset :is(.admonition-title, summary):has(> .mb-anchor-copy:focus-visible)::before {
+   the per-type and per-scheme mask rules in admonitions.css / the theme.
+   :not(.mb-anchor-copied) hands over to the check the moment a copy lands —
+   without it this rule out-specifies the copied one (the :has() clause) and
+   the check would only appear once the cursor left the icon. */
+.md-typeset :is(.admonition-title, summary):not(.mb-anchor-copied):has(> .mb-anchor-copy:hover)::before,
+.md-typeset :is(.admonition-title, summary):not(.mb-anchor-copied):has(> .mb-anchor-copy:focus-visible)::before {
   -webkit-mask-image: var(--mb-anchor-icon-copy) !important;
           mask-image: var(--mb-anchor-icon-copy) !important;
 }

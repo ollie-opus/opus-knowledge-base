@@ -108,6 +108,22 @@
     var el = document.getElementById(hash);
     if (!el) return;
 
+    /* A target inside a non-active content tab is display:none. Tabs are
+       radio-driven (pymdownx.tabbed alternate style): .tabbed-set holds one
+       <input> per tab followed by .tabbed-content whose .tabbed-block children
+       pair up with the inputs by index. Check the radio for each ancestor
+       block, innermost outwards — .click() (not .checked) so the theme's
+       content.tabs.link syncing and tab-state persistence still run. */
+    for (var block = el.closest('.tabbed-block'); block;
+         block = block.parentElement && block.parentElement.closest('.tabbed-block')) {
+      var content = block.parentElement;
+      var set = content && content.closest('.tabbed-set');
+      if (!set) continue;
+      var index = Array.prototype.indexOf.call(content.children, block);
+      var input = set.querySelectorAll(':scope > input')[index];
+      if (input && !input.checked) input.click();
+    }
+
     /* Auto-open the target and every collapsed ancestor. */
     var d = el.tagName === 'DETAILS' ? el : el.closest('details');
     while (d) {
