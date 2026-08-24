@@ -21,3 +21,7 @@ search:
     ![](../assets/media/occ-captures/admin/sites/uuid/subscriptions/table-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/subscriptions/table-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
+    ??? outline "How to run this report"
+
+        <span data-uuid="af4168b5-ce6c-4806-9ee7-738755cc8be3" style="display:none"></span>
+
