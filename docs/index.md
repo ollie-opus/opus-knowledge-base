@@ -5,6 +5,7 @@ force-dark: true
 hide:
   - toc
   - footer
+  - anchor-links
 ---
 
 <div class="home-hero" data-force-dark markdown>

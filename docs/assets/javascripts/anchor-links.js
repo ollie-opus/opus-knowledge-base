@@ -88,6 +88,26 @@
     });
   }
 
+  /* Floating "✓ Copied!" that rises from the clicked button and fades out
+     (animation in anchor-links.css). position:fixed on <body> so no ancestor
+     overflow/summary can clip it. Purely visual — aria-hidden; assistive tech
+     gets the button's label instead. */
+  function showCopiedToast(anchorBtn) {
+    var rect = anchorBtn.getBoundingClientRect();
+    var toast = document.createElement('span');
+    toast.className = 'mb-anchor-toast';
+    toast.setAttribute('aria-hidden', 'true');
+    toast.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"'
+      + ' stroke-width="3" stroke-linecap="round" stroke-linejoin="round">'
+      + '<path d="M20 6 9 17l-5-5"/></svg>Copied!';
+    toast.style.left = (rect.left + rect.width / 2) + 'px';
+    toast.style.top = rect.top + 'px';
+    document.body.appendChild(toast);
+    var remove = function () { toast.remove(); };
+    toast.addEventListener('animationend', remove, { once: true });
+    setTimeout(remove, 2500); /* fallback if animations never fire */
+  }
+
   /* Shared copy button. anchorId builds the link; feedbackEl (the button
      itself when null) gets .mb-anchor-copied for a moment on success — the
      CSS swaps whichever icon that element owns to a check. */
@@ -106,6 +126,7 @@
       copyText(url).then(function () {
         feedbackEl.classList.add('mb-anchor-copied');
         setTimeout(function () { feedbackEl.classList.remove('mb-anchor-copied'); }, COPIED_MS);
+        showCopiedToast(btn);
       }).catch(function () {
         /* Clipboard unavailable (permissions, ancient browser) — let the
            visitor grab the link by hand. */

@@ -109,6 +109,10 @@
   {# Anchor links: surfaces each admonition's hidden data-uuid as the element
      id (so /page/#<uuid> works, auto-opening collapsed ??? blocks and content
      tabs) and adds copy-link buttons — over the type icon on admonitions,
-     after the text on headings. CSS: anchor-links.css. #}
-  <script src="{{ 'assets/javascripts/anchor-links.js' | url }}" defer></script>
+     after the text on headings. CSS: anchor-links.css.
+     Opt out per page via the standard hide list:  hide: - anchor-links
+     (skipping the script also means uuid deep links don't resolve there). #}
+  {% if not (page.meta and page.meta.hide and 'anchor-links' in page.meta.hide) %}
+    <script src="{{ 'assets/javascripts/anchor-links.js' | url }}" defer></script>
+  {% endif %}
 {% endblock %}
