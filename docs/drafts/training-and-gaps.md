@@ -56,3 +56,7 @@ For both training and e-learning the report visualises this data in 3 main ways.
 !!! outline "<span class="mb-label mb-label-slate">Compliance by template</span>"
 
     <span data-uuid="93c52984-2533-4e78-9579-74848daa215d" style="display:none"></span>
+
+!!! outline "<span class="mb-label mb-label-slate">Site & template matrix</span>"
+
+    <span data-uuid="4978c541-cc71-4aef-9cc6-168161b4025e" style="display:none"></span>
