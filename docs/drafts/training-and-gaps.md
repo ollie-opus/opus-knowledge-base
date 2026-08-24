@@ -48,3 +48,7 @@ Training & Gaps is a training/e-learning completion and gap analysis report. Thi
 <span data-uuid="5fc883c3-7712-4a25-9d76-987e5ba75db6" style="display:none"></span>
 
 This report can be used in the following ways:
+
+!!! outline "<span class="mb-label mb-label-slate">Site compliance</span>"
+
+    <span data-uuid="4373d75d-b2bc-4348-8d6c-3a69e5db0ca8" style="display:none"></span>
