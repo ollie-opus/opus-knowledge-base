@@ -174,3 +174,7 @@ The form requires you to provide the following information:
 ??? outline "<span class="mb-label mb-label-slate">Access scope</span>"
 
     <span data-uuid="580fdb12-ede3-46e5-8958-c8c4fbb91a33" style="display:none"></span>
+
+    <span data-uuid="082c5fd0-529c-422f-8d2f-b2afd75c0dc5" style="display:none"></span>
+    ![](../assets/media/occ-captures/todos/uuid/sensitive/access-scope-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/sensitive/access-scope-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
