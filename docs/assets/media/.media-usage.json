@@ -35,6 +35,26 @@
     "docs/assets/media/other/screenshots/APaQ0SRL-eDqthpF8jrV9xBNKwEhqf67e9IeA91W_d2fe5420.gif",
     "docs/assets/media/other/screenshots/APaQ0ST_UgoGam1x7NuixSy7GtD8fAnNNkSZd6b1_013f3a85.gif"
   ],
+  "docs/drafts/archiving-an-employee.md": [
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit/assigned-unresolved-tasks-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit/assigned-unresolved-tasks-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit/end-day-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit/end-day-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit/save-employee-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/edit/save-employee-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/employee-records-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/employee-records-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/employees/archived-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/employees/archived-light-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png",
+    "docs/assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png",
+    "docs/assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png",
+    "docs/assets/media/occ-captures/dashboard/pick-workspace-light-mode.png",
+    "docs/assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png",
+    "docs/assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png"
+  ],
   "docs/drafts/employees-overview.md": [
     "docs/assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png",
     "docs/assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png"
