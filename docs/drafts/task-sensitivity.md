@@ -149,3 +149,8 @@ The form requires you to provide the following information:
 
     <span data-uuid="18c92c47-da25-48e1-8bf9-3a88de93eaa8" style="display:none"></span>
     You will be asked to provide a reason for requesting access to this data. This reason will be recorded in the system logs and visible to others who access the task, supporting transparency and accountability.
+
+    !!! failure "Important"
+
+        <span data-uuid="5a3d4815-ab75-4a74-a98d-c032aabb8664" style="display:none"></span>
+        Please provide a clear and legitimate reasons for accessing sensitive data. Unnecessary or unjustified access to sensitive data may have consequences under your organisation’s policies.
