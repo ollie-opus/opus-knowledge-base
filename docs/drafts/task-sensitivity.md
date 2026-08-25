@@ -72,3 +72,13 @@ As mentioned above, sensitive tasks containing DSE or health-related data typica
 
     <span data-uuid="96656cae-4a5b-44f0-90f4-48a4508266e3" style="display:none"></span>
     You can only grant this authorisation to other employees if you have the authorisation yourself. As a result, we recommend being conservative with who should be granted this access.
+
+!!! step
+
+    <span data-uuid="abfd1916-909f-4a56-afcb-3ea08ac0a246" style="display:none"></span>
+
+    From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard), click on **Pick workspace** and select the site where you want to add the employee.
+
+    <span data-uuid="5474d1c7-5af7-4e8d-a77d-a11300e010f5" style="display:none"></span>
+    ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
