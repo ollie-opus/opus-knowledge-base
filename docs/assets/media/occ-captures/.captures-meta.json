@@ -410,5 +410,9 @@
   "docs/assets/media/occ-captures/admin/sites/uuid/reports/trainings/training-template-compliance-system-update-light-mode.png": {
     "resized": true,
     "padding": 20
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/reports/trainings/overdue-training-system-update-light-mode.png": {
+    "resized": true,
+    "padding": 5
   }
 }
