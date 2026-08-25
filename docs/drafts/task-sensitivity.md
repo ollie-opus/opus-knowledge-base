@@ -51,3 +51,8 @@ Examples of tasks that may typically be flagged as sensitive include:
 <span data-uuid="9440483a-de9c-4673-916a-7546f5418a3b" style="display:none"></span>
 ![](../assets/media/occ-captures/sites/uuid/severity-major-light-mode.png#only-light)
 ![](../assets/media/occ-captures/sites/uuid/severity-major-dark-mode.png#only-dark)
+
+## How does task sensitivity work?
+<span data-uuid="6cc9d5be-dc46-40d2-b1a4-a3efd5d2aa92" style="display:none"></span>
+
+Tasks become sensitive if a sensitive label is applied to them. Below of the three main sensitive labels you may come across
