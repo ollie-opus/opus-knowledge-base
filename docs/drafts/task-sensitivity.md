@@ -64,6 +64,84 @@ Authorisations can be assigned to employees to grant access to specific types of
 
         You can only grant this authorisation to other employees if you have the authorisation yourself. As a result, we recommend being conservative with who should be granted this access.
 
+    !!! step
+
+        <span data-uuid="648ef5fe-187e-4378-ba07-2259f219d971" style="display:none"></span>
+
+        From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard), click on **Pick workspace** and select the site where the employee is located.
+
+        <span data-uuid="dc335c6b-97c5-4ae4-bc98-1693b117463c" style="display:none"></span>
+        ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+        ![](../assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+    !!! step
+
+        <span data-uuid="486fa9e7-09cf-4f67-98fd-157998213fb5" style="display:none"></span>
+
+        From the site inbox, click the **Switch to Manage Mode** button.
+
+        <span data-uuid="7a1cb536-7b12-47aa-b09d-aa2d93ae3557" style="display:none"></span>
+        ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+        ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+    !!! step
+
+        <span data-uuid="ce93cf61-08c8-42a8-b420-5c044cfb4ab2" style="display:none"></span>
+
+        Click **Employee records** on the manage sidebar.
+
+        <span data-uuid="24ed3407-cfcb-4827-a4eb-1845543aef09" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/employee-records-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/employee-records-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+    !!! step
+
+        <span data-uuid="bc3c3f93-a1cf-4ef8-a10e-c76d0c0f1958" style="display:none"></span>
+
+        Find the employee from the list and click on their name
+
+        <span data-uuid="e99cc41d-045c-480b-b54c-4118fa864fb0" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png#only-light){ width="400" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png#only-dark){ width="400" loading=lazy }
+
+    !!! step
+
+        <span data-uuid="c58b7364-33ac-46f4-bf3c-5102ddcf322a" style="display:none"></span>
+
+        On the employee's record, select **Change access**
+
+        <span data-uuid="441b6ea9-e2c6-4fea-ac0b-54ed853eb56e" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-access-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-access-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+    !!! step
+
+        <span data-uuid="c75a44a3-63c1-4a2f-9350-72ce51fccec0" style="display:none"></span>
+
+        Grant the relevant authorisations or tags if the employee needs them (you can only configure this if you possess the tag yourself).
+
+        `authorised/health` — Assigning this tag grants the employee authorisation to access sensitive health data (e.g. Health Surveillance corrective actions) for the employees they manage.
+
+        <span data-uuid="508a3643-5c16-4df7-8d93-468d88f99735" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/authorisations-tags-light-mode.png#only-light)
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/authorisations-tags-dark-mode.png#only-dark)
+
+        !!! note
+
+            <span data-uuid="abc62e0d-e231-4281-8b81-61f1bbf2ea89" style="display:none"></span>
+
+            By default, all sites will have the `authorised/health` tag available, but depending on your site configuration you may have more.
+
+    !!! step
+
+        <span data-uuid="89598337-7f40-49d4-b3f0-e2a5d9400f4f" style="display:none"></span>
+
+        Once you have selected the authorisation(s), click **Apply changes**.
+
+        <span data-uuid="164513f2-e2c7-4f8b-9ac5-5b10240082e6" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/apply-changes-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/apply-changes-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
 ### How to grant authorisations to employees.
 <span data-uuid="48703411-60aa-455e-bdfd-2ac409a717e8" style="display:none"></span>
 
