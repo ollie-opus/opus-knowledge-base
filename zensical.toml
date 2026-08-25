@@ -104,7 +104,8 @@ draft_nav = [
     ]},
     {"Employees" = [
       {"Employees Overview" = "drafts/employees-overview.md"},
-      {"Adding a new employee" = "drafts/adding-a-new-employee.md"}
+      {"Adding a new employee" = "drafts/adding-a-new-employee.md"},
+      {"Archiving an employee" = "drafts/archiving-an-employee.md"}
     ]},
     {"Contractors" = [
       {"Permits to Work" = "drafts/permits-to-work.md"}
