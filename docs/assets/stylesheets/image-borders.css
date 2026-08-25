@@ -1,25 +1,22 @@
 /* ============================================================================
- * image-borders.css — 1px hairline border around full screenshots and videos.
+ * image-borders.css — 1px hairline border around images and videos.
  *
  * Light grey in light mode, dark grey in dark mode. The border follows any
  * inline `border-radius: 8px` the image already carries.
  *
- * Scope: full screenshots and <video> embeds only. Inline UI chips and table
- * icons (the `style="height: 50px"` / `height: 30px` snippets) must stay
- * borderless — a box around a cropped button reads as part of the UI. No class
- * distinguishes the two species, but every chip's inline style contains
- * `height:` and no full screenshot's does, hence the :not([style*="height:"])
- * discriminator. Keep that invariant when authoring pages.
+ * Scope: every <img> and <video> EXCEPT .svg images (bare icons — a hairline
+ * box around an icon reads as clutter). SVG sources may carry a #only-light /
+ * #only-dark fragment, so match with [src*=".svg"] rather than [src$=".svg"].
  * ========================================================================== */
 
 /* Light mode */
-[data-md-color-scheme="default"] .md-typeset img:not([style*="height:"]),
+[data-md-color-scheme="default"] .md-typeset img:not([src*=".svg"]),
 [data-md-color-scheme="default"] .md-typeset video {
   border: 1px solid #d0d0d0;
 }
 
 /* Dark mode (also covers force-dark pages — dark-lock.js sets slate on body) */
-[data-md-color-scheme="slate"] .md-typeset img:not([style*="height:"]),
+[data-md-color-scheme="slate"] .md-typeset img:not([src*=".svg"]),
 [data-md-color-scheme="slate"] .md-typeset video {
   border: 1px solid #404040;
 }
