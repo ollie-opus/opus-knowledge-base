@@ -25,10 +25,10 @@ When viewing from the site inbox or task reports, sensitive tasks will appear re
 ![](../assets/media/occ-captures/sites/uuid/sensitive-task-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
 ![](../assets/media/occ-captures/sites/uuid/sensitive-task-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
-## How does task sensitivity work?
+## Kinds of sensitive tasks
 <span data-uuid="6cc9d5be-dc46-40d2-b1a4-a3efd5d2aa92" style="display:none"></span>
 
-Tasks become sensitive when a sensitive label is applied to them. Certain types of sensitive tasks require additional authorisation before you can access them. Below are three types of sensitive tasks you are most likely to encounter.
+There are different kinds of sensitive task, depending on the data they contain. Certain types of sensitive tasks require additional authorisation before you can access them. Below are three types of sensitive tasks you are most likely to encounter.
 
 <span data-uuid="6c545462-785b-43d9-b296-5bd5cf68d156" style="display:none"></span>
 
