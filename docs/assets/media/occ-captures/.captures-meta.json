@@ -414,5 +414,8 @@
   "docs/assets/media/occ-captures/admin/sites/uuid/reports/trainings/overdue-training-system-update-light-mode.png": {
     "resized": true,
     "padding": 5
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/dashboard/authorisations-and-tags-a-health-related-data-light-mode.png": {
+    "annotated": true
   }
 }
