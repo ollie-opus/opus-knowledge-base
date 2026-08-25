@@ -162,9 +162,10 @@ The form requires you to provide the following information:
         <span data-uuid="5a3d4815-ab75-4a74-a98d-c032aabb8664" style="display:none"></span>
         Please provide a clear and legitimate reasons for accessing sensitive data. Unnecessary or unjustified access to sensitive data may have consequences under your organisation’s policies.
 
-!!! outline
+??? outline "<span class="mb-label mb-label-slate">Access expiration</span>"
 
     <span data-uuid="a95d8033-3485-4843-a958-1e30e3ecae52" style="display:none"></span>
+    This allows you to specify how long you would like to retain access to the data before you are required to complete another exception form.
 
     <span data-uuid="16071a6a-8c76-4177-b59a-c028a2f20f03" style="display:none"></span>
     ![](../assets/media/occ-captures/todos/uuid/sensitive/access-expiration-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
