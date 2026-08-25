@@ -120,3 +120,21 @@ As mentioned above, sensitive tasks containing DSE or health-related data typica
     <span data-uuid="acacd892-d29e-4542-985a-a57c127d1a9a" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-access-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-access-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! step
+
+    <span data-uuid="8e93945b-28cb-4456-801f-dd295138c9bc" style="display:none"></span>
+
+    Grant the relevant authorisations or tags if the employee needs them (you can only configure this if you possess the tag yourself).
+
+    `authorised/health` — Assigning this tag grants the employee authorisation to access sensitive health data (e.g. Health Surveillance corrective actions) for the employees they manage.
+
+    <span data-uuid="c50ac3c9-6183-443e-9e89-14a2b1a9217d" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/authorisations-tags-light-mode.png#only-light)
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/authorisations-tags-dark-mode.png#only-dark)
+
+    !!! note
+
+        <span data-uuid="36fde108-b92b-4e10-8c05-75cf74aeab6e" style="display:none"></span>
+
+        By default, all sites will have the `authorised/health` tag available, but depending on your site configuration you may have more.
