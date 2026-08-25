@@ -58,6 +58,12 @@ Authorisations can be assigned to employees to grant access to specific types of
 
     :lucide-info: *The Health-Related Data authorisation is intended for relevant managers or administrators only. It should not be granted to employees with standard user access.*
 
+    !!! warning
+
+        <span data-uuid="9ab434fa-82cb-4ddd-b375-b3525019627b" style="display:none"></span>
+
+        You can only grant this authorisation to other employees if you have the authorisation yourself. As a result, we recommend being conservative with who should be granted this access.
+
 ### How to grant authorisations to employees.
 <span data-uuid="48703411-60aa-455e-bdfd-2ac409a717e8" style="display:none"></span>
 
