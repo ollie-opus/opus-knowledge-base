@@ -115,6 +115,9 @@ draft_nav = [
     ]},
     {"Reporting" = [
       {"Training & Gaps" = "drafts/training-and-gaps.md"}
+    ]},
+    {"Rams" = [
+      {"Creating a RAMS project" = "drafts/creating-a-rams-project.md"}
     ]}
   ]}
 ]
