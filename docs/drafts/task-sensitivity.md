@@ -16,32 +16,6 @@ Certain tasks may be flagged as sensitive because they contain sensitive informa
     <span data-uuid="83e20d5a-96c0-4271-a16d-6cc1e32f8205" style="display:none"></span>
     This guide explains how task sensitivity behaves by default. Your organisation may have modified this feature to suit its specific business needs.
 
-## General information
-<span data-uuid="0f29ee79-597d-4e53-a79f-447e9cec8cb6" style="display:none"></span>
-
-
-!!! outline "<span class="mb-label mb-label-slate">What controls task sensitivity?</span>"
-
-    <span data-uuid="7bd5f233-7b69-4074-b4e6-481f70cb4fbc" style="display:none"></span>
-    Task sensitivity is controlled via labels. There are currently 3 kinds of sensitive labels you may encounter.
-
-    <span data-uuid="4afeeb50-b745-4e2f-b3fb-6135d79d9412" style="display:none"></span>
-
-    <div class="nowrap-first" markdown>
-
-    | Sensitive label | How it is used | Requires access exception? | Required authorisation |
-    | :--- | :--- | :---: | :--- |
-    | DSE related data | DSE Assessment corrective actions | :lucide-check: | Health related data authorisation |
-    | Health related data | Health surveillance corrective actions | :lucide-check: | Health related data authorisation |
-    | Injury related data | Resolved incidents with injury tasks | :lucide-check: | No additional authorisation is required beyond manager access |
-
-    </div>
-
-!!! outline "<span class="mb-label mb-label-slate">What do sensitive tasks look like?</span>"
-
-    <span data-uuid="67f8fc25-2041-48e9-8861-30c94be2a1c2" style="display:none"></span>
-    When viewing from the site inbox or task reports, sensitive tasks will appear redacted.
-
 ## How does task sensitivity work?
 <span data-uuid="6cc9d5be-dc46-40d2-b1a4-a3efd5d2aa92" style="display:none"></span>
 
