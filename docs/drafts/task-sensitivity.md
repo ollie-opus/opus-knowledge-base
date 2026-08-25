@@ -76,8 +76,7 @@ As mentioned above, sensitive tasks containing DSE or health-related data typica
 !!! step
 
     <span data-uuid="abfd1916-909f-4a56-afcb-3ea08ac0a246" style="display:none"></span>
-
-    From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard), click on **Pick workspace** and select the site where you want to add the employee.
+    From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard), click on **Pick workspace** and select the site the employee is located.
 
     <span data-uuid="5474d1c7-5af7-4e8d-a77d-a11300e010f5" style="display:none"></span>
     ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
