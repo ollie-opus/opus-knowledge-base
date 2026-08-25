@@ -97,12 +97,11 @@ Authorisations can be assigned to employees to grant access to specific types of
     !!! step
 
         <span data-uuid="bc3c3f93-a1cf-4ef8-a10e-c76d0c0f1958" style="display:none"></span>
-
         Find the employee from the list and click on their name
 
         <span data-uuid="e99cc41d-045c-480b-b54c-4118fa864fb0" style="display:none"></span>
-        ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png#only-light){ width="400" loading=lazy }
-        ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png#only-dark){ width="400" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png#only-light)
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png#only-dark)
 
     !!! step
 
