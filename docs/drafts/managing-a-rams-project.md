@@ -38,17 +38,6 @@ This guide details how to manage a RAMS project in Opus Compliance Cloud.
 
 !!! step
 
-    <span data-uuid="489712fc-a60a-4955-aa0b-2daa625c9e56" style="display:none"></span>
-
-
-    Click the :lucide-ellipsis: icon to open the more options menu.
-
-    <span data-uuid="85826766-6d47-4454-8866-12bf2cba61c8" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/show-extra-menu-options-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/show-extra-menu-options-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
-!!! step
-
     <span data-uuid="29c2d38e-05f1-48bc-b5ab-8281e80bc04e" style="display:none"></span>
 
     From the popup menu, select <span class="mb-label mb-label-slate">RAMS</span>
