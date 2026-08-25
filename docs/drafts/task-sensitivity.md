@@ -101,3 +101,21 @@ As mentioned above, sensitive tasks containing DSE or health-related data typica
     <span data-uuid="a094685d-4212-46e1-81e3-48f9a2da96ca" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/employee-records-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/employee-records-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! step
+
+    <span data-uuid="591f0ccd-9226-4da8-a30c-dcb822fc1727" style="display:none"></span>
+
+    Find the employee from the list and click on their name
+
+    <span data-uuid="36d0ef8f-94ce-491b-8895-3a7f99a17b00" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png#only-light){ width="400" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png#only-dark){ width="400" loading=lazy }
+
+    !!! tip "Shortcut!<span class="meta">(optional)</span>"
+
+        <span data-uuid="b0abcc32-fb17-4213-8d80-9de0dcbe9045" style="display:none"></span>
+
+        If you see the red Remove button next to the employee’s name in the list, you can click this instead to schedule the employee to be archived at the end of the day. You can then skip the remaining steps.
+
+        If you need to set a specific end date for the employee (for example, if their leaving date is in the future or was in the past), continue with the steps below.
