@@ -22,6 +22,7 @@ extra_css = [
   "assets/stylesheets/tables.css",
   "assets/stylesheets/grid-spill.css",
   "assets/stylesheets/videos.css",
+  "assets/stylesheets/image-borders.css",
   "assets/stylesheets/labels.css",
   "assets/stylesheets/buttons.css",
   "assets/stylesheets/nav-links.css",
