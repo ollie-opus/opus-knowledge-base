@@ -16,3 +16,8 @@ Examples of tasks that may typically be flagged as sensitive include:
 - :lucide-monitor-dot: DSE Assessment corrective actions
 - :lucide-stethoscope: Health Surveillance corrective actions
 - :lucide-cross: Resolved Incidents with Injury tasks
+
+!!! note
+
+    <span data-uuid="83e20d5a-96c0-4271-a16d-6cc1e32f8205" style="display:none"></span>
+    This guide explains how task sensitivity behaves by default. Your organisation may have modified this feature to suit its specific business needs.
