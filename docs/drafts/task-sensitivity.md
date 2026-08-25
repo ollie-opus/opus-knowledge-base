@@ -150,3 +150,7 @@ As mentioned above, sensitive tasks containing DSE or health-related data typica
 <span data-uuid="e62be4a8-1798-4e07-aa50-46512a90f123" style="display:none"></span>
 
 When viewing from the site inbox or task reports, sensitive tasks will appear redacted.
+
+<span data-uuid="83fb63c1-95a6-41d5-aaa9-6ed9312a9b41" style="display:none"></span>
+![](../assets/media/occ-captures/sites/uuid/sensitive-task-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+![](../assets/media/occ-captures/sites/uuid/sensitive-task-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
