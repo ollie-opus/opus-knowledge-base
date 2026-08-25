@@ -138,3 +138,13 @@ As mentioned above, sensitive tasks containing DSE or health-related data typica
         <span data-uuid="36fde108-b92b-4e10-8c05-75cf74aeab6e" style="display:none"></span>
 
         By default, all sites will have the `authorised/health` tag available, but depending on your site configuration you may have more.
+
+!!! step
+
+    <span data-uuid="1648dd99-d913-4a23-ad3a-7b6b094d6c0e" style="display:none"></span>
+
+    Once you have made the changes, click **Apply changes**.
+
+    <span data-uuid="55704db4-7e87-47f0-9293-e7ae7b91649b" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/apply-changes-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/apply-changes-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
