@@ -170,3 +170,7 @@ The form requires you to provide the following information:
     <span data-uuid="16071a6a-8c76-4177-b59a-c028a2f20f03" style="display:none"></span>
     ![](../assets/media/occ-captures/todos/uuid/sensitive/access-expiration-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
     ![](../assets/media/occ-captures/todos/uuid/sensitive/access-expiration-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
+
+??? outline "<span class="mb-label mb-label-slate">Access scope</span>"
+
+    <span data-uuid="580fdb12-ede3-46e5-8958-c8c4fbb91a33" style="display:none"></span>
