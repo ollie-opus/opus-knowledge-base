@@ -61,10 +61,10 @@ Examples of tasks that are typically flagged as sensitive include:
 
 <div class="nowrap-first" markdown>
 
-| Sensitive label | Where it is used | Required authorisation |
+| Type of task | Sensitive label | Required authorisation |
 | :--- | :--- | :--- |
-| <span class="mb-label mb-label-slate">:lucide-lock: DSE related data</span> | DSE assessment corrective actions | <span class="mb-label mb-label-fuchsia">Health related data authorisation</span> |
-| <span class="mb-label mb-label-slate">:lucide-lock: Health related data</span> | Health surveillance corrective actions | <span class="mb-label mb-label-fuchsia">Health related data authorisation</span> |
-| <span class="mb-label mb-label-slate">:lucide-lock: Injury related data</span> | Resolved injury related incidents | No additional authorisation required |
+| :lucide-monitor-dot: DSE assessment corrective actions | <span class="mb-label mb-label-slate">:lucide-lock: DSE related data</span> | <span class="mb-label mb-label-fuchsia">Health related data authorisation</span> |
+| :lucide-stethoscope: Health surveillance corrective actions | <span class="mb-label mb-label-slate">:lucide-lock: Health related data</span> | <span class="mb-label mb-label-fuchsia">Health related data authorisation</span> |
+| :lucide-cross: Resolved injury related incidents | <span class="mb-label mb-label-slate">:lucide-lock: Injury related data</span> | No additional authorisation required |
 
 </div>
