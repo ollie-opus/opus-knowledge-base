@@ -137,3 +137,6 @@ Sensitive tasks containing DSE or health-related data typically require a <span 
     <span data-uuid="55704db4-7e87-47f0-9293-e7ae7b91649b" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/apply-changes-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/apply-changes-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+## How to access sensitive tasks
+<span data-uuid="13778d21-0334-4fc1-83e6-a300db7a3832" style="display:none"></span>
