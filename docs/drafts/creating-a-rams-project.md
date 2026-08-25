@@ -41,9 +41,7 @@ This guide details how to create a RAMS project in Opus Compliance Cloud.
 !!! step
 
     <span data-uuid="b2195ed9-b21d-4f77-b114-d3c2eee6b9ae" style="display:none"></span>
-
-
-    From the popup menu, select <span class="mb-label mb-label-slate">RAMS</span>
+    Select **Manage RAMS**
 
     <span data-uuid="a05cc600-2191-4014-abf2-5a19833bf9da" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/rams-light-mode.png#only-light){ style="height: 50px" loading=lazy }
