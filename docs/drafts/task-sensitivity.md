@@ -61,10 +61,10 @@ Tasks become sensitive if a sensitive label is applied to them. There are curren
 
 <div class="nowrap-first" markdown>
 
-| Sensitive label | How it is used | Requires access exception? | Required authorisation |
-| :--- | :--- | :---: | :--- |
-| DSE related data | DSE Assessment corrective actions | :lucide-check: | Health related data authorisation |
-| Health related data | Health surveillance corrective actions | :lucide-check: | Health related data authorisation |
-| Injury related data | Resolved incidents with injury tasks | :lucide-check: | No additional authorisation is required beyond manager access |
+| Sensitive label | Where it is used | Required authorisation |
+| :--- | :--- | :--- |
+| <span class="mb-label mb-label-slate">:lucide/lock: DSE related data</span> | DSE sssessment corrective actions | <span class="mb-label mb-label-fuchsia">Health related data authorisation</span> |
+| <span class="mb-label mb-label-slate">:lucide/lock: Health related data</span> | Health surveillance corrective actions | <span class="mb-label mb-label-fuchsia">Health related data authorisation</span> |
+| <span class="mb-label mb-label-slate">:lucide/lock: Injury related data</span> | Resolved injury related incidents | No additional authorisation required |
 
 </div>
