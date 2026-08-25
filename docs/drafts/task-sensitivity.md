@@ -128,3 +128,6 @@ As mentioned above, sensitive tasks containing DSE or health-related data typica
     <span data-uuid="55704db4-7e87-47f0-9293-e7ae7b91649b" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/apply-changes-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/apply-changes-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+## Authorisations
+<span data-uuid="d1e6d765-67c8-43f1-8aa0-e5e0c98c6358" style="display:none"></span>
