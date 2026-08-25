@@ -417,5 +417,8 @@
   },
   "docs/assets/media/occ-captures/admin/sites/uuid/dashboard/authorisations-and-tags-a-health-related-data-light-mode.png": {
     "annotated": true
+  },
+  "docs/assets/media/occ-captures/todos/uuid/sensitive/access-reason-light-mode.png": {
+    "padding": 20
   }
 }
