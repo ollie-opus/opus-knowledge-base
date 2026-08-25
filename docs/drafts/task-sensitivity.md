@@ -48,7 +48,7 @@ There are different kinds of sensitive task, depending on the data they contain.
 ### How to grant authorisations to employees.
 <span data-uuid="48703411-60aa-455e-bdfd-2ac409a717e8" style="display:none"></span>
 
-As mentioned above, sensitive tasks containing DSE or health-related data typically require a <span class="mb-label mb-label-fuchsia">Health related data authorisation</span> to be granted on the employee’s record. The steps below explain how to grant this authorisation to an employee.
+Sensitive tasks containing DSE or health-related data typically require a <span class="mb-label mb-label-fuchsia">Health related data authorisation</span> to be granted on the employee’s record. The steps below explain how to grant this authorisation to an employee.
 
 :lucide-info: *The Health-Related Data authorisation is intended for selected managers or administrators only. It should not be granted to employees with standard user access.*
 
