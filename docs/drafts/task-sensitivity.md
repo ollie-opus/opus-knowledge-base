@@ -67,3 +67,8 @@ Tasks become sensitive when a sensitive label is applied to them. Certain types 
 <span data-uuid="48703411-60aa-455e-bdfd-2ac409a717e8" style="display:none"></span>
 
 As mentioned above, sensitive tasks containing DSE or health-related data typically require a <span class="mb-label mb-label-fuchsia">Health related data authorisation</span> to be granted on the employee’s record. The steps below explain how to grant this authorisation to an employee.
+
+!!! warning
+
+    <span data-uuid="96656cae-4a5b-44f0-90f4-48a4508266e3" style="display:none"></span>
+    You can only grant this authorisation to other employees if you have the authorisation yourself. As a result, we recommend being conservative with who should be granted this access.
