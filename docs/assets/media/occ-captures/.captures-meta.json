@@ -424,5 +424,9 @@
   "docs/assets/media/occ-captures/todos/uuid/sensitive/access-expiration-light-mode.png": {
     "resized": true,
     "padding": 20
+  },
+  "docs/assets/media/occ-captures/todos/uuid/sensitive/access-scope-light-mode.png": {
+    "padding": 20,
+    "zapped": true
   }
 }
