@@ -150,6 +150,10 @@ The form requires you to provide the following information:
     <span data-uuid="18c92c47-da25-48e1-8bf9-3a88de93eaa8" style="display:none"></span>
     You will be asked to provide a reason for requesting access to this data. This reason will be recorded in the system logs and visible to others who access the task, supporting transparency and accountability.
 
+    <span data-uuid="8e883a75-ebc2-43e5-beba-00c21941748f" style="display:none"></span>
+    ![](../assets/media/occ-captures/todos/uuid/sensitive/access-reason-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/sensitive/access-reason-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
+
     !!! failure "Important"
 
         <span data-uuid="5a3d4815-ab75-4a74-a98d-c032aabb8664" style="display:none"></span>
