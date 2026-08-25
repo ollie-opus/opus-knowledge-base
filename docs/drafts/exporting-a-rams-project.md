@@ -38,16 +38,6 @@ This guide details how to export a RAMS project.
 
 !!! step
 
-    <span data-uuid="0d3f496b-baa5-4651-96aa-e4c6e721a4f2" style="display:none"></span>
-
-    Click the :lucide-ellipsis: icon to open the more options menu.
-
-    <span data-uuid="e2f1f2c0-b23c-4012-9003-153ebf9fc005" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/show-extra-menu-options-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/show-extra-menu-options-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
-!!! step
-
     <span data-uuid="b04b1675-85d1-4e2d-a497-b52353a0b675" style="display:none"></span>
 
     From the popup menu, select <span class="mb-label mb-label-slate">RAMS</span>
