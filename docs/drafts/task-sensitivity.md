@@ -51,6 +51,12 @@ Certain tasks may be flagged as sensitive because they contain sensitive informa
 
 Tasks become sensitive when a sensitive label is applied to them. Certain sensitive labels require additional authorisation before a user can access the task. There are currently three types of sensitive labels you may encounter.
 
+Examples of tasks that are typically flagged as sensitive include:
+
+- :lucide-monitor-dot: DSE assessment corrective actions
+- :lucide-stethoscope: Health surveillance corrective actions
+- :lucide-cross: Resolved injury related incidents
+
 <span data-uuid="6c545462-785b-43d9-b296-5bd5cf68d156" style="display:none"></span>
 
 <div class="nowrap-first" markdown>
@@ -58,7 +64,7 @@ Tasks become sensitive when a sensitive label is applied to them. Certain sensit
 | Sensitive label | Where it is used | Required authorisation |
 | :--- | :--- | :--- |
 | <span class="mb-label mb-label-slate">:lucide-lock: DSE related data</span> | DSE assessment corrective actions | <span class="mb-label mb-label-fuchsia">Health related data authorisation</span> |
-| <span class="mb-label mb-label-slate">:lucide-lock: Health related data</span> | Health surveillance corrective actions  | <span class="mb-label mb-label-fuchsia">Health related data authorisation</span> |
+| <span class="mb-label mb-label-slate">:lucide-lock: Health related data</span> | Health surveillance corrective actions | <span class="mb-label mb-label-fuchsia">Health related data authorisation</span> |
 | <span class="mb-label mb-label-slate">:lucide-lock: Injury related data</span> | Resolved injury related incidents | No additional authorisation required |
 
 </div>
