@@ -81,3 +81,13 @@ As mentioned above, sensitive tasks containing DSE or health-related data typica
     <span data-uuid="5474d1c7-5af7-4e8d-a77d-a11300e010f5" style="display:none"></span>
     ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! step
+
+    <span data-uuid="e248ba6a-d765-4995-86a0-6ba85f7b3a92" style="display:none"></span>
+
+    From the site inbox, click the **Switch to Manage Mode** button.
+
+    <span data-uuid="8b3ec5ba-6544-4347-996d-c9b188005180" style="display:none"></span>
+    ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
