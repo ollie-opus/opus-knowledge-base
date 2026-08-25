@@ -109,7 +109,9 @@
     "docs/assets/media/occ-captures/sites/uuid/sensitive-task-dark-mode.png",
     "docs/assets/media/occ-captures/sites/uuid/sensitive-task-light-mode.png",
     "docs/assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png",
-    "docs/assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png"
+    "docs/assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png",
+    "docs/assets/media/occ-captures/todos/uuid/sensitive/access-reason-dark-mode.png",
+    "docs/assets/media/occ-captures/todos/uuid/sensitive/access-reason-light-mode.png"
   ],
   "docs/drafts/training-and-gaps.md": [
     "docs/assets/media/occ-captures/admin/sites/uuid/dashboard/training-and-gaps-dark-mode.png",
