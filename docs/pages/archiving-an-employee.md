@@ -55,8 +55,8 @@ Follow the guide below on how to do this.
     Find the employee from the list and click on their name
 
     <span data-uuid="6389ed6b-70ec-4059-8bfb-ac84ae15102f" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png#only-light){ width="400" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png#only-dark){ width="400" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
     !!! tip "Shortcut!<span class="meta">(optional)</span>"
 
