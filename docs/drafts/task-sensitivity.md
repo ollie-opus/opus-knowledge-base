@@ -26,7 +26,7 @@ Examples of tasks that may typically be flagged as sensitive include:
 <span data-uuid="0f29ee79-597d-4e53-a79f-447e9cec8cb6" style="display:none"></span>
 
 
-!!! outline "What controls task sensitivity?"
+!!! outline "<span class="mb-label mb-label-slate">What controls task sensitivity?</span>"
 
     <span data-uuid="7bd5f233-7b69-4074-b4e6-481f70cb4fbc" style="display:none"></span>
     Task sensitivity is controlled via labels. There are currently 3 kinds of sensitive labels you may encounter.
