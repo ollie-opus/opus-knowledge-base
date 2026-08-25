@@ -26,3 +26,7 @@ Examples of tasks that may typically be flagged as sensitive include:
 <span data-uuid="0f29ee79-597d-4e53-a79f-447e9cec8cb6" style="display:none"></span>
 
 Viewing the task from the inbox or task list, sensitive tasks will be redacted.
+
+<span data-uuid="9440483a-de9c-4673-916a-7546f5418a3b" style="display:none"></span>
+![](../assets/media/occ-captures/sites/uuid/severity-major-light-mode.png#only-light)
+![](../assets/media/occ-captures/sites/uuid/severity-major-dark-mode.png#only-dark)
