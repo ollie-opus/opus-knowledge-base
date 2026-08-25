@@ -115,9 +115,4 @@ As mentioned above, sensitive tasks containing DSE or health-related data typica
 !!! step
 
     <span data-uuid="76e06950-a378-4719-a9a5-d38c608a22f7" style="display:none"></span>
-
     On the employee's record, select **Change access**
-
-    <span data-uuid="f113e784-2608-4b13-a097-8ced7312785a" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-location-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-location-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
