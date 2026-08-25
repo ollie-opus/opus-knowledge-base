@@ -56,7 +56,7 @@ Authorisations can be assigned to employees to grant access to specific types of
 
 Sensitive tasks containing DSE or health-related data typically require a <span class="mb-label mb-label-fuchsia">Health related data authorisation</span> to be granted on the employee’s record. The steps below explain how to grant this authorisation to an employee.
 
-:lucide-info: *The Health-Related Data authorisation is intended for selected managers or administrators only. It should not be granted to employees with standard user access.*
+:lucide-info: *The Health-Related Data authorisation is intended for relevant managers or administrators only. It should not be granted to employees with standard user access.*
 
 !!! warning
 
