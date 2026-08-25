@@ -13,9 +13,9 @@ Certain tasks may be flagged as sensitive because they contain personal health i
 
 Examples of tasks that may typically be flagged as sensitive include:
 
-- :lucide-monitor-dot: DSE Assessment corrective actions
-- :lucide-stethoscope: Health Surveillance corrective actions
-- :lucide-cross: Resolved Incidents with injury tasks
+- :lucide-monitor-dot: DSE assessment corrective actions
+- :lucide-stethoscope: Health surveillance corrective actions
+- :lucide-cross: Resolved injury related incidents
 
 !!! note
 
