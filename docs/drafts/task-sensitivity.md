@@ -42,10 +42,6 @@ Certain tasks may be flagged as sensitive because they contain sensitive informa
     <span data-uuid="67f8fc25-2041-48e9-8861-30c94be2a1c2" style="display:none"></span>
     When viewing from the site inbox or task reports, sensitive tasks will appear redacted.
 
-<span data-uuid="9440483a-de9c-4673-916a-7546f5418a3b" style="display:none"></span>
-![](../assets/media/occ-captures/sites/uuid/severity-major-light-mode.png#only-light)
-![](../assets/media/occ-captures/sites/uuid/severity-major-dark-mode.png#only-dark)
-
 ## How does task sensitivity work?
 <span data-uuid="6cc9d5be-dc46-40d2-b1a4-a3efd5d2aa92" style="display:none"></span>
 
