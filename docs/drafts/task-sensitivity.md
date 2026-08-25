@@ -16,6 +16,15 @@ Certain tasks may be flagged as sensitive because they contain sensitive informa
     <span data-uuid="83e20d5a-96c0-4271-a16d-6cc1e32f8205" style="display:none"></span>
     This guide explains how task sensitivity behaves by default. Your organisation may have modified this feature to suit its specific business needs.
 
+## What do sensitive tasks look like?
+<span data-uuid="e62be4a8-1798-4e07-aa50-46512a90f123" style="display:none"></span>
+
+When viewing from the site inbox or task reports, sensitive tasks will appear redacted.
+
+<span data-uuid="83fb63c1-95a6-41d5-aaa9-6ed9312a9b41" style="display:none"></span>
+![](../assets/media/occ-captures/sites/uuid/sensitive-task-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+![](../assets/media/occ-captures/sites/uuid/sensitive-task-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 ## How does task sensitivity work?
 <span data-uuid="6cc9d5be-dc46-40d2-b1a4-a3efd5d2aa92" style="display:none"></span>
 
@@ -119,12 +128,3 @@ As mentioned above, sensitive tasks containing DSE or health-related data typica
     <span data-uuid="55704db4-7e87-47f0-9293-e7ae7b91649b" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/apply-changes-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/apply-changes-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
-## What do sensitive tasks look like?
-<span data-uuid="e62be4a8-1798-4e07-aa50-46512a90f123" style="display:none"></span>
-
-When viewing from the site inbox or task reports, sensitive tasks will appear redacted.
-
-<span data-uuid="83fb63c1-95a6-41d5-aaa9-6ed9312a9b41" style="display:none"></span>
-![](../assets/media/occ-captures/sites/uuid/sensitive-task-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-![](../assets/media/occ-captures/sites/uuid/sensitive-task-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
