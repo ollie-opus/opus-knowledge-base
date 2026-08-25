@@ -91,3 +91,13 @@ As mentioned above, sensitive tasks containing DSE or health-related data typica
     <span data-uuid="8b3ec5ba-6544-4347-996d-c9b188005180" style="display:none"></span>
     ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! step
+
+    <span data-uuid="bcd323ab-c1c4-49e1-9d0f-60ff26a074b4" style="display:none"></span>
+
+    Click **Employee records** on the manage sidebar.
+
+    <span data-uuid="a094685d-4212-46e1-81e3-48f9a2da96ca" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/employee-records-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/employee-records-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
