@@ -36,24 +36,13 @@ This guide details how to manage a RAMS project in Opus Compliance Cloud.
 
 !!! step
 
-    <span data-uuid="489712fc-a60a-4955-aa0b-2daa625c9e56" style="display:none"></span>
+    <span data-uuid="8898d1c0-9b8b-4452-8b80-99e128fec398" style="display:none"></span>
 
+    Select **Manage RAMS**
 
-    Click the :lucide-ellipsis: icon to open the more options menu.
-
-    <span data-uuid="85826766-6d47-4454-8866-12bf2cba61c8" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/show-extra-menu-options-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/show-extra-menu-options-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
-!!! step
-
-    <span data-uuid="29c2d38e-05f1-48bc-b5ab-8281e80bc04e" style="display:none"></span>
-
-    From the popup menu, select <span class="mb-label mb-label-slate">RAMS</span>
-
-    <span data-uuid="b52e9f53-c00f-46be-a877-f534e82bedc2" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/rams-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/rams-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+    <span data-uuid="e5513cec-053b-418d-85d9-aa20d03d2216" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/manage-rams-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/manage-rams-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
 !!! step
 
