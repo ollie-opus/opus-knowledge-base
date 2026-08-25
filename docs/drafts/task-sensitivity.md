@@ -33,11 +33,15 @@ Examples of tasks that may typically be flagged as sensitive include:
 
     <span data-uuid="4afeeb50-b745-4e2f-b3fb-6135d79d9412" style="display:none"></span>
 
+    <div class="nowrap-first" markdown>
+
     | Sensitive label | How it is used | Requires access exception? | Required authorisation |
     | :--- | :--- | :---: | :--- |
     | DSE related data | DSE Assessment corrective actions | :lucide-check: | Health related data authorisation |
     | Health related data | Health surveillance corrective actions | :lucide-check: | Health related data authorisation |
     | Injury related data | Resolved incidents with injury tasks | :lucide-check: | No additional authorisation is required beyond manager access |
+
+    </div>
 
 !!! outline "<span class="mb-label mb-label-slate">What do sensitive tasks look like?</span>"
 
