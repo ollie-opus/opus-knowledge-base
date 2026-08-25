@@ -22,7 +22,7 @@ Examples of tasks that may typically be flagged as sensitive include:
     <span data-uuid="83e20d5a-96c0-4271-a16d-6cc1e32f8205" style="display:none"></span>
     This guide explains how task sensitivity behaves by default. Your organisation may have modified this feature to suit its specific business needs.
 
-## What do sensitive tasks look like?
+## General information
 <span data-uuid="0f29ee79-597d-4e53-a79f-447e9cec8cb6" style="display:none"></span>
 
 
