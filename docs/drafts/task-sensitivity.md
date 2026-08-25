@@ -174,6 +174,9 @@ The form requires you to provide the following information:
 ??? outline "<span class="mb-label mb-label-slate">Access scope</span>"
 
     <span data-uuid="580fdb12-ede3-46e5-8958-c8c4fbb91a33" style="display:none"></span>
+    Define the access scope of this exception.
+
+    :lucide-lightbulb: The scope defines the area covered by a single exception request. For example, when accessing sensitive employee tasks, you can broaden the scope to include all employees or an entire site. This eliminates the need to submit a separate exception request for each employee.
 
     <span data-uuid="082c5fd0-529c-422f-8d2f-b2afd75c0dc5" style="display:none"></span>
     ![](../assets/media/occ-captures/todos/uuid/sensitive/access-scope-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
