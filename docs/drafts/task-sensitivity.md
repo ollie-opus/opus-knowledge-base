@@ -140,3 +140,7 @@ Sensitive tasks containing DSE or health-related data typically require a <span 
 
 ## How to access sensitive tasks
 <span data-uuid="13778d21-0334-4fc1-83e6-a300db7a3832" style="display:none"></span>
+
+Assuming you have the relevant access and authorisation to view the task content, selecting the task or attempting to export task data will prompt you to fill in an exception form.
+
+This form requires you to fill in the following information:
