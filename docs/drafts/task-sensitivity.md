@@ -49,7 +49,7 @@ Certain tasks may be flagged as sensitive because they contain sensitive informa
 ## How does task sensitivity work?
 <span data-uuid="6cc9d5be-dc46-40d2-b1a4-a3efd5d2aa92" style="display:none"></span>
 
-Tasks become sensitive when a sensitive label is applied to them. Certain kinds of sensitive task require you to have an additional authorisation in order to access. Below are the 3 kinds of sensitive task you will likely encounter.
+Tasks become sensitive when a sensitive label is applied to them. Certain types of sensitive tasks require additional authorisation before you can access them. Below are three types of sensitive tasks you are most likely to encounter.
 
 <span data-uuid="6c545462-785b-43d9-b296-5bd5cf68d156" style="display:none"></span>
 
