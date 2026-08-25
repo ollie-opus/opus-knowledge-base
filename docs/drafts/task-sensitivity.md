@@ -111,3 +111,13 @@ As mentioned above, sensitive tasks containing DSE or health-related data typica
     <span data-uuid="36d0ef8f-94ce-491b-8895-3a7f99a17b00" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png#only-light){ width="400" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png#only-dark){ width="400" loading=lazy }
+
+!!! step
+
+    <span data-uuid="76e06950-a378-4719-a9a5-d38c608a22f7" style="display:none"></span>
+
+    On the employee's record, select **Change access**
+
+    <span data-uuid="f113e784-2608-4b13-a097-8ced7312785a" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-location-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/change-location-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
