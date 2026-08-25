@@ -51,6 +51,13 @@ Authorisations can be assigned to employees to grant access to specific types of
 ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/authorisations-and-tags-a-health-related-data-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
 ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/authorisations-and-tags-a-health-related-data-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
 
+??? outline "<span class="mb-label mb-label-slate">How to grant authorisations to employees</span>"
+
+    <span data-uuid="d54e7e08-9113-43c9-8f24-8d22c35af2d8" style="display:none"></span>
+    Sensitive tasks containing DSE or health-related data typically require a <span class="mb-label mb-label-fuchsia">Health related data authorisation</span> to be granted on the employee’s record. The steps below explain how to grant this authorisation to an employee.
+
+    :lucide-info: *The Health-Related Data authorisation is intended for relevant managers or administrators only. It should not be granted to employees with standard user access.*
+
 ### How to grant authorisations to employees.
 <span data-uuid="48703411-60aa-455e-bdfd-2ac409a717e8" style="display:none"></span>
 
