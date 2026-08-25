@@ -142,8 +142,7 @@ As mentioned above, sensitive tasks containing DSE or health-related data typica
 !!! step
 
     <span data-uuid="1648dd99-d913-4a23-ad3a-7b6b094d6c0e" style="display:none"></span>
-
-    Once you have made the changes, click **Apply changes**.
+    Once you have selected the authorisation(s), click **Apply changes**.
 
     <span data-uuid="55704db4-7e87-47f0-9293-e7ae7b91649b" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/employees/uuid/access/edit/apply-changes-light-mode.png#only-light){ style="height: 50px" loading=lazy }
