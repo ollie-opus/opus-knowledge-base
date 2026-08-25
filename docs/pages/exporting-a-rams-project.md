@@ -36,23 +36,13 @@ This guide details how to export a RAMS project.
 
 !!! step
 
-    <span data-uuid="0d3f496b-baa5-4651-96aa-e4c6e721a4f2" style="display:none"></span>
+    <span data-uuid="2dcbe123-2e3c-4330-a76a-c5c287560270" style="display:none"></span>
 
-    Click the :lucide-ellipsis: icon to open the more options menu.
+    Select **Manage RAMS**
 
-    <span data-uuid="e2f1f2c0-b23c-4012-9003-153ebf9fc005" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/show-extra-menu-options-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/show-extra-menu-options-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
-!!! step
-
-    <span data-uuid="b04b1675-85d1-4e2d-a497-b52353a0b675" style="display:none"></span>
-
-    From the popup menu, select <span class="mb-label mb-label-slate">RAMS</span>
-
-    <span data-uuid="b66047ee-f838-47e8-bfc8-aa418bb1f5e6" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/rams-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/rams-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+    <span data-uuid="3c53791b-526b-43cb-8188-c9c0d0994698" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/manage-rams-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/manage-rams-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
 !!! step
 
