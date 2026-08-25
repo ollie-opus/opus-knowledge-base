@@ -45,6 +45,8 @@ There are different kinds of sensitive task, depending on the data they contain.
 ## Authorisations
 <span data-uuid="d1e6d765-67c8-43f1-8aa0-e5e0c98c6358" style="display:none"></span>
 
+Authorisations are things you can apply to employees that typically give them access to certain kinds of sensitive data. You can see the authorisations an employee has on their record.
+
 ### How to grant authorisations to employees.
 <span data-uuid="48703411-60aa-455e-bdfd-2ac409a717e8" style="display:none"></span>
 
