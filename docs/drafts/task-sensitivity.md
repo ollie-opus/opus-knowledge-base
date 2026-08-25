@@ -100,8 +100,8 @@ Authorisations can be assigned to employees to grant access to specific types of
         Find the employee from the list and click on their name
 
         <span data-uuid="e99cc41d-045c-480b-b54c-4118fa864fb0" style="display:none"></span>
-        ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png#only-light)
-        ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png#only-dark)
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
     !!! step
 
