@@ -19,6 +19,6 @@ search:
     | Icon | Meaning |
     | :--- | :--- |
     | <span data-uuid="6aa531c7-0f41-41fc-93da-7f11f97b7af2" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/dashboard/requirement-unfulfilled-light-mode.svg#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/requirement-unfulfilled-dark-mode.svg#only-dark){ style="height: 30px" loading=lazy } |  |
-    |  |  |
+    | <span data-uuid="10c7c1b0-9b2a-422d-827d-46967181ee90" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/dashboard/requirement-renewable-light-mode.svg#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/requirement-renewable-dark-mode.svg#only-dark){ style="height: 30px" loading=lazy } |  |
     | <span data-uuid="0674661e-a966-431d-a2fc-0065728a70eb" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/dashboard/requirements-fulfilled-light-mode.svg#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/requirements-fulfilled-dark-mode.svg#only-dark){ style="height: 30px" loading=lazy } |  |
 
