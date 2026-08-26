@@ -92,7 +92,8 @@ draft_nav = [
     {"Getting started" = [
       {"Guidebooks" = [
         {"Managing Opus Compliance Cloud" = "drafts/managing-opus-compliance-cloud.md"},
-        {"Using Opus Compliance Cloud" = "drafts/using-opus-compliance-cloud.md"}
+        {"Using Opus Compliance Cloud" = "drafts/using-opus-compliance-cloud.md"},
+        {"Administering Opus Compliance Cloud" = "drafts/administering-opus-compliance-cloud.md"}
       ]}
     ]},
     {"Tasks" = [
@@ -128,7 +129,8 @@ unlisted_nav = [
     {"Getting Started" = [
       {"Guidebooks" = [
         {"Managing Opus Compliance Cloud" = "pages/managing-opus-compliance-cloud.md"},
-        {"Using Opus Compliance Cloud" = "pages/using-opus-compliance-cloud.md"}
+        {"Using Opus Compliance Cloud" = "pages/using-opus-compliance-cloud.md"},
+        {"Administering Opus Compliance Cloud" = "pages/administering-opus-compliance-cloud.md"}
       ]}
     ]}
   ]}
