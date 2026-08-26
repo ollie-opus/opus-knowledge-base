@@ -75,8 +75,7 @@ If an asset has moved to another site, you can easily update it in the system - 
     !!! warning "Can't find the site?"
 
         <span data-uuid="f3f6aff1-2455-4318-b52b-d8c3a242e452" style="display:none"></span>
-
-        You may not have access to the site the employee is moving to. If this is the case, you may need to contact a senior manager with access to your site and the destination site to complete the move.
+        You may not have access to the site the asset is moving to. If this is the case, you may need to contact a senior manager with access to your site and the destination site to complete the move.
 
 !!! step
 
