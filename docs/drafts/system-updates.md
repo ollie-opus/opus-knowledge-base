@@ -18,6 +18,6 @@ search:
 
     | Icon | Meaning |
     | :--- | :--- |
-    |  |  |
+    | <span data-uuid="0674661e-a966-431d-a2fc-0065728a70eb" style="display:none"></span>![](../assets/media/occ-captures/admin/sites/uuid/dashboard/requirements-fulfilled-light-mode.svg#only-light){ style="height: 30px" loading=lazy } ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/requirements-fulfilled-dark-mode.svg#only-dark){ style="height: 30px" loading=lazy } |  |
     |  |  |
 
