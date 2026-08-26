@@ -14,3 +14,10 @@ search:
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/employee-information-system-update-light-mode.png#only-light){ style="border-radius: 8px" width="450" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/employee-information-system-update-dark-mode.png#only-dark){ style="border-radius: 8px" width="450" loading=lazy }
 
+    <span data-uuid="4d80fe94-97e7-4194-85ad-43f201e7985e" style="display:none"></span>
+
+    | Icon | Meaning |
+    | :--- | :--- |
+    |  |  |
+    |  |  |
+
