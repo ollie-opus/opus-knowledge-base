@@ -6,7 +6,7 @@ search:
 # Managing Opus Compliance Cloud
 <span data-uuid="eb9ffa08-009e-4c4a-b3f6-3999a6fa83cf" style="display:none"></span>
 
-This guidebook provides everything a <span class="mb-label mb-label-purple">:lucide-user-shield: Manager</span> needs to know to manage effectively on Opus Compliance Cloud (OCC).
+This guidebook provides everything a <span class="mb-label mb-label-purple">:lucide-user-shield: Manager</span> needs to know to manage Opus Compliance Cloud (OCC) effectively.
 
 *:lucide-bookmark-plus: Feel free to bookmark this webpage for future use!*
 
