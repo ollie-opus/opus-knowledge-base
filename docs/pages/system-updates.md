@@ -775,6 +775,7 @@ This page highlights the main user-facing improvements, additions and feature re
 ??? improvement "Improvement: Accident Form - Enhanced Employee Selection<span class="meta">30th January 2025</span>"
 
     <span data-uuid="ff230999-f620-4a7b-bd4f-c999b398aea2" style="display:none"></span>
+
     1. You can now select archived employees in the "Injured Employee" field if the accident occurred during their employment period, using the employee's start and last day dates for accurate record-keeping.
     2. For clients managing multiple sites, the "Injured Employee" field now pulls employees from the site where the accident occurred as well as the site specified in the "Against Which Site Should This Be Logged?" field.
 
@@ -1064,6 +1065,7 @@ This page highlights the main user-facing improvements, additions and feature re
 ??? improvement "Improvement: Accident / Near Miss Report Template Tweaks<span class="meta">19th April 2024</span>"
 
     <span data-uuid="9b25490f-88b4-4965-8bd7-26c7b49958e3" style="display:none"></span>
+
     - 'Occurrence site' changed to 'Against which site should this accident be logged' and moved to the investigation section.
     - New 'missing information' text changes.
 

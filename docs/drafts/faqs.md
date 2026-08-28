@@ -43,17 +43,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     !!! outline "Tasks"
 
         <span data-uuid="cf4c8eff-47cf-4826-8d17-1290447d48f7" style="display:none"></span>
-        Task pages have an **Export** button in the top right-hand corner, which removes the system interface elements for a cleaner export.
-
-        <span data-uuid="4af67720-fe64-4ee6-988a-7846404e776e" style="display:none"></span>
-        ![](../assets/media/occ-captures/todos/uuid/export-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-        ![](../assets/media/occ-captures/todos/uuid/export-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
-        Optionally exclude comments - by date, or by picking individual ones to leave out - then click **Print this page**.
-
-        <span data-uuid="311e5693-8967-488c-9ebb-28a3cb3e0565" style="display:none"></span>
-        ![](../assets/media/occ-captures/todos/uuid/export/print-or-export-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
-        ![](../assets/media/occ-captures/todos/uuid/export/print-or-export-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
+        Task pages have an **Export** button that removes the system interface elements for a cleaner export, with options to exclude comments. See [Exporting tasks](https://support.opus-safety.co.uk/pages/managing-a-task/#exporting-tasks) for the full walkthrough.
 
     !!! outline "Audits"
 
