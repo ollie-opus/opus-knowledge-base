@@ -428,5 +428,8 @@
   "docs/assets/media/occ-captures/todos/uuid/sensitive/access-scope-light-mode.png": {
     "padding": 20,
     "zapped": true
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/dashboard/asbestos-awareness-light-mode.png": {
+    "resized": true
   }
 }
