@@ -52,10 +52,10 @@ nav = [
       {"Task inboxing" = "pages/task-inboxing.md"},
       {"Task severities" = "pages/task-severities.md"},
       {"Interacting with a task" = "pages/interacting-with-a-task.md"},
+      {"Managing a task" = "pages/managing-a-task.md"},
       {"Reporting And Logging" = [
         {"Kinds of reportable tasks" = "pages/kinds-of-reportable-tasks.md"}
-      ]},
-      {"Managing a task" = "pages/managing-a-task.md"}
+      ]}
     ]},
     {"Employees" = [
       {"Adding a new employee" = "pages/adding-a-new-employee.md"},
@@ -98,16 +98,16 @@ draft_nav = [
       ]}
     ]},
     {"Tasks" = [
-      {"Task Overview" = "drafts/task-overview.md"},
       {"Reporting And Logging" = [
         {"Reporting an incident" = "drafts/reporting-an-incident.md"},
         {"Managing an incident" = "drafts/managing-an-incident.md"}
       ]},
+      {"Task Overview" = "drafts/task-overview.md"},
       {"Task sensitivity" = "drafts/task-sensitivity.md"}
     ]},
     {"Employees" = [
-      {"Employees Overview" = "drafts/employees-overview.md"},
-      {"Adding a new employee" = "drafts/adding-a-new-employee.md"}
+      {"Adding a new employee" = "drafts/adding-a-new-employee.md"},
+      {"Employees Overview" = "drafts/employees-overview.md"}
     ]},
     {"Contractors" = [
       {"Permits to Work" = "drafts/permits-to-work.md"}
