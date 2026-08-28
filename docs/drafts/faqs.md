@@ -258,6 +258,37 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
         <span data-uuid="950d9f8f-3890-469a-9aa9-e399d8022b7d" style="display:none"></span>
 
+        <span data-uuid="8163aaf7-afc6-4293-825d-2b9ba9af31c4" style="display:none"></span>
+        ```mermaid
+        ---
+        config:
+          layout: elk
+        ---
+        stateDiagram
+          direction TB
+          classDef question stroke:#6b7280,fill:#f3f4f6,stroke-width:2px;
+          classDef action stroke:#16a34a,fill:#dcfce7,stroke-width:2px;
+          s1 --> s2:✅ Yes
+          s1 --> s3:❌ No
+          s2 --> s4:✅ Yes
+          s2 --> s5:❌ No
+          s4 --> s7:✅ Yes
+          s4 --> s6:❌ No
+          s7 --> s9:✅ Yes
+          s7 --> s8:❌ No
+          s1:Is this requirement applied to the employee via a role?
+          s2:Does the employee have the correct role(s) assigned?
+          s3:Archive the requirement
+          s4:Do other employees with this role in your organisation need this requirement?
+          s5:Change the employee's role(s)
+          s7:Do other employees with this role at this site need this requirement?
+          s6:Remove the requirement from the role
+          s9:Redefine the roles to support this configuration — for example, move the requirement out of the existing role and into a new, separate role
+          s8:Remove the requirement from the role at this site (role override)
+          class s1,s2,s4,s7 question
+          class s3,s5,s6,s9,s8 action
+        ```
+
 ??? question "What do I do about MOT for a vehicle that's too new to need one?"
 
     <span data-uuid="ed75b5df-1575-4ca0-925a-1555de4f1cdb" style="display:none"></span>
