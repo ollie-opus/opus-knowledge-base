@@ -391,10 +391,14 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     /snooze for P1M
     ``
 
-    !!! tip "Period-based snoozing"
+    !!! tip "Date-based snoozing"
 
         <span data-uuid="0a17d615-9d5c-4a8d-8a4d-64088d0b04b2" style="display:none"></span>
-        You can also snooze for a period rather than to a date. For example, `/snooze for P1W` snoozes the task for 1 week.
+        You can also snooze until a certain date using
+
+
+
+        The date format is ISO 8601: YYYY-MM-DD`.
 
     !!! warning
 
