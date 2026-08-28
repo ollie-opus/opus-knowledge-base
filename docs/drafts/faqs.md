@@ -167,7 +167,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ## E-learning
 <span data-uuid="51af82ca-08cc-43f7-b70d-dcedea623081" style="display:none"></span>
 
-??? question "Can e-learning be translated into other languages?"
+??? outline
 
     <span data-uuid="06b2ea31-8164-40a8-b108-b3b1eac5cf05" style="display:none"></span>
     Yes - browsers such as Chrome and Edge have built-in translation tools that convert e-learning courses on the fly. In both:
