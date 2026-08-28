@@ -258,10 +258,6 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/e-learning-z-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/e-learning-z-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
-    <span data-uuid="cd2ce305-df54-4982-872a-351a64476465" style="display:none"></span>
-    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/asbestos-awareness-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/asbestos-awareness-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
     ??? success "Removing a role requirement flowchart"
 
         <span data-uuid="950d9f8f-3890-469a-9aa9-e399d8022b7d" style="display:none"></span>
