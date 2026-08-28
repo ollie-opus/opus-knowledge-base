@@ -19,7 +19,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ## Getting around Opus Compliance Cloud
 <span data-uuid="6cbcd7f1-c7ee-46bf-8720-08cc06322514" style="display:none"></span>
 
-??? question "What does Override mean?"
+??? outline "What does Override mean?"
 
     <span data-uuid="3522abf5-cb89-434a-8b03-10920b788f09" style="display:none"></span>
     In some areas - such as checklists, roles and e-learning - you'll see an **Override** button where you might expect **Edit**. It appears when the item comes from a template managed at company level or by Opus centrally: clicking **Override** changes your local copy without affecting the original template.
