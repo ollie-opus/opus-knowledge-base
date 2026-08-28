@@ -114,6 +114,13 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
     !!! outline "Option A - use other existing email addresses"
 
+        <span data-uuid="8be0d8e0-7fba-4910-9358-94baed16b0dd" style="display:none"></span>
+
+        - The employee uses a personal email address.
+        - Or you create a free personal account for them - quick to set up, and Google Mail is recommended.
+
+    !!! outline "Option A - use other existing email addresses"
+
         <span data-uuid="267c8d62-b7e2-4b39-8a95-ec1e902d949c" style="display:none"></span>
 
         - The employee uses a personal email address.
