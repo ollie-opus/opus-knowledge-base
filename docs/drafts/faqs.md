@@ -159,7 +159,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     - **Personalised communication.** Managers can wrap the registration link in a tailored welcome message with company-specific instructions - warmer than a generic system email.
     - **Control and flexibility.** Managers choose the timing and the channel that suits their teams - email, instant messaging or another internal platform.
 
-    See [Registering an employee](https://support.opus-safety.co.uk/pages/registering-an-employee/) for how to send a registration link.
+    Read more on how to register employees via the guide below:
 
     <span data-uuid="e9227edb-302d-4cc5-aa32-2e6370664554" style="display:none"></span>
     [Granting an employee temporary access :lucide-arrow-up-right:](granting-an-employee-temporary-access.md){ .md-button .custom-button-olive .custom-button--slim target="_blank" rel="noopener" }
