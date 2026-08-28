@@ -35,7 +35,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
         <span data-uuid="5606fa3e-a588-4052-81a1-3502a7eb3929" style="display:none"></span>
         Overridden aspects no longer receive future changes made at a higher level. **For example**, if you override an e-learning schedule on an employee, later changes to that course's schedule at company level won't reach that employee's instance - though aspects you haven't overridden still update as normal.
 
-??? question "How do I save pages as PDFs or print them?"
+??? outline "How do I save pages as PDFs or print them?"
 
     <span data-uuid="cae933be-392c-4ab2-96e9-550055635e7d" style="display:none"></span>
     Most pages include a print-friendly view for the times you need to give a copy of information to a third party. In Chrome or Edge, right-click on the page and select **Print**, then set the destination to `Save as PDF`.
