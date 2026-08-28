@@ -200,7 +200,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ## Checklists
 <span data-uuid="3585f1fb-094b-49f1-8632-616e2171c992" style="display:none"></span>
 
-??? question "Why isn't there an N/A option on checklists?"
+??? outline "Why isn't there an N/A option on checklists?"
 
     <span data-uuid="3e42dc32-6a88-4400-8c13-f3988b0618ea" style="display:none"></span>
     The main issue is that `N/A` lets the user decide whether to answer a question at all - and if they do answer `N/A`, no one will know unless they specifically check the submission history.
