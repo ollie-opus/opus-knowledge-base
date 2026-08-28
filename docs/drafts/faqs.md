@@ -353,7 +353,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     - **Manager visibility.** Auto-assigned tasks don't appear in the manager's inbox, so an outstanding task can go unnoticed.
     - **Custom messaging flexibility.** Without auto-assignment, managers can use custom task messages to direct each task to the most appropriate person while staying informed themselves.
 
-??? question "Why don't we use target dates?"
+??? outline "Why don't we use target dates?"
 
     <span data-uuid="d16e493b-172c-4b94-85d2-9bcaebd1a24b" style="display:none"></span>
     Target dates can work against you: lower-priority items get closed out ahead of more serious ones simply because their deadline falls sooner.
