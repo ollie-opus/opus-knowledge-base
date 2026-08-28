@@ -123,9 +123,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     ??? outline "<span class="mb-label mb-label-olive">Option B</span> - Use other existing email addresses"
 
         <span data-uuid="267c8d62-b7e2-4b39-8a95-ec1e902d949c" style="display:none"></span>
-
-        - The employee uses a personal email address.
-        - Or you create a free personal account for them - quick to set up, and Google Mail is recommended.
+        Opus Compliance Cloud has been designed with the possibility of employee's using their personal email addresses. Alternatively, you could create a free personal account for them such as with Google Mail.
 
     ??? outline "<span class="mb-label mb-label-olive">Option C</span> - Use plus addressing"
 
