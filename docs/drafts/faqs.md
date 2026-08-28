@@ -128,7 +128,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     ??? outline "<span class="mb-label mb-label-olive">Option C</span> - Use plus addressing"
 
         <span data-uuid="a089dd07-9489-4341-bb8c-0388f3d796c9" style="display:none"></span>
-        Plus addressing is a standard email feature that creates unique variations of one address by appending a plus symbol and some text or numbers. It's usually enabled by default, but your IT team may need to switch it on.
+        Plus addressing is a standard email feature that creates unique variants of one address by appending a plus symbol and some text or numbers. It's usually enabled by default, but your IT team may need to switch it on.
 
         !!! step
 
