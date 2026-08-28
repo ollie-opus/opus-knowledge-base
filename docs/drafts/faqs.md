@@ -258,6 +258,21 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/e-learning-z-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/e-learning-z-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
+    !!! question "Why do we do this?"
+
+        <span data-uuid="4af1ffb4-4cdd-47a5-bbb6-256109321594" style="display:none"></span>
+        The purpose of employee roles and asset types is to give managers and administrators confidence that:
+
+        1. :lucide-check: **Requirements are applied consistently** across employees and assets throughout the organisation.
+        2. :lucide-check: **Requirements can be easily applied** to employees and assets.
+        3. :lucide-check: **Roles and types can be easily edited** across the organisation, allowing you to add or remove requirements en masse.
+
+        If we allow role or asset-type requirements to be archived for individual employees or assets, this will:
+
+        1. :lucide-alert-triangle: **Introduce per-employee or per-asset exceptions** that can accumulate over time, making it increasingly difficult to understand how requirements are being applied across the organisation.
+        2. :lucide-alert-triangle: **Make future changes to roles and types organisation-wide more difficult**, as these individual exceptions would need to be identified and considered each time the setup is changed.
+        3. :lucide-alert-triangle: **Reduce consistency** in how requirements are configured and managed across the organisation.
+
     ??? success "Removing a role requirement flowchart"
 
         <span data-uuid="950d9f8f-3890-469a-9aa9-e399d8022b7d" style="display:none"></span>
