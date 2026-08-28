@@ -105,7 +105,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ## Employees and accounts
 <span data-uuid="72950f72-5a36-4d48-8a81-00e4eb2ae88c" style="display:none"></span>
 
-??? question "How do I register employees who don't have company email addresses?"
+??? outline "How do I register employees who don't have company email addresses?"
 
     <span data-uuid="49772e07-8d08-4c5f-b4da-4dbe2bef34eb" style="display:none"></span>
     If any of your team members do not have a company email address, you have three main options to get them onto the system
