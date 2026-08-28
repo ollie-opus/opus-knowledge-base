@@ -258,7 +258,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/e-learning-z-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/e-learning-z-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
-    !!! question "Why do we do this?"
+    ??? question "Why do we do this?"
 
         <span data-uuid="4af1ffb4-4cdd-47a5-bbb6-256109321594" style="display:none"></span>
         The purpose of employee roles and asset types is to give managers and administrators confidence that:
