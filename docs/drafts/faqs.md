@@ -212,7 +212,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     !!! info "Multi-choice responses"
 
         <span data-uuid="3bf0c705-c910-4a94-81a8-b135ff71f308" style="display:none"></span>
-        As of **Spring 2026**, checklists support multi-choice responses. We can configure bespoke options, such as `Equipment not installed on this machine`, which don't trigger an action. If your site or asset checklists have genuine exceptions, <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">speak to the Opus team</a> and we'll customise them.
+        As of **Spring 2026**, checklists support multi-choice responses. We can configure bespoke options, such as `Equipment not installed on this machine`, to not trigger an action. If your site or asset checklists have genuine exceptions, <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">speak to the Opus team</a> and we'll customise them.
 
 ??? question "How do daily checklist lead times work?"
 
