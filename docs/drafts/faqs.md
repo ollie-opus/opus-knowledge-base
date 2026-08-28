@@ -116,7 +116,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
         <span data-uuid="8be0d8e0-7fba-4910-9358-94baed16b0dd" style="display:none"></span>
 
-    !!! outline "<span class="mb-label mb-label-olive">Option B</span> - use other existing email addresses"
+    !!! outline "<span class="mb-label mb-label-olive">Option B</span> - Use other existing email addresses"
 
         <span data-uuid="267c8d62-b7e2-4b39-8a95-ec1e902d949c" style="display:none"></span>
 
