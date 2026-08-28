@@ -118,7 +118,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
         If the employee only needs access to Opus Compliance Cloud to complete their own e-learning/checklists requirements, then temporary access is a feature that may be of benefit here. See our guide on this below:
 
         <span data-uuid="c4195a26-9fb9-4327-aaf9-a3c152d1391b" style="display:none"></span>
-        [Granting an employee temporary access :lucide-arrow-up-right:](/granting-an-employee-temporary-access){ .md-button .custom-button-olive .custom-button--slim target="_blank" rel="noopener" }
+        [Granting an employee temporary access :lucide-arrow-up-right:](granting-an-employee-temporary-access.md){ .md-button .custom-button-olive .custom-button--slim target="_blank" rel="noopener" }
 
     ??? outline "<span class="mb-label mb-label-olive">Option B</span> - Use other existing email addresses"
 
