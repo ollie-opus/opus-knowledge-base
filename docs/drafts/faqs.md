@@ -175,7 +175,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     !!! step
 
         <span data-uuid="fe4d6c95-a333-4432-adf4-3a38b4c4ee68" style="display:none"></span>
-        Click the more options button in the top right of the browser (three vertical dots).
+        Click the more options button (:lucide-more-vertical:) in the top right of the browser.
 
     !!! step
 
