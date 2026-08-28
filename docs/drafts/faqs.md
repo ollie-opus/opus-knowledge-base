@@ -383,15 +383,13 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ??? outline "How can administrators snooze tasks for longer periods?"
 
     <span data-uuid="7bf2fffd-3fb6-4d66-8c2d-13a58c5c2ed4" style="display:none"></span>
-    Users with the <span class="mb-label mb-label-pink">:lucide-user-cog: Administrator</span> role can snooze tasks for longer to cover extended absences, using a shortcut known as a **slash command**.
+    <span class="mb-label mb-label-pink">:lucide-user-cog: Administrators</span> can snooze tasks for longer to cover extended absences, using a shortcut known as a **slash command**.
 
     Type the command into a comment on the task:
 
     ```
-    /snooze until 2026-06-29
-    ```
-
-    The date format is ISO 8601: `YYYY-MM-DD`.
+    /snooze for P1M
+    ``
 
     !!! tip "Period-based snoozing"
 
