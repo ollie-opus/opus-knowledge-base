@@ -50,7 +50,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
         <span data-uuid="c656ca48-f7c4-440a-a03d-012ece0fa65a" style="display:none"></span>
         Change the view to the most appropriate one before saving as a PDF.
 
-??? question "Does Opus Compliance Cloud have a mobile app?"
+??? outline "Does Opus Compliance Cloud have a mobile app?"
 
     <span data-uuid="11a287db-e72f-47a0-8c77-88142fc7f6ff" style="display:none"></span>
     Not a traditional one - and that's deliberate. Opus Compliance Cloud uses **responsive design**: the site automatically adjusts to whatever device you're using, so you get full functionality on a phone, tablet, laptop or desktop without downloading anything. There is **no separate "mobile version" with fewer features**.
