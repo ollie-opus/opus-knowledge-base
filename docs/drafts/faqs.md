@@ -254,6 +254,10 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     <span data-uuid="ed68a4f8-a9f8-46ad-90c0-df5ea6a3be37" style="display:none"></span>
     A requirement that comes from an asset type or role shows a symbol overlaid on its icon - a **tool symbol for assets**, a **briefcase symbol for employees**. That symbol means the requirement is **mandatory**, so it can't be archived on its own. If it seems irrelevant, first consider whether a separate role or asset type would be more appropriate.
 
+    <span data-uuid="cd2ce305-df54-4982-872a-351a64476465" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/asbestos-awareness-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/asbestos-awareness-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
     ??? success "Removing a role requirement flow chart"
 
         <span data-uuid="950d9f8f-3890-469a-9aa9-e399d8022b7d" style="display:none"></span>
