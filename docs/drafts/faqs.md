@@ -115,6 +115,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     ??? outline "<span class="mb-label mb-label-olive">Option A</span> - Use temporary access"
 
         <span data-uuid="8be0d8e0-7fba-4910-9358-94baed16b0dd" style="display:none"></span>
+        If the employee only needs access to Opus Compliance Cloud to complete their own e-learning/checklists requirements, then temporary access is a feature that may be of benefit here. See our guide on this below
 
     ??? outline "<span class="mb-label mb-label-olive">Option B</span> - Use other existing email addresses"
 
