@@ -150,7 +150,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
             <span data-uuid="6845003e-f5db-44c4-a2a1-3765d8f7a3b9" style="display:none"></span>
             All emails, **including password resets**, are sent to the inbox of the base email address. Managers with access to that account can help with password resets if needed.
 
-??? question "Why doesn't the system send welcome emails?"
+??? outline "Why doesn't the system send welcome emails?"
 
     <span data-uuid="c219f899-dd80-42e0-8159-161516f3324a" style="display:none"></span>
     Registration links are sent by managers rather than by the system, for three reasons:
