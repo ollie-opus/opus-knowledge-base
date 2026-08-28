@@ -254,20 +254,6 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     <span data-uuid="ed68a4f8-a9f8-46ad-90c0-df5ea6a3be37" style="display:none"></span>
     A requirement that comes from an employee role or asset type shows a check symbol (:lucide-circle-check:) overlaid on its icon. That symbol means the requirement is **mandatory** as part of the employee's role / asset's type. As a result the system blocks the ability to archive the requirement.
 
-    :lucide-circle-question-mark: Why do we do this?
-
-    The purpose of employee roles and asset types is to give managers and administrators confidence that:
-
-    1. :lucide-check: **Requirements are applied consistently** across employees and assets throughout the organisation.
-    2. :lucide-check: **Requirements can be easily applied** to employees and assets.
-    3. :lucide-check: **Roles and types can be easily edited** across the organisation, allowing you to add or remove requirements en masse.
-
-    If we allow role or asset-type requirements to be archived for individual employees or assets, this will:
-
-    1. :lucide-alert-triangle: **Introduce per-employee or per-asset exceptions** that can accumulate over time, making it increasingly difficult to understand how requirements are being applied across the organisation.
-    2. :lucide-alert-triangle: **Make future changes to roles and types organisation-wide more difficult**, as these individual exceptions would need to be identified and considered each time the setup is changed.
-    3. :lucide-alert-triangle: **Reduce consistency** in how requirements are configured and managed across the organisation.
-
     <span data-uuid="c90b4f45-06c6-4d13-a347-a2f1baf18bd9" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/e-learning-z-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/e-learning-z-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
