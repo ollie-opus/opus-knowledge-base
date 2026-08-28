@@ -262,10 +262,6 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
         <span data-uuid="950d9f8f-3890-469a-9aa9-e399d8022b7d" style="display:none"></span>
 
-        <span data-uuid="e8bf3699-0d70-4e35-9be8-00d0b3b7e529" style="display:none"></span>
-        ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/asbestos-awareness-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-        ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/asbestos-awareness-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
-
         <span data-uuid="8163aaf7-afc6-4293-825d-2b9ba9af31c4" style="display:none"></span>
         ```mermaid
         ---
