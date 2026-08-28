@@ -362,14 +362,10 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
     You can of course change the [severity](https://support.opus-safety.co.uk/pages/task-severities/) of a task if something should be prioritised or de-prioritised.
 
-??? question "Why can't we snooze employees?"
+??? outline "Why can't we snooze employees?"
 
     <span data-uuid="187c6a89-f7f2-4502-9305-5719797f9599" style="display:none"></span>
     Users can snooze individual tasks for up to **2 weeks**, and users with the <span class="mb-label mb-label-pink">:lucide-user-cog: Administrator</span> role can snooze for longer to cover extended absences. However, an employee can't be snoozed entirely - only tasks that already exist can be snoozed.
-
-    <span data-uuid="13861085-adee-42e2-9d81-ef0e3dfaf801" style="display:none"></span>
-    ![](../assets/media/occ-captures/todos/uuid/snooze-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/todos/uuid/snooze-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
     This is intentional. We still want managers to see when tasks become due during someone's absence. For example:
 
@@ -379,6 +375,10 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     - Checks such as DBS or driving licence checks can be completed even if the employee isn't physically at work.
 
     See [Interacting with a task](https://support.opus-safety.co.uk/pages/interacting-with-a-task/) for more on snoozing.
+
+    <span data-uuid="13861085-adee-42e2-9d81-ef0e3dfaf801" style="display:none"></span>
+    ![](../assets/media/occ-captures/todos/uuid/snooze-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/snooze-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
 ??? question "How can administrators snooze tasks for longer periods?"
 
