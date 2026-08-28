@@ -309,7 +309,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
           class s3,s5,s6,s9,s8 action
         ```
 
-??? question "What do I do about MOT for a vehicle that's too new to need one?"
+??? outline "What do I do about MOT for a vehicle that's too new to need one?"
 
     <span data-uuid="ed75b5df-1575-4ca0-925a-1555de4f1cdb" style="display:none"></span>
     Our recommended approach:
