@@ -133,6 +133,9 @@ unlisted_nav = [
         {"Using Opus Compliance Cloud" = "pages/using-opus-compliance-cloud.md"},
         {"Administering Opus Compliance Cloud" = "pages/administering-opus-compliance-cloud.md"}
       ]}
+    ]},
+    {"Other" = [
+      {"FAQs" = "pages/faqs.md"}
     ]}
   ]}
 ]
