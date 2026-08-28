@@ -252,7 +252,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ??? question "Why can't I archive an individual asset type or role requirement?"
 
     <span data-uuid="ed68a4f8-a9f8-46ad-90c0-df5ea6a3be37" style="display:none"></span>
-    A requirement that comes from an employee role or asset type shows a check symbol :lucide-circle-check: overlaid on its icon. That symbol means the requirement is **mandatory** as part of the employee's role / asset's type. As a result the system blocks the ability to archive the requirement.
+    A requirement that comes from an employee role or asset type shows a check symbol (:lucide-circle-check:) overlaid on its icon. That symbol means the requirement is **mandatory** as part of the employee's role / asset's type. As a result the system blocks the ability to archive the requirement.
 
     :lucide-circle-question-mark: Why do we do this?
 
