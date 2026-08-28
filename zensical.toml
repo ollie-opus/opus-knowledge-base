@@ -54,7 +54,8 @@ nav = [
       {"Interacting with a task" = "pages/interacting-with-a-task.md"},
       {"Reporting And Logging" = [
         {"Kinds of reportable tasks" = "pages/kinds-of-reportable-tasks.md"}
-      ]}
+      ]},
+      {"Managing a task" = "pages/managing-a-task.md"}
     ]},
     {"Employees" = [
       {"Adding a new employee" = "pages/adding-a-new-employee.md"},
@@ -98,7 +99,6 @@ draft_nav = [
     ]},
     {"Tasks" = [
       {"Task Overview" = "drafts/task-overview.md"},
-      {"Managing a task" = "drafts/managing-a-task.md"},
       {"Reporting And Logging" = [
         {"Reporting an incident" = "drafts/reporting-an-incident.md"},
         {"Managing an incident" = "drafts/managing-an-incident.md"}
