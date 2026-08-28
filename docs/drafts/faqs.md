@@ -214,10 +214,12 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
         <span data-uuid="3bf0c705-c910-4a94-81a8-b135ff71f308" style="display:none"></span>
         As of **Spring 2026**, checklists support multi-choice responses. We can configure bespoke options, such as `Equipment not installed on this machine`, to not trigger an action. If your site or asset checklists have genuine exceptions, <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">speak to the Opus team</a> and we'll customise them.
 
-??? question "How do daily checklist lead times work?"
+??? outline "How do daily checklist lead times work?"
 
     <span data-uuid="b7d27f06-b989-4ea7-a789-a1cb14aa1231" style="display:none"></span>
     A daily task is created, and the checklist is ready to be re-submitted, **16 hours after the last one was completed** (24 hours minus an 8-hour lead time). For example:
+
+    Whenever the checklist is done, a task will almost certainly be ready to remind you the next day.
 
     <span data-uuid="1d50c124-28b2-4431-a841-9c26d3830242" style="display:none"></span>
 
@@ -226,8 +228,6 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     | 09:00 | 01:00 |
     | 12:00 | 04:00 |
     | 17:00 | 09:00 |
-
-    Whenever the checklist is done, a task will almost certainly be ready to remind you the next day.
 
 ??? question "How do we handle shift checklists that need completing several times a day?"
 
