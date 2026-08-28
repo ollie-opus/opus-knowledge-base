@@ -112,12 +112,9 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
     If not all of your team members have a company email address, you have two main options.
 
-    !!! outline "Option A - use other existing email addresses"
+    !!! outline "<span class="mb-label mb-label-olive">Option A</span> - use Temporary Access"
 
         <span data-uuid="8be0d8e0-7fba-4910-9358-94baed16b0dd" style="display:none"></span>
-
-        - The employee uses a personal email address.
-        - Or you create a free personal account for them - quick to set up, and Google Mail is recommended.
 
     !!! outline "<span class="mb-label mb-label-olive">Option B</span> - use other existing email addresses"
 
