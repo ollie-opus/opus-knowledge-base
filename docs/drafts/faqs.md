@@ -108,9 +108,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ??? question "How do I register employees who don't have company email addresses?"
 
     <span data-uuid="49772e07-8d08-4c5f-b4da-4dbe2bef34eb" style="display:none"></span>
-    Opus Compliance Cloud requires a **unique email address for each registered user account**. Staff don't need an account to complete e-learning (see [Granting an employee temporary access](https://support.opus-safety.co.uk/pages/granting-an-employee-temporary-access/)) or to report incidents via the site QR code - but completing e-learning through **My Dashboard**, or carrying out site and asset checklists, does need one.
-
-    If not all of your team members have a company email address, you have two main options.
+    If any of your team members do not have a company email address, you have three main options to get them onto the system
 
     ??? outline "<span class="mb-label mb-label-olive">Option A</span> - Use temporary access"
 
