@@ -258,9 +258,10 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/asbestos-awareness-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/asbestos-awareness-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
-    ??? success "Removing a role requirement flow chart"
+    ??? success "Removing a role requirement flowchart"
 
         <span data-uuid="950d9f8f-3890-469a-9aa9-e399d8022b7d" style="display:none"></span>
+        Use this flowchart to help determine what to do when removing an individual role requirement from an employee.
 
         <span data-uuid="8163aaf7-afc6-4293-825d-2b9ba9af31c4" style="display:none"></span>
         ```mermaid
