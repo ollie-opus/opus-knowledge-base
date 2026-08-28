@@ -344,7 +344,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ## Tasks
 <span data-uuid="f9594265-16da-44c3-ae60-f508e6c106be" style="display:none"></span>
 
-??? question "Why can't we auto-assign tasks?"
+??? outline "Why can't we auto-assign tasks?"
 
     <span data-uuid="afd75154-181c-449e-940f-c98a7922048e" style="display:none"></span>
     Auto-assigning tasks might seem convenient, but there are significant drawbacks:
