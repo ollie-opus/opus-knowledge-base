@@ -187,7 +187,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
         <span data-uuid="71adcfa2-923e-468e-baec-955fb70ed054" style="display:none"></span>
         Choose your language in the on-screen display. Your e-learning course is now displayed in the new language.
 
-??? question "Where do I find an e-learning certificate?"
+??? outline "Where do I find an e-learning certificate?"
 
     <span data-uuid="f6d7cf45-c13d-45da-b17b-a851777bf8c5" style="display:none"></span>
     Go to the employee management page, click on the e-learning name, then click **View**.
