@@ -162,7 +162,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     Read more on how to register employees via the guide below:
 
     <span data-uuid="e9227edb-302d-4cc5-aa32-2e6370664554" style="display:none"></span>
-    [Granting an employee temporary access :lucide-arrow-up-right:](granting-an-employee-temporary-access.md){ .md-button .custom-button-olive .custom-button--slim target="_blank" rel="noopener" }
+    [Registering an employee :lucide-arrow-up-right:](registering-an-employee.md){ .md-button .custom-button-olive .custom-button--slim target="_blank" rel="noopener" }
 
 ## E-learning
 <span data-uuid="51af82ca-08cc-43f7-b70d-dcedea623081" style="display:none"></span>
