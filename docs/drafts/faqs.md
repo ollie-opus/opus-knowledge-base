@@ -115,7 +115,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     ??? outline "<span class="mb-label mb-label-olive">Option A</span> - Use temporary access"
 
         <span data-uuid="8be0d8e0-7fba-4910-9358-94baed16b0dd" style="display:none"></span>
-        If the employee only needs access to Opus Compliance Cloud to complete their own e-learning/checklists requirements, then temporary access is a feature that may be of benefit. It gives the user limited access to the system for a period of time without the need to create an account. See our guide on this below:
+        If the employee only needs access to Opus Compliance Cloud to complete their own e-learning/checklist requirements, then temporary access is a feature that may be of benefit. It gives the user limited access to the system for a period of time without the need to create an account. See our guide on this below:
 
         <span data-uuid="c4195a26-9fb9-4327-aaf9-a3c152d1391b" style="display:none"></span>
         [Granting an employee temporary access :lucide-arrow-up-right:](granting-an-employee-temporary-access.md){ .md-button .custom-button-olive .custom-button--slim target="_blank" rel="noopener" }
