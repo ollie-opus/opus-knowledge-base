@@ -91,7 +91,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
         The PWA still needs an internet connection to log in and load - the offline checklist behaviour above applies once you're in - and there are no separate push notifications; those come through email and in-platform as usual.
 
-??? question "Why isn't my video or CCTV footage playing?"
+??? outline "Why isn't my video or CCTV footage playing?"
 
     <span data-uuid="6dd07b1c-393b-433e-9f9d-adfd1676a93d" style="display:none"></span>
     Some files exported from CCTV systems aren't fully compatible with the web, so they may look as though they should play but won't. For instance, footage in the `h265` codec plays well on Microsoft Edge and mobile devices, but not on Chrome, due to licencing issues.
