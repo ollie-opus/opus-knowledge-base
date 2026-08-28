@@ -239,7 +239,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     <span data-uuid="692dd187-2fdc-4979-9835-0140e17c0031" style="display:none"></span>
     By default, users must log in to complete checklists, so the audit trail stays accurate and it's clear who completed each one.
 
-    Where that feels cumbersome and the audit trail is less critical, a feature allows checklists to be completed without logging in - but consider the implications:
+    Where that feels cumbersome and the audit trail is less critical, checklists can be configured to be completed without logging in - but consider the implications:
 
     - **Weaker audit trail.** Users enter their name manually when submitting, which allows inaccuracies or deliberate misuse, such as entering someone else's name.
     - **Public access.** If a QR code is used to access the checklist, **anyone with access to the code - not just employees - could complete it**.
