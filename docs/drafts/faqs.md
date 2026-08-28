@@ -254,11 +254,6 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     <span data-uuid="ed68a4f8-a9f8-46ad-90c0-df5ea6a3be37" style="display:none"></span>
     A requirement that comes from an asset type or role shows a symbol overlaid on its icon - a **tool symbol for assets**, a **briefcase symbol for employees**. That symbol means the requirement is **mandatory**, so it can't be archived on its own. If it seems irrelevant, first consider whether a separate role or asset type would be more appropriate.
 
-    !!! tip "Working around a requirement that doesn't apply"
-
-        <span data-uuid="f00ad22b-2d18-43f6-8670-1ea75078251e" style="display:none"></span>
-        For training or document requirements, upload a file explaining why the requirement doesn't apply, then set the schedule to `None` so it never becomes due. You can also rename the requirement to make clear it isn't required.
-
 ??? question "What do I do about MOT for a vehicle that's too new to need one?"
 
     <span data-uuid="ed75b5df-1575-4ca0-925a-1555de4f1cdb" style="display:none"></span>
