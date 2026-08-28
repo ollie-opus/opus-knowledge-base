@@ -234,7 +234,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     <span data-uuid="f81ae9a6-e913-492c-9455-5a17aa1331a1" style="display:none"></span>
     We recommend adding a different checklist per shift, for example `Early Shift Checklist`, `Late Shift Checklist` and so on. That way you can easily see which checklist has been missed, if any.
 
-??? question "Can checklists be completed without logging in?"
+??? outline "Can checklists be completed without logging in?"
 
     <span data-uuid="692dd187-2fdc-4979-9835-0140e17c0031" style="display:none"></span>
     By default, users must log in to complete checklists, so the audit trail stays accurate and it's clear who completed each one.
