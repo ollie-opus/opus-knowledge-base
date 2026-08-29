@@ -496,11 +496,6 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
             - It gives employees the opportunity to flag or raise concerns where tasks are overdue or have not been completed.
             - It provides visibility of information that may directly impact their health, safety and wellbeing in the workplace.
 
-    !!! note
-
-        <span data-uuid="10b23df9-a511-4bbd-8fea-04b705ab6a2e" style="display:none"></span>
-        Non-managers **do not have access to confidential information**, including details of accidents, health surveillance, or any tasks specifically related to employee management.
-
 ??? question "Why don't we show the exact last login time or date?"
 
     <span data-uuid="3d10918b-78c2-43aa-83ae-282eca6605a0" style="display:none"></span>
