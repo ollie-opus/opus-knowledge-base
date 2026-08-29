@@ -273,7 +273,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
         2. :lucide-alert-triangle: **Make future changes to roles and types organisation-wide more difficult**, as these individual exceptions would need to be identified and considered each time the setup is changed.
         3. :lucide-alert-triangle: **Reduce consistency** in how requirements are configured and managed across the organisation.
 
-    ??? blank "Removing a role requirement flowchart"
+    ??? outline "Removing a role requirement flowchart"
 
         <span data-uuid="950d9f8f-3890-469a-9aa9-e399d8022b7d" style="display:none"></span>
         Use this flowchart to help determine what to do when removing an individual role requirement from an employee.
