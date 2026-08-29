@@ -459,7 +459,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
     </div>
 
-??? question "Why isn't there a training matrix?"
+??? outline "Why isn't there a training matrix?"
 
     <span data-uuid="7335f32a-f177-4929-8877-ba3cc22e5090" style="display:none"></span>
     We don't have a specific training matrix output, as it's an outdated way of representing this data:
