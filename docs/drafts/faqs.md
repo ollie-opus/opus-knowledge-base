@@ -391,6 +391,22 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
         <span data-uuid="e5565551-4478-4612-9855-fbc84c000652" style="display:none"></span>
         You can snooze a task for a defined duration.
 
+        <span data-uuid="4a521f2d-2530-4b75-a491-0827766d4c2b" style="display:none"></span>
+        ```bash title="Command format"
+        /snooze for iso8601_duration # (1)!
+        ```
+
+        1. ISO 8601 time duration
+
+            Examples:
+
+            - 3 years - P3Y
+            - 6 months, 15 days - P6M15D
+            - 4 hours, 30 minutes - PT4H30M
+            - 1 year, 2 months, 3 days, 4 hours - P1Y2M3DT4H
+            - 90 seconds - PT90S
+            - 0.5 seconds - PT0.5S
+
         <span data-uuid="2c7803af-f67e-43c6-9a3d-5f7bc572f1c4" style="display:none"></span>
         ```bash title="Command format"
         /snooze until iso8601_date # (1)!
