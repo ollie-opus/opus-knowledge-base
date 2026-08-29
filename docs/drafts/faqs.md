@@ -499,9 +499,11 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ??? question "Why don't we show the exact last login time or date?"
 
     <span data-uuid="3d10918b-78c2-43aa-83ae-282eca6605a0" style="display:none"></span>
-    To protect employee privacy and comply with the UK GDPR data-minimisation principle, exact login timestamps aren't displayed - precise times can reveal working patterns and other sensitive behaviours, such as late-night access, that day-to-day administration doesn't need.
+    To protect employee privacy and support the UK GDPR principle of data minimisation, exact login timestamps are not displayed. Precise times can reveal working patterns and other potentially sensitive behaviours that are not necessary for day-to-day administration.
 
-    Instead we show time buckets - today or yesterday, this week or last week, and so on - which give useful oversight without unnecessary exposure of personal data.
+    Instead, we show time-based buckets — such as today, yesterday, this week, or last week — providing useful oversight without exposing unnecessary personal data.
+
+    Login activity is also not a meaningful measure of Health and Safety compliance - one of the primary purposes of Opus Compliance Cloud. Task completion and the other reports available in-system provide a more accurate view of compliance activity.
 
 ??? question "How does the UK GDPR apply to health surveillance data?"
 
