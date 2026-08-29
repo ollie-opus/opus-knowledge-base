@@ -415,22 +415,6 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
         1. ISO 8601 date (YYYY-MM-DD)
 
-        <span data-uuid="613cdd69-7122-4571-bd9c-efe22cdd53f2" style="display:none"></span>
-        ```bash title="Command format"
-        /snooze for iso8601_duration # (1)!
-        ```
-
-        1. ISO 8601 time duration
-
-            Examples:
-
-            - 3 years - P3Y
-            - 6 months, 15 days - P6M15D
-            - 4 hours, 30 minutes - PT4H30M
-            - 1 year, 2 months, 3 days, 4 hours - P1Y2M3DT4H
-            - 90 seconds - PT90S
-            - 0.5 seconds - PT0.5S
-
         <span data-uuid="350ecfcd-fb7a-4c09-b8f8-8499bdf8742a" style="display:none"></span>
         ```bash title="Example - snooze until 2026-08-29"
         /snooze until 2026-08-29 # (1)!
