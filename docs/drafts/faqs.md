@@ -387,10 +387,6 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
     Type the command into a comment on the task:
 
-    ```
-    /snooze for P1M
-    ``
-
     !!! tip "Date-based snoozing"
 
         <span data-uuid="0a17d615-9d5c-4a8d-8a4d-64088d0b04b2" style="display:none"></span>
