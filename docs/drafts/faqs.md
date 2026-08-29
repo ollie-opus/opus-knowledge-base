@@ -389,7 +389,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     === "Snooze via duration"
 
         <span data-uuid="e5565551-4478-4612-9855-fbc84c000652" style="display:none"></span>
-        You can snooze a task for a defined duration
+        You can snooze a task for a defined duration.
 
         <span data-uuid="2c7803af-f67e-43c6-9a3d-5f7bc572f1c4" style="display:none"></span>
         ```bash title="Command format"
