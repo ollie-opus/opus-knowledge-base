@@ -406,6 +406,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     === "Snooze via date"
 
         <span data-uuid="bf74ae23-c6a5-4c9e-8db2-08400ec21c30" style="display:none"></span>
+        You can snooze a task until a defined date.
 
         <span data-uuid="613cdd69-7122-4571-bd9c-efe22cdd53f2" style="display:none"></span>
         ```bash title="Command format"
