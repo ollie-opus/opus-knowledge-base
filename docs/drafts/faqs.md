@@ -486,7 +486,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
     All other tasks beyond these exceptions are visible to standard <span class="mb-label mb-label-blue">:lucide-user: Users</span> in the site inbox.
 
-    !!! question "Why should users see these tasks at all?"
+    !!! question "Why do we expose these tasks to users?"
 
         <span data-uuid="af004024-6765-49d1-a23f-23bc21ad848c" style="display:none"></span>
         There are two main reasons for this:
