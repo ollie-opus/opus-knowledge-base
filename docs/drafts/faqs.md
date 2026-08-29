@@ -390,6 +390,22 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
         <span data-uuid="e5565551-4478-4612-9855-fbc84c000652" style="display:none"></span>
 
+        <span data-uuid="a4356b77-a53f-4b69-bf9e-e442ea8af266" style="display:none"></span>
+        ```bash title="Example - snooze for 1 month"
+        /snooze for P1M # (1)!
+        ```
+
+        1. ISO 8601 time duration
+
+            Examples:
+
+            - 3 years - P3Y
+            - 6 months, 15 days - P6M15D
+            - 4 hours, 30 minutes - PT4H30M
+            - 1 year, 2 months, 3 days, 4 hours - P1Y2M3DT4H
+            - 90 seconds - PT90S
+            - 0.5 seconds - PT0.5S
+
     === "Snooze via date"
 
         <span data-uuid="bf74ae23-c6a5-4c9e-8db2-08400ec21c30" style="display:none"></span>
