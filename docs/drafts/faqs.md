@@ -505,7 +505,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
     Login activity is also not a meaningful measure of Health and Safety compliance - one of the primary purposes of Opus Compliance Cloud. Task completion and the other reports available in-system provide a more accurate view of compliance activity.
 
-??? question "How does the UK GDPR apply to health surveillance data?"
+??? outline "How does the UK GDPR apply to health surveillance data?"
 
     <span data-uuid="47ac95b2-db80-4916-a786-cffbffa98a6f" style="display:none"></span>
     Health surveillance data is classified as **special category data** under the UK GDPR. To lawfully process this type of data, organisations must identify both a lawful basis under **Article 6** and a separate condition for processing special category data under **Article 9**, supported by the **Data Protection Act 2018**.
