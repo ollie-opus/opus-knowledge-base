@@ -437,7 +437,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ## Reporting and records
 <span data-uuid="b79477a4-acf7-4eb2-b752-324793211308" style="display:none"></span>
 
-??? question "What definition of accident does Opus Compliance Cloud use?"
+??? outline "What definition of accident does Opus Compliance Cloud use?"
 
     <span data-uuid="155e01a5-8282-4a93-b1ff-89a6525f4305" style="display:none"></span>
     Opus Compliance Cloud defines an accident as **an incident that results in injury**.
