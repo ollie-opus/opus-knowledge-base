@@ -429,6 +429,11 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
         /snooze for P1M
         ```
 
+        <span data-uuid="350ecfcd-fb7a-4c09-b8f8-8499bdf8742a" style="display:none"></span>
+        ```bash title="Example - snooze until 2026-08-29"
+        /snooze until 2026-08-29
+        ```
+
     !!! warning
 
         <span data-uuid="bef021d0-e65a-4067-91d3-fbb464693276" style="display:none"></span>
