@@ -407,13 +407,6 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
             - 90 seconds - PT90S
             - 0.5 seconds - PT0.5S
 
-        <span data-uuid="2c7803af-f67e-43c6-9a3d-5f7bc572f1c4" style="display:none"></span>
-        ```bash title="Command format"
-        /snooze until iso8601_date # (1)!
-        ```
-
-        1. ISO 8601 date (YYYY-MM-DD)
-
         <span data-uuid="a4356b77-a53f-4b69-bf9e-e442ea8af266" style="display:none"></span>
         ```bash title="Example - snooze for 1 month"
         /snooze for P1M
