@@ -388,7 +388,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     Type the command into a comment on the task:
 
     <span data-uuid="e58bba34-4c63-45f5-a37f-356142e557c4" style="display:none"></span>
-    ```bash
+    ```bash title="Example - snooze for 1 month"
     /snooze for P1M # (1)!
     ```
 
