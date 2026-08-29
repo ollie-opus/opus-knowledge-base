@@ -427,15 +427,6 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
         /snooze for P1M
         ```
 
-    !!! tip "Date-based snoozing"
-
-        <span data-uuid="0a17d615-9d5c-4a8d-8a4d-64088d0b04b2" style="display:none"></span>
-        You can also snooze until a certain date using
-
-
-
-        The date format is ISO 8601: YYYY-MM-DD`.
-
     !!! warning
 
         <span data-uuid="bef021d0-e65a-4067-91d3-fbb464693276" style="display:none"></span>
