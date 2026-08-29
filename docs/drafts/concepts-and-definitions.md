@@ -11,3 +11,6 @@ tags:
 
 ## Entities
 <span data-uuid="877c95e5-74ed-4aa9-aa89-f4219db6a4d0" style="display:none"></span>
+
+## Requirements
+<span data-uuid="48124ba1-9734-4734-9451-a6010cd3eedc" style="display:none"></span>
