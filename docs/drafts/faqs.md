@@ -489,12 +489,12 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     !!! question "Why should users see these tasks at all?"
 
         <span data-uuid="af004024-6765-49d1-a23f-23bc21ad848c" style="display:none"></span>
-        There are 2 main reasons why:
+        There are two main reasons for this:
 
-        1. **Health and safety:** Given the nature of site responsibilities, hiding these tasks from users could impact general health and safety compliance. We have a responsibility as health and safety software providers to promote the concept that health and safety is a collective responsibility, rather than one that only relates to managers/administrators.
-        2. **Transparency:** We believe users have the right to know whether these tasks are being completed (even if they are not able to complete them themselves). This is because it:
-            - Gives employees the opportunity to flag or raise concerns where tasks are overdue or not being completed.
-            - Provides them visibility of checks that may directly impact their workplace safety.
+        1. **:lucide-shield-check: Health and safety:** Given the nature of site responsibilities, hiding these tasks from users could impact general health and safety compliance. As health and safety software providers, we have a responsibility to promote the principle that health and safety is a collective responsibility, rather than something that sits solely with managers and administrators.
+        2. **:lucide-eye: Transparency:** We believe users have a right to know whether these tasks are being completed, even if they are not responsible for completing them themselves, for the following reasons:
+            - It gives employees the opportunity to flag or raise concerns where tasks are overdue or have not been completed.
+            - It provides visibility of information that may directly impact their health, safety and wellbeing in the workplace.
 
     !!! note
 
