@@ -259,6 +259,15 @@ new = "Recently added"
 custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
 ]
+# Code blocks: syntax highlighting + title / linenums / hl_lines fence options
+# (authored via the extension's Code block component). The copy/select/annotate
+# buttons are the content.code.* theme features above.
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums     = true
+line_spans          = "__span"
+pygments_lang_class = true
+# `#!lang code` inline highlighting in backtick spans.
+[project.markdown_extensions.pymdownx.inlinehilite]
 [project.markdown_extensions.pymdownx.blocks.caption]
 [project.markdown_extensions.def_list]
 [project.markdown_extensions.pymdownx.tabbed]
