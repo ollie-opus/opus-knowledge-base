@@ -501,7 +501,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     <span data-uuid="3d10918b-78c2-43aa-83ae-282eca6605a0" style="display:none"></span>
     To protect employee privacy and support the UK GDPR principle of data minimisation, exact login timestamps are not displayed. Precise times can reveal working patterns and other potentially sensitive behaviours that are not necessary for day-to-day administration.
 
-    Instead, we show time-based buckets — such as today, yesterday, this week, or last week — providing useful oversight without exposing unnecessary personal data.
+    Instead, we show time-based buckets - such as today, yesterday, this week, or last week - providing useful oversight without exposing unnecessary personal data.
 
     Login activity is also not a meaningful measure of Health and Safety compliance - one of the primary purposes of Opus Compliance Cloud. Task completion and the other reports available in-system provide a more accurate view of compliance activity.
 
