@@ -475,7 +475,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ??? outline "Why do non-managers see the site inbox?"
 
     <span data-uuid="d37dfe0e-05ce-480b-b6a5-37eb0f999a4f" style="display:none"></span>
-    ^^Preamble^^
+    ^^**Preamble**^^
 
     The site inbox displays open, unassigned tasks relating to the site, as well as tasks relating to employees and assets located at that site.
 
