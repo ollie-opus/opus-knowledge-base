@@ -19,7 +19,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ## Getting around Opus Compliance Cloud
 <span data-uuid="6cbcd7f1-c7ee-46bf-8720-08cc06322514" style="display:none"></span>
 
-??? question "What does Override mean?"
+??? outline "What does Override mean?"
 
     <span data-uuid="3522abf5-cb89-434a-8b03-10920b788f09" style="display:none"></span>
     In some areas - such as checklists, roles and e-learning - you'll see an **Override** button where you might expect **Edit**. It appears when the item comes from a template managed at company level or by Opus centrally: clicking **Override** changes your local copy without affecting the original template.
@@ -35,7 +35,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
         <span data-uuid="5606fa3e-a588-4052-81a1-3502a7eb3929" style="display:none"></span>
         Overridden aspects no longer receive future changes made at a higher level. **For example**, if you override an e-learning schedule on an employee, later changes to that course's schedule at company level won't reach that employee's instance - though aspects you haven't overridden still update as normal.
 
-??? question "How do I save pages as PDFs or print them?"
+??? outline "How do I save pages as PDFs or print them?"
 
     <span data-uuid="cae933be-392c-4ab2-96e9-550055635e7d" style="display:none"></span>
     Most pages include a print-friendly view for the times you need to give a copy of information to a third party. In Chrome or Edge, right-click on the page and select **Print**, then set the destination to `Save as PDF`.
@@ -50,7 +50,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
         <span data-uuid="c656ca48-f7c4-440a-a03d-012ece0fa65a" style="display:none"></span>
         Change the view to the most appropriate one before saving as a PDF.
 
-??? question "Does Opus Compliance Cloud have a mobile app?"
+??? outline "Does Opus Compliance Cloud have a mobile app?"
 
     <span data-uuid="11a287db-e72f-47a0-8c77-88142fc7f6ff" style="display:none"></span>
     Not a traditional one - and that's deliberate. Opus Compliance Cloud uses **responsive design**: the site automatically adjusts to whatever device you're using, so you get full functionality on a phone, tablet, laptop or desktop without downloading anything. There is **no separate "mobile version" with fewer features**.
@@ -91,7 +91,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
         The PWA still needs an internet connection to log in and load - the offline checklist behaviour above applies once you're in - and there are no separate push notifications; those come through email and in-platform as usual.
 
-??? question "Why isn't my video or CCTV footage playing?"
+??? outline "Why isn't my video or CCTV footage playing?"
 
     <span data-uuid="6dd07b1c-393b-433e-9f9d-adfd1676a93d" style="display:none"></span>
     Some files exported from CCTV systems aren't fully compatible with the web, so they may look as though they should play but won't. For instance, footage in the `h265` codec plays well on Microsoft Edge and mobile devices, but not on Chrome, due to licencing issues.
@@ -105,7 +105,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ## Employees and accounts
 <span data-uuid="72950f72-5a36-4d48-8a81-00e4eb2ae88c" style="display:none"></span>
 
-??? question "How do I register employees who don't have company email addresses?"
+??? outline "How do I register employees who don't have company email addresses?"
 
     <span data-uuid="49772e07-8d08-4c5f-b4da-4dbe2bef34eb" style="display:none"></span>
     If any of your team members do not have a company email address, you have three main options to get them onto the system
@@ -150,7 +150,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
             <span data-uuid="6845003e-f5db-44c4-a2a1-3765d8f7a3b9" style="display:none"></span>
             All emails, **including password resets**, are sent to the inbox of the base email address. Managers with access to that account can help with password resets if needed.
 
-??? question "Why doesn't the system send welcome emails?"
+??? outline "Why doesn't the system send welcome emails?"
 
     <span data-uuid="c219f899-dd80-42e0-8159-161516f3324a" style="display:none"></span>
     Registration links are sent by managers rather than by the system, for three reasons:
@@ -159,12 +159,15 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     - **Personalised communication.** Managers can wrap the registration link in a tailored welcome message with company-specific instructions - warmer than a generic system email.
     - **Control and flexibility.** Managers choose the timing and the channel that suits their teams - email, instant messaging or another internal platform.
 
-    See [Registering an employee](https://support.opus-safety.co.uk/pages/registering-an-employee/) for how to send a registration link.
+    Read more on how to register employees via the guide below:
+
+    <span data-uuid="e9227edb-302d-4cc5-aa32-2e6370664554" style="display:none"></span>
+    [Registering an employee :lucide-arrow-up-right:](registering-an-employee.md){ .md-button .custom-button-olive .custom-button--slim target="_blank" rel="noopener" }
 
 ## E-learning
 <span data-uuid="51af82ca-08cc-43f7-b70d-dcedea623081" style="display:none"></span>
 
-??? question "Can e-learning be translated into other languages?"
+??? outline "Can e-learning be translated into other languages?"
 
     <span data-uuid="06b2ea31-8164-40a8-b108-b3b1eac5cf05" style="display:none"></span>
     Yes - browsers such as Chrome and Edge have built-in translation tools that convert e-learning courses on the fly. In both:
@@ -172,7 +175,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     !!! step
 
         <span data-uuid="fe4d6c95-a333-4432-adf4-3a38b4c4ee68" style="display:none"></span>
-        Click the more options button in the top right of the browser (three vertical dots).
+        Click the more options button (:lucide-more-vertical:) in the top right of the browser.
 
     !!! step
 
@@ -184,7 +187,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
         <span data-uuid="71adcfa2-923e-468e-baec-955fb70ed054" style="display:none"></span>
         Choose your language in the on-screen display. Your e-learning course is now displayed in the new language.
 
-??? question "Where do I find an e-learning certificate?"
+??? outline "Where do I find an e-learning certificate?"
 
     <span data-uuid="f6d7cf45-c13d-45da-b17b-a851777bf8c5" style="display:none"></span>
     Go to the employee management page, click on the e-learning name, then click **View**.
@@ -197,7 +200,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ## Checklists
 <span data-uuid="3585f1fb-094b-49f1-8632-616e2171c992" style="display:none"></span>
 
-??? question "Why isn't there an N/A option on checklists?"
+??? outline "Why isn't there an N/A option on checklists?"
 
     <span data-uuid="3e42dc32-6a88-4400-8c13-f3988b0618ea" style="display:none"></span>
     The main issue is that `N/A` lets the user decide whether to answer a question at all - and if they do answer `N/A`, no one will know unless they specifically check the submission history.
@@ -209,12 +212,14 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     !!! info "Multi-choice responses"
 
         <span data-uuid="3bf0c705-c910-4a94-81a8-b135ff71f308" style="display:none"></span>
-        As of **Spring 2026**, checklists support multi-choice responses. We can configure bespoke options, such as `Equipment not installed on this machine`, which don't trigger an action. If your site or asset checklists have genuine exceptions, <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">speak to the Opus team</a> and we'll customise them.
+        As of **Spring 2026**, checklists support multi-choice responses. We can configure bespoke options, such as `Equipment not installed on this machine`, to not trigger an action. If your site or asset checklists have genuine exceptions, <a href="#" onclick="event.preventDefault(); window.groove.widget.open();">speak to the Opus team</a> and we'll customise them.
 
-??? question "How do daily checklist lead times work?"
+??? outline "How do daily checklist lead times work?"
 
     <span data-uuid="b7d27f06-b989-4ea7-a789-a1cb14aa1231" style="display:none"></span>
     A daily task is created, and the checklist is ready to be re-submitted, **16 hours after the last one was completed** (24 hours minus an 8-hour lead time). For example:
+
+    Whenever the checklist is done, a task will almost certainly be ready to remind you the next day.
 
     <span data-uuid="1d50c124-28b2-4431-a841-9c26d3830242" style="display:none"></span>
 
@@ -224,19 +229,17 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     | 12:00 | 04:00 |
     | 17:00 | 09:00 |
 
-    Whenever the checklist is done, a task will almost certainly be ready to remind you the next day.
-
-??? question "How do we handle shift checklists that need completing several times a day?"
+??? outline "How do we handle shift checklists that need completing several times a day?"
 
     <span data-uuid="f81ae9a6-e913-492c-9455-5a17aa1331a1" style="display:none"></span>
     We recommend adding a different checklist per shift, for example `Early Shift Checklist`, `Late Shift Checklist` and so on. That way you can easily see which checklist has been missed, if any.
 
-??? question "Can checklists be completed without logging in?"
+??? outline "Can checklists be completed without logging in?"
 
     <span data-uuid="692dd187-2fdc-4979-9835-0140e17c0031" style="display:none"></span>
     By default, users must log in to complete checklists, so the audit trail stays accurate and it's clear who completed each one.
 
-    Where that feels cumbersome and the audit trail is less critical, a feature allows checklists to be completed without logging in - but consider the implications:
+    Where that feels cumbersome and the audit trail is less critical, checklists can be configured to be completed without logging in - but consider the implications:
 
     - **Weaker audit trail.** Users enter their name manually when submitting, which allows inaccuracies or deliberate misuse, such as entering someone else's name.
     - **Public access.** If a QR code is used to access the checklist, **anyone with access to the code - not just employees - could complete it**.
@@ -246,17 +249,67 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ## Requirements and assets
 <span data-uuid="1f00b1a4-e7c9-4422-a261-fb7f796e3e60" style="display:none"></span>
 
-??? question "Why can't I archive an individual asset type or role requirement?"
+??? outline "Why can't I archive an individual asset type or role requirement?"
 
     <span data-uuid="ed68a4f8-a9f8-46ad-90c0-df5ea6a3be37" style="display:none"></span>
-    A requirement that comes from an asset type or role shows a symbol overlaid on its icon - a **tool symbol for assets**, a **briefcase symbol for employees**. That symbol means the requirement is **mandatory**, so it can't be archived on its own. If it seems irrelevant, first consider whether a separate role or asset type would be more appropriate.
+    A requirement that comes from an employee role or asset type shows a check symbol (:lucide-circle-check:) overlaid on its icon. That symbol means the requirement is **mandatory** as part of the employee's role / asset's type. As a result the system blocks the ability to archive the requirement.
 
-    !!! tip "Working around a requirement that doesn't apply"
+    <span data-uuid="c90b4f45-06c6-4d13-a347-a2f1baf18bd9" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/e-learning-z-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/e-learning-z-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
-        <span data-uuid="f00ad22b-2d18-43f6-8670-1ea75078251e" style="display:none"></span>
-        For training or document requirements, upload a file explaining why the requirement doesn't apply, then set the schedule to `None` so it never becomes due. You can also rename the requirement to make clear it isn't required.
+    ??? question "Why do we do this?"
 
-??? question "What do I do about MOT for a vehicle that's too new to need one?"
+        <span data-uuid="4af1ffb4-4cdd-47a5-bbb6-256109321594" style="display:none"></span>
+        The purpose of employee roles and asset types is to give managers and administrators confidence that:
+
+        1. :lucide-check: **Requirements are applied consistently** across employees and assets throughout the organisation.
+        2. :lucide-check: **Requirements can be easily applied** to employees and assets.
+        3. :lucide-check: **Roles and types can be easily edited** across the organisation, allowing you to add or remove requirements en masse.
+
+        If we allow role or asset-type requirements to be archived for individual employees or assets, this will:
+
+        1. :lucide-alert-triangle: **Introduce per-employee or per-asset exceptions** that can accumulate over time, making it increasingly difficult to understand how requirements are being applied across the organisation.
+        2. :lucide-alert-triangle: **Make future changes to roles and types organisation-wide more difficult**, as these individual exceptions would need to be identified and considered each time the setup is changed.
+        3. :lucide-alert-triangle: **Reduce consistency** in how requirements are configured and managed across the organisation.
+
+    ??? outline "Removing a role requirement flowchart"
+
+        <span data-uuid="950d9f8f-3890-469a-9aa9-e399d8022b7d" style="display:none"></span>
+        Use this flowchart to help determine what to do when removing an individual role requirement from an employee.
+
+        <span data-uuid="8163aaf7-afc6-4293-825d-2b9ba9af31c4" style="display:none"></span>
+        ```mermaid
+        ---
+        config:
+          layout: elk
+        ---
+        stateDiagram
+          direction TB
+          classDef question stroke:#6b7280,fill:#f3f4f6,stroke-width:2px;
+          classDef action stroke:#16a34a,fill:#dcfce7,stroke-width:2px;
+          s1 --> s2:✅ Yes
+          s1 --> s3:❌ No
+          s2 --> s4:✅ Yes
+          s2 --> s5:❌ No
+          s4 --> s7:✅ Yes
+          s4 --> s6:❌ No
+          s7 --> s9:✅ Yes
+          s7 --> s8:❌ No
+          s1:Is this requirement applied to the employee via a role?
+          s2:Does the employee have the correct role(s) assigned?
+          s3:Archive the requirement
+          s4:Do other employees with this role in your organisation need this requirement?
+          s5:Change the employee's role(s)
+          s7:Do other employees with this role at this site need this requirement?
+          s6:Remove the requirement from the role
+          s9:Redefine the roles to support this configuration - for example, move the requirement out of the existing role and into a new, separate role
+          s8:Remove the requirement from the role at this site (role override)
+          class s1,s2,s4,s7 question
+          class s3,s5,s6,s9,s8 action
+        ```
+
+??? outline "What do I do about MOT for a vehicle that's too new to need one?"
 
     <span data-uuid="ed75b5df-1575-4ca0-925a-1555de4f1cdb" style="display:none"></span>
     Our recommended approach:
@@ -291,7 +344,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ## Tasks
 <span data-uuid="f9594265-16da-44c3-ae60-f508e6c106be" style="display:none"></span>
 
-??? question "Why can't we auto-assign tasks?"
+??? outline "Why can't we auto-assign tasks?"
 
     <span data-uuid="afd75154-181c-449e-940f-c98a7922048e" style="display:none"></span>
     Auto-assigning tasks might seem convenient, but there are significant drawbacks:
@@ -300,7 +353,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     - **Manager visibility.** Auto-assigned tasks don't appear in the manager's inbox, so an outstanding task can go unnoticed.
     - **Custom messaging flexibility.** Without auto-assignment, managers can use custom task messages to direct each task to the most appropriate person while staying informed themselves.
 
-??? question "Why don't we use target dates?"
+??? outline "Why don't we use target dates?"
 
     <span data-uuid="d16e493b-172c-4b94-85d2-9bcaebd1a24b" style="display:none"></span>
     Target dates can work against you: lower-priority items get closed out ahead of more serious ones simply because their deadline falls sooner.
@@ -309,14 +362,10 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
     You can of course change the [severity](https://support.opus-safety.co.uk/pages/task-severities/) of a task if something should be prioritised or de-prioritised.
 
-??? question "Why can't we snooze employees?"
+??? outline "Why can't we snooze employees?"
 
     <span data-uuid="187c6a89-f7f2-4502-9305-5719797f9599" style="display:none"></span>
     Users can snooze individual tasks for up to **2 weeks**, and users with the <span class="mb-label mb-label-pink">:lucide-user-cog: Administrator</span> role can snooze for longer to cover extended absences. However, an employee can't be snoozed entirely - only tasks that already exist can be snoozed.
-
-    <span data-uuid="13861085-adee-42e2-9d81-ef0e3dfaf801" style="display:none"></span>
-    ![](../assets/media/occ-captures/todos/uuid/snooze-light-mode.png#only-light){ style="height: 50px" loading=lazy }
-    ![](../assets/media/occ-captures/todos/uuid/snooze-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
     This is intentional. We still want managers to see when tasks become due during someone's absence. For example:
 
@@ -327,23 +376,58 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
     See [Interacting with a task](https://support.opus-safety.co.uk/pages/interacting-with-a-task/) for more on snoozing.
 
-??? question "How can administrators snooze tasks for longer periods?"
+    <span data-uuid="13861085-adee-42e2-9d81-ef0e3dfaf801" style="display:none"></span>
+    ![](../assets/media/occ-captures/todos/uuid/snooze-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/snooze-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+??? outline "How can administrators snooze tasks for longer periods?"
 
     <span data-uuid="7bf2fffd-3fb6-4d66-8c2d-13a58c5c2ed4" style="display:none"></span>
-    Users with the <span class="mb-label mb-label-pink">:lucide-user-cog: Administrator</span> role can snooze tasks for longer to cover extended absences, using a shortcut known as a **slash command**.
+    <span class="mb-label mb-label-pink">:lucide-user-cog: Administrators</span> can snooze tasks for longer to cover extended absences, using a shortcut known as a **slash command**.
 
-    Type the command into a comment on the task:
+    <span data-uuid="8e49a92d-6be2-4742-97ce-cfa55064144a" style="display:none"></span>
+    === "Snooze by duration"
 
-    ```
-    /snooze until 2026-06-29
-    ```
+        <span data-uuid="e5565551-4478-4612-9855-fbc84c000652" style="display:none"></span>
+        You can snooze a task for a defined duration.
 
-    The date format is ISO 8601: `YYYY-MM-DD`.
+        <span data-uuid="4a521f2d-2530-4b75-a491-0827766d4c2b" style="display:none"></span>
+        ```bash title="Command format"
+        /snooze for iso8601_duration # (1)!
+        ```
 
-    !!! tip "Period-based snoozing"
+        1. ISO 8601 time duration
 
-        <span data-uuid="0a17d615-9d5c-4a8d-8a4d-64088d0b04b2" style="display:none"></span>
-        You can also snooze for a period rather than to a date. For example, `/snooze for P1W` snoozes the task for 1 week.
+            Examples:
+
+            - 3 years - P3Y
+            - 6 months, 15 days - P6M15D
+            - 4 hours, 30 minutes - PT4H30M
+            - 1 year, 2 months, 3 days, 4 hours - P1Y2M3DT4H
+            - 90 seconds - PT90S
+            - 0.5 seconds - PT0.5S
+
+        <span data-uuid="a4356b77-a53f-4b69-bf9e-e442ea8af266" style="display:none"></span>
+        ```bash title="Example - snooze for 1 month"
+        /snooze for P1M
+        ```
+
+    === "Snooze by date"
+
+        <span data-uuid="bf74ae23-c6a5-4c9e-8db2-08400ec21c30" style="display:none"></span>
+        You can snooze a task until a defined date.
+
+        <span data-uuid="afab153d-624d-4fe8-bfde-df0feb898dce" style="display:none"></span>
+        ```bash title="Command format"
+        /snooze until iso8601_date # (1)!
+        ```
+
+        1. ISO 8601 date (YYYY-MM-DD)
+
+        <span data-uuid="350ecfcd-fb7a-4c09-b8f8-8499bdf8742a" style="display:none"></span>
+        ```bash title="Example - snooze until 2026-08-29"
+        /snooze until 2026-08-29
+        ```
 
     !!! warning
 
@@ -353,7 +437,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ## Reporting and records
 <span data-uuid="b79477a4-acf7-4eb2-b752-324793211308" style="display:none"></span>
 
-??? question "What definition of accident does Opus Compliance Cloud use?"
+??? outline "What definition of accident does Opus Compliance Cloud use?"
 
     <span data-uuid="155e01a5-8282-4a93-b1ff-89a6525f4305" style="display:none"></span>
     Opus Compliance Cloud defines an accident as **an incident that results in injury**.
@@ -368,44 +452,60 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
     | Source | Definition |
     | :--- | :--- |
-    | <span class="mb-label mb-label-blue">HSE - RIDDOR key definitions</span> | A separate, identifiable, unintended incident, which causes physical injury. |
-    | <span class="mb-label mb-label-blue">HSE - HSG245</span> | An event that results in injury or ill health. |
-    | <span class="mb-label mb-label-teal">IOSH</span> | An occurrence arising out of or in the course of work that results in either a fatal occupational injury, a non-fatal occupational injury, or work-related disease or ill health. |
-    | <span class="mb-label mb-label-mauve">ISO 45001</span> | An incident in which injury or ill health actually occurs. |
+    | [HSE - RIDDOR key definitions](https://www.hse.gov.uk/riddor/key-definitions.htm) | A separate, identifiable, unintended incident, which causes physical injury. |
+    | [HSE - HSG245](https://www.hse.gov.uk/pubns/hsg245.pdf) | An event that results in injury or ill health. |
+    | [IOSH](https://iosh.com/resources/health-and-safety-keywords) | An occurrence arising out of or in the course of work that results in either: a fatal occupational injury; a non-fatal occupational injury; or work-related disease or ill health. |
+    | [ISO 45001](https://oshwiki.osha.europa.eu/en/themes/accidents-and-incidents) | An incident in which injury or ill health actually occurs |
 
     </div>
 
-??? question "Why isn't there a training matrix?"
+??? outline "Why isn't there a training matrix?"
 
     <span data-uuid="7335f32a-f177-4929-8877-ba3cc22e5090" style="display:none"></span>
-    Export training from **Site Snapshot > Training**, filtering to get all records - not just overdue - and selecting only the training, staff or roles you need, so you don't share more than necessary. Certification bodies such as <span class="mb-label mb-label-olive">CHAS</span>, <span class="mb-label mb-label-olive">SSIP</span> and <span class="mb-label mb-label-olive">SMAS</span> have been happy to receive training information in this form.
-
-    We don't have a specific training matrix output, as it's an outdated way of reporting data:
+    We don't have a specific training matrix output, as it's an outdated way of representing this data:
 
     - **Limited flexibility.** Training matrices are difficult to filter and analyse.
     - **Doesn't scale.** Even a simple client with 100 employees, 10 e-learning courses and 20 training templates would produce a matrix with **3,000 individual cells** - a lot to expect a recipient to sift through.
 
+    If you require an export that is equivalent to a training matrix, this can be obtained from the **Site Snapshot**. Using this reporting tool in-system you can select between **Training due** or **E-learning due**, remove the due filter and export this data to CSV. Certification bodies such as <span class="mb-label mb-label-olive">CHAS</span>, <span class="mb-label mb-label-olive">SSIP</span> and <span class="mb-label mb-label-olive">SMAS</span> have been happy to receive training information in this form.
+
 ## Access and privacy
 <span data-uuid="6c464d63-26bd-4f38-909d-7ef62f2b7cb5" style="display:none"></span>
 
-??? question "Why do non-managers see the site inbox?"
+??? outline "Why do non-managers see the site inbox?"
 
     <span data-uuid="d37dfe0e-05ce-480b-b6a5-37eb0f999a4f" style="display:none"></span>
-    All users need access to the site inbox to report accidents and safety observations, and need to view site documents to understand risk assessments and other safety protocols. They may also need asset information, to review documentation or record issues. Unlike many other systems, Opus Compliance Cloud supports this engagement across user types - employees with <span class="mb-label mb-label-blue">:lucide-user: User</span> access may even be enabled to complete site or asset checklists.
+    ^^**Preamble**^^
 
-    !!! note
+    The site inbox displays open, unassigned tasks relating to the site, as well as tasks relating to employees and assets located at that site.
 
-        <span data-uuid="10b23df9-a511-4bbd-8fea-04b705ab6a2e" style="display:none"></span>
-        Non-managers **do not have access to confidential information**, including details of accidents, health surveillance, or any tasks specifically related to employee management.
+    There are two exceptions to this for employees with <span class="mb-label mb-label-blue">:lucide-user: User</span> access:
 
-??? question "Why don't we show the exact last login time or date?"
+    1. :lucide-eye-off: **Confidential tasks:** Users cannot see tasks marked as confidential, such as incidents, RTCs or employee interventions.
+    2. :lucide-users: **Tasks relating to other employees:** Users cannot see tasks relating to employees they do not manage, such as e-learning reminders for other employees.
+
+    All other tasks beyond these exceptions are visible to standard <span class="mb-label mb-label-blue">:lucide-user: Users</span> in the site inbox.
+
+    !!! question "Why do we expose these tasks to users?"
+
+        <span data-uuid="af004024-6765-49d1-a23f-23bc21ad848c" style="display:none"></span>
+        There are two main reasons for this:
+
+        1. **:lucide-shield-check: Health and safety:** Given the nature of site responsibilities, hiding these tasks from users could impact general health and safety compliance within your organisation. As health and safety software providers, we have a responsibility to promote the principle that health and safety is a ^^collective responsibility^^, rather than something that sits solely with managers and administrators.
+        2. **:lucide-eye: Transparency:** We believe ^^users have a right to know^^ whether these tasks are being completed, even if they are not responsible for completing them themselves, for the following reasons:
+            - It gives employees the opportunity to flag or raise concerns where tasks are overdue or have not been completed.
+            - It provides visibility of information that may directly impact their health, safety and wellbeing in the workplace.
+
+??? outline "Why don't we show the exact last login time or date?"
 
     <span data-uuid="3d10918b-78c2-43aa-83ae-282eca6605a0" style="display:none"></span>
-    To protect employee privacy and comply with the UK GDPR data-minimisation principle, exact login timestamps aren't displayed - precise times can reveal working patterns and other sensitive behaviours, such as late-night access, that day-to-day administration doesn't need.
+    To protect **employee privacy** and support the **UK GDPR principle of data minimisation**, exact login timestamps are not displayed. Precise times can reveal working patterns and other potentially sensitive behaviours that are not necessary for day-to-day administration.
 
-    Instead we show time buckets - today or yesterday, this week or last week, and so on - which give useful oversight without unnecessary exposure of personal data.
+    Instead, we show **time-based buckets** - such as <span class="mb-label mb-label-olive">Today</span>, <span class="mb-label mb-label-olive">Yesterday</span>, <span class="mb-label mb-label-olive">This week</span>, or <span class="mb-label mb-label-olive">Last week</span> - providing useful oversight without exposing unnecessary personal data.
 
-??? question "How does the UK GDPR apply to health surveillance data?"
+    Login activity is also **not a meaningful measure of Health and Safety compliance** - one of the primary purposes of Opus Compliance Cloud. Task completion and the other reports available in-system provide a more accurate view of compliance activity.
+
+??? outline "How does the UK GDPR apply to health surveillance data?"
 
     <span data-uuid="47ac95b2-db80-4916-a786-cffbffa98a6f" style="display:none"></span>
     Health surveillance data is classified as **special category data** under the UK GDPR. To lawfully process this type of data, organisations must identify both a lawful basis under **Article 6** and a separate condition for processing special category data under **Article 9**, supported by the **Data Protection Act 2018**.
