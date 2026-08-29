@@ -452,7 +452,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
     | Source | Definition |
     | :--- | :--- |
-    | <span class="mb-label mb-label-blue">HSE - RIDDOR key definitions</span> | A separate, identifiable, unintended incident, which causes physical injury. |
+    | <span class="mb-label mb-label-blue">HSE - RIDDOR key definitions</span> [Read more](https://www.hse.gov.uk/riddor/key-definitions.htm) | A separate, identifiable, unintended incident, which causes physical injury. |
     | <span class="mb-label mb-label-blue">HSE - HSG245</span> | An event that results in injury or ill health. |
     | <span class="mb-label mb-label-teal">IOSH</span> | An occurrence arising out of or in the course of work that results in either: a fatal occupational injury; a non-fatal occupational injury; or work-related disease or ill health. |
     | <span class="mb-label mb-label-mauve">ISO 45001</span> | An incident in which injury or ill health actually occurs |
