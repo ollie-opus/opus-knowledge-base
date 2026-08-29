@@ -399,8 +399,8 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
         1. ISO 8601 date (YYYY-MM-DD)
 
         <span data-uuid="a4356b77-a53f-4b69-bf9e-e442ea8af266" style="display:none"></span>
-        ```bash title="Example - snooze until 2026-08-29"
-        /snooze until 2026-08-29
+        ```bash title="Example - snooze for 1 month"
+        /snooze for P1M
         ```
 
     === "Snooze via date"
