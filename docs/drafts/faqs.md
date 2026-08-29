@@ -467,6 +467,8 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     - **Limited flexibility.** Training matrices are difficult to filter and analyse.
     - **Doesn't scale.** Even a simple client with 100 employees, 10 e-learning courses and 20 training templates would produce a matrix with **3,000 individual cells** - a lot to expect a recipient to sift through.
 
+    If you require an export that is equivalent to a training matrix, this can be obtained from the **Site Snapshot**. Using this reporting tool in-system you can select between **Training due** or **E-learning due**, remove the due filter and export this data to CSV. Certification bodies such as <span class="mb-label mb-label-olive">CHAS</span>, <span class="mb-label mb-label-olive">SSIP</span> and <span class="mb-label mb-label-olive">SMAS</span> have been happy to receive training information in this form.
+
 ## Access and privacy
 <span data-uuid="6c464d63-26bd-4f38-909d-7ef62f2b7cb5" style="display:none"></span>
 
