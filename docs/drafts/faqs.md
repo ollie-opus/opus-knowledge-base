@@ -385,8 +385,6 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     <span data-uuid="7bf2fffd-3fb6-4d66-8c2d-13a58c5c2ed4" style="display:none"></span>
     <span class="mb-label mb-label-pink">:lucide-user-cog: Administrators</span> can snooze tasks for longer to cover extended absences, using a shortcut known as a **slash command**.
 
-    Type the command into a comment on the task:
-
     <span data-uuid="e58bba34-4c63-45f5-a37f-356142e557c4" style="display:none"></span>
     ```bash title="Example - snooze for 1 month"
     /snooze for P1M # (1)!
