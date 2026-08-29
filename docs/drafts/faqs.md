@@ -424,11 +424,6 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
             - 90 seconds - PT90S
             - 0.5 seconds - PT0.5S
 
-        <span data-uuid="725b02f2-02a4-4c83-919b-6b6ded54b7e5" style="display:none"></span>
-        ```bash title="Example - snooze for 1 month"
-        /snooze for P1M
-        ```
-
         <span data-uuid="350ecfcd-fb7a-4c09-b8f8-8499bdf8742a" style="display:none"></span>
         ```bash title="Example - snooze until 2026-08-29"
         /snooze until 2026-08-29
