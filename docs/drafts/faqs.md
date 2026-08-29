@@ -396,12 +396,12 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 
         Examples:
 
-        3 years - P3Y
-        6 months, 15 days - P6M15D
-        4 hours, 30 minutes - PT4H30M
-        1 year, 2 months, 3 days, 4 hours - P1Y2M3DT4H
-        90 seconds - PT90S
-        0.5 seconds - PT0.5S
+        - 3 years - P3Y
+        - 6 months, 15 days - P6M15D
+        - 4 hours, 30 minutes - PT4H30M
+        - 1 year, 2 months, 3 days, 4 hours - P1Y2M3DT4H
+        - 90 seconds - PT90S
+        - 0.5 seconds - PT0.5S
 
     !!! tip "Date-based snoozing"
 
