@@ -472,7 +472,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ## Access and privacy
 <span data-uuid="6c464d63-26bd-4f38-909d-7ef62f2b7cb5" style="display:none"></span>
 
-??? question "Why do non-managers see the site inbox?"
+??? outline "Why do non-managers see the site inbox?"
 
     <span data-uuid="d37dfe0e-05ce-480b-b6a5-37eb0f999a4f" style="display:none"></span>
     ^^Preamble^^
