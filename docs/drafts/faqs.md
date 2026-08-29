@@ -477,6 +477,15 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     <span data-uuid="d37dfe0e-05ce-480b-b6a5-37eb0f999a4f" style="display:none"></span>
     All users need access to the site inbox to report accidents and safety observations, and need to view site documents to understand risk assessments and other safety protocols. They may also need asset information, to review documentation or record issues. Unlike many other systems, Opus Compliance Cloud supports this engagement across user types - employees with <span class="mb-label mb-label-blue">:lucide-user: User</span> access may even be enabled to complete site or asset checklists.
 
+
+    ^^Preamble^^
+
+    The site inbox displays open unassigned tasks relating to the site and also tasks relating to employees and assets that are located at that site. Employees with <span class="mb-label mb-label-blue">:lucide-user: User</span> access to a site has some exceptions to this logic:
+
+    - They cannot see tasks that are marked as confidential (such as incidents, RTC's or employee interventions)
+    - They cannot see tasks relating to other employees they do not manage (such as other's e-learning reminders)
+    All other tasks beyond the above mentioned exceptions are visible in the site inbox to standard <span class="mb-label mb-label-blue">:lucide-user: Users</span>.
+
     !!! note
 
         <span data-uuid="10b23df9-a511-4bbd-8fea-04b705ab6a2e" style="display:none"></span>
