@@ -303,7 +303,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
           s5:Change the employee's role(s)
           s7:Do other employees with this role at this site need this requirement?
           s6:Remove the requirement from the role
-          s9:Redefine the roles to support this configuration - for example, move the requirement out of the existing role and into a new, separate role
+          s9:Redefine the roles to support this configuration - for example, move the requirement out of the existing role and into a new, separate +Role
           s8:Remove the requirement from the role at this site (role override)
           class s1,s2,s4,s7 question
           class s3,s5,s6,s9,s8 action
