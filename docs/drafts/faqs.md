@@ -486,6 +486,16 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
     - They cannot see tasks relating to other employees they do not manage (such as other's e-learning reminders)
     All other tasks beyond the above mentioned exceptions are visible in the site inbox to standard <span class="mb-label mb-label-blue">:lucide-user: Users</span>.
 
+    !!! question "Why should users see these tasks at all?"
+
+        <span data-uuid="af004024-6765-49d1-a23f-23bc21ad848c" style="display:none"></span>
+        There are 2 main reasons why:
+
+        1. **Health and safety:** Given the nature of site responsibilities, hiding these tasks from users could impact general health and safety compliance. We have a responsibility as health and safety software providers to promote the concept that health and safety is a collective responsibility, rather than one that only relates to managers/administrators.
+        2. **Transparency:** We believe users have the right to know whether these tasks are being completed (even if they are not able to complete them themselves). This is because it:
+            - Gives employees the opportunity to flag or raise concerns where tasks are overdue or not being completed.
+            - Provides them visibility of checks that may directly impact their workplace safety.
+
     !!! note
 
         <span data-uuid="10b23df9-a511-4bbd-8fea-04b705ab6a2e" style="display:none"></span>
