@@ -462,9 +462,7 @@ The questions below come up most often about **Opus Compliance Cloud**. Many of 
 ??? question "Why isn't there a training matrix?"
 
     <span data-uuid="7335f32a-f177-4929-8877-ba3cc22e5090" style="display:none"></span>
-    Export training from **Site Snapshot > Training**, filtering to get all records - not just overdue - and selecting only the training, staff or roles you need, so you don't share more than necessary. Certification bodies such as <span class="mb-label mb-label-olive">CHAS</span>, <span class="mb-label mb-label-olive">SSIP</span> and <span class="mb-label mb-label-olive">SMAS</span> have been happy to receive training information in this form.
-
-    We don't have a specific training matrix output, as it's an outdated way of reporting data:
+    We don't have a specific training matrix output, as it's an outdated way of representing this data:
 
     - **Limited flexibility.** Training matrices are difficult to filter and analyse.
     - **Doesn't scale.** Even a simple client with 100 employees, 10 e-learning courses and 20 training templates would produce a matrix with **3,000 individual cells** - a lot to expect a recipient to sift through.
