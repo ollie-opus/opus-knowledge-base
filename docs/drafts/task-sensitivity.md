@@ -42,6 +42,11 @@ By default, there are three different types of sensitive task based on the data 
 
 </div>
 
+!!! info
+
+    <span data-uuid="3c68a342-42ed-469e-9501-430df7ca4e00" style="display:none"></span>
+    Sensitive tasks are typically confidential, meaning that only managers can see that they exist in the first place.
+
 ## Authorisations
 <span data-uuid="d1e6d765-67c8-43f1-8aa0-e5e0c98c6358" style="display:none"></span>
 
