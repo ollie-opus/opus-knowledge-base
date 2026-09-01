@@ -45,19 +45,19 @@ To ensure full functionality of Opus Compliance Cloud, the following domains and
 
     <div class="nowrap-first" markdown>
 
-    | Type | Value | Direction | Purpose |
-    | :--- | :--- | :--- | :--- |
-    | Domain | `cloud.opus-safety.co.uk` | Outbound | The Opus Compliance Cloud web application |
-    | Domain | `*.opus-elearning.co.uk` | Outbound | E-learning hosting |
-    | Domain | `opus-reporting.co.uk` | Outbound | Anonymous reporting hosting |
-    | Domain | `*.storage.opus-safety.delftsolutions.nl` | Outbound | File storage |
-    | Domain | `sites.google.com` | Outbound | Old knowledge base (applicable during our knowledge base migration period) |
-    | Domain | `support.opus-safety.co.uk` | Outbound | New knowledge base |
-    | Domain | `*.groovehq.com` | Outbound | Support request form |
-    | Domain | `app.screencastify.com` | Outbound | Support video hosting |
-    | Domain | `www.youtube.com` | Outbound | Training video hosting |
-    | Domain | `meet.google.com` | Outbound | Google Meet (used for support / training) |
-    | Domain | `docs.google.com` | Outbound | Google Workspace (used for onboarding and more) |
+    | Type | Value | Purpose |
+    | :--- | :--- | :--- |
+    | Domain | `cloud.opus-safety.co.uk` | The Opus Compliance Cloud web application |
+    | Domain | `*.opus-elearning.co.uk` | E-learning hosting |
+    | Domain | `opus-reporting.co.uk` | Anonymous reporting hosting |
+    | Domain | `*.storage.opus-safety.delftsolutions.nl` | File storage |
+    | Domain | `sites.google.com` | Old knowledge base (applicable during our knowledge base migration period) |
+    | Domain | `support.opus-safety.co.uk` | New knowledge base |
+    | Domain | `*.groovehq.com` | Support request form |
+    | Domain | `app.screencastify.com` | Support video hosting |
+    | Domain | `www.youtube.com` | Training video hosting |
+    | Domain | `meet.google.com` | Google Meet (used for support / training) |
+    | Domain | `docs.google.com` | Google Workspace (used for onboarding and more) |
 
     </div>
 
