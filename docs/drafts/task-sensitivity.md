@@ -190,10 +190,6 @@ The form requires you to provide the following information:
     <span data-uuid="8528527f-995c-4984-9c75-0059aa63a6c2" style="display:none"></span>
     Define the access scope of this exception.
 
-    <span data-uuid="7767f265-9003-428c-bd14-ecc0f2ea0c17" style="display:none"></span>
-    ![](../assets/media/occ-captures/todos/uuid/sensitive/access-scope-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
-    ![](../assets/media/occ-captures/todos/uuid/sensitive/access-scope-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
-
     !!! tip
 
         <span data-uuid="f8f179ec-5027-4b73-a405-1384597bff2c" style="display:none"></span>
