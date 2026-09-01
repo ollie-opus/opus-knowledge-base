@@ -31,10 +31,9 @@ This page highlights the main user-facing improvements, additions and feature re
 ---
 ### August 2026
 
-??? improvement "Improvement: SCORM 1.2 E-Learning Support<span class="meta">25th August 2026</span>"
+??? improvement "Improvement: SCORM 1.2 e-learning support<span class="meta">25th August 2026</span>"
 
     <span data-uuid="f927fe42-3d25-4ddf-a06f-1ee9861367b3" style="display:none"></span>
-
     Opus Compliance Cloud now supports the import of e-learning modules created on external platforms, provided they utilise the common SCORM 1.2 standard. This enhancement allows you to centralise all your training materials within our system, streamlining compliance management and maximising the value of your existing educational content.
 
 ??? new-addition "New addition: Ready to operate status icons<span class="meta">21st August 2026</span>"
