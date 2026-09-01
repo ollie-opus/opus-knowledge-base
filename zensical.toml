@@ -100,8 +100,7 @@ draft_nav = [
         {"Managing Opus Compliance Cloud" = "drafts/managing-opus-compliance-cloud.md"},
         {"Using Opus Compliance Cloud" = "drafts/using-opus-compliance-cloud.md"},
         {"Administering Opus Compliance Cloud" = "drafts/administering-opus-compliance-cloud.md"}
-      ]},
-      {"The Onboarding Process" = "drafts/onboarding-process.md"}
+      ]}
     ]},
     {"Tasks" = [
       {"Reporting And Logging" = [
