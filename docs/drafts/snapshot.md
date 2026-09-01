@@ -61,9 +61,9 @@ The Snapshot is a valuable reporting tool that enables managers and administrato
 
 | Highlighted element | Description |
 | :--- | :--- |
-| <span class="mb-label mb-label-blue">Include sub-sites toggle</span> |  |
-| <span class="mb-label mb-label-rose">Sites section</span> |  |
-| <span class="mb-label mb-label-amber">Assets section</span> |  |
-| <span class="mb-label mb-label-emerald">Employees section</span> |  |
-| <span class="mb-label mb-label-purple">Asset type / Employee role filters</span> |  |
-|  |  |
+| <span class="mb-label mb-label-blue">Include sub-sites toggle</span> | Toggle this option to enable or disable the inclusion of data from sites beneath the current site. |
+| <span class="mb-label mb-label-rose">Sites section</span> | This section displays different categories of site-related requirements and tasks, along with their corresponding due counts. |
+| <span class="mb-label mb-label-amber">Assets section</span> | This section displays different categories of asset-related requirements and tasks, along with their corresponding due counts. |
+| <span class="mb-label mb-label-emerald">Employees section</span> | This section displays different categories of employee-related requirements and tasks, along with their corresponding due counts. |
+| <span class="mb-label mb-label-purple">Asset type / Employee role filters</span> | Use these options to filter the due counts by selected asset types and/or employee roles. |
+| <span class="mb-label mb-label-cyan">CSV export</span> | Export the data to a CSV file containing a detailed breakdown of the Snapshot figures for each individual site. |
