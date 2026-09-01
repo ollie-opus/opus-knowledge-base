@@ -148,7 +148,7 @@ Assuming you have the appropriate access and authorisation to view the task cont
 
 The form requires you to provide the following information:
 
-??? outline "<span class="mb-label mb-label-slate">Access reason</span>"
+??? step "<span class="meta">Access reason</span>"
 
     <span data-uuid="18c92c47-da25-48e1-8bf9-3a88de93eaa8" style="display:none"></span>
     You will be asked to provide a reason for requesting access to this data. This reason will be recorded in the system logs and visible to others who access the task, supporting transparency and accountability.
