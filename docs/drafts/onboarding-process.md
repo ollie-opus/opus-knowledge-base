@@ -61,29 +61,6 @@ To ensure full functionality of Opus Compliance Cloud, the following domains and
 
     </div>
 
-### Web
-<span data-uuid="de98a62a-b172-49d7-8484-c384474eff47" style="display:none"></span>
-
-<span data-uuid="1e52980d-a4b3-4cde-984f-441f4079f7d2" style="display:none"></span>
-
-<div class="nowrap-first" markdown>
-
-| Domain | Used for |
-| :--- | :--- |
-| `cloud.opus-safety.co.uk` | The Opus Compliance Cloud web application |
-| `*opus-elearning.co.uk` | E-learning hosting |
-| `*opus-reporting.co.uk` | Anonymous reporting hosting |
-| `*storage.opus-safety.delftsolutions.nl` | File storage |
-| `sites.google.com/opus-safety.co.uk` | Old knowledge base (applicable during our knowledge base migration period) |
-| `support.opus-safety.co.uk` | New knowledge base (Q2 2026) |
-| `*groovehq.com` | Support request form |
-| `app.screencastify.com` | Support video hosting |
-| `www.youtube.com` | Training video hosting |
-| `meet.google.com` | Google Meet (used for support / training) |
-| `docs.google.com` | Google Workspace (used for onboarding and more) |
-
-</div>
-
 ## Phase 1
 <span data-uuid="57f9f193-6a66-485d-9acb-dcdd665c2b8a" style="display:none"></span>
 
