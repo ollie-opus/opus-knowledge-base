@@ -46,7 +46,7 @@ We use the industry-standard **Transport Layer Security (TLS)** 1.2 or later wit
 | :--- | :--- |
 | Minimum length | 12 characters |
 | Maximum length | 128 characters |
-| Encryption | `bcrypt` with 13 stretches for enhanced security |
+| Encryption | `bcrypt` with at least 13 stretches for enhanced security |
 
 </div>
 
