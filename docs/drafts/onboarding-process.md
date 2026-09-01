@@ -61,8 +61,6 @@ To ensure full functionality of Opus Compliance Cloud, the following domains and
 
     <span data-uuid="febe476a-2dfc-4526-98fe-cead6581b10a" style="display:none"></span>
 
-    **Inbound** means mail *from* this address should be allowed through your spam filters; **Outbound** means your mail system should be able to deliver *to* this address.
-
     <span data-uuid="212a8d2c-7fb9-4532-b27c-1b69c92e4089" style="display:none"></span>
 
     <div class="nowrap-first" markdown>
