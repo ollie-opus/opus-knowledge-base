@@ -54,7 +54,7 @@ To ensure full functionality of Opus Compliance Cloud, the following domains and
 | `support.opus-safety.co.uk` | New knowledge base (Q2 2026) |
 | `*groovehq.com` | Support request form |
 | `app.screencastify.com` | Support video hosting |
-|  | Training video hosting |
+| `www.youtube.com` | Training video hosting |
 | `meet.google.com` | Google Meet (used for support / training) |
 | `docs.google.com` | Google Workspace (used for onboarding and more) |
 
