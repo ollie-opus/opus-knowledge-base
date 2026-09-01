@@ -2,8 +2,6 @@
 icon: lucide/circle-question-mark
 tags:
   - Using OCC
-search:
-  exclude: true
 ---
 
 # FAQs
