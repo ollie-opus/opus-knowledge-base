@@ -15,3 +15,6 @@ The Snapshot is a valuable reporting tool that enables managers and administrato
 
     <span data-uuid="015baa16-6e37-47a5-bb53-01cce49bfbbb" style="display:none"></span>
     The Snapshot should **not** be used as a replacement for the Site Inbox. It is designed to provide a high-level overview rather without some of the detail needed for day-to-day management of the system. The Snapshot does not include all kinds of task and does not provide prioritisation. While it is a useful reporting and monitoring tool, we recommend using the Site Inbox for general task management.
+
+## How to run the Snapshot against a site
+<span data-uuid="cbf09369-9c74-403d-b42e-8ba2c6dc7136" style="display:none"></span>
