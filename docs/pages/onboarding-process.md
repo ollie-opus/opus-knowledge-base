@@ -28,6 +28,55 @@ Your dedicated onboarding lead together with your consultant will guide you thro
 
     Your Onboarding Lead will also aim to keep in contact with you at least once every 2 weeks until onboarding has completed.
 
+## Required Whitelisting
+<span data-uuid="c4c71c67-a5c8-4630-b861-594cef0fdabf" style="display:none"></span>
+
+Whitelisting involves configuring your organisation's security settings to allow specific web traffic and emails through filters that might otherwise block them due to strict security policies.
+
+To ensure full functionality of Opus Compliance Cloud, the following domains and email addresses should be whitelisted:
+
+??? outline "<span class="mb-label mb-label-slate">:lucide-globe: Web</span>"
+
+    <span data-uuid="bff6fcae-3def-4f16-82e2-eaed9a1cac69" style="display:none"></span>
+
+    <span data-uuid="caf34456-22db-4beb-8938-8dc9a7206027" style="display:none"></span>
+
+    <div class="nowrap-first" markdown>
+
+    | Value | Purpose |
+    | :--- | :--- |
+    | `cloud.opus-safety.co.uk` | The Opus Compliance Cloud web application |
+    | `*.opus-elearning.co.uk` | E-learning hosting |
+    | `opus-reporting.co.uk` | Anonymous reporting hosting |
+    | `*.storage.opus-safety.delftsolutions.nl` | File storage |
+    | `sites.google.com` | Old knowledge base (applicable during our knowledge base migration period) |
+    | `support.opus-safety.co.uk` | New knowledge base |
+    | `*.groovehq.com` | Support request form |
+    | `app.screencastify.com` | Support video hosting |
+    | `www.youtube.com` | Training video hosting |
+    | `meet.google.com` | Google Meet (used for support / training) |
+    | `docs.google.com` | Google Workspace (used for onboarding and more) |
+
+    </div>
+
+??? outline "<span class="mb-label mb-label-slate">:lucide-mail: Email</span>"
+
+    <span data-uuid="febe476a-2dfc-4526-98fe-cead6581b10a" style="display:none"></span>
+
+    <span data-uuid="212a8d2c-7fb9-4532-b27c-1b69c92e4089" style="display:none"></span>
+
+    <div class="nowrap-first" markdown>
+
+    | Value | Purpose |
+    | :--- | :--- |
+    | `*@opus-safety.co.uk` | Opus staff emails |
+    | `*@cloud.opus-safety.co.uk` | Opus Compliance Cloud system emails |
+    | `kaboom+*@unsubscribe.cloud.opus-safety.co.uk` | Unsubscribe requests from your employees |
+    | `kaboom+*@reply.cloud.opus-safety.co.uk` | Posting to a task by replying to its notification email |
+    | `kaboom+*@bounce.cloud.opus-safety.co.uk` | Delivery failure (bounce) reports |
+
+    </div>
+
 ## Phase 1
 <span data-uuid="57f9f193-6a66-485d-9acb-dcdd665c2b8a" style="display:none"></span>
 
