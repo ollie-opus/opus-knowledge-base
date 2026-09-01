@@ -1,9 +1,9 @@
 ---
 icon: lucide/clipboard-x
-tags:
-  - Managing OCC
 search:
   exclude: true
+tags:
+  - Managing OCC
 ---
 
 # Managing an incident
