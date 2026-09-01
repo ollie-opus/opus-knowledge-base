@@ -28,7 +28,7 @@ When viewing from the site inbox or task reports, sensitive tasks will appear re
 ## Kinds of sensitive tasks
 <span data-uuid="6cc9d5be-dc46-40d2-b1a4-a3efd5d2aa92" style="display:none"></span>
 
-There are different kinds of sensitive task, depending on the data they contain. Certain types of sensitive tasks require additional authorisation before you can access them. Below are three types of sensitive tasks you are most likely to encounter.
+By default, there are three different types of sensitive task based on the data they contain. Certain types of sensitive tasks require additional authorisation before you can access them.
 
 <span data-uuid="6c545462-785b-43d9-b296-5bd5cf68d156" style="display:none"></span>
 
