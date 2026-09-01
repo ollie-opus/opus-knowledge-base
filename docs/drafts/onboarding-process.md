@@ -45,19 +45,19 @@ To ensure full functionality of Opus Compliance Cloud, the following domains and
 
     <div class="nowrap-first" markdown>
 
-    | Domain | Used for |
-    | :--- | :--- |
-    | `cloud.opus-safety.co.uk` | The Opus Compliance Cloud web application |
-    | `*opus-elearning.co.uk` | E-learning hosting |
-    | `*opus-reporting.co.uk` | Anonymous reporting hosting |
-    | `*storage.opus-safety.delftsolutions.nl` | File storage |
-    | `sites.google.com/opus-safety.co.uk` | Old knowledge base (applicable during our knowledge base migration period) |
-    | `support.opus-safety.co.uk` | New knowledge base (Q2 2026) |
-    | `*groovehq.com` | Support request form |
-    | `app.screencastify.com` | Support video hosting |
-    | `www.youtube.com` | Training video hosting |
-    | `meet.google.com` | Google Meet (used for support / training) |
-    | `docs.google.com` | Google Workspace (used for onboarding and more) |
+    | Type | Value | Direction | Purpose |
+    | :--- | :--- | :--- | :--- |
+    | Domain | `cloud.opus-safety.co.uk` | Outbound | The Opus Compliance Cloud web application |
+    | Domain | `opus-elearning.co.uk` and `*.opus-elearning.co.uk` | Outbound | E-learning hosting |
+    | Domain | `opus-reporting.co.uk` and `*.opus-reporting.co.uk` | Outbound | Anonymous reporting hosting |
+    | Domain | `storage.opus-safety.delftsolutions.nl` and `*.storage.opus-safety.delftsolutions.nl` | Outbound | File storage |
+    | Domain | `sites.google.com` | Outbound | Old knowledge base (applicable during our knowledge base migration period) |
+    | Domain | `support.opus-safety.co.uk` | Outbound | New knowledge base |
+    | Domain | `groovehq.com` and `*.groovehq.com` | Outbound | Support request form |
+    | Domain | `app.screencastify.com` | Outbound | Support video hosting |
+    | Domain | `www.youtube.com` | Outbound | Training video hosting |
+    | Domain | `meet.google.com` | Outbound | Google Meet (used for support / training) |
+    | Domain | `docs.google.com` | Outbound | Google Workspace (used for onboarding and more) |
 
     </div>
 
@@ -65,17 +65,19 @@ To ensure full functionality of Opus Compliance Cloud, the following domains and
 
     <span data-uuid="febe476a-2dfc-4526-98fe-cead6581b10a" style="display:none"></span>
 
+    **Inbound** means mail *from* this address should be allowed through your spam filters; **Outbound** means your mail system should be able to deliver *to* this address.
+
     <span data-uuid="212a8d2c-7fb9-4532-b27c-1b69c92e4089" style="display:none"></span>
 
     <div class="nowrap-first" markdown>
 
-    | Address | Used for |
-    | :--- | :--- |
-    | `*@opus-safety.co.uk` | Opus staff emails |
-    | `*@cloud.opus-safety.co.uk` | Opus Compliance Cloud system emails |
-    | `kaboom+*@unsubscribe.cloud.opus-safety.co.uk` | Outbound address used to notify the system of unsubscribes |
-    | `kaboom+*@reply.cloud.opus-safety.co.uk` | Outbound address used to post directly to a task via email |
-    | `kaboom+*@bounce.cloud.opus-safety.co.uk` | Outbound address used to notify the system of email bounces |
+    | Type | Value | Direction | Purpose |
+    | :--- | :--- | :--- | :--- |
+    | Email address | `*@opus-safety.co.uk` | Inbound | Opus staff emails |
+    | Email address | `*@cloud.opus-safety.co.uk` | Inbound | Opus Compliance Cloud system emails |
+    | Email address | `kaboom+*@unsubscribe.cloud.opus-safety.co.uk` | Outbound | Unsubscribe requests from your employees |
+    | Email address | `kaboom+*@reply.cloud.opus-safety.co.uk` | Outbound | Posting to a task by replying to its notification email |
+    | Email address | `kaboom+*@bounce.cloud.opus-safety.co.uk` | Outbound | Delivery failure (bounce) reports |
 
     </div>
 
