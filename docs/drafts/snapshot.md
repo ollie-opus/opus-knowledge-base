@@ -18,3 +18,14 @@ The Snapshot is a valuable reporting tool that enables managers and administrato
 
 ## How to run the Snapshot against a site
 <span data-uuid="cbf09369-9c74-403d-b42e-8ba2c6dc7136" style="display:none"></span>
+
+
+!!! step
+
+    <span data-uuid="0511d89d-65a3-4b70-bb22-b0d098ecc706" style="display:none"></span>
+
+    From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard), click on **Pick workspace** and select the site where you wish to run the report.
+
+    <span data-uuid="ab2a0bd5-a82d-41f5-8dce-36f75893516f" style="display:none"></span>
+    ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
