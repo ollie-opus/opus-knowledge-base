@@ -43,8 +43,7 @@ The Snapshot is a valuable reporting tool that enables managers and administrato
 !!! step
 
     <span data-uuid="a62e0671-12ea-4aab-824c-2dc7d6675a94" style="display:none"></span>
-
-    Click **Employee records** on the manage sidebar.
+    In the sidebar, under Reporting, click **Snapshot**.
 
     <span data-uuid="f12602de-2c11-4604-832d-18e9a07772cb" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/employee-records-light-mode.png#only-light){ style="height: 50px" loading=lazy }
