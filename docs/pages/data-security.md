@@ -1,7 +1,5 @@
 ---
 icon: lucide/shield-check
-tags:
-  - Using OCC
 ---
 
 # Data security
