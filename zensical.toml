@@ -54,7 +54,8 @@ nav = [
       {"Interacting with a task" = "pages/interacting-with-a-task.md"},
       {"Managing a task" = "pages/managing-a-task.md"},
       {"Reporting And Logging" = [
-        {"Kinds of reportable tasks" = "pages/kinds-of-reportable-tasks.md"}
+        {"Kinds of reportable tasks" = "pages/kinds-of-reportable-tasks.md"},
+        {"Managing an incident" = "pages/managing-an-incident.md"}
       ]},
       {"Task sensitivity" = "pages/task-sensitivity.md"}
     ]},
@@ -103,8 +104,7 @@ draft_nav = [
     ]},
     {"Tasks" = [
       {"Reporting And Logging" = [
-        {"Reporting an incident" = "drafts/reporting-an-incident.md"},
-        {"Managing an incident" = "drafts/managing-an-incident.md"}
+        {"Reporting an incident" = "drafts/reporting-an-incident.md"}
       ]},
       {"Task Overview" = "drafts/task-overview.md"},
       {"Managing a task" = "drafts/managing-a-task.md"}
