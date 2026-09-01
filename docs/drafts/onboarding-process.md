@@ -30,6 +30,53 @@ Your dedicated onboarding lead together with your consultant will guide you thro
 
     Your Onboarding Lead will also aim to keep in contact with you at least once every 2 weeks until onboarding has completed.
 
+## Required Whitelisting
+<span data-uuid="c4c71c67-a5c8-4630-b861-594cef0fdabf" style="display:none"></span>
+
+Whitelisting involves configuring your organisation's security settings to allow specific web traffic and emails through filters that might otherwise block them due to strict security policies.
+
+To ensure full functionality of Opus Compliance Cloud, the following domains and email addresses should be whitelisted:
+
+### Web
+<span data-uuid="de98a62a-b172-49d7-8484-c384474eff47" style="display:none"></span>
+
+<span data-uuid="1e52980d-a4b3-4cde-984f-441f4079f7d2" style="display:none"></span>
+
+<div class="nowrap-first" markdown>
+
+| Domain | Used for |
+| :--- | :--- |
+| `cloud.opus-safety.co.uk` | The Opus Compliance Cloud web application |
+| `*opus-elearning.co.uk` | E-learning hosting |
+| `*opus-reporting.co.uk` | Anonymous reporting hosting |
+| `*storage.opus-safety.delftsolutions.nl` | File storage |
+| `sites.google.com/opus-safety.co.uk` | Old knowledge base (applicable during our knowledge base migration period) |
+| `support.opus-safety.co.uk` | New knowledge base (Q2 2026) |
+| `*groovehq.com` | Support request form |
+| `app.screencastify.com` | Support video hosting |
+| `www.youtube.com` | Training video hosting |
+| `meet.google.com` | Google Meet (used for support / training) |
+| `docs.google.com` | Google Workspace (used for onboarding and more) |
+
+</div>
+
+### Email
+<span data-uuid="ecd7a4dc-87e7-4ca1-8382-59ffa29d4c60" style="display:none"></span>
+
+<span data-uuid="56203f5c-6ecf-443a-89fb-7c2a7792c71b" style="display:none"></span>
+
+<div class="nowrap-first" markdown>
+
+| Address | Used for |
+| :--- | :--- |
+| `*@opus-safety.co.uk` | Opus staff emails |
+| `*@cloud.opus-safety.co.uk` | Opus Compliance Cloud system emails |
+| `kaboom+*@unsubscribe.cloud.opus-safety.co.uk` | Outbound address used to notify the system of unsubscribes |
+| `kaboom+*@reply.cloud.opus-safety.co.uk` | Outbound address used to post directly to a task via email |
+| `kaboom+*@bounce.cloud.opus-safety.co.uk` | Outbound address used to notify the system of email bounces |
+
+</div>
+
 ## Phase 1
 <span data-uuid="57f9f193-6a66-485d-9acb-dcdd665c2b8a" style="display:none"></span>
 
