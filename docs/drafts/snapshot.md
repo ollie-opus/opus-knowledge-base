@@ -56,3 +56,14 @@ The Snapshot is a valuable reporting tool that enables managers and administrato
 <span data-uuid="2d8fecf8-b21b-46f0-9896-da7617c7287d" style="display:none"></span>
 ![](../assets/media/occ-captures/admin/sites/uuid/snapshot/overview/site-snapshot-a-sites-assets-employees-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
 ![](../assets/media/occ-captures/admin/sites/uuid/snapshot/overview/site-snapshot-a-sites-assets-employees-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
+<span data-uuid="8e9de844-d005-4117-9be4-96ebeba5cb52" style="display:none"></span>
+
+| Highlighted element | Description |
+| :--- | :--- |
+| <span class="mb-label mb-label-blue">Include sub-sites toggle</span> |  |
+| <span class="mb-label mb-label-rose">Sites section</span> |  |
+| <span class="mb-label mb-label-amber">Assets section</span> |  |
+| <span class="mb-label mb-label-emerald">Employees section</span> |  |
+| <span class="mb-label mb-label-purple">Asset type / Employee role filters</span> |  |
+|  |  |
