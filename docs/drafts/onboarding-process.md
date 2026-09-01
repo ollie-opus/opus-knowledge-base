@@ -61,6 +61,10 @@ To ensure full functionality of Opus Compliance Cloud, the following domains and
 
     </div>
 
+??? outline "Email"
+
+    <span data-uuid="febe476a-2dfc-4526-98fe-cead6581b10a" style="display:none"></span>
+
 ## Phase 1
 <span data-uuid="57f9f193-6a66-485d-9acb-dcdd665c2b8a" style="display:none"></span>
 
