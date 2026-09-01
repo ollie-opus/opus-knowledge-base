@@ -9,7 +9,7 @@ search:
 # Data security
 <span data-uuid="b092063c-bb44-4ce0-999c-06538701c028" style="display:none"></span>
 
-At Opus Compliance Cloud, we prioritise the security and integrity of your data. Here's how we ensure your information is protected:
+At Opus Safety, we prioritise the security and integrity of your data. Here's how we ensure your information is protected:
 
 ## Server security
 <span data-uuid="abf0a13f-c882-4d49-9ff7-07d8705aec8d" style="display:none"></span>
