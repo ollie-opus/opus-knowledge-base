@@ -57,7 +57,7 @@ To ensure full functionality of Opus Compliance Cloud, the following domains and
     | `meet.google.com` | Google Meet (used for support / training) |
     | `docs.google.com` | Google Workspace (used for onboarding and more) |
 
-??? outline "<span class="mb-label mb-label-slate">Email</span>"
+??? outline "<span class="mb-label mb-label-slate">:lucide-mail: Email</span>"
 
     <span data-uuid="febe476a-2dfc-4526-98fe-cead6581b10a" style="display:none"></span>
 
