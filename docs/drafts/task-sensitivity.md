@@ -184,8 +184,3 @@ The form requires you to provide the following information:
 
         <span data-uuid="84f678b9-295d-4903-8ae3-73c6e34a623f" style="display:none"></span>
         The scope defines the area covered by a single exception request. For example, when accessing sensitive employee tasks, you can broaden the scope to include all employees or an entire site. This eliminates the need to submit a separate exception request for each employee.
-
-??? outline "<span class="mb-label mb-label-slate">Access purpose</span>"
-
-    <span data-uuid="8528527f-995c-4984-9c75-0059aa63a6c2" style="display:none"></span>
-    Define the access scope of this exception.
