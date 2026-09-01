@@ -44,3 +44,7 @@ The Snapshot is a valuable reporting tool that enables managers and administrato
 
     <span data-uuid="a62e0671-12ea-4aab-824c-2dc7d6675a94" style="display:none"></span>
     In the sidebar, under Reporting, click **Snapshot**.
+
+    <span data-uuid="87bd7730-a902-45cd-8379-c81b952278f9" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/snapshot-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/snapshot-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
