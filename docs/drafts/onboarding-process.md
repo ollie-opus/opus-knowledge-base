@@ -37,6 +37,10 @@ Whitelisting involves configuring your organisation's security settings to allow
 
 To ensure full functionality of Opus Compliance Cloud, the following domains and email addresses should be whitelisted:
 
+??? outline "Web"
+
+    <span data-uuid="bff6fcae-3def-4f16-82e2-eaed9a1cac69" style="display:none"></span>
+
 ### Web
 <span data-uuid="de98a62a-b172-49d7-8484-c384474eff47" style="display:none"></span>
 
