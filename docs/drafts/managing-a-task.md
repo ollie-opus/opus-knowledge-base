@@ -224,3 +224,6 @@ Confidential tasks are identified by the slashed-eye icon.
 As a manager, you may need to access sensitive tasks, such as health-related corrective actions or historical injuries.
 
 For more information, see the **Task sensitivity** guide below.
+
+<span data-uuid="6ca25793-2447-4733-9ff3-04a9f4a7801a" style="display:none"></span>
+[Task sensitivity :lucide-arrow-up-right:](task-sensitivity.md){ .md-button .custom-button-grey .custom-button--slim target="_blank" rel="noopener" }
