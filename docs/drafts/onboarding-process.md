@@ -65,6 +65,20 @@ To ensure full functionality of Opus Compliance Cloud, the following domains and
 
     <span data-uuid="febe476a-2dfc-4526-98fe-cead6581b10a" style="display:none"></span>
 
+    <span data-uuid="212a8d2c-7fb9-4532-b27c-1b69c92e4089" style="display:none"></span>
+
+    <div class="nowrap-first" markdown>
+
+    | Address | Used for |
+    | :--- | :--- |
+    | `*@opus-safety.co.uk` | Opus staff emails |
+    | `*@cloud.opus-safety.co.uk` | Opus Compliance Cloud system emails |
+    | `kaboom+*@unsubscribe.cloud.opus-safety.co.uk` | Outbound address used to notify the system of unsubscribes |
+    | `kaboom+*@reply.cloud.opus-safety.co.uk` | Outbound address used to post directly to a task via email |
+    | `kaboom+*@bounce.cloud.opus-safety.co.uk` | Outbound address used to notify the system of email bounces |
+
+    </div>
+
 ## Phase 1
 <span data-uuid="57f9f193-6a66-485d-9acb-dcdd665c2b8a" style="display:none"></span>
 
