@@ -83,7 +83,8 @@ nav = [
       {"Exporting a RAMS project" = "pages/exporting-a-rams-project.md"}
     ]},
     {"Other" = [
-      {"FAQs" = "pages/faqs.md"}
+      {"FAQs" = "pages/faqs.md"},
+      {"Data security" = "pages/data-security.md"}
     ]}
   ]},
   {"System" = [
@@ -116,9 +117,6 @@ draft_nav = [
     ]},
     {"Reporting" = [
       {"Training & Gaps" = "drafts/training-and-gaps.md"}
-    ]},
-    {"Other" = [
-      {"Data security" = "drafts/data-security.md"}
     ]}
   ]}
 ]
