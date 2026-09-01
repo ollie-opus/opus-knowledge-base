@@ -54,8 +54,7 @@ nav = [
       {"Interacting with a task" = "pages/interacting-with-a-task.md"},
       {"Managing a task" = "pages/managing-a-task.md"},
       {"Reporting And Logging" = [
-        {"Kinds of reportable tasks" = "pages/kinds-of-reportable-tasks.md"},
-        {"Managing an incident" = "pages/managing-an-incident.md"}
+        {"Kinds of reportable tasks" = "pages/kinds-of-reportable-tasks.md"}
       ]},
       {"Task sensitivity" = "pages/task-sensitivity.md"}
     ]},
@@ -132,6 +131,11 @@ unlisted_nav = [
         {"Managing Opus Compliance Cloud" = "pages/managing-opus-compliance-cloud.md"},
         {"Using Opus Compliance Cloud" = "pages/using-opus-compliance-cloud.md"},
         {"Administering Opus Compliance Cloud" = "pages/administering-opus-compliance-cloud.md"}
+      ]}
+    ]},
+    {"Tasks" = [
+      {"Reporting And Logging" = [
+        {"Managing an incident" = "pages/managing-an-incident.md"}
       ]}
     ]}
   ]}
