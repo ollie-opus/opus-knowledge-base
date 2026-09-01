@@ -96,9 +96,6 @@ nav = [
 draft_nav = [
   {"Guides" = [
     {"Getting started" = [
-      {"Guidebooks" = [
-        {"Administering Opus Compliance Cloud" = "drafts/administering-opus-compliance-cloud.md"}
-      ]},
       {"The Onboarding Process" = "drafts/onboarding-process.md"}
     ]},
     {"Tasks" = [
