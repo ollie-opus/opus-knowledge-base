@@ -102,7 +102,6 @@ draft_nav = [
       ]}
     ]},
     {"Tasks" = [
-      {"Managing a task" = "drafts/managing-a-task.md"},
       {"Reporting And Logging" = [
         {"Reporting an incident" = "drafts/reporting-an-incident.md"},
         {"Managing an incident" = "drafts/managing-an-incident.md"}
