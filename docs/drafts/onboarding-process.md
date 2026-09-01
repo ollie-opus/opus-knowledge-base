@@ -61,7 +61,7 @@ To ensure full functionality of Opus Compliance Cloud, the following domains and
 
     </div>
 
-??? outline "Email"
+??? outline "<span class="mb-label mb-label-slate">Email</span>"
 
     <span data-uuid="febe476a-2dfc-4526-98fe-cead6581b10a" style="display:none"></span>
 
