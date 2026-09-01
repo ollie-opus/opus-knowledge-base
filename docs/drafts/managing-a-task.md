@@ -223,4 +223,4 @@ Confidential tasks are identified by the slashed-eye icon.
 
 As a manager, you may need to access sensitive tasks, such as health-related corrective actions or historical injuries.
 
-For more information, see the Task sensitivity guide below.
+For more information, see the **Task sensitivity** guide below.
