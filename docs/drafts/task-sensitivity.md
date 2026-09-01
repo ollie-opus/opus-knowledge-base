@@ -189,3 +189,7 @@ The form requires you to provide the following information:
 
     <span data-uuid="5eec62a7-6c19-4e5b-aba7-17491b093a93" style="display:none"></span>
     Click **Access data**
+
+    <span data-uuid="0f49921d-f34f-4c8e-9caa-01a435ec5b25" style="display:none"></span>
+    ![](../assets/media/occ-captures/todos/uuid/sensitive/access-data-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/todos/uuid/sensitive/access-data-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
