@@ -29,3 +29,13 @@ The Snapshot is a valuable reporting tool that enables managers and administrato
     <span data-uuid="ab2a0bd5-a82d-41f5-8dce-36f75893516f" style="display:none"></span>
     ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
     ![](../assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! step
+
+    <span data-uuid="00e53f32-b4f6-4d76-a750-74cc616b71ad" style="display:none"></span>
+
+    From the site inbox, click the **Switch to Manage Mode** button.
+
+    <span data-uuid="f0e69fab-3ff8-4137-a215-c6f9a4eb9d2f" style="display:none"></span>
+    ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
