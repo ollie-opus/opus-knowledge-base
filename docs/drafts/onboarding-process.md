@@ -43,6 +43,8 @@ To ensure full functionality of Opus Compliance Cloud, the following domains and
 
     <span data-uuid="caf34456-22db-4beb-8938-8dc9a7206027" style="display:none"></span>
 
+    <div class="nowrap-first" markdown>
+
     | Value | Purpose |
     | :--- | :--- |
     | `cloud.opus-safety.co.uk` | The Opus Compliance Cloud web application |
@@ -56,6 +58,8 @@ To ensure full functionality of Opus Compliance Cloud, the following domains and
     | `www.youtube.com` | Training video hosting |
     | `meet.google.com` | Google Meet (used for support / training) |
     | `docs.google.com` | Google Workspace (used for onboarding and more) |
+
+    </div>
 
 ??? outline "<span class="mb-label mb-label-slate">:lucide-mail: Email</span>"
 
