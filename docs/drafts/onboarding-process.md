@@ -43,19 +43,19 @@ To ensure full functionality of Opus Compliance Cloud, the following domains and
 
     <span data-uuid="caf34456-22db-4beb-8938-8dc9a7206027" style="display:none"></span>
 
-    | Type | Value | Purpose |
-    | :--- | :--- | :--- |
-    | Domain | `cloud.opus-safety.co.uk` | The Opus Compliance Cloud web application |
-    | Domain | `*.opus-elearning.co.uk` | E-learning hosting |
-    | Domain | `opus-reporting.co.uk` | Anonymous reporting hosting |
-    | Domain | `*.storage.opus-safety.delftsolutions.nl` | File storage |
-    | Domain | `sites.google.com` | Old knowledge base (applicable during our knowledge base migration period) |
-    | Domain | `support.opus-safety.co.uk` | New knowledge base |
-    | Domain | `*.groovehq.com` | Support request form |
-    | Domain | `app.screencastify.com` | Support video hosting |
-    | Domain | `www.youtube.com` | Training video hosting |
-    | Domain | `meet.google.com` | Google Meet (used for support / training) |
-    | Domain | `docs.google.com` | Google Workspace (used for onboarding and more) |
+    | Value | Purpose |
+    | :--- | :--- |
+    | `cloud.opus-safety.co.uk` | The Opus Compliance Cloud web application |
+    | `*.opus-elearning.co.uk` | E-learning hosting |
+    | `opus-reporting.co.uk` | Anonymous reporting hosting |
+    | `*.storage.opus-safety.delftsolutions.nl` | File storage |
+    | `sites.google.com` | Old knowledge base (applicable during our knowledge base migration period) |
+    | `support.opus-safety.co.uk` | New knowledge base |
+    | `*.groovehq.com` | Support request form |
+    | `app.screencastify.com` | Support video hosting |
+    | `www.youtube.com` | Training video hosting |
+    | `meet.google.com` | Google Meet (used for support / training) |
+    | `docs.google.com` | Google Workspace (used for onboarding and more) |
 
 ??? outline "<span class="mb-label mb-label-slate">Email</span>"
 
