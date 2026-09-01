@@ -67,13 +67,13 @@ To ensure full functionality of Opus Compliance Cloud, the following domains and
 
     <div class="nowrap-first" markdown>
 
-    | Type | Value | Direction | Purpose |
-    | :--- | :--- | :--- | :--- |
-    | Email address | `*@opus-safety.co.uk` | Inbound | Opus staff emails |
-    | Email address | `*@cloud.opus-safety.co.uk` | Inbound | Opus Compliance Cloud system emails |
-    | Email address | `kaboom+*@unsubscribe.cloud.opus-safety.co.uk` | Outbound | Unsubscribe requests from your employees |
-    | Email address | `kaboom+*@reply.cloud.opus-safety.co.uk` | Outbound | Posting to a task by replying to its notification email |
-    | Email address | `kaboom+*@bounce.cloud.opus-safety.co.uk` | Outbound | Delivery failure (bounce) reports |
+    | Value | Purpose |
+    | :--- | :--- |
+    | `*@opus-safety.co.uk` | Opus staff emails |
+    | `*@cloud.opus-safety.co.uk` | Opus Compliance Cloud system emails |
+    | `kaboom+*@unsubscribe.cloud.opus-safety.co.uk` | Unsubscribe requests from your employees |
+    | `kaboom+*@reply.cloud.opus-safety.co.uk` | Posting to a task by replying to its notification email |
+    | `kaboom+*@bounce.cloud.opus-safety.co.uk` | Delivery failure (bounce) reports |
 
     </div>
 
