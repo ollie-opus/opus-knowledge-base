@@ -217,3 +217,10 @@ Confidential tasks are identified by the slashed-eye icon.
     <span data-uuid="d19d9243-dc95-45cf-abe8-f007c97a6b75" style="display:none"></span>
     ![](../assets/media/occ-captures/todos/uuid/todo-actions-a-remove-confidential-flag-z-light-mode.png#only-light){ style="border-radius: 8px" width="400" loading=lazy }
     ![](../assets/media/occ-captures/todos/uuid/todo-actions-a-remove-confidential-flag-z-dark-mode.png#only-dark){ style="border-radius: 8px" width="400" loading=lazy }
+
+## Sensitive Tasks
+<span data-uuid="288bfa91-c0e5-49a5-875c-d5629a2fd148" style="display:none"></span>
+
+As a manager, you may need to access sensitive tasks, such as health-related corrective actions or historical injuries.
+
+For more information, see the Task sensitivity guide below.
