@@ -56,4 +56,18 @@ Designed for those with **Manager access** on Opus Compliance Cloud.
 
 </div>
 
+<div class="card" markdown>
+
+<span data-uuid="33c09b08-8081-4f43-bd99-4f84affc2c74" style="display:none"></span>
+<span class="mb-label mb-label-purple">:lucide-user-shield: Managing Opus Compliance Cloud</span>
+
+---
+
+Designed for those with **Manager access** on Opus Compliance Cloud.
+
+<span data-uuid="f281fe52-6ffe-481c-b22c-aa1e2317ec33" style="display:none"></span>
+[Open guidebook :lucide-arrow-up-right:](managing-opus-compliance-cloud.md){ .md-button .custom-button-purple .custom-button--bordered .custom-button--slim target="_blank" rel="noopener" }
+
+</div>
+
 </div>
