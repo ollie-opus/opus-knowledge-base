@@ -14,7 +14,7 @@ hide:
 
 ### The knowledge repository for Opus Compliance Cloud
 
-[Get started](pages/overview.md){ .md-button .md-button--primary }
+[Get started](pages/overview.md#get-started){ .md-button .md-button--primary }
 [Learn more](pages/overview.md){ .md-button }
 [Submit a support ticket](#){ .md-button onclick="window.groove.widget.toggle(); return false;" }
 
