@@ -15,4 +15,4 @@ This guidebook provides overviews of the core features of Opus Compliance Cloud 
 
 
 <span data-uuid="5e04c63e-f6b7-4547-9f4f-cdee12e13ede" style="display:none"></span>
-<div class="mb-nav-links" data-nav-tag="Using OCC" data-nav-layout="grouped"></div>
+<div class="mb-nav-links" data-nav-tag="Overview" data-nav-layout="flat"></div>
