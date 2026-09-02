@@ -31,6 +31,11 @@ Browse the guides using the search bar at the top or the navigation bar on the l
 <div class="card" markdown>
 
 <span data-uuid="c01bd4cc-b706-448b-83ea-932ad8dc462d" style="display:none"></span>
+<span class="mb-label mb-label-blue">:lucide-user-shield: Using Opus Compliance Cloud</span>
+
+---
+
+Designed for those with **User access** on Opus Compliance Cloud.
 
 </div>
 
