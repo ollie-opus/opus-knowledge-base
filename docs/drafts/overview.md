@@ -22,5 +22,3 @@ Browse the guides using the search bar at the top or the navigation bar on the l
 
 ## Guidebooks
 <span data-uuid="d55541b1-6c53-4664-bf44-a6bc5d5e4823" style="display:none"></span>
-
-**Coming soon**
