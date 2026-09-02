@@ -16,9 +16,56 @@ Opus Compliance Cloud is a compliance management system focused on Health & Safe
 Browse the guides using the search bar at the top or the navigation bar on the left.
 
 
-<span class="mb-label mb-label-emerald">If you're new to Opus Compliance Cloud</span> - we recommend starting with a tailored guidebook below that best suits your needs.
+**:lucide-sparkles: If you're new to Opus Compliance Cloud** - we recommend starting with a tailored guidebook below that best suits your needs.
 
 ## Guidebooks
 <span data-uuid="d55541b1-6c53-4664-bf44-a6bc5d5e4823" style="display:none"></span>
 
-**Coming soon**
+
+<span data-uuid="a99c20d5-4717-42a3-bc29-bd5e0eef47a0" style="display:none"></span>
+
+<div class="grid" markdown>
+
+<div class="card" markdown>
+
+<span data-uuid="c01bd4cc-b706-448b-83ea-932ad8dc462d" style="display:none"></span>
+<span class="mb-label mb-label-blue">:lucide-user: Using Opus Compliance Cloud</span>
+
+---
+
+Designed for those with **User access** on Opus Compliance Cloud.
+
+<span data-uuid="0a43857c-4a84-44c7-a692-48d1594e3e78" style="display:none"></span>
+[Open guidebook :lucide-arrow-up-right:](using-opus-compliance-cloud.md){ .md-button .custom-button-blue .custom-button--bordered .custom-button--slim target="_blank" rel="noopener" }
+
+</div>
+
+<div class="card" markdown>
+
+<span data-uuid="50aa6825-e181-40cc-9798-1d0102b8b1b8" style="display:none"></span>
+<span class="mb-label mb-label-purple">:lucide-user-shield: Managing Opus Compliance Cloud</span>
+
+---
+
+Designed for those with **Manager access** on Opus Compliance Cloud.
+
+<span data-uuid="56ae7d0e-432a-4c4c-83fd-f136dd771016" style="display:none"></span>
+[Open guidebook :lucide-arrow-up-right:](managing-opus-compliance-cloud.md){ .md-button .custom-button-purple .custom-button--bordered .custom-button--slim target="_blank" rel="noopener" }
+
+</div>
+
+<div class="card" markdown>
+
+<span data-uuid="33c09b08-8081-4f43-bd99-4f84affc2c74" style="display:none"></span>
+<span class="mb-label mb-label-pink">:lucide-user-cog: Administering Opus Compliance Cloud</span>
+
+---
+
+Designed for those with **Administrator access** on Opus Compliance Cloud.
+
+<span data-uuid="f281fe52-6ffe-481c-b22c-aa1e2317ec33" style="display:none"></span>
+[Open guidebook :lucide-arrow-up-right:](administering-opus-compliance-cloud.md){ .md-button .custom-button-pink .custom-button--bordered .custom-button--slim target="_blank" rel="noopener" }
+
+</div>
+
+</div>
