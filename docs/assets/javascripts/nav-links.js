@@ -7,6 +7,10 @@
  *   <div class="mb-nav-links" data-nav-path="guides/employees"></div>
  *   <div class="mb-nav-links" data-nav-tag="System, RAMS" data-nav-layout="flat"></div>
  *
+ * Either flavour may also carry data-nav-new-tab="true", making its links open
+ * in a new tab (with the arrow-up-right icon). Without it — the default —
+ * links open in the same tab (with the arrow-right icon).
+ *
  * data-nav-tag is a comma-separated list (one or more tags); a page matches
  * when its frontmatter carries ANY of them (tags never contain commas).
  *
@@ -46,9 +50,11 @@
 
   var ERROR_TEXT = "Nav link error: No pages found. Please contact Opus support if you're seeing this.";
 
-  // Same markup the emoji extension inlines for :lucide-arrow-up-right:
-  // (copied from zensical's packaged templates/.icons/lucide/arrow-up-right.svg).
-  var ARROW_ICON_SVG = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-up-right" viewBox="0 0 24 24"><path d="M7 7h10v10M7 17 17 7"/></svg>';
+  // Same markup the emoji extension inlines for :lucide-arrow-right: and
+  // :lucide-arrow-up-right: (copied from zensical's packaged
+  // templates/.icons/lucide/arrow-right.svg and arrow-up-right.svg).
+  var ARROW_RIGHT_ICON_SVG = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
+  var ARROW_UP_RIGHT_ICON_SVG = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-up-right" viewBox="0 0 24 24"><path d="M7 7h10v10M7 17 17 7"/></svg>';
 
   // MUST match the extension's navToml.js slugify so paths resolve identically.
   function slugify(title) {
@@ -171,18 +177,23 @@
 
   // Render one hidden-tree page <li> as a p-wrapped slim-button link, matching
   // what the markdown pipeline emits for
+  //   [Title :lucide-arrow-right:](url){ .md-button .custom-button-stone
+  //   .custom-button--slim }
+  // or, when the placeholder carries data-nav-new-tab="true",
   //   [Title :lucide-arrow-up-right:](url){ .md-button .custom-button-stone
   //   .custom-button--slim target="_blank" rel="noopener" }
   // Label first / tail last: slim's space-between flex pins them to the edges.
   // The tail groups the matched-tag pills (tag mode; `tags` = []) and the arrow
   // icon so they sit together on the right.
-  function renderButton(src, tags) {
+  function renderButton(src, tags, newTab) {
     var p = document.createElement('p');
     var a = document.createElement('a');
     a.className = 'md-button custom-button-stone custom-button--slim';
     a.href = src.getAttribute('data-url');
-    a.target = '_blank';
-    a.rel = 'noopener';
+    if (newTab) {
+      a.target = '_blank';
+      a.rel = 'noopener';
+    }
     var title = src.getAttribute('data-title') || '';
     if (src.getAttribute('data-current')) {
       // Label + marker share one span so they stay one flex item together.
@@ -204,7 +215,7 @@
     }
     var icon = document.createElement('span');
     icon.className = 'twemoji';
-    icon.innerHTML = ARROW_ICON_SVG;
+    icon.innerHTML = newTab ? ARROW_UP_RIGHT_ICON_SVG : ARROW_RIGHT_ICON_SVG;
     tail.appendChild(icon);
     a.appendChild(tail);
     p.appendChild(a);
@@ -234,16 +245,16 @@
 
   // Render a section's hidden-tree <ul> into its group: pages → buttons,
   // subsections → nested open collapsibles.
-  function renderSection(title, srcUl, isTop) {
+  function renderSection(title, srcUl, isTop, newTab) {
     var box = renderSectionContainer(title, isTop);
     for (var i = 0; i < srcUl.children.length; i++) {
       var src = srcUl.children[i];
       if (src.tagName !== 'LI') continue;
       var childUl = directChildUl(src);
       if (src.getAttribute('data-url')) {
-        box.appendChild(renderButton(src, []));
+        box.appendChild(renderButton(src, [], newTab));
       } else if (childUl) {
-        box.appendChild(renderSection(src.getAttribute('data-title') || '', childUl, false));
+        box.appendChild(renderSection(src.getAttribute('data-title') || '', childUl, false, newTab));
       }
     }
     return box;
@@ -251,13 +262,13 @@
 
   // Flat tag list: every page carrying any of the tags, in nav order, as one
   // bare button stack.
-  function renderTagFlat(srcUl, tag) {
+  function renderTagFlat(srcUl, tag, newTab) {
     var frag = document.createDocumentFragment();
     (function walk(level) {
       for (var i = 0; i < level.children.length; i++) {
         var src = level.children[i];
         if (src.tagName !== 'LI') continue;
-        if (src.getAttribute('data-url') && hasTag(src, tag)) frag.appendChild(renderButton(src, matchedTags(src, tag)));
+        if (src.getAttribute('data-url') && hasTag(src, tag)) frag.appendChild(renderButton(src, matchedTags(src, tag), newTab));
         var childUl = directChildUl(src);
         if (childUl) walk(childUl);
       }
@@ -269,16 +280,16 @@
   // the tags — a section survives iff its subtree contains a match. Surviving top-level
   // sections render as static groups, deeper ones as open collapsibles.
   // Returns null when empty.
-  function renderTagGrouped(srcUl, tag, isTop) {
+  function renderTagGrouped(srcUl, tag, isTop, newTab) {
     var frag = document.createDocumentFragment();
     for (var i = 0; i < srcUl.children.length; i++) {
       var src = srcUl.children[i];
       if (src.tagName !== 'LI') continue;
       var childUl = directChildUl(src);
       if (src.getAttribute('data-url')) {
-        if (hasTag(src, tag)) frag.appendChild(renderButton(src, matchedTags(src, tag)));
+        if (hasTag(src, tag)) frag.appendChild(renderButton(src, matchedTags(src, tag), newTab));
       } else if (childUl) {
-        var inner = renderTagGrouped(childUl, tag, false);
+        var inner = renderTagGrouped(childUl, tag, false, newTab);
         if (inner) {
           var box = renderSectionContainer(src.getAttribute('data-title') || '', isTop);
           box.appendChild(inner);
@@ -306,16 +317,17 @@
       var ph = placeholders[i];
       ph.innerHTML = ''; // idempotent: clear before (re)injecting
       if (root) {
+        var newTab = ph.getAttribute('data-nav-new-tab') === 'true';
         var tag = ph.getAttribute('data-nav-tag');
         if (tag != null) {
           var grouped = ph.getAttribute('data-nav-layout') === 'grouped';
-          var list = grouped ? renderTagGrouped(root, tag, true) : renderTagFlat(root, tag);
+          var list = grouped ? renderTagGrouped(root, tag, true, newTab) : renderTagFlat(root, tag, newTab);
           if (list) ph.appendChild(list);
         } else {
           var section = findSection(root, ph.getAttribute('data-nav-path'));
           var sub = section && directChildUl(section);
           if (sub && sub.children.length) {
-            ph.appendChild(renderSection(section.getAttribute('data-title') || '', sub, true));
+            ph.appendChild(renderSection(section.getAttribute('data-title') || '', sub, true, newTab));
           }
         }
       }
