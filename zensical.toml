@@ -96,13 +96,13 @@ nav = [
 draft_nav = [
   {"Guides" = [
     {"Getting started" = [
-      {"The Onboarding Process" = "drafts/onboarding-process.md"},
-      {"Overview" = "drafts/overview.md"}
+      {"Overview" = "drafts/overview.md"},
+      {"The Onboarding Process" = "drafts/onboarding-process.md"}
     ]},
     {"Tasks" = [
       {"Reporting And Logging" = [
-        {"Reporting an incident" = "drafts/reporting-an-incident.md"},
-        {"Managing an incident" = "drafts/managing-an-incident.md"}
+        {"Managing an incident" = "drafts/managing-an-incident.md"},
+        {"Reporting an incident" = "drafts/reporting-an-incident.md"}
       ]},
       {"Task Overview" = "drafts/task-overview.md"}
     ]},
@@ -124,10 +124,10 @@ draft_nav = [
 # Zensical ignores this key, like draft_nav.
 unlisted_nav = [
   {"Guides" = [
-    {"Getting Started" = [
+    {"Getting started" = [
       {"Guidebooks" = [
-        {"Managing Opus Compliance Cloud" = "pages/managing-opus-compliance-cloud.md"},
         {"Using Opus Compliance Cloud" = "pages/using-opus-compliance-cloud.md"},
+        {"Managing Opus Compliance Cloud" = "pages/managing-opus-compliance-cloud.md"},
         {"Administering Opus Compliance Cloud" = "pages/administering-opus-compliance-cloud.md"}
       ]}
     ]},
