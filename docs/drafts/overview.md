@@ -52,7 +52,7 @@ Designed for those with **User access** on Opus Compliance Cloud.
 Designed for those with **Manager access** on Opus Compliance Cloud.
 
 <span data-uuid="56ae7d0e-432a-4c4c-83fd-f136dd771016" style="display:none"></span>
-[Open guidebook :lucide-arrow-up-right:](using-opus-compliance-cloud.md){ .md-button .custom-button-blue .custom-button--bordered .custom-button--slim target="_blank" rel="noopener" }
+[Open guidebook :lucide-arrow-up-right:](managing-opus-compliance-cloud.md){ .md-button .custom-button-purple .custom-button--bordered .custom-button--slim target="_blank" rel="noopener" }
 
 </div>
 
