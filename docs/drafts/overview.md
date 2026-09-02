@@ -45,11 +45,11 @@ Designed for those with **User access** on Opus Compliance Cloud.
 <div class="card" markdown>
 
 <span data-uuid="50aa6825-e181-40cc-9798-1d0102b8b1b8" style="display:none"></span>
-<span class="mb-label mb-label-blue">:lucide-user-shield: Using Opus Compliance Cloud</span>
+<span class="mb-label mb-label-purple">:lucide-user-shield: Managing Opus Compliance Cloud</span>
 
 ---
 
-Designed for those with **User access** on Opus Compliance Cloud.
+Designed for those with **Manager access** on Opus Compliance Cloud.
 
 <span data-uuid="56ae7d0e-432a-4c4c-83fd-f136dd771016" style="display:none"></span>
 [Open guidebook :lucide-arrow-up-right:](using-opus-compliance-cloud.md){ .md-button .custom-button-blue .custom-button--bordered .custom-button--slim target="_blank" rel="noopener" }
