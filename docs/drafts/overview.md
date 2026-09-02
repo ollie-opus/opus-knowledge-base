@@ -38,7 +38,7 @@ Browse the guides using the search bar at the top or the navigation bar on the l
 Designed for those with **User access** on Opus Compliance Cloud.
 
 <span data-uuid="0a43857c-4a84-44c7-a692-48d1594e3e78" style="display:none"></span>
-[Using Opus Compliance Cloud :lucide-arrow-up-right:](using-opus-compliance-cloud.md){ .md-button .custom-button-blue .custom-button--bordered .custom-button--slim }
+[Open guidebook :lucide-arrow-up-right:](using-opus-compliance-cloud.md){ .md-button .custom-button-blue .custom-button--bordered .custom-button--slim }
 
 </div>
 
