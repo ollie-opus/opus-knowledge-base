@@ -44,12 +44,6 @@ Designed for those with **User access** on Opus Compliance Cloud.
 
 <div class="card" markdown>
 
-<span data-uuid="b310583f-2734-4da3-872c-419c1e6eff8b" style="display:none"></span>
-
-</div>
-
-<div class="card" markdown>
-
 <span data-uuid="10114067-d639-415c-a993-2a78507a3506" style="display:none"></span>
 
 </div>
