@@ -18,7 +18,7 @@ Opus Compliance Cloud is a compliance management system focused on Health & Safe
 Browse the guides using the search bar at the top or the navigation bar on the left.
 
 
-<span class="mb-label mb-label-emerald">If you're new to Opus Compliance Cloud</span> - we recommend starting with a tailored guidebook below that best suits your needs.
+**:lucide-sparkles: If you're new to Opus Compliance Cloud** - we recommend starting with a tailored guidebook below that best suits your needs.
 
 ## Guidebooks
 <span data-uuid="d55541b1-6c53-4664-bf44-a6bc5d5e4823" style="display:none"></span>
