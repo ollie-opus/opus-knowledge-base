@@ -59,7 +59,7 @@ Designed for those with **Manager access** on Opus Compliance Cloud.
 <div class="card" markdown>
 
 <span data-uuid="33c09b08-8081-4f43-bd99-4f84affc2c74" style="display:none"></span>
-<span class="mb-label mb-label-purple">:lucide-user-cog: Administering Opus Compliance Cloud</span>
+<span class="mb-label mb-label-pink">:lucide-user-cog: Administering Opus Compliance Cloud</span>
 
 ---
 
