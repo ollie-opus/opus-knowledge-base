@@ -38,6 +38,10 @@ tags:
 
         <span data-uuid="3d89e8fd-874f-45f1-ac96-8be8f6c32626" style="display:none"></span>
 
+        <span data-uuid="32361c7e-c02b-445a-b1a0-80c63a012988" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/documents-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/documents-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
 === ":lucide-users: Employees"
 
     <span data-uuid="09881ee0-05b5-4388-9f71-75eae76f2802" style="display:none"></span>
