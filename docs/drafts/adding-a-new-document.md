@@ -51,3 +51,13 @@ tags:
         <span data-uuid="58262b3c-dc3d-4d74-ba3d-0e07f5ce6da1" style="display:none"></span>
         ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
         ![](../assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+    !!! step
+
+        <span data-uuid="ed4a4c9b-20a0-4155-a3ac-1d89efa802ce" style="display:none"></span>
+
+        From the site inbox, click the **Switch to Manage Mode** button.
+
+        <span data-uuid="59ff65a2-d304-4e46-baeb-3b6a32d5fe1a" style="display:none"></span>
+        ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+        ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
