@@ -41,3 +41,13 @@ tags:
 === ":lucide-package: Assets"
 
     <span data-uuid="62d0a26f-0c1d-4a8a-aed7-a8fff113ca0b" style="display:none"></span>
+
+    !!! step
+
+        <span data-uuid="1c3c5917-9a88-4e42-b13a-57cce7f8bb83" style="display:none"></span>
+
+        From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard), click on **Pick workspace** and select the site where the asset is located.
+
+        <span data-uuid="58262b3c-dc3d-4d74-ba3d-0e07f5ce6da1" style="display:none"></span>
+        ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+        ![](../assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
