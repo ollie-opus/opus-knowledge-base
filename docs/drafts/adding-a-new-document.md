@@ -24,6 +24,16 @@ tags:
         ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
         ![](../assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
+    !!! step
+
+        <span data-uuid="06acf155-e8b9-4b5b-841d-81a3a876e700" style="display:none"></span>
+
+        From the site inbox, click the **Switch to Manage Mode** button.
+
+        <span data-uuid="ce93a5bd-6e8c-4b0e-817a-b12a0f5e2d89" style="display:none"></span>
+        ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+        ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
 === ":lucide-users: Employees"
 
     <span data-uuid="09881ee0-05b5-4388-9f71-75eae76f2802" style="display:none"></span>
