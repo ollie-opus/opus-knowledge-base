@@ -99,3 +99,45 @@ tags:
         <span data-uuid="59ff65a2-d304-4e46-baeb-3b6a32d5fe1a" style="display:none"></span>
         ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png#only-light){ style="height: 50px" loading=lazy }
         ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! step "<span class="meta">Choice</span>"
+
+    <span data-uuid="dc3d5b94-5cc1-4793-920b-cd545e98b98d" style="display:none"></span>
+
+    Choose whether to re-use from an existing template or add a new document from scratch.
+
+    ??? outline "<span class="mb-label mb-label-slate">:lucide-refresh-cw: Re-using an existing template</span>"
+
+        <span data-uuid="4673bbec-e69e-4faa-8418-823a945f8777" style="display:none"></span>
+
+        Search/browse the list of available templates under the **Re-use a document template** section.
+
+        Select **+Add** on the document you wish to add.
+
+        <span data-uuid="23292ecc-3bbd-4ec4-98a1-1f3bcaaf7b5e" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/re-use-a-document-template-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/re-use-a-document-template-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
+        !!! success "Complete!"
+
+            <span data-uuid="620ccdfa-6e22-4d48-a718-ba3082a37027" style="display:none"></span>
+
+            You’ve now added the document requirement and you will have been redirected to the manage page for this document. A reminder task will be generated shortly to prompt you to upload the document.
+
+            Alternatively, you can upload a file (referred to as a revision) directly against this requirement from the manage page directly by clicking **+Add file**.
+
+            <span data-uuid="50278732-ed23-423a-b603-0799c71bfd6c" style="display:none"></span>
+            ![](../assets/media/occ-captures/admin/sites/uuid/documents/id/add-file-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+            ![](../assets/media/occ-captures/admin/sites/uuid/documents/id/add-file-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+    ??? outline "<span class="mb-label mb-label-slate">:lucide-plus: Add a new document from scratch</span>"
+
+        <span data-uuid="60e4d139-7596-42cd-a8ff-5b1d745fd0b3" style="display:none"></span>
+
+        Select the type of document under the **Pick document type** section.
+
+        Select **+Continue** on the type you wish to add **and continue with the steps below**.
+
+        <span data-uuid="fe6d7784-412f-4124-8bc5-5ffcedeaa552" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/pick-document-type-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/pick-document-type-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
