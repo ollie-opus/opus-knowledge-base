@@ -28,6 +28,16 @@ tags:
 
     <span data-uuid="09881ee0-05b5-4388-9f71-75eae76f2802" style="display:none"></span>
 
+    !!! step
+
+        <span data-uuid="0ac16e0b-ad45-4b7a-abc0-8f35359af0e6" style="display:none"></span>
+
+        From [My Dashboard](https://cloud.opus-safety.co.uk/dashboard), click on **Pick workspace** and select the site where the employee is located.
+
+        <span data-uuid="99844c2c-c0a0-4535-8e3e-b87d998c837a" style="display:none"></span>
+        ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+        ![](../assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
 === ":lucide-package: Assets"
 
     <span data-uuid="62d0a26f-0c1d-4a8a-aed7-a8fff113ca0b" style="display:none"></span>
