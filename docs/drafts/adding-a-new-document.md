@@ -75,6 +75,10 @@ tags:
 
                 Alternatively, you can upload a file (referred to as a revision) directly against this requirement from the manage page directly by clicking **+Add file**.
 
+                <span data-uuid="8ca03458-3a93-4cdf-8401-9fe367d87f74" style="display:none"></span>
+                ![](../assets/media/occ-captures/admin/sites/uuid/documents/id/add-file-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+                ![](../assets/media/occ-captures/admin/sites/uuid/documents/id/add-file-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
         ??? outline "<span class="mb-label mb-label-slate">:lucide-plus: Add a new document from scratch</span>"
 
             <span data-uuid="e4247d91-68ff-4ce5-bbf8-45df034db7cd" style="display:none"></span>
