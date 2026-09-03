@@ -297,8 +297,14 @@
    self-nesting means an ancestor reset + an h2 reset of the same counter makes
    the steps (which are *following siblings* of the h2, not its children)
    resolve against the article's single continuous counter — so numbering runs
-   straight through H2s instead of restarting. An unset counter auto-starts at 0,
-   so steps before the first H2 still number correctly without the parent reset. */
+   straight through H2s instead of restarting.
+
+   The H1 also resets: without it, a page whose steps start before any H2 has
+   no counter in scope, so the first step instantiates one on itself — and a
+   step that sits outside that step's subtree (e.g. after a content-tabs block
+   the earlier steps lived inside) can't see it and restarts at 1. The H1 is a
+   sibling of the steps, so it doesn't trigger the self-nesting problem above. */
+.md-typeset h1,
 .md-typeset h2 { counter-reset: step-counter; }
 .md-typeset .admonition.step,
 .md-typeset details.step { counter-increment: step-counter; }
