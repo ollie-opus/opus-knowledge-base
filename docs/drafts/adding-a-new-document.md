@@ -61,6 +61,10 @@ tags:
 
             <span data-uuid="2dd4cda5-8c76-4a36-a6a8-40b2d4950017" style="display:none"></span>
 
+            <span data-uuid="17e8e32b-2fa2-40b7-a978-a13593343d49" style="display:none"></span>
+            ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/re-use-a-document-template-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+            ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/re-use-a-document-template-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 === ":lucide-users: Employees"
 
     <span data-uuid="09881ee0-05b5-4388-9f71-75eae76f2802" style="display:none"></span>
