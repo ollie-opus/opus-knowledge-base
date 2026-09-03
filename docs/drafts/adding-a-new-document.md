@@ -71,7 +71,7 @@ tags:
             !!! success "Complete"
 
                 <span data-uuid="d8a92fe5-979d-4e6b-8928-c835f3536fe0" style="display:none"></span>
-                You’ve now added the document requirement and you will have been redirected to the manage page for this document. A reminder task will be generated shortly to prompt you to upload the document. Alternatively, you can upload a file (referred to as a revision) directly against this requirement from the manage page directly by clicking **+Add file**
+                You’ve now added the document requirement and you will have been redirected to the manage page for this document. A reminder task will be generated shortly to prompt you to upload the document. Alternatively, you can upload a file (referred to as a revision) directly against this requirement from the manage page directly by clicking **+Add file**.
 
         ??? outline "<span class="mb-label mb-label-slate">:lucide-plus: Add a new document from scratch</span>"
 
