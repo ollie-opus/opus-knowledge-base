@@ -52,6 +52,10 @@ tags:
         ![](../assets/media/occ-captures/admin/sites/uuid/documents/new-document-light-mode.png#only-light){ style="height: 50px" loading=lazy }
         ![](../assets/media/occ-captures/admin/sites/uuid/documents/new-document-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
+    !!! step
+
+        <span data-uuid="4f389c42-7458-4f77-ad23-1176222e04c6" style="display:none"></span>
+
 === ":lucide-users: Employees"
 
     <span data-uuid="09881ee0-05b5-4388-9f71-75eae76f2802" style="display:none"></span>
