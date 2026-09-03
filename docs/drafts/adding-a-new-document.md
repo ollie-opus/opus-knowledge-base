@@ -55,7 +55,7 @@ tags:
     !!! step "<span class="meta">Choice</span>"
 
         <span data-uuid="4f389c42-7458-4f77-ad23-1176222e04c6" style="display:none"></span>
-        Choose whether to create a new document from scratch, or reuse an existing template.
+        Choose whether to re-use from an existing template or add a new document from scratch.
 
         ??? outline "<span class="mb-label mb-label-slate">:lucide-refresh-cw: Re-using an existing template</span>"
 
