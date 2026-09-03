@@ -75,10 +75,6 @@ tags:
 
             Select **+Continue** on the document you wish to add.
 
-            <span data-uuid="a0187e42-d30e-4a61-9736-cb0b3b29593d" style="display:none"></span>
-            ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/re-use-a-document-template-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-            ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/re-use-a-document-template-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
-
 === ":lucide-users: Employees"
 
     <span data-uuid="09881ee0-05b5-4388-9f71-75eae76f2802" style="display:none"></span>
