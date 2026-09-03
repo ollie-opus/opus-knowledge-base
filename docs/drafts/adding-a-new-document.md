@@ -57,6 +57,10 @@ tags:
         <span data-uuid="4f389c42-7458-4f77-ad23-1176222e04c6" style="display:none"></span>
         Choose whether to create a new document from scratch, or reuse an existing template.
 
+        !!! outline ":lucide-refresh-cw: Re-using an existing template"
+
+            <span data-uuid="2dd4cda5-8c76-4a36-a6a8-40b2d4950017" style="display:none"></span>
+
 === ":lucide-users: Employees"
 
     <span data-uuid="09881ee0-05b5-4388-9f71-75eae76f2802" style="display:none"></span>
