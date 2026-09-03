@@ -52,9 +52,10 @@ tags:
         ![](../assets/media/occ-captures/admin/sites/uuid/documents/new-document-light-mode.png#only-light){ style="height: 50px" loading=lazy }
         ![](../assets/media/occ-captures/admin/sites/uuid/documents/new-document-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
-    !!! step
+    !!! step "<span class="meta">Choice</span>"
 
         <span data-uuid="4f389c42-7458-4f77-ad23-1176222e04c6" style="display:none"></span>
+        Choose whether to create a new document from scratch, or reuse an existing template.
 
 === ":lucide-users: Employees"
 
