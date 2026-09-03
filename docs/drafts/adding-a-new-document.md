@@ -73,7 +73,7 @@ tags:
             <span data-uuid="e4247d91-68ff-4ce5-bbf8-45df034db7cd" style="display:none"></span>
             Select the type of document under the **Pick document type** section.
 
-            Select **+Continue** on the document you wish to add.
+            Select **+Continue** on the type you wish to add **and continue with the steps below**.
 
             <span data-uuid="c1fcb3b0-4357-4b8a-8908-494c303f3399" style="display:none"></span>
             ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/pick-document-type-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
