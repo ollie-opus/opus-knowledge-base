@@ -46,6 +46,7 @@ tags:
     !!! step
 
         <span data-uuid="1446fad4-b4fa-494d-a681-e191a9edf027" style="display:none"></span>
+        At the top, click **+New document**.
 
         <span data-uuid="53312975-0928-4d5d-b840-d528de429fa9" style="display:none"></span>
         ![](../assets/media/occ-captures/admin/sites/uuid/documents/new-document-light-mode.png#only-light){ style="height: 50px" loading=lazy }
