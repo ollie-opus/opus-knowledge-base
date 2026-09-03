@@ -11,7 +11,7 @@ tags:
 
 
 <span data-uuid="2737303f-03cd-4210-894a-e83d54b6f339" style="display:none"></span>
-=== "Sites"
+=== ":lucide-building: Sites"
 
     <span data-uuid="3c8d2296-8844-46a5-99f8-437313395556" style="display:none"></span>
 
@@ -25,10 +25,10 @@ tags:
         ![](../assets/media/occ-captures/dashboard/pick-workspace-light-mode.png#only-light){ style="height: 50px" loading=lazy }
         ![](../assets/media/occ-captures/dashboard/pick-workspace-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
-=== "Employees"
+=== ":lucide-users: Employees"
 
     <span data-uuid="09881ee0-05b5-4388-9f71-75eae76f2802" style="display:none"></span>
 
-=== "Assets"
+=== ":lucide-package: Assets"
 
     <span data-uuid="62d0a26f-0c1d-4a8a-aed7-a8fff113ca0b" style="display:none"></span>
