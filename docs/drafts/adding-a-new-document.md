@@ -68,13 +68,12 @@ tags:
             ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/re-use-a-document-template-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
             ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/re-use-a-document-template-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
-        ??? outline "<span class="mb-label mb-label-slate">:lucide-refresh-cw: Re-using an existing template</span>"
+        ??? outline "<span class="mb-label mb-label-slate">:lucide-plus: Add a new document from scratch</span>"
 
             <span data-uuid="e4247d91-68ff-4ce5-bbf8-45df034db7cd" style="display:none"></span>
+            Select the type of document under the **Pick document type** section.
 
-            Search/browse the list of available templates under the **Re-use a document template** section.
-
-            Select **+Add** on the document you wish to add.
+            Select **+Continue** on the document you wish to add.
 
             <span data-uuid="a0187e42-d30e-4a61-9736-cb0b3b29593d" style="display:none"></span>
             ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/re-use-a-document-template-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
