@@ -68,6 +68,11 @@ tags:
             ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/re-use-a-document-template-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
             ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/re-use-a-document-template-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
 
+            !!! success "Complete"
+
+                <span data-uuid="d8a92fe5-979d-4e6b-8928-c835f3536fe0" style="display:none"></span>
+                You’ve now added the document requirement and you will have been redirected to the manage page for this document. A reminder task will be generated shortly to prompt you to upload the document. Alternatively, you can upload a file (referred to as a revision) directly against this requirement from the manage page directly by clicking **+Add file**
+
         ??? outline "<span class="mb-label mb-label-slate">:lucide-plus: Add a new document from scratch</span>"
 
             <span data-uuid="e4247d91-68ff-4ce5-bbf8-45df034db7cd" style="display:none"></span>
