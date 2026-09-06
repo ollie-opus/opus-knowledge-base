@@ -287,6 +287,7 @@ tags:
 !!! step "<span class="meta">(optional)</span>"
 
     <span data-uuid="d47c9c7d-59d4-460d-a955-56adfc038f76" style="display:none"></span>
+    Add a custom message to the document’s reminder tasks. Use this to provide additional context or information that may help others when resolving the task, such as a provider’s contact details or internal instructions.
 
     <span data-uuid="799050d5-b186-4eba-88fc-3dc19a018f59" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/reminder-task-message-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
