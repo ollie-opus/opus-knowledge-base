@@ -104,7 +104,6 @@ draft_nav = [
     {"Getting started" = [
       {"The Onboarding Process" = "drafts/onboarding-process.md"},
       {"Guidebooks" = [
-        {"Using Opus Compliance Cloud" = "drafts/using-opus-compliance-cloud.md"},
         {"Feature Overviews" = "drafts/feature-overviews.md"}
       ]}
     ]},
