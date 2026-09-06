@@ -199,4 +199,4 @@ tags:
         === "Example 2"
 
             <span data-uuid="6f17577e-55ec-46a4-8431-5020007f4e90" style="display:none"></span>
-            **Path =** <span class="mb-label mb-label-mauve">policies/it-policies/ai-policy</span>
+            **Path =** <span class="mb-label mb-label-mauve">policies/it-policies/it-policy</span>
