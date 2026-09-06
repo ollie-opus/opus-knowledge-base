@@ -155,16 +155,6 @@ tags:
         ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/full-name-light-mode.png#only-light)
         ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/full-name-dark-mode.png#only-dark)
 
-    !!! outline "Photo<span class="meta">(optional)</span>"
-
-        <span data-uuid="33c68dc4-b7b4-48ae-a5fe-e97fb4e10e39" style="display:none"></span>
-
-        Upload a photo for this employee record.
-
-        <span data-uuid="3d340602-cb26-46f3-a4b5-21936d531966" style="display:none"></span>
-        ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/photo-light-mode.png#only-light)
-        ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/photo-dark-mode.png#only-dark)
-
     !!! outline "Roles"
 
         <span data-uuid="75459325-2334-4af4-9694-eab3aad3be98" style="display:none"></span>
