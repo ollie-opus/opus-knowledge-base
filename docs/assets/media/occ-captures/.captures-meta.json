@@ -464,5 +464,9 @@
   },
   "docs/assets/media/occ-captures/admin/sites/uuid/documents/new/reminder-lead-time-light-mode.png": {
     "padding": 20
+  },
+  "docs/assets/media/occ-captures/admin/sites/uuid/documents/new/reminder-task-message-light-mode.png": {
+    "resized": true,
+    "padding": 20
   }
 }
