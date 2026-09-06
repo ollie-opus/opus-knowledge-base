@@ -287,3 +287,7 @@ tags:
 !!! step
 
     <span data-uuid="d47c9c7d-59d4-460d-a955-56adfc038f76" style="display:none"></span>
+
+    <span data-uuid="799050d5-b186-4eba-88fc-3dc19a018f59" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/reminder-task-message-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/reminder-task-message-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
