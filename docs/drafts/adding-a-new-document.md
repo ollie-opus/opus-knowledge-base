@@ -151,6 +151,10 @@ tags:
 
         <span data-uuid="7d765af7-35cf-4897-9469-dc7d5eddb5da" style="display:none"></span>
 
+        <span data-uuid="bc9bcfcd-c880-44c8-a67a-25a59687f5bc" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/title-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/title-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
     !!! blank "Visible to"
 
         <span data-uuid="43329990-1329-41a0-b29a-39c802fb7a57" style="display:none"></span>
