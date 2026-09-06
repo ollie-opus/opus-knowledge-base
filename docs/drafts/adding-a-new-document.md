@@ -184,6 +184,6 @@ tags:
     ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/path-required-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/path-required-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
 
-    !!! example "Examples"
+    ??? example "Examples"
 
         <span data-uuid="d99f6c09-01f4-4bc0-9d11-b39abf7002ae" style="display:none"></span>
