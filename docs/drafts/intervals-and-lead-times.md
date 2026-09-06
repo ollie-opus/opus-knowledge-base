@@ -13,6 +13,8 @@ tags:
 
 <span data-uuid="a7fd5d91-310d-4ae7-8705-7ae89ca8f0f2" style="display:none"></span>
 
+<div class="nowrap-first" markdown>
+
 | Term | Description | Example |
 | :--- | :--- | :--- |
 | <span class="mb-label mb-label-stone">:lucide-calendar-clock: Submit interval</span> | A defined period of time representing the maximum interval between submissions. | An Annual Service requirement would have a submit interval of <span class="mb-label mb-label-stone">1 year</span>. |
@@ -20,6 +22,8 @@ tags:
 | <span class="mb-label mb-label-green">:lucide-check: Requirement fulfilled</span> | The time since the most recent submission is within the requirement's defined submit interval and before the lead time begins. | An Annual Service was last submitted 6 months ago. It is currently fulfilled. |
 | <span class="mb-label mb-label-amber">:lucide-bell-ring: Requirement due</span> | The time since the most recent submission is within the requirement's defined submit interval and after the lead time begins. | An Annual Service was last submitted 11 months and 20 days ago. It is not yet overdue, but it is within its 14-day lead time. It is currently due. |
 | <span class="mb-label mb-label-rose">:lucide-alert-circle: Requirement overdue</span> | The time since the most recent submission is beyond the requirement's defined submit interval. | An Annual Service was last submitted 13 months ago. It is currently overdue. |
+
+</div>
 
 <span data-uuid="91afd139-6f21-4293-acb5-21e5984c39ac" style="display:none"></span>
 ```mermaid
