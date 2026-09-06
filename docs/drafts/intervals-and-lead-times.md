@@ -25,27 +25,6 @@ tags:
 
 </div>
 
-<span data-uuid="91afd139-6f21-4293-acb5-21e5984c39ac" style="display:none"></span>
-```mermaid
-block-beta
-  columns 16
-  i["Submit Interval"]:11 space:5
-  space:7 l["Lead Time"]:4 space:5
-  s["Fulfilled"]:7 d["Due"]:4 o["Overdue"]:5
-
-  classDef interval stroke:#7d8590,fill:#9ca3af26,color:#374151,stroke-width:2px;
-  classDef lead stroke:#57606a,fill:#7d859026,color:#374151,stroke-width:2px;
-  classDef ful stroke:#16a34a,fill:#22c55e26,color:#14532d,stroke-width:2px;
-  classDef due stroke:#d97706,fill:#f59e0b26,color:#78350f,stroke-width:2px;
-  classDef over stroke:#dc2626,fill:#ef444426,color:#7f1d1d,stroke-width:2px;
-
-  class i interval
-  class l lead
-  class s ful
-  class d due
-  class o over
-```
-
 <span data-uuid="396762ae-7d65-451d-847a-89924b6b7225" style="display:none"></span>
 ```mermaid
 ---
