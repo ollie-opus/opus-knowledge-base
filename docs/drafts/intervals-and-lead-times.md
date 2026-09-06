@@ -20,3 +20,24 @@ tags:
 | <span class="mb-label mb-label-green">:lucide-check: Requirement fulfilled</span> | The time since the most recent submission is within the requirement's defined submit interval and before the lead time begins. | An Annual Service was last submitted 6 months ago. It is currently fulfilled. |
 | <span class="mb-label mb-label-amber">:lucide-bell-ring: Requirement due</span> | The time since the most recent submission is within the requirement's defined submit interval and after the lead time begins. | An Annual Service was last submitted 11 months and 20 days ago. It is not yet overdue, but it is within its 14-day lead time. It is currently due. |
 | <span class="mb-label mb-label-rose">:lucide-alert-circle: Requirement overdue</span> | The time since the most recent submission is beyond the requirement's defined submit interval. | An Annual Service was last submitted 13 months ago. It is currently overdue. |
+
+<span data-uuid="91afd139-6f21-4293-acb5-21e5984c39ac" style="display:none"></span>
+```mermaid
+block-beta
+  columns 16
+  i["Submit Interval"]:11 space:5
+  space:7 l["Lead Time"]:4 space:5
+  s["Satisfied"]:7 d["Due"]:4 o["Overdue"]:5
+
+  classDef interval stroke:#7d8590,fill:#9ca3af26,color:#374151,stroke-width:2px;
+  classDef lead stroke:#57606a,fill:#7d859026,color:#374151,stroke-width:2px;
+  classDef sat stroke:#16a34a,fill:#22c55e26,color:#14532d,stroke-width:2px;
+  classDef due stroke:#d97706,fill:#f59e0b26,color:#78350f,stroke-width:2px;
+  classDef over stroke:#dc2626,fill:#ef444426,color:#7f1d1d,stroke-width:2px;
+
+  class i interval
+  class l lead
+  class s sat
+  class d due
+  class o over
+```
