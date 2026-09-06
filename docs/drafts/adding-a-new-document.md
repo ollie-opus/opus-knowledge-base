@@ -275,3 +275,8 @@ tags:
     <span data-uuid="df0c4b47-b1dc-4eb0-bccd-7193b06a90da" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/reminder-lead-time-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/reminder-lead-time-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
+
+    !!! info "Learn more"
+
+        <span data-uuid="cd41c3ad-4ee9-4c47-bac6-7e3a747e0a3d" style="display:none"></span>
+        Read our guide on Intervals & Lead Times below to learn more about this.
