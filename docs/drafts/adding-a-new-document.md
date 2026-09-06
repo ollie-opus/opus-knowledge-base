@@ -196,6 +196,37 @@ tags:
             <span data-uuid="2a43db21-145c-4665-8f9a-8ee78be68adc" style="display:none"></span>
             **Path =** <span class="mb-label mb-label-mauve">policies/health-and-safety-policy</span>
 
+            <span data-uuid="389218a2-bdfb-41cb-8a45-7dbbfc138a5c" style="display:none"></span>
+            ```mermaid
+            ---
+            config:
+              layout: elk
+            ---
+            flowchart TD
+
+                policies["policies"]
+                policies --> health["health-and-safety-policy"]
+                policies --> company["company-policy"]
+                policies --> it["it-policies"]
+                it --> itpolicy["it-policy"]
+                it --> aipolicy["ai-policy"]
+
+                policies@{ shape: rounded }
+                health@{ shape: rounded }
+                company@{ shape: rounded }
+                it@{ shape: rounded }
+                itpolicy@{ shape: rounded }
+                aipolicy@{ shape: rounded }
+
+                classDef muted stroke:#7d8590,fill:#9ca3af26,stroke-width:1px,color:#6b7280;
+                classDef highlightFolder stroke:#d97706,fill:#f59e0b26,stroke-width:2px,color:#92400e;
+                classDef highlightFile stroke:#16a34a,fill:#22c55e26,stroke-width:2px,color:#166534;
+
+                class itpolicy,it,company,aipolicy muted;
+                class policies highlightFolder;
+                class health highlightFile;
+            ```
+
         === "Example 2"
 
             <span data-uuid="6f17577e-55ec-46a4-8431-5020007f4e90" style="display:none"></span>
