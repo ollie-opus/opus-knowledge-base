@@ -53,7 +53,11 @@ config:
   theme: base
   gantt:
     useWidth: 640
-  themeCSS: "[id$='-i']{fill:#9ca3af26 !important;stroke:#7d8590 !important;stroke-width:2px;}[id$='-l']{fill:#7d859026 !important;stroke:#57606a !important;stroke-width:2px;}[id$='-s']{fill:#22c55e26 !important;stroke:#16a34a !important;stroke-width:2px;}[id$='-d']{fill:#f59e0b26 !important;stroke:#d97706 !important;stroke-width:2px;}[id$='-o']{fill:#ef444426 !important;stroke:#dc2626 !important;stroke-width:2px;}[id$='-m1']{fill:#57606a !important;stroke:#374151 !important;}.grid .tick line{stroke:none !important;}.grid .tick:first-of-type line{stroke:#9ca3af !important;}.grid .tick text{display:none;}.sectionTitle{display:none;}"
+  themeVariables:
+    sectionBkgColor: transparent
+    altSectionBkgColor: transparent
+    sectionBkgColor2: transparent
+  themeCSS: "[id$='-i']{fill:#9ca3af26 !important;stroke:#7d8590 !important;stroke-width:2px;}[id$='-l']{fill:#7d859026 !important;stroke:#57606a !important;stroke-width:2px;}[id$='-s']{fill:#22c55e26 !important;stroke:#16a34a !important;stroke-width:2px;}[id$='-d']{fill:#f59e0b26 !important;stroke:#d97706 !important;stroke-width:2px;}[id$='-o']{fill:#ef444426 !important;stroke:#dc2626 !important;stroke-width:2px;}[id$='-m1']{fill:#57606a !important;stroke:#374151 !important;}.grid .tick line{stroke:none !important;}.grid .tick:first-of-type line{stroke:#9ca3af !important;}.grid .tick text{display:none;}.sectionTitle{display:none;}rect.section{fill:transparent !important;}"
 ---
 gantt
   dateFormat YYYY-MM-DD
