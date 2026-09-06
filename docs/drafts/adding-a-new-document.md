@@ -303,3 +303,8 @@ tags:
     <span data-uuid="3964b465-508e-4094-9985-e064bc9628f3" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/document-record-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/document-record-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
+
+    !!! warning
+
+        <span data-uuid="ca5e8baf-d37f-42bb-831e-ac965e04d4f4" style="display:none"></span>
+        **Date of document (authoring date)** is the date the file, service, or certificate was completed, authored or became valid. Entering an inaccurate date may result in unnecessary early re-submission or cause non-compliance to go unnoticed.
