@@ -280,3 +280,6 @@ tags:
 
         <span data-uuid="cd41c3ad-4ee9-4c47-bac6-7e3a747e0a3d" style="display:none"></span>
         Read our guide on Intervals & Lead Times below to learn more on how they work.
+
+        <span data-uuid="7d91d065-54c1-448c-a8a1-8dc7bff1bb69" style="display:none"></span>
+        [Intervals & Lead Times :lucide-arrow-up-right:](intervals-and-lead-times.md){ .md-button .custom-button-slate .custom-button--slim target="_blank" rel="noopener" }
