@@ -120,6 +120,16 @@ tags:
         ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png#only-light){ style="height: 50px" loading=lazy }
         ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
+!!! step
+
+    <span data-uuid="9f023c85-37f2-4b94-a5b4-bea32ee56574" style="display:none"></span>
+
+    In the sidebar, click **Documents**.
+
+    <span data-uuid="863b61e2-172c-4e90-85b2-755c889021ed" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/documents-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/documents-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
 !!! step "<span class="meta">Choice</span>"
 
     <span data-uuid="dc3d5b94-5cc1-4793-920b-cd545e98b98d" style="display:none"></span>
