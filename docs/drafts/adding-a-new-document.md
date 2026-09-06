@@ -277,7 +277,7 @@ tags:
       columns 16
       i["Submit Interval"]:11 space:5
       space:7 l["Lead Time"]:4 space:5
-      s["Satisfied"]:7 d["Due"]:4 o["Overdue ..."]:5
+      s["Satisfied"]:7 d["Due"]:4 o["Overdue"]:5
 
       classDef interval stroke:#7d8590,fill:#9ca3af26,color:#374151,stroke-width:2px;
       classDef lead stroke:#57606a,fill:#7d859026,color:#374151,stroke-width:2px;
