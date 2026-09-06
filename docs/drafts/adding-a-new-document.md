@@ -271,6 +271,10 @@ tags:
     :lucide-calendar-clock: Submit interval - The maximum period of time between submissions. When it hits this interval it will become overdue and a reminder task will generate asking for a new submission.
     :lucide-clock-arrow-left: Lead time - How much notice should you receive before the requirement reaches its due date?
 
+    !!! info "Interval & Lead Time Explained"
+
+        <span data-uuid="816d5b4b-95bb-4bad-a8d6-9f0ebd69cf8c" style="display:none"></span>
+
     <span data-uuid="dbabb1b3-da8d-46e0-8c7a-1717419c9d4d" style="display:none"></span>
     ```mermaid
     block-beta
