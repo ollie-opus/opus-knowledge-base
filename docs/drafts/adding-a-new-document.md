@@ -194,7 +194,7 @@ tags:
         === "Example 1"
 
             <span data-uuid="2a43db21-145c-4665-8f9a-8ee78be68adc" style="display:none"></span>
-            **Path =** <span class="mb-label mb-label-mauve">policies/health-and-safety-policy</span>
+            **:lucide-folder-tree: **Path = <span class="mb-label mb-label-mauve">policies/health-and-safety-policy</span>
 
             <span data-uuid="389218a2-bdfb-41cb-8a45-7dbbfc138a5c" style="display:none"></span>
             ```mermaid
