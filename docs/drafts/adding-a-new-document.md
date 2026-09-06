@@ -350,3 +350,7 @@ search:
 
         <span data-uuid="ca5e8baf-d37f-42bb-831e-ac965e04d4f4" style="display:none"></span>
         **Date of document (authoring date)** is the date the file, service, or certificate was completed, authored or became valid. Entering an inaccurate date may result in unnecessary early re-submission or cause non-compliance to go unnoticed.
+
+!!! step
+
+    <span data-uuid="14804114-fe00-4f52-8b22-fbf05b451810" style="display:none"></span>
