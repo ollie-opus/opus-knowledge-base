@@ -268,8 +268,8 @@ tags:
     <span data-uuid="311d869b-752d-4313-aab0-a1b351cd12d1" style="display:none"></span>
     Decide the requirement interval and lead time.
 
-    :lucide-calendar-clock: Submit interval — The maximum period of time between submissions. When it hits this interval it will become overdue and a reminder task will generate asking for a new submission.
-    :lucide-clock-arrow-left: Lead time — How much notice should you receive before the requirement reaches its due date?
+    :lucide-calendar-clock: Submit interval - The maximum period of time between submissions. When it hits this interval it will become overdue and a reminder task will generate asking for a new submission.
+    :lucide-clock-arrow-left: Lead time - How much notice should you receive before the requirement reaches its due date?
 
     <span data-uuid="dbabb1b3-da8d-46e0-8c7a-1717419c9d4d" style="display:none"></span>
     ```mermaid
