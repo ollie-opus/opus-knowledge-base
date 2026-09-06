@@ -296,3 +296,7 @@ tags:
 !!! step
 
     <span data-uuid="ff7ebb5e-3ca3-4b93-b44e-6ba871359c47" style="display:none"></span>
+
+    <span data-uuid="3964b465-508e-4094-9985-e064bc9628f3" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/document-record-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/document-record-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
