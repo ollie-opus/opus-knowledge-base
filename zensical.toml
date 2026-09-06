@@ -85,6 +85,9 @@ nav = [
     {"Other" = [
       {"FAQs" = "pages/faqs.md"},
       {"Data security" = "pages/data-security.md"}
+    ]},
+    {"Requirements" = [
+      {"Intervals & Lead Times" = "pages/intervals-and-lead-times.md"}
     ]}
   ]},
   {"System" = [
@@ -123,8 +126,7 @@ draft_nav = [
     {"Requirements" = [
       {"Documents" = [
         {"Adding a new document" = "drafts/adding-a-new-document.md"}
-      ]},
-      {"Intervals & Lead Times" = "drafts/intervals-and-lead-times.md"}
+      ]}
     ]}
   ]}
 ]
