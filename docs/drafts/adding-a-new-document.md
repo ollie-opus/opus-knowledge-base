@@ -150,3 +150,11 @@ tags:
     !!! blank "Title"
 
         <span data-uuid="7d765af7-35cf-4897-9469-dc7d5eddb5da" style="display:none"></span>
+
+    !!! blank "Visible to"
+
+        <span data-uuid="43329990-1329-41a0-b29a-39c802fb7a57" style="display:none"></span>
+
+    !!! blank "Severity"
+
+        <span data-uuid="77791b73-9cd5-467a-ad19-2584531f96c0" style="display:none"></span>
