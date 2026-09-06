@@ -267,3 +267,7 @@ tags:
 
     <span data-uuid="311d869b-752d-4313-aab0-a1b351cd12d1" style="display:none"></span>
     Decide the requirement interval and lead time.
+
+    <span data-uuid="2c882e8c-bc7f-40b4-9eb9-c44cfa0e54a1" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/submit-interval-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/submit-interval-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
