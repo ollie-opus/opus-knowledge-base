@@ -31,7 +31,9 @@ tags:
 config:
   theme: base
   gantt:
-    useWidth: 640
+    useWidth: 800
+    barHeight: 28
+    fontSize: 14
   themeVariables:
     sectionBkgColor: transparent
     altSectionBkgColor: transparent
