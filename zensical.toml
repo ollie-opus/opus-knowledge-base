@@ -123,7 +123,8 @@ draft_nav = [
     {"Requirements" = [
       {"Documents" = [
         {"Adding a new document" = "drafts/adding-a-new-document.md"}
-      ]}
+      ]},
+      {"Requirement intervals & lead times" = "drafts/requirement-intervals-and-lead-times.md"}
     ]}
   ]}
 ]
