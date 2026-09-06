@@ -49,7 +49,7 @@ gantt
 | <span class="mb-label mb-label-slate">Submit interval</span> | A defined period of time representing the maximum interval between submissions. | An Annual Service requirement would have a submit interval of <span class="mb-label mb-label-slate">1 year</span>. |
 | <span class="mb-label mb-label-neutral">Lead time</span> | A defined period of time that represents advanced notice before the end of an interval. | An Annual Service requirement may have a lead time of <span class="mb-label mb-label-neutral">14 days</span>, allowing sufficient time to schedule the service. |
 | <span class="mb-label mb-label-green">Requirement fulfilled</span> | The time between the last submission and the start of the lead time. | An Annual Service was last submitted 6 months ago. It is currently fulfilled. |
-| <span class="mb-label mb-label-orange">Requirement due</span> | The time since the last submission is within the requirement's defined submit interval but after the lead time begins. | An Annual Service was last submitted 11 months and 20 days ago. It is not yet overdue, but it is within its 14-day lead time. It is currently due. |
+| <span class="mb-label mb-label-orange">Requirement due</span> | The time passed since the last submission is within the requirement's defined submit interval but after the lead time begins. | An Annual Service was last submitted 11 months and 20 days ago. It is not yet overdue, but it is within its 14-day lead time. It is currently due. |
 | <span class="mb-label mb-label-rose">Requirement overdue</span> | The time passed since the last submission is beyond the requirement's defined submit interval. | An Annual Service was last submitted 13 months ago. It is currently overdue. |
 
 </div>
