@@ -354,6 +354,7 @@ search:
 !!! step
 
     <span data-uuid="14804114-fe00-4f52-8b22-fbf05b451810" style="display:none"></span>
+    Finally, at the bottom, click **Save document**.
 
     <span data-uuid="8bc18d04-e083-4c9f-8ae4-a02996f2569e" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/save-document-light-mode.png#only-light){ style="height: 50px" loading=lazy }
