@@ -45,3 +45,24 @@ block-beta
   class d due
   class o over
 ```
+
+<span data-uuid="396762ae-7d65-451d-847a-89924b6b7225" style="display:none"></span>
+```mermaid
+---
+config:
+  theme: base
+  themeCSS: "[id$='-i']{fill:#9ca3af26 !important;stroke:#7d8590 !important;stroke-width:2px;}[id$='-l']{fill:#7d859026 !important;stroke:#57606a !important;stroke-width:2px;}[id$='-s']{fill:#22c55e26 !important;stroke:#16a34a !important;stroke-width:2px;}[id$='-d']{fill:#f59e0b26 !important;stroke:#d97706 !important;stroke-width:2px;}[id$='-o']{fill:#ef444426 !important;stroke:#dc2626 !important;stroke-width:2px;}[id$='-m1']{fill:#57606a !important;stroke:#374151 !important;}.grid .tick line{stroke:none !important;}.grid .tick:first-of-type line{stroke:#9ca3af !important;}.grid .tick text{display:none;}.sectionTitle{display:none;}"
+---
+gantt
+  dateFormat YYYY-MM-DD
+  axisFormat %e %b
+  todayMarker off
+  section Interval
+    Submit Interval : i, 2026-09-01, 11d
+    Lead Time : l, 2026-09-08, 4d
+  section Status
+    Fulfilled : s, 2026-09-01, 7d
+    Due : d, 2026-09-08, 4d
+    Overdue : o, 2026-09-12, 4d
+    Last submission : milestone, m1, 2026-09-01, 0d
+```
