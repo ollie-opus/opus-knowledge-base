@@ -271,3 +271,7 @@ tags:
     <span data-uuid="2c882e8c-bc7f-40b4-9eb9-c44cfa0e54a1" style="display:none"></span>
     ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/submit-interval-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
     ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/submit-interval-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
+
+    <span data-uuid="df0c4b47-b1dc-4eb0-bccd-7193b06a90da" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/reminder-lead-time-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/reminder-lead-time-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
