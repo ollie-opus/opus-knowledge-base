@@ -172,8 +172,8 @@ tags:
         Set the severity/importance for reminder tasks that generate to revise this document.
 
         <span data-uuid="67fef7a8-e853-417f-a551-d04b69ea8967" style="display:none"></span>
-        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/severity-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/severity-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/severity-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/severity-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
 
 !!! step
 
