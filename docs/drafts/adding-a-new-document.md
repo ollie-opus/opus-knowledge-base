@@ -37,7 +37,7 @@ tags:
     !!! step
 
         <span data-uuid="3d89e8fd-874f-45f1-ac96-8be8f6c32626" style="display:none"></span>
-        In the sidebar, under Site requirements, click **Documents**.
+        In the sidebar, click **Documents**.
 
         <span data-uuid="32361c7e-c02b-445a-b1a0-80c63a012988" style="display:none"></span>
         ![](../assets/media/occ-captures/admin/sites/uuid/dashboard/documents-light-mode.png#only-light){ style="height: 50px" loading=lazy }
