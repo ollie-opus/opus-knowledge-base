@@ -154,25 +154,3 @@ tags:
         <span data-uuid="d87f83ae-6c83-4bae-8d87-dddf43c0d1a8" style="display:none"></span>
         ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/full-name-light-mode.png#only-light)
         ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/full-name-dark-mode.png#only-dark)
-
-    !!! outline "Roles"
-
-        <span data-uuid="75459325-2334-4af4-9694-eab3aad3be98" style="display:none"></span>
-
-        Select the role(s) for this employee.
-
-        <span data-uuid="3416bce7-24a1-45e5-8457-ab56bfb56065" style="display:none"></span>
-        ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/role-light-mode.png#only-light)
-        ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/role-dark-mode.png#only-dark)
-
-        !!! warning
-
-            <span data-uuid="5cf176e0-ac3a-4595-9a08-98c39bf48692" style="display:none"></span>
-
-            Please ensure you select the appropriate roles, as these determine the employee's required training, e-learning modules, and checklist items. You may select multiple roles where required.
-
-        !!! tip
-
-            <span data-uuid="8450e2de-1367-4b31-89e4-d7129c65170e" style="display:none"></span>
-
-            Additional supplementary roles may be available, typically indicated with a "+" prefix (e.g. "+Fire Marshal"). These are designed to be used alongside a core role. To view the specific requirements for each role, hover over the ellipsis (…) to the right of the role title.
