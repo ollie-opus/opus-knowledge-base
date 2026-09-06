@@ -146,11 +146,3 @@ tags:
 
     <span data-uuid="1eb280c8-bdc0-4d53-a061-38c052f9c4c4" style="display:none"></span>
     Fill in the document configuration:
-
-    !!! outline "Full name"
-
-        <span data-uuid="dc86be1a-2627-4668-9b3e-a5ab8c7e0e62" style="display:none"></span>
-
-        <span data-uuid="d87f83ae-6c83-4bae-8d87-dddf43c0d1a8" style="display:none"></span>
-        ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/full-name-light-mode.png#only-light)
-        ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/full-name-dark-mode.png#only-dark)
