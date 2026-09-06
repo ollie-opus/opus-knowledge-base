@@ -166,3 +166,7 @@ tags:
     !!! blank "Severity"
 
         <span data-uuid="77791b73-9cd5-467a-ad19-2584531f96c0" style="display:none"></span>
+
+        <span data-uuid="67fef7a8-e853-417f-a551-d04b69ea8967" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/severity-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/severity-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
