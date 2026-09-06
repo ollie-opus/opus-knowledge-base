@@ -197,7 +197,7 @@ tags:
         ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/title-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
         ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/title-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
 
-    !!! blank "Visible to"
+    !!! outline "Visible to"
 
         <span data-uuid="43329990-1329-41a0-b29a-39c802fb7a57" style="display:none"></span>
         Who should be able to see this document?
