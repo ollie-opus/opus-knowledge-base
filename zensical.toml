@@ -71,6 +71,9 @@ nav = [
       {"Archiving an asset" = "pages/archiving-an-asset.md"},
       {"Moving an asset" = "pages/moving-an-asset.md"}
     ]},
+    {"Requirements" = [
+      {"Intervals & Lead Times" = "pages/intervals-and-lead-times.md"}
+    ]},
     {"Contractors" = [
       {"Contractors Overview" = "pages/contractors-overview.md"},
       {"Contractor & Project statuses" = "pages/contractor-and-project-statuses.md"},
@@ -85,9 +88,6 @@ nav = [
     {"Other" = [
       {"FAQs" = "pages/faqs.md"},
       {"Data security" = "pages/data-security.md"}
-    ]},
-    {"Requirements" = [
-      {"Intervals & Lead Times" = "pages/intervals-and-lead-times.md"}
     ]}
   ]},
   {"System" = [
@@ -113,8 +113,13 @@ draft_nav = [
       {"Task Overview" = "drafts/task-overview.md"}
     ]},
     {"Employees" = [
-      {"Employees Overview" = "drafts/employees-overview.md"},
-      {"Adding a new employee" = "drafts/adding-a-new-employee.md"}
+      {"Adding a new employee" = "drafts/adding-a-new-employee.md"},
+      {"Employees Overview" = "drafts/employees-overview.md"}
+    ]},
+    {"Requirements" = [
+      {"Documents" = [
+        {"Adding a new document" = "drafts/adding-a-new-document.md"}
+      ]}
     ]},
     {"Contractors" = [
       {"Permits to Work" = "drafts/permits-to-work.md"}
@@ -122,11 +127,6 @@ draft_nav = [
     {"Reporting" = [
       {"Training & Gaps" = "drafts/training-and-gaps.md"},
       {"Snapshot" = "drafts/snapshot.md"}
-    ]},
-    {"Requirements" = [
-      {"Documents" = [
-        {"Adding a new document" = "drafts/adding-a-new-document.md"}
-      ]}
     ]}
   ]}
 ]
