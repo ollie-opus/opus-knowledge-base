@@ -102,6 +102,26 @@ tags:
         ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png#only-light){ style="height: 50px" loading=lazy }
         ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
+    !!! step
+
+        <span data-uuid="9bc28aa7-49cc-45d0-bd2e-53c343b49801" style="display:none"></span>
+
+        Click **Assets** on the manage sidebar.
+
+        <span data-uuid="8924cda0-e8a8-4532-9954-64d16ff39e06" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/assets-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/assets-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+    !!! step
+
+        <span data-uuid="38de4b48-5711-4e13-a508-48c87358a3b3" style="display:none"></span>
+
+        Find and select the asset from the list.
+
+        <span data-uuid="1216707a-b69a-46b9-8c25-48218b1c1cfa" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/equipments/list-light-mode.png#only-light)
+        ![](../assets/media/occ-captures/admin/sites/uuid/equipments/list-dark-mode.png#only-dark)
+
 !!! step
 
     <span data-uuid="9f023c85-37f2-4b94-a5b4-bea32ee56574" style="display:none"></span>
