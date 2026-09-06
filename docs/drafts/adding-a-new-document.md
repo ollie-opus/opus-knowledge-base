@@ -145,7 +145,7 @@ tags:
 !!! step
 
     <span data-uuid="1eb280c8-bdc0-4d53-a061-38c052f9c4c4" style="display:none"></span>
-    Fill in the document configuration:
+    Fill in the initial document configuration:
 
     !!! blank "Title"
 
