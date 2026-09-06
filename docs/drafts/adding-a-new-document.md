@@ -279,4 +279,4 @@ tags:
     !!! info "Learn more"
 
         <span data-uuid="cd41c3ad-4ee9-4c47-bac6-7e3a747e0a3d" style="display:none"></span>
-        Read our guide on Intervals & Lead Times below to learn more about this.
+        Read our guide on Intervals & Lead Times below to learn more on how they work.
