@@ -208,7 +208,7 @@ tags:
         ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/visible-to-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
         ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/visible-to-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
 
-    !!! blank "Severity"
+    !!! outline "Severity"
 
         <span data-uuid="77791b73-9cd5-467a-ad19-2584531f96c0" style="display:none"></span>
         Set the severity/importance for reminder tasks that generate to revise this document.
