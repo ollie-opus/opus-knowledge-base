@@ -141,3 +141,49 @@ tags:
         <span data-uuid="fe6d7784-412f-4124-8bc5-5ffcedeaa552" style="display:none"></span>
         ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/pick-document-type-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
         ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/pick-document-type-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
+!!! step
+
+    <span data-uuid="1eb280c8-bdc0-4d53-a061-38c052f9c4c4" style="display:none"></span>
+
+    Fill in the employee's details:
+
+    !!! outline "Full name"
+
+        <span data-uuid="dc86be1a-2627-4668-9b3e-a5ab8c7e0e62" style="display:none"></span>
+
+        <span data-uuid="d87f83ae-6c83-4bae-8d87-dddf43c0d1a8" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/full-name-light-mode.png#only-light)
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/full-name-dark-mode.png#only-dark)
+
+    !!! outline "Photo<span class="meta">(optional)</span>"
+
+        <span data-uuid="33c68dc4-b7b4-48ae-a5fe-e97fb4e10e39" style="display:none"></span>
+
+        Upload a photo for this employee record.
+
+        <span data-uuid="3d340602-cb26-46f3-a4b5-21936d531966" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/photo-light-mode.png#only-light)
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/photo-dark-mode.png#only-dark)
+
+    !!! outline "Roles"
+
+        <span data-uuid="75459325-2334-4af4-9694-eab3aad3be98" style="display:none"></span>
+
+        Select the role(s) for this employee.
+
+        <span data-uuid="3416bce7-24a1-45e5-8457-ab56bfb56065" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/role-light-mode.png#only-light)
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/new/role-dark-mode.png#only-dark)
+
+        !!! warning
+
+            <span data-uuid="5cf176e0-ac3a-4595-9a08-98c39bf48692" style="display:none"></span>
+
+            Please ensure you select the appropriate roles, as these determine the employee's required training, e-learning modules, and checklist items. You may select multiple roles where required.
+
+        !!! tip
+
+            <span data-uuid="8450e2de-1367-4b31-89e4-d7129c65170e" style="display:none"></span>
+
+            Additional supplementary roles may be available, typically indicated with a "+" prefix (e.g. "+Fire Marshal"). These are designed to be used alongside a core role. To view the specific requirements for each role, hover over the ellipsis (…) to the right of the role title.
