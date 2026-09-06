@@ -158,6 +158,9 @@ tags:
     !!! blank "Visible to"
 
         <span data-uuid="43329990-1329-41a0-b29a-39c802fb7a57" style="display:none"></span>
+        Who should be able to see this document?
+
+        *:lucide-lightbulb: We recommend keeping the default setting - ****Anyone, including via QR code or link**** - for common, non-sensitive resources such as policies and risk assessments. This makes them easy for everyone to access when needed.*
 
         <span data-uuid="635d277b-b3ab-4390-9cb0-eb8b98247a25" style="display:none"></span>
         ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/visible-to-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
