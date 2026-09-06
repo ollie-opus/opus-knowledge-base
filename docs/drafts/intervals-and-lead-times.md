@@ -17,6 +17,3 @@ tags:
 | :--- | :--- |
 | <span class="mb-label mb-label-mist">:lucide-calendar-clock: Submit interval</span> |  |
 | <span class="mb-label mb-label-grey">:lucide-clock-arrow-left: Lead time</span> |  |
-|  |  |
-|  |  |
-|  |  |
