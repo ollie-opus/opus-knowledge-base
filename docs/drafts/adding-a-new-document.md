@@ -274,24 +274,3 @@ tags:
     !!! info "Interval & Lead Time Explained"
 
         <span data-uuid="816d5b4b-95bb-4bad-a8d6-9f0ebd69cf8c" style="display:none"></span>
-
-    <span data-uuid="dbabb1b3-da8d-46e0-8c7a-1717419c9d4d" style="display:none"></span>
-    ```mermaid
-    block-beta
-      columns 16
-      i["Submit Interval"]:11 space:5
-      space:7 l["Lead Time"]:4 space:5
-      s["Satisfied"]:7 d["Due"]:4 o["Overdue"]:5
-
-      classDef interval stroke:#7d8590,fill:#9ca3af26,color:#374151,stroke-width:2px;
-      classDef lead stroke:#57606a,fill:#7d859026,color:#374151,stroke-width:2px;
-      classDef sat stroke:#16a34a,fill:#22c55e26,color:#14532d,stroke-width:2px;
-      classDef due stroke:#d97706,fill:#f59e0b26,color:#78350f,stroke-width:2px;
-      classDef over stroke:#dc2626,fill:#ef444426,color:#7f1d1d,stroke-width:2px;
-
-      class i interval
-      class l lead
-      class s sat
-      class d due
-      class o over
-    ```
