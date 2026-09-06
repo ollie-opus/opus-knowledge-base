@@ -76,6 +76,26 @@ tags:
         ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-light-mode.png#only-light){ style="height: 50px" loading=lazy }
         ![](../assets/media/occ-captures/sites/uuid/switch-to-manage-mode-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
 
+    !!! step
+
+        <span data-uuid="eebf820e-d2ce-43e4-976e-7aa93901d6c5" style="display:none"></span>
+
+        Click **Employee records** on the manage sidebar.
+
+        <span data-uuid="0c50dcec-daa0-4123-ab57-d282eb6abc38" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/employee-records-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/employee-records-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+    !!! step
+
+        <span data-uuid="7ee06548-5a9a-45f9-b2c6-73f29d9eaa76" style="display:none"></span>
+
+        Find the employee from the list and click on their name
+
+        <span data-uuid="8c100011-0294-45e2-bc98-e257c14fe5eb" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/employees/list-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
 === ":lucide-package: Assets"
 
     <span data-uuid="62d0a26f-0c1d-4a8a-aed7-a8fff113ca0b" style="display:none"></span>
