@@ -72,10 +72,10 @@ nav = [
       {"Moving an asset" = "pages/moving-an-asset.md"}
     ]},
     {"Requirements" = [
-      {"Intervals & Lead Times" = "pages/intervals-and-lead-times.md"},
       {"Documents" = [
         {"Adding a new document" = "pages/adding-a-new-document.md"}
-      ]}
+      ]},
+      {"Intervals & Lead Times" = "pages/intervals-and-lead-times.md"}
     ]},
     {"Contractors" = [
       {"Contractors Overview" = "pages/contractors-overview.md"},
