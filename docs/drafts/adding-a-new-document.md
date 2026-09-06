@@ -279,11 +279,11 @@ tags:
       space:7 l["Lead Time"]:4 space:5
       s["Satisfied"]:7 d["Due"]:4 o["Overdue ..."]:5
 
-      classDef interval fill:#d9d9d9,stroke:#9ca3af,color:#374151;
-      classDef lead fill:#9ca3af,stroke:#6b7280,color:#1f2937;
-      classDef sat fill:#2f9e44,stroke:#237a34,color:#ffffff;
-      classDef due fill:#f59f00,stroke:#c47f00,color:#ffffff;
-      classDef over fill:#e03131,stroke:#b02525,color:#ffffff;
+      classDef interval stroke:#7d8590,fill:#9ca3af26,color:#374151,stroke-width:2px;
+      classDef lead stroke:#57606a,fill:#7d859026,color:#374151,stroke-width:2px;
+      classDef sat stroke:#16a34a,fill:#22c55e26,color:#14532d,stroke-width:2px;
+      classDef due stroke:#d97706,fill:#f59e0b26,color:#78350f,stroke-width:2px;
+      classDef over stroke:#dc2626,fill:#ef444426,color:#7f1d1d,stroke-width:2px;
 
       class i interval
       class l lead
