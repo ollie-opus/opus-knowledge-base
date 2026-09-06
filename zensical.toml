@@ -72,7 +72,10 @@ nav = [
       {"Moving an asset" = "pages/moving-an-asset.md"}
     ]},
     {"Requirements" = [
-      {"Intervals & Lead Times" = "pages/intervals-and-lead-times.md"}
+      {"Intervals & Lead Times" = "pages/intervals-and-lead-times.md"},
+      {"Documents" = [
+        {"Adding a new document" = "pages/adding-a-new-document.md"}
+      ]}
     ]},
     {"Contractors" = [
       {"Contractors Overview" = "pages/contractors-overview.md"},
@@ -115,11 +118,6 @@ draft_nav = [
     {"Employees" = [
       {"Adding a new employee" = "drafts/adding-a-new-employee.md"},
       {"Employees Overview" = "drafts/employees-overview.md"}
-    ]},
-    {"Requirements" = [
-      {"Documents" = [
-        {"Adding a new document" = "drafts/adding-a-new-document.md"}
-      ]}
     ]},
     {"Contractors" = [
       {"Permits to Work" = "drafts/permits-to-work.md"}
