@@ -104,6 +104,16 @@ tags:
 
 !!! step
 
+    <span data-uuid="a316ee99-00ec-4e2d-8547-6ea8847ae12d" style="display:none"></span>
+
+    At the top, click **+New document**.
+
+    <span data-uuid="412d486a-09ec-4db6-b6a2-2ee0bce37550" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/documents/new-document-light-mode.png#only-light){ style="height: 50px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/documents/new-document-dark-mode.png#only-dark){ style="height: 50px" loading=lazy }
+
+!!! step
+
     <span data-uuid="9f023c85-37f2-4b94-a5b4-bea32ee56574" style="display:none"></span>
 
     In the sidebar, click **Documents**.
