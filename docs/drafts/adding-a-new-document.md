@@ -189,7 +189,7 @@ tags:
     <span data-uuid="1eb280c8-bdc0-4d53-a061-38c052f9c4c4" style="display:none"></span>
     Fill in the initial document configuration:
 
-    !!! blank "Title"
+    !!! outline "Title"
 
         <span data-uuid="7d765af7-35cf-4897-9469-dc7d5eddb5da" style="display:none"></span>
 
