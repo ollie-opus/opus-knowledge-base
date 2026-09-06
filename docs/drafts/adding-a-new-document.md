@@ -159,6 +159,10 @@ tags:
 
         <span data-uuid="43329990-1329-41a0-b29a-39c802fb7a57" style="display:none"></span>
 
+        <span data-uuid="635d277b-b3ab-4390-9cb0-eb8b98247a25" style="display:none"></span>
+        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/visible-to-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/visible-to-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+
     !!! blank "Severity"
 
         <span data-uuid="77791b73-9cd5-467a-ad19-2584531f96c0" style="display:none"></span>
