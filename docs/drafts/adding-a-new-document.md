@@ -163,8 +163,8 @@ tags:
         *:lucide-lightbulb: We recommend keeping the default setting - ****Anyone, including via QR code or link**** - for common, non-sensitive resources such as policies and risk assessments. This makes them easy for everyone to access when needed.*
 
         <span data-uuid="635d277b-b3ab-4390-9cb0-eb8b98247a25" style="display:none"></span>
-        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/visible-to-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
-        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/visible-to-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/visible-to-light-mode.png#only-light){ style="border-radius: 8px" width="500" loading=lazy }
+        ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/visible-to-dark-mode.png#only-dark){ style="border-radius: 8px" width="500" loading=lazy }
 
     !!! blank "Severity"
 
