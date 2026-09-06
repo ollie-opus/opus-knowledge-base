@@ -179,3 +179,7 @@ tags:
 
     <span data-uuid="d1c001b6-67c9-46b3-8e21-3bfd04ea4234" style="display:none"></span>
     Define the document path.
+
+    <span data-uuid="0fc35487-57c2-4eb2-ba79-fd8edc0af12c" style="display:none"></span>
+    ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/path-required-light-mode.png#only-light){ style="border-radius: 8px" loading=lazy }
+    ![](../assets/media/occ-captures/admin/sites/uuid/documents/new/path-required-dark-mode.png#only-dark){ style="border-radius: 8px" loading=lazy }
